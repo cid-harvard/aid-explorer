@@ -1,0 +1,3876 @@
+Turkmenistan	rural development	0.12317	1.79263	0.966
+Turkmenistan	Electricity	0.12430	0.90570	0.964
+Turkmenistan	climate change	-0.01901	1.08686	0.999
+Turkmenistan	Hospital	-0.24321	0.76719	0.879
+Turkmenistan	Banking system	0.27336	0.88560	0.963
+Turkmenistan	HIV/AIDS	-0.02369	1.22689	0.997
+Turkmenistan	Reconstruction	0.31012	1.50313	0.902
+Turkmenistan	primary school	-0.09313	1.66414	0.995
+Turkmenistan	Corruption	0.17288	0.68266	0.904
+Turkmenistan	Transportation	-0.07677	0.88252	0.980
+Turkmenistan	democracy	-0.00006	0.75207	1.000
+Turkmenistan	environmental sustainability	-0.23441	1.84161	0.980
+Turkmenistan	humanitarian assistance	0.14858	2.54915	0.970
+Turkmenistan	criminal justice	0.06720	1.02962	0.998
+Turkmenistan	Manufacturing	-0.01131	0.65093	1.000
+Turkmenistan	Tourism	0.11015	1.25134	0.974
+Turkmenistan	Housing	-0.07639	0.95351	0.981
+Turkmenistan	natural disaster	0.22152	1.23302	0.908
+Turkmenistan	infant mortality	0.19244	1.28568	0.930
+Turkmenistan	job creation	0.19177	1.70686	0.988
+Turkmenistan	Sanitation	-0.03449	1.77984	0.995
+Turkmenistan	Gender	0.01190	1.17579	0.998
+Turkmenistan	Refugee	-0.04128	1.42040	0.998
+Turkmenistan	Technological development	0.09635	1.47038	0.993
+Turkmenistan	Malnutrition	0.10098	1.42028	0.976
+Turkmenistan	small and medium enterprise	0.36858	3.25760	0.943
+Turkmenistan	school completion	0.15448	3.80593	0.995
+Turkmenistan	Human rights	0.10956	0.75321	0.983
+Turkmenistan	Homicides	0.10632	0.51284	0.998
+Turkmenistan	Microenterprise	-0.32004	5.34873	0.953
+Turkmenistan	Poverty reduction	0.15964	1.61029	0.963
+Turkmenistan	civil war	0.21828	0.58042	0.931
+Turkmenistan	economic growth	0.08992	0.71883	0.978
+Turkmenistan	Agriculture	-0.00931	1.24799	1.000
+Lithuania	rural development	0.10846	1.89139	0.979
+Lithuania	Electricity	0.09401	0.93127	0.980
+Lithuania	climate change	0.00183	1.09734	1.000
+Lithuania	Hospital	-0.23629	0.74275	0.921
+Lithuania	Banking system	0.30908	0.89611	0.967
+Lithuania	HIV/AIDS	-0.02749	1.20595	0.999
+Lithuania	Reconstruction	0.44737	1.57072	0.883
+Lithuania	primary school	-0.27045	1.40291	0.969
+Lithuania	Corruption	0.12837	0.69313	0.945
+Lithuania	Transportation	-0.04074	0.89861	0.995
+Lithuania	democracy	0.11234	0.79245	0.981
+Lithuania	environmental sustainability	-0.50010	1.14966	0.890
+Lithuania	humanitarian assistance	0.13691	2.69910	0.985
+Lithuania	criminal justice	0.58466	1.08815	0.929
+Lithuania	Manufacturing	-0.03634	0.65436	0.998
+Lithuania	Tourism	-0.00013	1.18763	1.000
+Lithuania	Housing	-0.03430	0.98875	0.998
+Lithuania	natural disaster	0.15493	1.27292	0.957
+Lithuania	infant mortality	0.13813	1.29404	0.970
+Lithuania	job creation	0.25349	1.77544	0.984
+Lithuania	Sanitation	-0.11664	1.67392	0.962
+Lithuania	Gender	-0.01568	1.15538	0.999
+Lithuania	Refugee	-0.06768	1.38875	0.996
+Lithuania	Technological development	0.34449	1.61146	0.948
+Lithuania	Malnutrition	0.04971	1.39276	0.995
+Lithuania	small and medium enterprise	0.06941	2.64854	0.994
+Lithuania	school completion	0.02442	3.75195	1.000
+Lithuania	Human rights	0.15836	0.77334	0.971
+Lithuania	Homicides	0.28150	0.53377	0.981
+Lithuania	Microenterprise	-0.33144	4.85665	0.970
+Lithuania	Poverty reduction	0.13359	1.64087	0.973
+Lithuania	civil war	0.22829	0.59044	0.940
+Lithuania	economic growth	0.12070	0.75348	0.977
+Lithuania	Agriculture	0.00132	1.25755	1.000
+Cambodia	rural development	0.24108	1.84263	0.964
+Cambodia	Electricity	0.17878	0.91230	0.961
+Cambodia	climate change	0.13373	1.11972	0.970
+Cambodia	Hospital	-0.25570	0.84136	0.917
+Cambodia	Banking system	-0.00956	0.90237	1.000
+Cambodia	HIV/AIDS	0.16239	1.27864	0.969
+Cambodia	Reconstruction	-0.08284	1.39592	0.997
+Cambodia	primary school	0.18905	1.87686	0.998
+Cambodia	Corruption	0.06150	0.63998	0.992
+Cambodia	Transportation	-0.07508	0.91722	0.987
+Cambodia	democracy	0.00229	0.74378	1.000
+Cambodia	environmental sustainability	0.10269	2.24715	0.998
+Cambodia	humanitarian assistance	0.12353	2.55981	0.996
+Cambodia	criminal justice	0.01178	1.00077	1.000
+Cambodia	Manufacturing	-0.01893	0.67671	1.000
+Cambodia	Tourism	-0.02245	1.16431	1.000
+Cambodia	Housing	-0.06332	0.99966	0.992
+Cambodia	natural disaster	0.31690	1.24186	0.963
+Cambodia	infant mortality	0.32574	1.33471	0.961
+Cambodia	job creation	-0.03695	1.62274	1.000
+Cambodia	Sanitation	0.00671	1.85369	1.000
+Cambodia	Gender	0.01886	1.17128	0.999
+Cambodia	Refugee	0.12525	1.49425	0.992
+Cambodia	Technological development	-0.31751	1.36809	0.971
+Cambodia	Malnutrition	0.31751	1.43534	0.931
+Cambodia	small and medium enterprise	0.06920	2.78917	0.998
+Cambodia	school completion	0.50005	3.44430	0.993
+Cambodia	Human rights	0.07917	0.71250	0.993
+Cambodia	Homicides	-0.12954	0.97225	0.999
+Cambodia	Microenterprise	-0.69276	3.08360	0.766
+Cambodia	Poverty reduction	-0.08082	1.49409	0.998
+Cambodia	civil war	0.30102	0.54892	0.944
+Cambodia	economic growth	0.09769	0.72009	0.985
+Cambodia	Agriculture	-0.01878	1.24461	0.999
+Ethiopia	rural development	0.15755	1.76244	0.980
+Ethiopia	Electricity	0.03218	0.88996	0.998
+Ethiopia	climate change	0.10706	1.10607	0.983
+Ethiopia	Hospital	-0.34971	0.81341	0.829
+Ethiopia	Banking system	-0.06977	0.95345	0.998
+Ethiopia	HIV/AIDS	0.90892	0.89697	0.802
+Ethiopia	Reconstruction	-0.10267	1.42221	0.990
+Ethiopia	primary school	0.12423	1.72910	0.998
+Ethiopia	Corruption	0.03669	0.63650	0.997
+Ethiopia	Transportation	-0.11874	0.92926	0.967
+Ethiopia	democracy	-0.07469	0.74131	0.991
+Ethiopia	environmental sustainability	-0.02967	2.29494	1.000
+Ethiopia	humanitarian assistance	0.47782	2.35515	0.918
+Ethiopia	criminal justice	-0.15881	0.98672	0.985
+Ethiopia	Manufacturing	0.01359	0.68998	1.000
+Ethiopia	Tourism	-0.02391	1.18557	0.999
+Ethiopia	Housing	-0.04289	0.99504	0.997
+Ethiopia	natural disaster	0.08101	1.24618	0.995
+Ethiopia	infant mortality	0.20098	1.29084	0.978
+Ethiopia	job creation	0.00017	1.67671	1.000
+Ethiopia	Sanitation	0.42181	1.70252	0.908
+Ethiopia	Gender	0.11157	1.17430	0.974
+Ethiopia	Refugee	0.49000	1.36389	0.937
+Ethiopia	Technological development	-0.17907	1.42610	0.989
+Ethiopia	Malnutrition	2.06708	0.43963	0.612
+Ethiopia	small and medium enterprise	-0.06986	3.29861	0.998
+Ethiopia	school completion	0.13679	3.60963	0.999
+Ethiopia	Human rights	0.04758	0.70130	0.997
+Ethiopia	Homicides	0.44573	0.87736	0.996
+Ethiopia	Microenterprise	-0.71591	3.31503	0.754
+Ethiopia	Poverty reduction	-0.02150	1.53513	1.000
+Ethiopia	civil war	0.11153	0.54257	0.991
+Ethiopia	economic growth	0.02570	0.70730	0.999
+Ethiopia	Agriculture	-0.01692	1.23923	1.001
+Swaziland	rural development	0.13865	1.81676	0.969
+Swaziland	Electricity	0.06951	0.91265	0.992
+Swaziland	climate change	0.05771	1.13219	0.991
+Swaziland	Hospital	-0.21299	0.78357	0.945
+Swaziland	Banking system	0.16697	1.00467	0.989
+Swaziland	HIV/AIDS	0.12464	1.29287	0.978
+Swaziland	Reconstruction	0.02755	1.43004	0.998
+Swaziland	primary school	-0.19498	1.55038	0.989
+Swaziland	Corruption	0.18304	0.68303	0.919
+Swaziland	Transportation	-0.10848	0.88718	0.966
+Swaziland	democracy	-0.09563	0.68526	0.984
+Swaziland	environmental sustainability	-0.45597	1.36768	0.909
+Swaziland	humanitarian assistance	0.23599	2.75719	0.964
+Swaziland	criminal justice	-0.00701	0.99252	1.000
+Swaziland	Manufacturing	-0.06981	0.66030	0.990
+Swaziland	Tourism	0.01496	1.20287	1.000
+Swaziland	Housing	-0.02866	0.99653	0.999
+Swaziland	natural disaster	0.16103	1.31945	0.975
+Swaziland	infant mortality	0.26017	1.37239	0.927
+Swaziland	job creation	-0.11183	1.52660	0.996
+Swaziland	Sanitation	0.03065	1.85565	0.998
+Swaziland	Gender	0.00211	1.16027	1.000
+Swaziland	Refugee	0.02424	1.50944	1.000
+Swaziland	Technological development	0.01328	1.41693	1.000
+Swaziland	Malnutrition	0.31817	1.57052	0.887
+Swaziland	small and medium enterprise	0.85212	2.90520	0.893
+Swaziland	school completion	0.17408	3.60225	0.997
+Swaziland	Human rights	0.04043	0.71556	1.000
+Swaziland	Homicides	-0.01974	0.50574	1.000
+Swaziland	Microenterprise	-0.37708	4.96041	0.955
+Swaziland	Poverty reduction	0.22250	1.61089	0.954
+Swaziland	civil war	0.23878	0.59534	0.937
+Swaziland	economic growth	0.07713	0.73811	0.994
+Swaziland	Agriculture	0.05182	1.27385	0.991
+Argentina	rural development	0.14792	1.88864	0.969
+Argentina	Electricity	0.07325	0.91851	0.992
+Argentina	climate change	0.08281	1.15502	0.981
+Argentina	Hospital	-0.36230	0.65017	0.930
+Argentina	Banking system	0.22776	1.03959	0.984
+Argentina	HIV/AIDS	-0.07487	1.20665	0.988
+Argentina	Reconstruction	0.20466	1.56773	0.971
+Argentina	primary school	-0.21520	1.52357	0.981
+Argentina	Corruption	0.03681	0.65041	0.996
+Argentina	Transportation	0.12703	0.97572	0.980
+Argentina	democracy	-0.05878	0.71777	0.994
+Argentina	environmental sustainability	0.09105	2.37035	0.998
+Argentina	humanitarian assistance	-0.10368	2.27887	0.986
+Argentina	criminal justice	0.12471	1.13358	0.994
+Argentina	Manufacturing	0.06186	0.71823	0.996
+Argentina	Tourism	0.00900	1.18237	1.000
+Argentina	Housing	-0.04090	0.97752	0.997
+Argentina	natural disaster	0.18960	1.34287	0.975
+Argentina	infant mortality	0.06273	1.36093	0.997
+Argentina	job creation	-0.13356	1.56201	0.993
+Argentina	Sanitation	-0.08606	1.76363	0.984
+Argentina	Gender	-0.05008	1.11930	0.987
+Argentina	Refugee	-0.16449	1.33815	0.974
+Argentina	Technological development	0.25959	1.51273	0.982
+Argentina	Malnutrition	0.03899	1.50817	0.998
+Argentina	small and medium enterprise	-0.01683	3.24050	1.000
+Argentina	school completion	-0.14487	3.43091	0.997
+Argentina	Human rights	-0.07155	0.68008	0.992
+Argentina	Homicides	0.30853	1.04989	0.994
+Argentina	Microenterprise	1.94944	1.77040	0.404
+Argentina	Poverty reduction	0.27223	1.66109	0.942
+Argentina	civil war	0.05753	0.54096	0.996
+Argentina	economic growth	0.30251	0.84098	0.913
+Argentina	Agriculture	0.07521	1.28012	0.987
+Bolivia	rural development	0.30032	1.79536	0.898
+Bolivia	Electricity	0.10206	0.90617	0.984
+Bolivia	climate change	0.03742	1.11718	0.997
+Bolivia	Hospital	-0.41557	0.71692	0.893
+Bolivia	Banking system	0.07217	0.94923	0.998
+Bolivia	HIV/AIDS	0.01460	1.30755	1.000
+Bolivia	Reconstruction	0.26064	1.49137	0.941
+Bolivia	primary school	-0.29000	1.67292	0.981
+Bolivia	Corruption	-0.02122	0.64249	0.998
+Bolivia	Transportation	0.12294	0.94554	0.985
+Bolivia	democracy	-0.04820	0.73562	0.996
+Bolivia	environmental sustainability	-0.08875	2.23468	0.998
+Bolivia	humanitarian assistance	-0.07042	2.38038	0.996
+Bolivia	criminal justice	0.03737	1.00468	0.999
+Bolivia	Manufacturing	-0.03870	0.68983	0.998
+Bolivia	Tourism	0.02367	1.19002	0.999
+Bolivia	Housing	0.11772	0.99678	0.987
+Bolivia	natural disaster	0.20131	1.24580	0.966
+Bolivia	infant mortality	0.04524	1.26365	0.997
+Bolivia	job creation	-0.21390	1.54625	0.987
+Bolivia	Sanitation	-0.01664	1.80523	0.999
+Bolivia	Gender	-0.06510	1.15311	0.987
+Bolivia	Refugee	-0.10538	1.44854	0.992
+Bolivia	Technological development	0.07802	1.43062	0.999
+Bolivia	Malnutrition	0.07463	1.41415	0.992
+Bolivia	small and medium enterprise	0.12238	3.28275	0.996
+Bolivia	school completion	0.09767	3.67577	0.999
+Bolivia	Human rights	-0.06896	0.70150	0.994
+Bolivia	Homicides	0.17724	0.49639	0.990
+Bolivia	Microenterprise	1.34102	2.72299	0.456
+Bolivia	Poverty reduction	0.34671	1.48348	0.890
+Bolivia	civil war	0.00365	0.52821	1.000
+Bolivia	economic growth	0.25913	0.74209	0.945
+Bolivia	Agriculture	0.10205	1.24845	0.974
+Cameroon	rural development	0.33333	1.85636	0.918
+Cameroon	Electricity	0.18407	0.93237	0.959
+Cameroon	climate change	0.22743	1.15102	0.938
+Cameroon	Hospital	-0.30537	0.76258	0.853
+Cameroon	Banking system	0.35185	0.87659	0.972
+Cameroon	HIV/AIDS	0.12945	1.27258	0.975
+Cameroon	Reconstruction	0.08689	1.48546	0.995
+Cameroon	primary school	-0.06140	1.70774	0.999
+Cameroon	Corruption	0.20373	0.67295	0.938
+Cameroon	Transportation	-0.08460	0.90718	0.982
+Cameroon	democracy	-0.06507	0.72509	0.995
+Cameroon	environmental sustainability	-0.30666	1.99916	0.955
+Cameroon	humanitarian assistance	0.15596	2.50023	0.985
+Cameroon	criminal justice	-0.20186	0.95784	0.976
+Cameroon	Manufacturing	-0.03505	0.67573	1.000
+Cameroon	Tourism	0.05371	1.19193	0.996
+Cameroon	Housing	-0.10968	0.96623	0.978
+Cameroon	natural disaster	0.14580	1.20873	0.978
+Cameroon	infant mortality	0.47967	1.35578	0.887
+Cameroon	job creation	0.07217	1.63663	0.999
+Cameroon	Sanitation	0.10065	1.88122	0.990
+Cameroon	Gender	0.01466	1.16418	0.999
+Cameroon	Refugee	-0.00646	1.46774	1.000
+Cameroon	Technological development	0.22922	1.47584	0.992
+Cameroon	Malnutrition	0.51921	1.50155	0.843
+Cameroon	small and medium enterprise	0.61634	3.31322	0.955
+Cameroon	school completion	0.86378	3.38389	0.964
+Cameroon	Human rights	-0.00975	0.70793	1.000
+Cameroon	Homicides	0.46697	0.98848	0.996
+Cameroon	Microenterprise	-0.62720	3.02770	0.830
+Cameroon	Poverty reduction	0.62897	1.50301	0.896
+Cameroon	civil war	0.15662	0.56257	0.981
+Cameroon	economic growth	0.16215	0.72701	0.975
+Cameroon	Agriculture	0.09073	1.28432	0.986
+Burkina Faso	rural development	0.37690	1.71447	0.861
+Burkina Faso	Electricity	0.12727	0.89546	0.972
+Burkina Faso	climate change	0.13982	1.12442	0.957
+Burkina Faso	Hospital	-0.21079	0.83068	0.944
+Burkina Faso	Banking system	0.12931	0.95907	0.993
+Burkina Faso	HIV/AIDS	0.15061	1.28951	0.971
+Burkina Faso	Reconstruction	0.30457	1.44447	0.964
+Burkina Faso	primary school	-0.08573	1.68092	0.998
+Burkina Faso	Corruption	0.12180	0.65405	0.957
+Burkina Faso	Transportation	-0.09347	0.91226	0.977
+Burkina Faso	democracy	-0.10739	0.71920	0.971
+Burkina Faso	environmental sustainability	-0.10286	2.21897	0.996
+Burkina Faso	humanitarian assistance	0.14367	2.46845	0.983
+Burkina Faso	criminal justice	-0.19666	0.94966	0.974
+Burkina Faso	Manufacturing	-0.01098	0.67659	1.000
+Burkina Faso	Tourism	0.08924	1.19626	0.990
+Burkina Faso	Housing	-0.12617	0.96076	0.960
+Burkina Faso	natural disaster	0.07003	1.22900	0.996
+Burkina Faso	infant mortality	0.27173	1.28349	0.920
+Burkina Faso	job creation	0.01928	1.65673	1.000
+Burkina Faso	Sanitation	0.04589	1.84370	0.997
+Burkina Faso	Gender	0.07285	1.17658	0.980
+Burkina Faso	Refugee	-0.05845	1.45798	0.997
+Burkina Faso	Technological development	0.00715	1.42540	1.000
+Burkina Faso	Malnutrition	0.21965	1.44354	0.941
+Burkina Faso	small and medium enterprise	0.26119	3.28089	0.982
+Burkina Faso	school completion	0.60231	3.19136	0.980
+Burkina Faso	Human rights	-0.05840	0.69923	0.994
+Burkina Faso	Homicides	0.02157	0.50130	1.000
+Burkina Faso	Microenterprise	-0.87289	1.01852	0.671
+Burkina Faso	Poverty reduction	0.33115	1.50260	0.915
+Burkina Faso	civil war	0.06553	0.54466	0.994
+Burkina Faso	economic growth	0.11777	0.70831	0.975
+Burkina Faso	Agriculture	0.18635	1.25861	0.940
+Ghana	rural development	0.22593	1.72425	0.969
+Ghana	Electricity	0.21940	0.85788	0.960
+Ghana	climate change	0.21934	1.08005	0.939
+Ghana	Hospital	-0.16439	0.90208	0.970
+Ghana	Banking system	0.05988	0.94521	0.999
+Ghana	HIV/AIDS	0.13300	1.23385	0.985
+Ghana	Reconstruction	-0.21396	1.44001	0.967
+Ghana	primary school	-0.19141	1.77688	0.988
+Ghana	Corruption	0.11624	0.63144	0.983
+Ghana	Transportation	-0.08360	0.93101	0.989
+Ghana	democracy	-0.06300	0.74126	0.992
+Ghana	environmental sustainability	-0.08044	2.29339	0.998
+Ghana	humanitarian assistance	0.13017	2.49189	0.995
+Ghana	criminal justice	-0.12772	1.01603	0.992
+Ghana	Manufacturing	0.13133	0.67635	0.990
+Ghana	Tourism	-0.05415	1.17976	0.997
+Ghana	Housing	-0.01400	1.00890	1.000
+Ghana	natural disaster	-0.01682	1.24904	1.000
+Ghana	infant mortality	0.33344	1.25613	0.957
+Ghana	job creation	-0.20215	1.66656	0.982
+Ghana	Sanitation	0.00440	1.82373	1.000
+Ghana	Gender	0.02644	1.16762	0.998
+Ghana	Refugee	0.00443	1.47664	1.000
+Ghana	Technological development	-0.26404	1.43078	0.989
+Ghana	Malnutrition	0.28241	1.35939	0.956
+Ghana	small and medium enterprise	0.59345	2.73481	0.973
+Ghana	school completion	0.58497	3.23003	0.985
+Ghana	Human rights	-0.01571	0.70037	1.000
+Ghana	Homicides	0.22390	0.95917	0.999
+Ghana	Microenterprise	-0.66233	4.00578	0.613
+Ghana	Poverty reduction	0.23377	1.47207	0.997
+Ghana	civil war	0.04818	0.52611	0.998
+Ghana	economic growth	0.15681	0.69973	0.978
+Ghana	Agriculture	0.27219	1.19031	0.956
+Guatemala	rural development	0.36385	1.69592	0.906
+Guatemala	Electricity	-0.02164	0.87786	1.000
+Guatemala	climate change	0.00968	1.10326	1.000
+Guatemala	Hospital	-0.17687	0.88572	0.985
+Guatemala	Banking system	-0.00323	0.94355	1.000
+Guatemala	HIV/AIDS	-0.02120	1.28298	1.000
+Guatemala	Reconstruction	0.47846	1.33745	0.929
+Guatemala	primary school	-0.64123	1.29779	0.921
+Guatemala	Corruption	-0.09695	0.63892	0.980
+Guatemala	Transportation	-0.01294	0.93532	1.000
+Guatemala	democracy	-0.03214	0.73406	0.999
+Guatemala	environmental sustainability	-0.13790	2.27584	0.996
+Guatemala	humanitarian assistance	0.08251	2.39825	0.998
+Guatemala	criminal justice	0.31621	0.94684	0.985
+Guatemala	Manufacturing	-0.01587	0.68893	1.000
+Guatemala	Tourism	-0.18406	1.15649	0.971
+Guatemala	Housing	-0.00996	1.00903	1.000
+Guatemala	natural disaster	0.35623	1.19864	0.932
+Guatemala	infant mortality	0.18025	1.30285	0.982
+Guatemala	job creation	-0.26782	1.63577	0.984
+Guatemala	Sanitation	0.21279	1.80844	0.970
+Guatemala	Gender	-0.00436	1.16752	1.000
+Guatemala	Refugee	0.00104	1.48998	1.000
+Guatemala	Technological development	0.03439	1.41419	1.000
+Guatemala	Malnutrition	0.17115	1.40348	0.978
+Guatemala	small and medium enterprise	-0.04395	3.26786	1.000
+Guatemala	school completion	-0.04876	3.69567	1.000
+Guatemala	Human rights	-0.03366	0.71457	0.999
+Guatemala	Homicides	2.18231	0.30925	0.841
+Guatemala	Microenterprise	2.36545	1.02369	0.619
+Guatemala	Poverty reduction	0.28311	1.45796	0.960
+Guatemala	civil war	0.01342	0.53942	1.000
+Guatemala	economic growth	-0.01014	0.68982	1.000
+Guatemala	Agriculture	0.13716	1.23179	0.969
+Bosnia and Herzegovina	rural development	0.14224	1.71293	0.956
+Bosnia and Herzegovina	Electricity	0.05098	0.85898	0.993
+Bosnia and Herzegovina	climate change	-0.02744	1.11023	0.996
+Bosnia and Herzegovina	Hospital	-0.25266	0.75766	0.898
+Bosnia and Herzegovina	Banking system	0.37341	0.75157	0.979
+Bosnia and Herzegovina	HIV/AIDS	0.00939	1.23370	0.999
+Bosnia and Herzegovina	Reconstruction	0.58339	1.06901	0.805
+Bosnia and Herzegovina	primary school	0.16836	1.72857	0.990
+Bosnia and Herzegovina	Corruption	0.10255	0.66354	0.967
+Bosnia and Herzegovina	Transportation	-0.10026	0.90580	0.966
+Bosnia and Herzegovina	democracy	-0.02194	0.74694	0.999
+Bosnia and Herzegovina	environmental sustainability	-0.07813	2.18674	0.998
+Bosnia and Herzegovina	humanitarian assistance	0.26514	2.39138	0.920
+Bosnia and Herzegovina	criminal justice	0.04054	0.99566	0.999
+Bosnia and Herzegovina	Manufacturing	-0.09717	0.63158	0.976
+Bosnia and Herzegovina	Tourism	-0.00060	1.19761	1.000
+Bosnia and Herzegovina	Housing	-0.08810	0.97735	0.977
+Bosnia and Herzegovina	natural disaster	0.18471	1.15503	0.939
+Bosnia and Herzegovina	infant mortality	0.22146	1.17707	0.920
+Bosnia and Herzegovina	job creation	0.10267	1.60962	0.997
+Bosnia and Herzegovina	Sanitation	-0.02227	1.80946	0.998
+Bosnia and Herzegovina	Gender	0.01307	1.17501	0.998
+Bosnia and Herzegovina	Refugee	0.09066	1.48409	0.993
+Bosnia and Herzegovina	Technological development	0.42703	1.27596	0.910
+Bosnia and Herzegovina	Malnutrition	0.09688	1.38887	0.980
+Bosnia and Herzegovina	small and medium enterprise	0.49772	2.70679	0.926
+Bosnia and Herzegovina	school completion	0.29002	3.60435	0.982
+Bosnia and Herzegovina	Human rights	0.03663	0.72805	0.998
+Bosnia and Herzegovina	Homicides	-0.81594	0.18533	0.659
+Bosnia and Herzegovina	Microenterprise	-0.18656	6.35724	0.989
+Bosnia and Herzegovina	Poverty reduction	0.26713	1.47691	0.900
+Bosnia and Herzegovina	civil war	0.08149	0.53150	0.992
+Bosnia and Herzegovina	economic growth	0.06033	0.69409	0.992
+Bosnia and Herzegovina	Agriculture	0.00890	1.25094	1.000
+Liberia	rural development	0.01662	1.79156	0.999
+Liberia	Electricity	0.12602	0.92022	0.983
+Liberia	climate change	0.07834	1.13595	0.990
+Liberia	Hospital	-0.25998	0.82960	0.934
+Liberia	Banking system	0.14484	0.96278	0.995
+Liberia	HIV/AIDS	0.20258	1.28765	0.961
+Liberia	Reconstruction	-0.13270	1.37083	0.990
+Liberia	primary school	0.96180	1.24025	0.982
+Liberia	Corruption	0.20190	0.66058	0.946
+Liberia	Transportation	-0.08369	0.92593	0.989
+Liberia	democracy	0.00017	0.74335	1.000
+Liberia	environmental sustainability	1.73453	0.75485	0.853
+Liberia	humanitarian assistance	0.24355	2.47520	0.975
+Liberia	criminal justice	0.01167	1.00327	1.000
+Liberia	Manufacturing	0.16338	0.71907	0.978
+Liberia	Tourism	-0.02236	1.18858	0.999
+Liberia	Housing	0.01887	1.00999	1.000
+Liberia	natural disaster	0.28657	1.28554	0.965
+Liberia	infant mortality	0.37667	1.36434	0.934
+Liberia	job creation	1.83985	0.49262	0.786
+Liberia	Sanitation	0.04071	1.85606	0.998
+Liberia	Gender	0.01456	1.15413	1.000
+Liberia	Refugee	0.47077	1.48709	0.935
+Liberia	Technological development	-0.17407	1.37703	0.991
+Liberia	Malnutrition	0.39190	1.46872	0.886
+Liberia	small and medium enterprise	0.45481	3.19287	0.984
+Liberia	school completion	0.37486	3.63939	0.995
+Liberia	Human rights	0.05643	0.71944	0.996
+Liberia	Homicides	1.27952	0.71042	0.962
+Liberia	Microenterprise	-1.21366	0.23543	0.758
+Liberia	Poverty reduction	-0.17593	1.41472	0.981
+Liberia	civil war	0.94754	0.43897	0.789
+Liberia	economic growth	0.10338	0.71378	0.988
+Liberia	Agriculture	-0.04163	1.22371	0.998
+Pakistan	rural development	-0.11732	1.80427	0.978
+Pakistan	Electricity	0.03819	0.91878	0.997
+Pakistan	climate change	-0.02801	1.09657	0.999
+Pakistan	Hospital	-0.06065	0.86282	0.998
+Pakistan	Banking system	-0.33017	0.87064	0.936
+Pakistan	HIV/AIDS	0.51394	1.55972	0.904
+Pakistan	Reconstruction	-0.20605	1.34736	0.969
+Pakistan	primary school	0.99657	2.23251	0.928
+Pakistan	Corruption	0.06411	0.67236	0.992
+Pakistan	Transportation	-0.15310	0.92945	0.973
+Pakistan	democracy	0.12972	0.79774	0.984
+Pakistan	environmental sustainability	0.31425	2.89671	0.991
+Pakistan	humanitarian assistance	1.05124	2.79817	0.686
+Pakistan	criminal justice	0.26019	1.17662	0.993
+Pakistan	Manufacturing	0.01682	0.70415	1.000
+Pakistan	Tourism	0.11613	1.25239	0.994
+Pakistan	Housing	0.24220	1.11663	0.950
+Pakistan	natural disaster	0.08296	1.20500	0.997
+Pakistan	infant mortality	-0.02482	1.26003	0.999
+Pakistan	job creation	0.37171	2.19107	0.989
+Pakistan	Sanitation	-0.18471	1.64332	0.945
+Pakistan	Gender	-0.03566	1.14871	0.998
+Pakistan	Refugee	0.70889	1.91192	0.848
+Pakistan	Technological development	-0.34540	1.17164	0.965
+Pakistan	Malnutrition	2.77708	0.40062	0.375
+Pakistan	small and medium enterprise	-0.10114	3.12450	0.997
+Pakistan	school completion	-0.49494	2.86711	0.986
+Pakistan	Human rights	0.26609	0.80893	0.946
+Pakistan	Homicides	0.84917	1.24087	0.992
+Pakistan	Microenterprise	-0.69993	2.89430	0.704
+Pakistan	Poverty reduction	-0.31539	1.25452	0.807
+Pakistan	civil war	0.33355	0.67450	0.958
+Pakistan	economic growth	-0.07514	0.71907	0.992
+Pakistan	Agriculture	-0.16566	1.13563	0.907
+Tanzania	rural development	0.11999	1.76983	0.982
+Tanzania	Electricity	0.09119	0.87430	0.985
+Tanzania	climate change	0.27908	1.07459	0.892
+Tanzania	Hospital	-0.13559	0.89228	0.982
+Tanzania	Banking system	-0.06033	0.94927	0.997
+Tanzania	HIV/AIDS	0.19277	1.21261	0.954
+Tanzania	Reconstruction	-0.18612	1.41560	0.963
+Tanzania	primary school	-0.16084	1.76294	0.993
+Tanzania	Corruption	0.03396	0.64011	0.997
+Tanzania	Transportation	-0.05605	0.92166	0.993
+Tanzania	democracy	-0.08107	0.74645	0.982
+Tanzania	environmental sustainability	-0.00579	2.28851	1.000
+Tanzania	humanitarian assistance	0.03143	2.52076	0.999
+Tanzania	criminal justice	-0.15393	1.05543	0.983
+Tanzania	Manufacturing	0.19552	0.65757	0.970
+Tanzania	Tourism	0.01829	1.17092	1.000
+Tanzania	Housing	0.12938	0.98039	0.986
+Tanzania	natural disaster	-0.03398	1.24598	0.999
+Tanzania	infant mortality	0.09119	1.30742	0.992
+Tanzania	job creation	-0.07210	1.68525	0.998
+Tanzania	Sanitation	0.08622	1.83767	0.998
+Tanzania	Gender	0.03426	1.16387	0.996
+Tanzania	Refugee	0.04554	1.46125	0.999
+Tanzania	Technological development	-0.17401	1.45902	0.989
+Tanzania	Malnutrition	0.25646	1.39659	0.945
+Tanzania	small and medium enterprise	0.13998	3.14268	0.994
+Tanzania	school completion	0.07896	3.61790	1.000
+Tanzania	Human rights	-0.06518	0.71025	0.992
+Tanzania	Homicides	-0.09921	0.98596	0.999
+Tanzania	Microenterprise	-0.61813	3.22776	0.614
+Tanzania	Poverty reduction	-0.01562	1.54939	1.000
+Tanzania	civil war	-0.03217	0.53646	0.998
+Tanzania	economic growth	0.04630	0.69998	0.996
+Tanzania	Agriculture	0.04225	1.22812	0.997
+Gabon	rural development	0.12689	1.83629	0.970
+Gabon	Electricity	0.15704	0.91316	0.946
+Gabon	climate change	0.13624	1.15638	0.959
+Gabon	Hospital	-0.21208	0.81571	0.915
+Gabon	Banking system	0.16403	0.82928	0.985
+Gabon	HIV/AIDS	0.04657	1.23647	0.994
+Gabon	Reconstruction	0.08236	1.46912	0.991
+Gabon	primary school	-0.20070	1.50827	0.980
+Gabon	Corruption	0.15305	0.65819	0.933
+Gabon	Transportation	-0.06436	0.87677	0.983
+Gabon	democracy	-0.05888	0.73230	0.990
+Gabon	environmental sustainability	-0.19833	1.88094	0.982
+Gabon	humanitarian assistance	0.10643	2.47057	0.990
+Gabon	criminal justice	0.05195	1.07569	0.999
+Gabon	Manufacturing	-0.01080	0.65898	1.000
+Gabon	Tourism	-0.00281	1.15369	1.000
+Gabon	Housing	-0.07241	0.98201	0.982
+Gabon	natural disaster	0.14994	1.19815	0.961
+Gabon	infant mortality	0.30023	1.22864	0.868
+Gabon	job creation	0.18354	1.63446	0.991
+Gabon	Sanitation	-0.05516	1.77479	0.993
+Gabon	Gender	0.00221	1.16425	1.000
+Gabon	Refugee	-0.03981	1.46021	0.999
+Gabon	Technological development	0.26869	1.43264	0.971
+Gabon	Malnutrition	0.30629	1.46898	0.890
+Gabon	small and medium enterprise	0.18666	2.88600	0.971
+Gabon	school completion	0.37912	3.46680	0.979
+Gabon	Human rights	0.02044	0.73139	0.999
+Gabon	Homicides	0.37900	0.48986	0.978
+Gabon	Microenterprise	-0.53324	3.34980	0.848
+Gabon	Poverty reduction	0.40542	1.47885	0.902
+Gabon	civil war	0.17292	0.56863	0.959
+Gabon	economic growth	0.14770	0.73952	0.960
+Gabon	Agriculture	0.05954	1.28495	0.983
+Yemen	rural development	0.02624	1.79532	0.999
+Yemen	Electricity	0.12043	0.94213	0.975
+Yemen	climate change	0.01605	1.12281	1.001
+Yemen	Hospital	-0.34672	0.68567	0.828
+Yemen	Banking system	0.21527	0.99472	0.988
+Yemen	HIV/AIDS	-0.00373	1.23771	1.000
+Yemen	Reconstruction	0.04670	1.45834	0.998
+Yemen	primary school	0.48665	2.09658	0.949
+Yemen	Corruption	0.08399	0.65930	0.982
+Yemen	Transportation	-0.12292	0.86639	0.961
+Yemen	democracy	-0.02998	0.72224	0.999
+Yemen	environmental sustainability	0.71510	2.37601	0.985
+Yemen	humanitarian assistance	0.33244	2.80372	0.922
+Yemen	criminal justice	0.24616	1.14146	0.986
+Yemen	Manufacturing	-0.00954	0.68269	1.000
+Yemen	Tourism	0.15429	1.27459	0.985
+Yemen	Housing	-0.05705	0.97459	0.995
+Yemen	natural disaster	0.21252	1.37001	0.965
+Yemen	infant mortality	0.37774	1.55386	0.918
+Yemen	job creation	0.91591	2.14826	0.744
+Yemen	Sanitation	-0.02558	1.79424	0.999
+Yemen	Gender	0.03228	1.17564	0.996
+Yemen	Refugee	0.37893	1.72322	0.928
+Yemen	Technological development	0.19938	1.55213	0.990
+Yemen	Malnutrition	0.23805	1.59604	0.934
+Yemen	small and medium enterprise	0.03602	2.82451	0.999
+Yemen	school completion	0.40447	4.12442	0.989
+Yemen	Human rights	0.24160	0.79886	0.939
+Yemen	Homicides	0.65380	1.13967	0.992
+Yemen	Microenterprise	-0.55600	4.02127	0.780
+Yemen	Poverty reduction	-0.05303	1.44907	0.997
+Yemen	civil war	0.53452	0.68510	0.824
+Yemen	economic growth	0.03225	0.72133	0.999
+Yemen	Agriculture	-0.04973	1.22361	0.988
+Jamaica	rural development	0.13907	1.77433	0.975
+Jamaica	Electricity	0.08814	0.90108	0.988
+Jamaica	climate change	-0.06477	1.09442	0.992
+Jamaica	Hospital	-0.28329	0.74977	0.952
+Jamaica	Banking system	0.10571	0.92480	0.996
+Jamaica	HIV/AIDS	-0.05281	1.19223	0.995
+Jamaica	Reconstruction	0.31855	1.46539	0.915
+Jamaica	primary school	-0.54811	1.02286	0.895
+Jamaica	Corruption	0.08088	0.66006	0.983
+Jamaica	Transportation	0.08302	0.97284	0.990
+Jamaica	democracy	-0.02427	0.72730	0.999
+Jamaica	environmental sustainability	0.01645	2.23692	1.000
+Jamaica	humanitarian assistance	0.07663	2.43538	0.995
+Jamaica	criminal justice	0.28552	1.05486	0.985
+Jamaica	Manufacturing	-0.09297	0.66385	0.986
+Jamaica	Tourism	0.19254	1.23918	0.970
+Jamaica	Housing	0.01652	1.02544	1.000
+Jamaica	natural disaster	0.38230	1.33418	0.887
+Jamaica	infant mortality	0.25112	1.22703	0.931
+Jamaica	job creation	0.18303	1.71115	0.990
+Jamaica	Sanitation	-0.08228	1.76855	0.987
+Jamaica	Gender	-0.04813	1.13315	0.986
+Jamaica	Refugee	-0.15331	1.34783	0.985
+Jamaica	Technological development	0.42607	1.46464	0.924
+Jamaica	Malnutrition	0.09496	1.44889	0.986
+Jamaica	small and medium enterprise	0.14626	3.41100	0.993
+Jamaica	school completion	0.31115	3.81734	0.989
+Jamaica	Human rights	-0.05607	0.69630	0.994
+Jamaica	Homicides	0.37912	0.50720	0.960
+Jamaica	Microenterprise	0.60487	7.43134	0.944
+Jamaica	Poverty reduction	0.31069	1.55924	0.896
+Jamaica	civil war	0.11041	0.54137	0.985
+Jamaica	economic growth	0.20672	0.73794	0.938
+Jamaica	Agriculture	0.01741	1.25175	0.999
+Albania	rural development	0.14214	1.78893	0.965
+Albania	Electricity	0.11372	0.90951	0.976
+Albania	climate change	0.03517	1.10533	0.996
+Albania	Hospital	-0.31382	0.76609	0.872
+Albania	Banking system	0.24371	0.85153	0.980
+Albania	HIV/AIDS	-0.00986	1.22940	1.000
+Albania	Reconstruction	0.47326	1.32063	0.841
+Albania	primary school	-0.24628	1.55237	0.981
+Albania	Corruption	0.16510	0.65864	0.930
+Albania	Transportation	-0.06278	0.91859	0.988
+Albania	democracy	0.06418	0.75044	0.996
+Albania	environmental sustainability	-0.98937	0.36071	0.835
+Albania	humanitarian assistance	0.21569	2.49024	0.960
+Albania	criminal justice	0.27671	1.00137	0.980
+Albania	Manufacturing	-0.07574	0.66703	0.991
+Albania	Tourism	0.05437	1.20400	0.994
+Albania	Housing	-0.11869	0.96515	0.966
+Albania	natural disaster	0.17233	1.18464	0.955
+Albania	infant mortality	0.29065	1.26340	0.904
+Albania	job creation	0.13754	1.63868	0.994
+Albania	Sanitation	-0.06937	1.78557	0.990
+Albania	Gender	0.04962	1.17597	0.991
+Albania	Refugee	-0.07131	1.41313	0.995
+Albania	Technological development	0.40822	1.36557	0.943
+Albania	Malnutrition	0.10403	1.37838	0.980
+Albania	small and medium enterprise	0.21776	3.32546	0.987
+Albania	school completion	0.17507	3.66789	0.997
+Albania	Human rights	0.08195	0.72469	0.991
+Albania	Homicides	0.32915	0.48044	0.986
+Albania	Microenterprise	-0.46022	4.80528	0.947
+Albania	Poverty reduction	0.27833	1.51043	0.933
+Albania	civil war	0.14903	0.55310	0.971
+Albania	economic growth	0.08302	0.71079	0.988
+Albania	Agriculture	0.01365	1.24233	1.000
+Kosovo	rural development	0.15461	1.92032	0.957
+Kosovo	Electricity	0.04270	0.90083	0.993
+Kosovo	climate change	-0.01967	1.08593	0.999
+Kosovo	Hospital	-0.19611	0.78519	0.943
+Kosovo	Banking system	0.00048	0.85599	1.000
+Kosovo	HIV/AIDS	0.05984	1.30261	0.991
+Kosovo	Reconstruction	0.29481	1.54883	0.925
+Kosovo	primary school	-0.07333	1.69883	0.997
+Kosovo	Corruption	0.09643	0.66653	0.973
+Kosovo	Transportation	-0.06709	0.89981	0.985
+Kosovo	democracy	0.10633	0.77428	0.977
+Kosovo	environmental sustainability	-0.08992	2.10400	0.996
+Kosovo	humanitarian assistance	0.33172	2.66335	0.912
+Kosovo	criminal justice	0.29140	1.07593	0.963
+Kosovo	Manufacturing	-0.09327	0.64505	0.985
+Kosovo	Tourism	-0.04649	1.14634	0.995
+Kosovo	Housing	-0.05509	0.97957	0.989
+Kosovo	natural disaster	0.19503	1.24719	0.930
+Kosovo	infant mortality	0.14734	1.28002	0.956
+Kosovo	job creation	-0.18738	1.37668	0.991
+Kosovo	Sanitation	-0.04408	1.78191	0.994
+Kosovo	Gender	0.08345	1.21254	0.965
+Kosovo	Refugee	0.07306	1.53582	0.996
+Kosovo	Technological development	0.08884	1.46658	0.994
+Kosovo	Malnutrition	0.09618	1.40539	0.982
+Kosovo	small and medium enterprise	0.07541	3.37837	0.998
+Kosovo	school completion	-0.02163	3.69778	1.000
+Kosovo	Human rights	0.12581	0.73804	0.974
+Kosovo	Homicides	0.40183	0.47081	0.976
+Kosovo	Microenterprise	-0.26155	5.70055	0.971
+Kosovo	Poverty reduction	0.07211	1.57225	0.992
+Kosovo	civil war	0.19898	0.56773	0.953
+Kosovo	economic growth	0.01117	0.70304	1.000
+Kosovo	Agriculture	-0.02825	1.24457	0.996
+India	rural development	-0.07889	1.70733	0.987
+India	Electricity	0.11141	0.98835	0.988
+India	climate change	0.05866	1.15356	0.993
+India	Hospital	0.34452	1.16840	0.966
+India	Banking system	-0.24139	0.89814	0.960
+India	HIV/AIDS	0.08204	1.45802	0.997
+India	Reconstruction	-0.27263	1.09151	0.864
+India	primary school	0.16100	2.16223	0.997
+India	Corruption	0.00248	0.64713	1.000
+India	Transportation	0.17656	1.13326	0.988
+India	democracy	0.05310	0.77923	0.997
+India	environmental sustainability	0.77949	3.42167	0.956
+India	humanitarian assistance	-0.33067	1.86677	0.942
+India	criminal justice	-0.01632	1.02546	1.000
+India	Manufacturing	0.42083	0.95245	0.907
+India	Tourism	0.02847	1.22100	0.999
+India	Housing	0.27437	1.25242	0.940
+India	natural disaster	-0.15851	1.08091	0.974
+India	infant mortality	-0.09923	1.20499	0.984
+India	job creation	-0.03185	1.62746	1.000
+India	Sanitation	-0.23694	1.46673	0.837
+India	Gender	-0.08432	1.05991	0.989
+India	Refugee	0.06700	1.57134	0.999
+India	Technological development	-0.38520	1.01422	0.973
+India	Malnutrition	1.03574	3.04380	0.947
+India	small and medium enterprise	-0.14684	2.88644	0.988
+India	school completion	-1.06273	1.21318	0.945
+India	Human rights	0.04043	0.73178	0.999
+India	Homicides	-0.23238	0.77821	0.999
+India	Microenterprise	-0.55297	3.56929	0.698
+India	Poverty reduction	-0.28689	1.15313	0.784
+India	civil war	0.04303	0.56064	0.999
+India	economic growth	-0.03285	0.77558	0.999
+India	Agriculture	-0.08608	1.14073	0.985
+Azerbaijan	rural development	0.20109	1.91826	0.931
+Azerbaijan	Electricity	0.11763	0.91572	0.970
+Azerbaijan	climate change	0.00509	1.10899	1.000
+Azerbaijan	Hospital	-0.28594	0.73982	0.866
+Azerbaijan	Banking system	0.30219	0.92189	0.955
+Azerbaijan	HIV/AIDS	-0.06507	1.19158	0.984
+Azerbaijan	Reconstruction	0.30909	1.56746	0.915
+Azerbaijan	primary school	-0.23619	1.52235	0.975
+Azerbaijan	Corruption	0.19230	0.70166	0.917
+Azerbaijan	Transportation	-0.07146	0.88487	0.984
+Azerbaijan	democracy	0.08285	0.77259	0.994
+Azerbaijan	environmental sustainability	-0.31594	1.72597	0.955
+Azerbaijan	humanitarian assistance	0.20403	2.72402	0.964
+Azerbaijan	criminal justice	0.25800	1.14361	0.982
+Azerbaijan	Manufacturing	-0.01127	0.64959	1.000
+Azerbaijan	Tourism	0.17175	1.26124	0.962
+Azerbaijan	Housing	-0.08954	0.94564	0.980
+Azerbaijan	natural disaster	0.18291	1.22978	0.951
+Azerbaijan	infant mortality	0.22425	1.31537	0.927
+Azerbaijan	job creation	0.11381	1.65972	0.996
+Azerbaijan	Sanitation	-0.04412	1.77954	0.993
+Azerbaijan	Gender	0.00614	1.17966	1.000
+Azerbaijan	Refugee	-0.04666	1.44721	0.998
+Azerbaijan	Technological development	0.22631	1.52136	0.978
+Azerbaijan	Malnutrition	0.13228	1.50187	0.975
+Azerbaijan	small and medium enterprise	0.30365	3.32721	0.968
+Azerbaijan	school completion	0.25977	3.92882	0.991
+Azerbaijan	Human rights	0.09284	0.73785	0.989
+Azerbaijan	Homicides	0.24575	0.53336	0.995
+Azerbaijan	Microenterprise	-0.28789	5.62937	0.969
+Azerbaijan	Poverty reduction	0.12456	1.63243	0.978
+Azerbaijan	civil war	0.12956	0.57099	0.975
+Azerbaijan	economic growth	0.11837	0.73579	0.975
+Azerbaijan	Agriculture	0.02801	1.25562	0.997
+Lesotho	rural development	0.12276	1.83298	0.974
+Lesotho	Electricity	0.10465	0.88393	0.979
+Lesotho	climate change	0.10865	1.11910	0.973
+Lesotho	Hospital	-0.21116	0.80840	0.936
+Lesotho	Banking system	-0.00310	0.84988	1.000
+Lesotho	HIV/AIDS	0.15057	1.28223	0.968
+Lesotho	Reconstruction	0.01312	1.43999	1.000
+Lesotho	primary school	-0.10915	1.66852	0.998
+Lesotho	Corruption	0.16319	0.67086	0.947
+Lesotho	Transportation	-0.10059	0.89358	0.974
+Lesotho	democracy	-0.08970	0.72347	0.976
+Lesotho	environmental sustainability	-0.12225	2.16012	0.994
+Lesotho	humanitarian assistance	0.17258	2.64833	0.978
+Lesotho	criminal justice	-0.04797	0.99326	0.999
+Lesotho	Manufacturing	-0.00459	0.65224	1.000
+Lesotho	Tourism	0.08912	1.20814	0.990
+Lesotho	Housing	-0.03090	0.98545	0.998
+Lesotho	natural disaster	0.10432	1.17560	0.985
+Lesotho	infant mortality	0.33322	1.33992	0.907
+Lesotho	job creation	-0.13020	1.54701	0.994
+Lesotho	Sanitation	0.09758	1.87882	0.988
+Lesotho	Gender	0.03540	1.18617	0.994
+Lesotho	Refugee	-0.00306	1.48065	1.000
+Lesotho	Technological development	0.14033	1.44357	0.995
+Lesotho	Malnutrition	0.41318	1.40203	0.845
+Lesotho	small and medium enterprise	0.13391	3.31434	0.994
+Lesotho	school completion	2.94287	0.36622	0.501
+Lesotho	Human rights	-0.03450	0.70708	0.998
+Lesotho	Homicides	0.71987	0.86236	0.986
+Lesotho	Microenterprise	-0.75650	1.73488	0.633
+Lesotho	Poverty reduction	0.32883	1.56105	0.939
+Lesotho	civil war	0.06119	0.54313	0.995
+Lesotho	economic growth	0.03331	0.70842	0.996
+Lesotho	Agriculture	0.07385	1.26911	0.987
+Kenya	rural development	-0.08461	1.86289	0.989
+Kenya	Electricity	0.00756	0.87172	1.000
+Kenya	climate change	0.10097	1.06226	0.983
+Kenya	Hospital	0.01533	0.88548	1.000
+Kenya	Banking system	-0.13083	0.99858	0.988
+Kenya	HIV/AIDS	0.28644	1.07453	0.926
+Kenya	Reconstruction	-0.26306	1.55448	0.902
+Kenya	primary school	-0.14142	1.87738	0.996
+Kenya	Corruption	-0.03519	0.65202	0.997
+Kenya	Transportation	-0.06423	0.96307	0.993
+Kenya	democracy	-0.01809	0.74027	1.000
+Kenya	environmental sustainability	0.15888	2.41205	0.996
+Kenya	humanitarian assistance	0.05337	2.49158	0.999
+Kenya	criminal justice	-0.09610	1.10251	0.996
+Kenya	Manufacturing	0.04149	0.69288	0.998
+Kenya	Tourism	-0.10398	1.23641	0.987
+Kenya	Housing	0.21962	0.90611	0.959
+Kenya	natural disaster	-0.10062	1.29255	0.992
+Kenya	infant mortality	0.04968	1.29428	0.999
+Kenya	job creation	-0.06291	1.95847	0.999
+Kenya	Sanitation	0.74770	1.04991	0.784
+Kenya	Gender	0.06318	1.12173	0.993
+Kenya	Refugee	0.34410	1.23311	0.971
+Kenya	Technological development	-0.20967	1.53338	0.989
+Kenya	Malnutrition	0.13760	1.38494	0.986
+Kenya	small and medium enterprise	0.01962	3.22099	1.000
+Kenya	school completion	-0.00498	3.65077	1.000
+Kenya	Human rights	-0.03067	0.71477	0.999
+Kenya	Homicides	0.78031	0.61135	0.990
+Kenya	Microenterprise	-0.63599	6.67002	0.600
+Kenya	Poverty reduction	-0.25604	1.62603	0.933
+Kenya	civil war	-0.02858	0.57226	1.000
+Kenya	economic growth	-0.03191	0.70874	0.998
+Kenya	Agriculture	-0.07199	1.28926	0.994
+Tajikistan	rural development	0.18342	1.72646	0.954
+Tajikistan	Electricity	0.06676	0.87445	0.989
+Tajikistan	climate change	-0.01465	1.09717	1.000
+Tajikistan	Hospital	-0.25742	0.81721	0.906
+Tajikistan	Banking system	0.17204	0.81950	0.988
+Tajikistan	HIV/AIDS	0.09318	1.19306	0.986
+Tajikistan	Reconstruction	0.28975	1.34601	0.924
+Tajikistan	primary school	0.25410	1.66731	0.986
+Tajikistan	Corruption	0.09584	0.63387	0.977
+Tajikistan	Transportation	-0.13797	0.93580	0.947
+Tajikistan	democracy	-0.02479	0.75622	1.000
+Tajikistan	environmental sustainability	-0.25466	2.14415	0.980
+Tajikistan	humanitarian assistance	0.26385	2.41021	0.953
+Tajikistan	criminal justice	0.05326	0.99879	0.999
+Tajikistan	Manufacturing	-0.08119	0.67831	0.992
+Tajikistan	Tourism	0.09626	1.16992	0.988
+Tajikistan	Housing	-0.10355	1.00870	0.977
+Tajikistan	natural disaster	0.23144	1.12655	0.929
+Tajikistan	infant mortality	0.29468	1.22288	0.920
+Tajikistan	job creation	0.08048	1.64749	0.998
+Tajikistan	Sanitation	-0.00662	1.83151	1.000
+Tajikistan	Gender	0.07209	1.16697	0.975
+Tajikistan	Refugee	0.01602	1.46744	1.000
+Tajikistan	Technological development	0.08312	1.39005	0.995
+Tajikistan	Malnutrition	0.15620	1.33992	0.962
+Tajikistan	small and medium enterprise	0.24275	3.11508	0.983
+Tajikistan	school completion	0.59917	2.90089	0.951
+Tajikistan	Human rights	-0.01634	0.70877	1.000
+Tajikistan	Homicides	1.01004	0.56592	0.927
+Tajikistan	Microenterprise	-0.23463	6.54379	0.986
+Tajikistan	Poverty reduction	0.20331	1.48125	0.941
+Tajikistan	civil war	0.08053	0.52388	0.993
+Tajikistan	economic growth	0.05681	0.70312	0.995
+Tajikistan	Agriculture	-0.01880	1.25830	0.998
+Turkey	rural development	0.02208	1.76021	1.000
+Turkey	Electricity	0.06538	0.91582	0.992
+Turkey	climate change	0.07284	1.15837	0.989
+Turkey	Hospital	-0.41590	0.58753	0.916
+Turkey	Banking system	0.17475	0.92608	0.991
+Turkey	HIV/AIDS	-0.12481	1.14537	0.975
+Turkey	Reconstruction	0.12390	1.54123	0.990
+Turkey	primary school	-0.06587	1.66676	0.999
+Turkey	Corruption	0.12718	0.68615	0.968
+Turkey	Transportation	-0.07898	0.88282	0.989
+Turkey	democracy	0.11476	0.78482	0.985
+Turkey	environmental sustainability	0.18156	2.41793	0.995
+Turkey	humanitarian assistance	0.20886	2.63318	0.978
+Turkey	criminal justice	0.20434	1.15950	0.990
+Turkey	Manufacturing	-0.06752	0.65936	0.995
+Turkey	Tourism	0.02246	1.19533	0.999
+Turkey	Housing	-0.04394	0.96648	0.996
+Turkey	natural disaster	-0.01856	1.15012	1.000
+Turkey	infant mortality	-0.04807	1.14603	0.998
+Turkey	job creation	0.22675	1.76974	0.989
+Turkey	Sanitation	-0.10642	1.73074	0.977
+Turkey	Gender	0.04137	1.17443	0.997
+Turkey	Refugee	0.00182	1.47444	1.000
+Turkey	Technological development	0.28936	1.58553	0.993
+Turkey	Malnutrition	-0.00720	1.40874	1.000
+Turkey	small and medium enterprise	-0.07272	2.94796	0.999
+Turkey	school completion	-0.30385	3.08113	0.995
+Turkey	Human rights	0.16328	0.77567	0.972
+Turkey	Homicides	-0.34453	0.38564	0.976
+Turkey	Microenterprise	-0.48770	5.36907	0.928
+Turkey	Poverty reduction	-0.06374	1.44665	0.995
+Turkey	civil war	0.20863	0.59252	0.961
+Turkey	economic growth	0.09004	0.72753	0.986
+Turkey	Agriculture	-0.07793	1.19271	0.977
+Afghanistan	rural development	-0.04727	1.84873	0.997
+Afghanistan	Electricity	-0.04977	0.87815	0.993
+Afghanistan	climate change	0.01046	1.15371	1.000
+Afghanistan	Hospital	0.02792	0.91260	1.000
+Afghanistan	Banking system	-0.12650	0.89686	0.992
+Afghanistan	HIV/AIDS	0.12951	1.37318	0.983
+Afghanistan	Reconstruction	-0.14621	1.42958	0.995
+Afghanistan	primary school	0.55705	2.12422	0.975
+Afghanistan	Corruption	0.07144	0.65962	0.994
+Afghanistan	Transportation	0.09384	0.97825	0.992
+Afghanistan	democracy	0.31032	0.81842	0.913
+Afghanistan	environmental sustainability	-0.09104	2.20529	0.998
+Afghanistan	humanitarian assistance	1.05605	2.54926	0.509
+Afghanistan	criminal justice	0.91547	1.15030	0.931
+Afghanistan	Manufacturing	-0.02397	0.68783	0.999
+Afghanistan	Tourism	-0.07817	1.13307	0.994
+Afghanistan	Housing	0.03228	1.01005	0.999
+Afghanistan	natural disaster	0.00162	1.25351	1.000
+Afghanistan	infant mortality	-0.03613	1.30102	0.998
+Afghanistan	job creation	-0.05774	1.63550	0.999
+Afghanistan	Sanitation	-0.15819	1.69489	0.968
+Afghanistan	Gender	0.02770	1.19142	0.998
+Afghanistan	Refugee	1.00928	1.60114	0.815
+Afghanistan	Technological development	-0.39670	1.19094	0.931
+Afghanistan	Malnutrition	0.10794	1.55168	0.993
+Afghanistan	small and medium enterprise	-0.14434	3.09885	0.991
+Afghanistan	school completion	-0.49074	3.10907	0.981
+Afghanistan	Human rights	0.47046	0.79386	0.849
+Afghanistan	Homicides	0.92340	1.02142	0.986
+Afghanistan	Microenterprise	-0.64176	3.99181	0.698
+Afghanistan	Poverty reduction	-0.29326	1.33167	0.840
+Afghanistan	civil war	0.44636	0.60399	0.917
+Afghanistan	economic growth	-0.02172	0.71687	0.999
+Afghanistan	Agriculture	-0.17757	1.14866	0.882
+Bangladesh	rural development	0.08268	1.79740	0.994
+Bangladesh	Electricity	0.12101	0.89606	0.980
+Bangladesh	climate change	0.19705	1.13539	0.966
+Bangladesh	Hospital	-0.24982	0.85735	0.948
+Bangladesh	Banking system	-0.23628	1.09838	0.972
+Bangladesh	HIV/AIDS	0.29044	1.22216	0.934
+Bangladesh	Reconstruction	-0.16156	1.41448	0.972
+Bangladesh	primary school	0.16218	1.83698	0.997
+Bangladesh	Corruption	0.02990	0.64039	0.998
+Bangladesh	Transportation	-0.13841	0.97228	0.967
+Bangladesh	democracy	-0.01536	0.74459	1.000
+Bangladesh	environmental sustainability	0.69763	2.27459	0.958
+Bangladesh	humanitarian assistance	0.19370	2.40007	0.984
+Bangladesh	criminal justice	-0.09351	1.05546	0.996
+Bangladesh	Manufacturing	0.02478	0.71065	0.999
+Bangladesh	Tourism	0.10741	1.19070	0.993
+Bangladesh	Housing	0.16194	1.00433	0.978
+Bangladesh	natural disaster	0.21798	1.23796	0.980
+Bangladesh	infant mortality	0.12721	1.24272	0.992
+Bangladesh	job creation	0.47680	1.77332	0.986
+Bangladesh	Sanitation	0.27402	1.79715	0.967
+Bangladesh	Gender	0.09631	1.15359	0.981
+Bangladesh	Refugee	0.14119	1.48881	0.991
+Bangladesh	Technological development	-0.28828	1.39618	0.977
+Bangladesh	Malnutrition	0.29259	1.41467	0.953
+Bangladesh	small and medium enterprise	-0.09518	3.25042	0.996
+Bangladesh	school completion	0.07223	3.67224	1.000
+Bangladesh	Human rights	-0.00206	0.71671	1.000
+Bangladesh	Homicides	-0.52186	0.47106	0.922
+Bangladesh	Microenterprise	-0.95079	0.79965	0.787
+Bangladesh	Poverty reduction	-0.17113	1.46894	0.970
+Bangladesh	civil war	0.30812	0.55847	0.975
+Bangladesh	economic growth	-0.03769	0.72861	0.998
+Bangladesh	Agriculture	-0.09494	1.22356	0.980
+Mauritania	rural development	0.12880	1.80011	0.966
+Mauritania	Electricity	0.22304	0.91365	0.906
+Mauritania	climate change	0.06904	1.13938	0.987
+Mauritania	Hospital	-0.24661	0.79083	0.876
+Mauritania	Banking system	0.25070	0.86372	0.978
+Mauritania	HIV/AIDS	0.01398	1.26074	1.000
+Mauritania	Reconstruction	0.10887	1.49221	0.989
+Mauritania	primary school	0.21228	1.83337	0.988
+Mauritania	Corruption	0.12229	0.66515	0.954
+Mauritania	Transportation	-0.05662	0.88033	0.989
+Mauritania	democracy	-0.09494	0.71276	0.974
+Mauritania	environmental sustainability	-0.23265	1.93049	0.974
+Mauritania	humanitarian assistance	0.15243	2.54567	0.976
+Mauritania	criminal justice	-0.11646	0.92339	0.992
+Mauritania	Manufacturing	0.02242	0.66802	0.999
+Mauritania	Tourism	0.07316	1.20085	0.991
+Mauritania	Housing	-0.06135	0.95459	0.992
+Mauritania	natural disaster	0.19084	1.21072	0.952
+Mauritania	infant mortality	0.32196	1.23909	0.893
+Mauritania	job creation	0.99493	1.29751	0.863
+Mauritania	Sanitation	-0.06313	1.76352	0.993
+Mauritania	Gender	0.01654	1.17432	0.999
+Mauritania	Refugee	0.02008	1.49585	0.999
+Mauritania	Technological development	0.15534	1.34979	0.988
+Mauritania	Malnutrition	0.26981	1.44104	0.897
+Mauritania	small and medium enterprise	0.73349	2.81214	0.938
+Mauritania	school completion	0.59687	3.34011	0.969
+Mauritania	Human rights	0.00619	0.71976	1.000
+Mauritania	Homicides	0.03997	0.52343	1.000
+Mauritania	Microenterprise	-1.01000	0.41195	0.662
+Mauritania	Poverty reduction	0.26880	1.56470	0.946
+Mauritania	civil war	0.20224	0.55681	0.954
+Mauritania	economic growth	0.14389	0.72439	0.968
+Mauritania	Agriculture	0.02696	1.26955	0.997
+Mongolia	rural development	0.34339	2.05579	0.892
+Mongolia	Electricity	0.30956	1.02184	0.877
+Mongolia	climate change	0.03683	1.14621	0.995
+Mongolia	Hospital	-0.33808	0.63502	0.893
+Mongolia	Banking system	0.50192	0.99560	0.941
+Mongolia	HIV/AIDS	-0.00188	1.24152	1.000
+Mongolia	Reconstruction	0.35051	1.62468	0.926
+Mongolia	primary school	-0.35285	1.33147	0.975
+Mongolia	Corruption	0.23474	0.70546	0.904
+Mongolia	Transportation	-0.03583	0.88986	0.998
+Mongolia	democracy	-0.01953	0.73782	1.000
+Mongolia	environmental sustainability	-0.28235	1.80426	0.976
+Mongolia	humanitarian assistance	0.21720	2.81422	0.974
+Mongolia	criminal justice	0.16783	1.07414	0.994
+Mongolia	Manufacturing	0.05739	0.71493	0.996
+Mongolia	Tourism	0.15691	1.26400	0.971
+Mongolia	Housing	-0.06831	0.95282	0.993
+Mongolia	natural disaster	0.43123	1.34709	0.875
+Mongolia	infant mortality	0.56636	1.42824	0.842
+Mongolia	job creation	0.13363	1.73574	0.996
+Mongolia	Sanitation	-0.08227	1.74016	0.985
+Mongolia	Gender	-0.02396	1.16019	0.997
+Mongolia	Refugee	-0.19434	1.28956	0.969
+Mongolia	Technological development	0.27295	1.53874	0.981
+Mongolia	Malnutrition	0.18564	1.49422	0.968
+Mongolia	small and medium enterprise	0.19791	3.55691	0.991
+Mongolia	school completion	0.61042	4.11091	0.972
+Mongolia	Human rights	-0.06072	0.68824	0.994
+Mongolia	Homicides	0.38173	0.52128	0.979
+Mongolia	Microenterprise	1.58064	3.14764	0.813
+Mongolia	Poverty reduction	0.26069	1.72028	0.940
+Mongolia	civil war	0.37442	0.61227	0.933
+Mongolia	economic growth	0.24683	0.78424	0.930
+Mongolia	Agriculture	0.00292	1.26583	1.000
+Rwanda	rural development	0.03845	1.79025	0.998
+Rwanda	Electricity	-0.00526	0.87616	1.000
+Rwanda	climate change	0.09956	1.09749	0.975
+Rwanda	Hospital	-0.12688	0.89001	0.979
+Rwanda	Banking system	-0.05736	0.94697	0.998
+Rwanda	HIV/AIDS	0.15442	1.21847	0.962
+Rwanda	Reconstruction	-0.19279	1.42437	0.947
+Rwanda	primary school	-0.16366	1.75427	0.992
+Rwanda	Corruption	0.05311	0.63770	0.992
+Rwanda	Transportation	-0.01660	0.93775	0.999
+Rwanda	democracy	-0.03716	0.74461	0.996
+Rwanda	environmental sustainability	-0.01370	2.58372	1.000
+Rwanda	humanitarian assistance	0.08386	2.49211	0.997
+Rwanda	criminal justice	-0.07899	1.07145	0.996
+Rwanda	Manufacturing	0.10587	0.69188	0.987
+Rwanda	Tourism	0.06323	1.19752	0.995
+Rwanda	Housing	0.01485	1.00375	1.000
+Rwanda	natural disaster	0.00197	1.24347	1.000
+Rwanda	infant mortality	0.07780	1.31836	0.994
+Rwanda	job creation	-0.05427	1.93125	0.999
+Rwanda	Sanitation	0.05662	1.83593	0.998
+Rwanda	Gender	-0.01743	1.17509	0.999
+Rwanda	Refugee	0.44795	1.26468	0.932
+Rwanda	Technological development	-0.25776	1.46406	0.975
+Rwanda	Malnutrition	0.23342	1.40595	0.948
+Rwanda	small and medium enterprise	-0.01536	3.28756	1.000
+Rwanda	school completion	0.23671	3.45291	0.995
+Rwanda	Human rights	-0.00190	0.70135	1.000
+Rwanda	Homicides	0.01344	0.98610	1.000
+Rwanda	Microenterprise	-0.56095	3.71095	0.588
+Rwanda	Poverty reduction	-0.18895	1.48547	0.959
+Rwanda	civil war	0.15621	0.57218	0.984
+Rwanda	economic growth	0.00972	0.70013	1.000
+Rwanda	Agriculture	0.04021	1.24527	0.997
+Peru	rural development	0.45006	1.71258	0.852
+Peru	Electricity	0.03599	0.88207	0.998
+Peru	climate change	0.01100	1.09736	1.000
+Peru	Hospital	-0.02213	0.88033	1.000
+Peru	Banking system	0.19235	0.94127	0.993
+Peru	HIV/AIDS	0.06516	1.28357	0.997
+Peru	Reconstruction	0.35485	1.44000	0.949
+Peru	primary school	-0.67841	1.46896	0.885
+Peru	Corruption	-0.12903	0.63583	0.968
+Peru	Transportation	0.09591	0.93235	0.993
+Peru	democracy	-0.07010	0.74157	0.996
+Peru	environmental sustainability	-0.03311	2.28188	1.000
+Peru	humanitarian assistance	0.11063	2.52327	0.997
+Peru	criminal justice	-0.01854	1.00225	1.000
+Peru	Manufacturing	0.11037	0.68901	0.992
+Peru	Tourism	-0.01251	1.18642	1.000
+Peru	Housing	-0.00746	1.00869	1.000
+Peru	natural disaster	0.37375	1.23099	0.941
+Peru	infant mortality	0.12046	1.24810	0.991
+Peru	job creation	-0.12177	1.64372	0.997
+Peru	Sanitation	0.27625	1.77806	0.941
+Peru	Gender	-0.07503	1.16073	0.990
+Peru	Refugee	-0.27046	1.43709	0.974
+Peru	Technological development	0.69644	1.19564	0.922
+Peru	Malnutrition	0.08660	1.41007	0.995
+Peru	small and medium enterprise	-0.09212	3.25561	0.999
+Peru	school completion	-0.10817	3.66354	0.999
+Peru	Human rights	-0.14513	0.70109	0.977
+Peru	Homicides	0.46978	0.45727	0.975
+Peru	Microenterprise	1.46382	3.63253	0.740
+Peru	Poverty reduction	0.27151	1.51096	0.963
+Peru	civil war	-0.01866	0.53217	0.999
+Peru	economic growth	0.29521	0.73892	0.960
+Peru	Agriculture	0.12041	1.23725	0.974
+Republic of Congo	rural development	0.07232	1.80935	0.989
+Republic of Congo	Electricity	0.06773	0.88497	0.985
+Republic of Congo	climate change	0.06914	1.14644	0.988
+Republic of Congo	Hospital	-0.14451	0.85672	0.964
+Republic of Congo	Banking system	0.12216	0.82539	0.990
+Republic of Congo	HIV/AIDS	0.07913	1.27030	0.985
+Republic of Congo	Reconstruction	0.02425	1.39616	0.999
+Republic of Congo	primary school	0.02407	1.80209	1.000
+Republic of Congo	Corruption	0.06599	0.63681	0.988
+Republic of Congo	Transportation	-0.15103	0.88089	0.895
+Republic of Congo	democracy	-0.07543	0.73262	0.983
+Republic of Congo	environmental sustainability	-0.15470	2.03638	0.985
+Republic of Congo	humanitarian assistance	0.24437	2.37713	0.940
+Republic of Congo	criminal justice	-0.03576	0.95152	0.999
+Republic of Congo	Manufacturing	-0.14220	0.62027	0.956
+Republic of Congo	Tourism	-0.01769	1.16107	0.999
+Republic of Congo	Housing	-0.06447	0.96087	0.991
+Republic of Congo	natural disaster	0.23931	1.13389	0.917
+Republic of Congo	infant mortality	0.30544	1.26691	0.892
+Republic of Congo	job creation	-0.35151	1.15703	0.919
+Republic of Congo	Sanitation	0.11225	1.83132	0.972
+Republic of Congo	Gender	0.03487	1.18311	0.991
+Republic of Congo	Refugee	0.07783	1.49516	0.995
+Republic of Congo	Technological development	-0.01700	1.27097	1.000
+Republic of Congo	Malnutrition	0.32610	1.38679	0.826
+Republic of Congo	small and medium enterprise	0.21888	2.80129	0.964
+Republic of Congo	school completion	0.45057	2.97334	0.970
+Republic of Congo	Human rights	0.04095	0.71874	0.997
+Republic of Congo	Homicides	0.76127	0.71851	0.969
+Republic of Congo	Microenterprise	-0.12370	5.27784	0.994
+Republic of Congo	Poverty reduction	0.25852	1.43928	0.913
+Republic of Congo	civil war	0.21977	0.54859	0.938
+Republic of Congo	economic growth	-0.00197	0.70140	1.000
+Republic of Congo	Agriculture	0.02780	1.26880	0.998
+Malawi	rural development	0.13792	1.79787	0.980
+Malawi	Electricity	-0.01964	0.88536	1.000
+Malawi	climate change	0.23955	1.14571	0.943
+Malawi	Hospital	-0.13896	0.86536	0.977
+Malawi	Banking system	-0.01461	0.94107	1.000
+Malawi	HIV/AIDS	0.31173	1.25752	0.894
+Malawi	Reconstruction	-0.19070	1.34856	0.962
+Malawi	primary school	-0.01629	1.75802	1.000
+Malawi	Corruption	0.07003	0.64398	0.989
+Malawi	Transportation	-0.08082	0.92576	0.984
+Malawi	democracy	-0.03409	0.73711	0.998
+Malawi	environmental sustainability	-0.11101	2.23086	0.994
+Malawi	humanitarian assistance	0.19791	2.58280	0.982
+Malawi	criminal justice	-0.11005	0.97306	0.993
+Malawi	Manufacturing	-0.03584	0.67992	0.998
+Malawi	Tourism	-0.03735	1.16553	0.998
+Malawi	Housing	0.00639	0.99632	1.000
+Malawi	natural disaster	0.14002	1.26527	0.990
+Malawi	infant mortality	0.35027	1.33394	0.934
+Malawi	job creation	-0.11158	1.63582	0.994
+Malawi	Sanitation	0.55232	1.72282	0.876
+Malawi	Gender	0.09291	1.18218	0.979
+Malawi	Refugee	0.18210	1.46998	0.988
+Malawi	Technological development	-0.14458	1.38957	0.995
+Malawi	Malnutrition	0.43312	1.42776	0.870
+Malawi	small and medium enterprise	0.51694	3.08164	0.978
+Malawi	school completion	3.65466	0.32310	0.852
+Malawi	Human rights	-0.02164	0.70620	1.000
+Malawi	Homicides	-0.08911	0.98448	1.000
+Malawi	Microenterprise	-0.70207	1.55760	0.615
+Malawi	Poverty reduction	0.18734	1.56308	0.991
+Malawi	civil war	0.12357	0.54619	0.989
+Malawi	economic growth	0.08231	0.70860	0.993
+Malawi	Agriculture	-0.00676	1.24429	1.000
+Benin	rural development	0.48121	1.74305	0.822
+Benin	Electricity	0.14515	0.91209	0.972
+Benin	climate change	0.11573	1.14756	0.977
+Benin	Hospital	-0.33324	0.76873	0.883
+Benin	Banking system	0.25019	0.97304	0.984
+Benin	HIV/AIDS	0.21095	1.32155	0.966
+Benin	Reconstruction	0.38709	1.44241	0.922
+Benin	primary school	-0.12099	1.66923	0.996
+Benin	Corruption	0.10598	0.65495	0.972
+Benin	Transportation	-0.07843	0.89087	0.981
+Benin	democracy	-0.16824	0.70289	0.942
+Benin	environmental sustainability	-0.17140	2.18297	0.993
+Benin	humanitarian assistance	0.09671	2.45770	0.992
+Benin	criminal justice	-0.20646	0.94171	0.982
+Benin	Manufacturing	-0.07322	0.67526	0.993
+Benin	Tourism	0.09107	1.16709	0.989
+Benin	Housing	-0.12701	0.96221	0.972
+Benin	natural disaster	0.15056	1.29873	0.981
+Benin	infant mortality	0.42720	1.35389	0.875
+Benin	job creation	0.16814	1.73731	0.995
+Benin	Sanitation	0.05573	1.83042	0.996
+Benin	Gender	0.06646	1.18123	0.988
+Benin	Refugee	-0.13204	1.44978	0.988
+Benin	Technological development	0.31400	1.44639	0.976
+Benin	Malnutrition	0.27025	1.47174	0.930
+Benin	small and medium enterprise	0.89027	2.42690	0.907
+Benin	school completion	0.89758	3.03925	0.935
+Benin	Human rights	-0.13079	0.69785	0.972
+Benin	Homicides	0.80761	0.95717	0.982
+Benin	Microenterprise	0.04100	5.56360	1.000
+Benin	Poverty reduction	0.45429	1.50134	0.795
+Benin	civil war	0.09144	0.55283	0.993
+Benin	economic growth	0.24541	0.72642	0.925
+Benin	Agriculture	0.22515	1.26048	0.906
+Togo	rural development	0.13218	1.76317	0.970
+Togo	Electricity	0.16155	0.87841	0.948
+Togo	climate change	0.07726	1.12203	0.984
+Togo	Hospital	-0.31070	0.78841	0.887
+Togo	Banking system	0.24687	0.85363	0.968
+Togo	HIV/AIDS	0.03341	1.23957	0.997
+Togo	Reconstruction	0.23344	1.37445	0.940
+Togo	primary school	-0.08693	1.71369	0.998
+Togo	Corruption	0.10842	0.65829	0.960
+Togo	Transportation	-0.17454	0.89472	0.921
+Togo	democracy	-0.12972	0.71856	0.965
+Togo	environmental sustainability	-0.30879	1.93632	0.969
+Togo	humanitarian assistance	0.11999	2.43675	0.984
+Togo	criminal justice	-0.12695	0.95832	0.993
+Togo	Manufacturing	-0.07838	0.65268	0.989
+Togo	Tourism	0.00415	1.19999	1.000
+Togo	Housing	-0.13045	0.97526	0.965
+Togo	natural disaster	0.16250	1.15370	0.957
+Togo	infant mortality	0.27940	1.25150	0.882
+Togo	job creation	-0.06452	1.59019	0.999
+Togo	Sanitation	0.08635	1.81174	0.987
+Togo	Gender	0.05736	1.16861	0.990
+Togo	Refugee	-0.03939	1.44064	0.998
+Togo	Technological development	0.07144	1.42734	0.997
+Togo	Malnutrition	0.30250	1.40004	0.855
+Togo	small and medium enterprise	0.23286	3.29051	0.978
+Togo	school completion	0.25217	3.61141	0.988
+Togo	Human rights	-0.04161	0.71306	0.997
+Togo	Homicides	0.35054	0.47789	0.985
+Togo	Microenterprise	-0.08387	5.36639	0.998
+Togo	Poverty reduction	0.29510	1.45223	0.838
+Togo	civil war	0.13922	0.54224	0.974
+Togo	economic growth	0.07070	0.70712	0.991
+Togo	Agriculture	0.14630	1.23938	0.950
+China	rural development	-0.16166	1.51534	0.980
+China	Electricity	0.15451	1.04784	0.982
+China	climate change	0.15154	1.30330	0.978
+China	Hospital	0.48472	1.41156	0.933
+China	Banking system	1.16354	1.69630	0.497
+China	HIV/AIDS	-0.33798	0.82845	0.906
+China	Reconstruction	-0.12743	1.31382	0.989
+China	primary school	0.07761	1.93415	1.000
+China	Corruption	0.07566	0.69202	0.994
+China	Transportation	0.68454	1.65952	0.573
+China	democracy	0.02853	0.75559	1.000
+China	environmental sustainability	0.67227	4.54838	0.974
+China	humanitarian assistance	-0.29012	1.84228	0.963
+China	criminal justice	0.07257	1.14206	1.000
+China	Manufacturing	0.38055	1.02334	0.887
+China	Tourism	0.12819	1.36926	0.990
+China	Housing	-0.07671	0.92338	0.998
+China	natural disaster	-0.53763	0.66112	0.905
+China	infant mortality	-0.37839	0.84099	0.940
+China	job creation	-0.01762	1.87000	1.000
+China	Sanitation	-0.52999	0.97203	0.716
+China	Gender	-0.13493	0.98503	0.973
+China	Refugee	-0.13038	1.30454	0.994
+China	Technological development	-0.19931	1.16953	0.994
+China	Malnutrition	-0.25872	1.12431	0.943
+China	small and medium enterprise	-0.42991	1.98391	0.989
+China	school completion	-0.79736	1.45305	0.970
+China	Human rights	0.04687	0.74604	0.999
+China	Homicides	-1.16738	0.25290	0.960
+China	Microenterprise	-0.54521	3.68215	0.966
+China	Poverty reduction	-0.31147	1.08221	0.928
+China	civil war	0.02579	0.59230	1.000
+China	economic growth	0.52267	1.20165	0.894
+China	Agriculture	-0.00726	1.21273	1.000
+Armenia	rural development	0.13735	1.76632	0.969
+Armenia	Electricity	0.09920	0.88086	0.979
+Armenia	climate change	-0.04096	1.09601	0.995
+Armenia	Hospital	-0.31201	0.77043	0.855
+Armenia	Banking system	0.23221	0.86404	0.979
+Armenia	HIV/AIDS	-0.07486	1.20995	0.987
+Armenia	Reconstruction	0.28135	1.42256	0.923
+Armenia	primary school	-0.03927	1.74105	0.999
+Armenia	Corruption	0.15247	0.66180	0.935
+Armenia	Transportation	-0.06532	0.90892	0.989
+Armenia	democracy	0.18694	0.76564	0.973
+Armenia	environmental sustainability	-0.32613	1.86716	0.960
+Armenia	humanitarian assistance	0.20473	2.46352	0.957
+Armenia	criminal justice	0.21756	1.01934	0.983
+Armenia	Manufacturing	-0.03999	0.64297	0.996
+Armenia	Tourism	0.07005	1.20589	0.991
+Armenia	Housing	-0.06493	0.96775	0.991
+Armenia	natural disaster	0.22417	1.17887	0.917
+Armenia	infant mortality	0.21913	1.31908	0.936
+Armenia	job creation	0.19045	1.64901	0.987
+Armenia	Sanitation	-0.08363	1.78449	0.982
+Armenia	Gender	0.02069	1.17555	0.999
+Armenia	Refugee	-0.00003	1.47439	1.000
+Armenia	Technological development	0.17370	1.46058	0.984
+Armenia	Malnutrition	0.12587	1.39646	0.972
+Armenia	small and medium enterprise	0.33258	3.11501	0.961
+Armenia	school completion	0.39911	3.52401	0.973
+Armenia	Human rights	0.13178	0.73082	0.978
+Armenia	Homicides	0.83716	0.84214	0.974
+Armenia	Microenterprise	-0.33968	5.95911	0.958
+Armenia	Poverty reduction	0.12339	1.55144	0.981
+Armenia	civil war	0.13570	0.54815	0.968
+Armenia	economic growth	0.07959	0.69751	0.986
+Armenia	Agriculture	-0.00016	1.24209	1.000
+Dominican Republic	rural development	0.13890	1.70411	0.976
+Dominican Republic	Electricity	0.10204	0.88358	0.982
+Dominican Republic	climate change	0.02094	1.11659	0.998
+Dominican Republic	Hospital	-0.26935	0.85489	0.922
+Dominican Republic	Banking system	0.04854	0.93036	0.999
+Dominican Republic	HIV/AIDS	0.08782	1.21001	0.987
+Dominican Republic	Reconstruction	0.29954	1.33532	0.924
+Dominican Republic	primary school	-0.39059	1.54658	0.934
+Dominican Republic	Corruption	-0.05135	0.63722	0.991
+Dominican Republic	Transportation	0.01277	0.94301	1.000
+Dominican Republic	democracy	-0.03332	0.73678	0.998
+Dominican Republic	environmental sustainability	-0.02951	2.19873	1.000
+Dominican Republic	humanitarian assistance	0.07512	2.37284	0.996
+Dominican Republic	criminal justice	-0.04864	0.98878	0.999
+Dominican Republic	Manufacturing	-0.05941	0.69086	0.993
+Dominican Republic	Tourism	-0.03657	1.16994	0.998
+Dominican Republic	Housing	0.01756	1.00294	1.000
+Dominican Republic	natural disaster	0.30866	1.16867	0.908
+Dominican Republic	infant mortality	0.16192	1.17060	0.963
+Dominican Republic	job creation	0.01182	1.63376	1.000
+Dominican Republic	Sanitation	0.01496	1.82664	0.999
+Dominican Republic	Gender	-0.05710	1.14028	0.987
+Dominican Republic	Refugee	-0.03333	1.45295	0.999
+Dominican Republic	Technological development	0.20676	1.33225	0.982
+Dominican Republic	Malnutrition	0.16890	1.37056	0.959
+Dominican Republic	small and medium enterprise	0.02314	3.26136	1.000
+Dominican Republic	school completion	0.12465	3.65686	0.997
+Dominican Republic	Human rights	-0.03896	0.71179	0.997
+Dominican Republic	Homicides	0.38157	0.43773	0.977
+Dominican Republic	Microenterprise	1.29380	2.06707	0.811
+Dominican Republic	Poverty reduction	0.27181	1.41883	0.924
+Dominican Republic	civil war	0.04462	0.53827	0.997
+Dominican Republic	economic growth	0.06272	0.68997	0.992
+Dominican Republic	Agriculture	0.05307	1.25538	0.991
+Ukraine	rural development	0.12940	1.84584	0.977
+Ukraine	Electricity	0.03134	0.87526	0.999
+Ukraine	climate change	0.00884	1.11611	1.000
+Ukraine	Hospital	-0.12141	0.84782	0.982
+Ukraine	Banking system	0.23679	0.89460	0.979
+Ukraine	HIV/AIDS	0.07376	1.26946	0.991
+Ukraine	Reconstruction	0.35959	1.55648	0.929
+Ukraine	primary school	-0.49697	1.05472	0.876
+Ukraine	Corruption	0.14708	0.68925	0.944
+Ukraine	Transportation	-0.04803	0.89836	0.993
+Ukraine	democracy	0.22281	0.80841	0.952
+Ukraine	environmental sustainability	-0.47328	1.41022	0.886
+Ukraine	humanitarian assistance	0.21186	2.75112	0.963
+Ukraine	criminal justice	0.29737	1.10860	0.977
+Ukraine	Manufacturing	-0.05446	0.65291	0.995
+Ukraine	Tourism	0.00775	1.20028	1.000
+Ukraine	Housing	-0.03881	0.97501	0.996
+Ukraine	natural disaster	0.15417	1.23236	0.974
+Ukraine	infant mortality	0.12258	1.23171	0.981
+Ukraine	job creation	-0.04617	1.54673	1.000
+Ukraine	Sanitation	-0.15637	1.63969	0.946
+Ukraine	Gender	-0.05604	1.13689	0.992
+Ukraine	Refugee	0.02525	1.47551	1.000
+Ukraine	Technological development	0.29692	1.55716	0.973
+Ukraine	Malnutrition	0.06966	1.39426	0.992
+Ukraine	small and medium enterprise	0.26560	3.35680	0.983
+Ukraine	school completion	-0.08084	3.57561	0.999
+Ukraine	Human rights	0.11473	0.75141	0.984
+Ukraine	Homicides	0.02761	0.51452	1.000
+Ukraine	Microenterprise	-0.52527	3.93552	0.901
+Ukraine	Poverty reduction	0.04221	1.56265	0.999
+Ukraine	civil war	0.13902	0.57026	0.975
+Ukraine	economic growth	0.00840	0.70062	0.999
+Ukraine	Agriculture	-0.01454	1.23995	0.999
+Libya	rural development	-0.04779	1.63270	0.990
+Libya	Electricity	0.11810	1.00739	0.958
+Libya	climate change	0.05710	1.18020	0.988
+Libya	Hospital	-0.20477	0.64795	0.921
+Libya	Banking system	0.15471	0.99638	0.982
+Libya	HIV/AIDS	0.01680	1.22474	0.999
+Libya	Reconstruction	0.01117	1.44380	1.000
+Libya	primary school	-0.13323	1.46778	0.991
+Libya	Corruption	0.17257	0.76438	0.911
+Libya	Transportation	-0.08583	0.83926	0.969
+Libya	democracy	0.06076	0.79559	0.997
+Libya	environmental sustainability	-0.36332	1.15599	0.894
+Libya	humanitarian assistance	0.12497	2.71321	0.986
+Libya	criminal justice	0.13460	1.15039	0.993
+Libya	Manufacturing	0.06496	0.75222	0.993
+Libya	Tourism	-0.01577	1.16186	0.999
+Libya	Housing	-0.02406	0.91194	0.996
+Libya	natural disaster	0.10588	1.26513	0.979
+Libya	infant mortality	0.08143	1.33899	0.988
+Libya	job creation	0.38416	2.28130	0.963
+Libya	Sanitation	-0.00736	1.83471	1.000
+Libya	Gender	-0.04754	1.10632	0.985
+Libya	Refugee	0.25959	1.84984	0.968
+Libya	Technological development	0.02104	1.40959	1.000
+Libya	Malnutrition	0.20046	1.61133	0.930
+Libya	small and medium enterprise	-0.02685	3.16546	1.000
+Libya	school completion	-0.14975	3.08230	0.990
+Libya	Human rights	0.39358	0.94634	0.895
+Libya	Homicides	0.95481	1.31417	0.973
+Libya	Microenterprise	-0.44066	3.01881	0.864
+Libya	Poverty reduction	-0.03315	1.44222	0.997
+Libya	civil war	0.41662	0.76151	0.829
+Libya	economic growth	-0.00963	0.67896	1.001
+Libya	Agriculture	-0.07064	1.13996	0.984
+Indonesia	rural development	0.00026	1.82111	1.000
+Indonesia	Electricity	0.21306	0.89449	0.945
+Indonesia	climate change	0.21299	1.09386	0.938
+Indonesia	Hospital	-0.30873	0.80560	0.904
+Indonesia	Banking system	-0.20200	1.09053	0.980
+Indonesia	HIV/AIDS	0.19678	1.31752	0.982
+Indonesia	Reconstruction	-0.13236	1.42681	0.978
+Indonesia	primary school	0.07094	1.88196	0.999
+Indonesia	Corruption	-0.00643	0.63354	1.000
+Indonesia	Transportation	-0.09593	0.98246	0.987
+Indonesia	democracy	-0.01509	0.73903	1.000
+Indonesia	environmental sustainability	0.58011	2.00961	0.971
+Indonesia	humanitarian assistance	-0.04040	2.52754	0.999
+Indonesia	criminal justice	-0.00822	1.00797	1.000
+Indonesia	Manufacturing	0.26617	0.68086	0.963
+Indonesia	Tourism	-0.00088	1.18106	1.000
+Indonesia	Housing	0.17143	0.98634	0.971
+Indonesia	natural disaster	0.00215	1.24393	1.000
+Indonesia	infant mortality	-0.01563	1.31521	1.000
+Indonesia	job creation	-0.06572	1.66340	0.998
+Indonesia	Sanitation	-0.05443	1.82706	0.996
+Indonesia	Gender	0.02668	1.16540	0.998
+Indonesia	Refugee	0.06634	1.46405	0.997
+Indonesia	Technological development	-0.18770	1.43756	0.987
+Indonesia	Malnutrition	1.05648	1.28125	0.947
+Indonesia	small and medium enterprise	-0.08300	3.26922	0.997
+Indonesia	school completion	-0.48723	3.75791	0.978
+Indonesia	Human rights	0.01922	0.70985	0.999
+Indonesia	Homicides	-0.25870	1.00670	0.995
+Indonesia	Microenterprise	-0.55860	5.55710	0.845
+Indonesia	Poverty reduction	-0.19144	1.47915	0.941
+Indonesia	civil war	0.06507	0.53784	0.994
+Indonesia	economic growth	0.04028	0.74015	0.998
+Indonesia	Agriculture	-0.06371	1.22881	0.987
+Central African Republic	rural development	0.03947	1.77654	0.997
+Central African Republic	Electricity	0.10269	0.92538	0.975
+Central African Republic	climate change	0.02418	1.12768	0.998
+Central African Republic	Hospital	-0.17136	0.78960	0.953
+Central African Republic	Banking system	0.15621	0.98568	0.987
+Central African Republic	HIV/AIDS	0.17035	1.24191	0.951
+Central African Republic	Reconstruction	0.08182	1.45419	0.992
+Central African Republic	primary school	0.25397	1.76377	0.984
+Central African Republic	Corruption	0.10214	0.64812	0.968
+Central African Republic	Transportation	-0.09517	0.87521	0.961
+Central African Republic	democracy	-0.07472	0.70900	0.982
+Central African Republic	environmental sustainability	-0.32028	1.82491	0.949
+Central African Republic	humanitarian assistance	0.18888	2.46291	0.973
+Central African Republic	criminal justice	-0.11486	0.94163	0.994
+Central African Republic	Manufacturing	-0.00535	0.68979	1.000
+Central African Republic	Tourism	-0.07975	1.12509	0.984
+Central African Republic	Housing	-0.06649	0.97504	0.988
+Central African Republic	natural disaster	0.28581	1.26434	0.912
+Central African Republic	infant mortality	0.33421	1.34526	0.900
+Central African Republic	job creation	0.16390	1.73167	0.991
+Central African Republic	Sanitation	-0.01255	1.86072	1.000
+Central African Republic	Gender	0.00939	1.16091	0.999
+Central African Republic	Refugee	0.27323	1.50452	0.968
+Central African Republic	Technological development	0.09501	1.42604	0.993
+Central African Republic	Malnutrition	0.32785	1.46843	0.863
+Central African Republic	small and medium enterprise	0.26230	3.33246	0.975
+Central African Republic	school completion	0.52450	3.13747	0.970
+Central African Republic	Human rights	0.01162	0.71961	1.000
+Central African Republic	Homicides	0.98618	0.64393	0.959
+Central African Republic	Microenterprise	-0.40660	4.83216	0.944
+Central African Republic	Poverty reduction	0.16261	1.50077	0.971
+Central African Republic	civil war	0.26120	0.55965	0.927
+Central African Republic	economic growth	0.05349	0.70424	0.992
+Central African Republic	Agriculture	-0.00708	1.25305	1.000
+Mauritius	rural development	0.12823	1.84638	0.969
+Mauritius	Electricity	0.20785	0.96689	0.929
+Mauritius	climate change	0.12219	1.19351	0.970
+Mauritius	Hospital	-0.23493	0.71568	0.904
+Mauritius	Banking system	0.29134	0.89277	0.973
+Mauritius	HIV/AIDS	0.02960	1.23515	0.998
+Mauritius	Reconstruction	0.19754	1.53207	0.960
+Mauritius	primary school	-0.41177	1.06611	0.948
+Mauritius	Corruption	0.23533	0.71708	0.890
+Mauritius	Transportation	-0.11599	0.88624	0.951
+Mauritius	democracy	-0.14114	0.67319	0.950
+Mauritius	environmental sustainability	-0.29500	1.62929	0.974
+Mauritius	humanitarian assistance	0.15111	2.64875	0.978
+Mauritius	criminal justice	-0.09345	0.93765	0.996
+Mauritius	Manufacturing	-0.03742	0.63897	0.997
+Mauritius	Tourism	0.06647	1.24981	0.992
+Mauritius	Housing	-0.10789	0.97151	0.967
+Mauritius	natural disaster	0.18707	1.25092	0.958
+Mauritius	infant mortality	0.37736	1.43992	0.883
+Mauritius	job creation	-0.02878	1.55140	1.000
+Mauritius	Sanitation	0.05032	1.88061	0.996
+Mauritius	Gender	0.00288	1.15410	1.000
+Mauritius	Refugee	-0.09822	1.41122	0.993
+Mauritius	Technological development	0.30443	1.41513	0.965
+Mauritius	Malnutrition	0.21263	1.53626	0.937
+Mauritius	small and medium enterprise	0.24239	3.10531	0.971
+Mauritius	school completion	0.40825	3.98863	0.984
+Mauritius	Human rights	-0.03809	0.71249	0.997
+Mauritius	Homicides	1.17324	1.01148	0.963
+Mauritius	Microenterprise	-0.07865	5.18989	0.998
+Mauritius	Poverty reduction	0.53214	1.68154	0.796
+Mauritius	civil war	0.15465	0.58462	0.977
+Mauritius	economic growth	0.12883	0.75030	0.975
+Mauritius	Agriculture	0.08566	1.32795	0.977
+Vietnam	rural development	0.16531	1.86674	0.972
+Vietnam	Electricity	0.09811	0.90744	0.984
+Vietnam	climate change	0.13596	1.12856	0.960
+Vietnam	Hospital	-0.11837	0.85663	0.987
+Vietnam	Banking system	-0.09826	1.00741	0.994
+Vietnam	HIV/AIDS	0.10897	1.29031	0.983
+Vietnam	Reconstruction	0.02115	1.52546	1.000
+Vietnam	primary school	-0.12961	1.68098	0.992
+Vietnam	Corruption	0.08344	0.65723	0.983
+Vietnam	Transportation	-0.03544	0.98893	0.999
+Vietnam	democracy	0.01379	0.74721	1.000
+Vietnam	environmental sustainability	0.02487	2.26749	1.000
+Vietnam	humanitarian assistance	-0.09344	2.35662	0.992
+Vietnam	criminal justice	1.58962	0.43416	0.895
+Vietnam	Manufacturing	-0.00189	0.69376	1.000
+Vietnam	Tourism	0.02747	1.19467	0.999
+Vietnam	Housing	0.03740	0.95126	0.997
+Vietnam	natural disaster	0.12916	1.18148	0.983
+Vietnam	infant mortality	0.15094	1.32093	0.982
+Vietnam	job creation	-0.33418	1.38721	0.917
+Vietnam	Sanitation	-0.10236	1.78676	0.976
+Vietnam	Gender	-0.03137	1.16590	0.995
+Vietnam	Refugee	-0.01199	1.49372	1.000
+Vietnam	Technological development	-0.31314	1.31691	0.949
+Vietnam	Malnutrition	0.10946	1.36707	0.987
+Vietnam	small and medium enterprise	0.03815	3.29160	1.000
+Vietnam	school completion	0.03580	3.69207	1.000
+Vietnam	Human rights	-0.02671	0.71959	0.999
+Vietnam	Homicides	0.53758	0.93946	0.992
+Vietnam	Microenterprise	-0.56744	3.76878	0.731
+Vietnam	Poverty reduction	-0.08838	1.44471	0.994
+Vietnam	civil war	0.19092	0.56743	0.969
+Vietnam	economic growth	0.05153	0.73302	0.997
+Vietnam	Agriculture	-0.01757	1.25284	0.999
+Mali	rural development	0.29720	1.84546	0.920
+Mali	Electricity	0.03085	0.88374	0.999
+Mali	climate change	0.02890	1.12545	0.998
+Mali	Hospital	-0.19270	0.84804	0.969
+Mali	Banking system	0.15860	0.95331	0.993
+Mali	HIV/AIDS	0.16622	1.29683	0.969
+Mali	Reconstruction	0.30389	1.47949	0.975
+Mali	primary school	0.00491	1.73598	1.000
+Mali	Corruption	0.11523	0.65241	0.978
+Mali	Transportation	-0.12384	0.90914	0.961
+Mali	democracy	-0.08017	0.73468	0.986
+Mali	environmental sustainability	-0.08913	2.26324	0.997
+Mali	humanitarian assistance	0.17711	2.56738	0.980
+Mali	criminal justice	-0.11934	1.04198	0.993
+Mali	Manufacturing	-0.02667	0.68360	0.999
+Mali	Tourism	0.02723	1.19074	0.999
+Mali	Housing	-0.07986	0.98575	0.988
+Mali	natural disaster	0.04269	1.24845	0.999
+Mali	infant mortality	0.24377	1.33055	0.962
+Mali	job creation	-0.12203	1.63547	0.995
+Mali	Sanitation	0.01686	1.86355	0.999
+Mali	Gender	0.06259	1.18584	0.991
+Mali	Refugee	0.09217	1.50656	0.996
+Mali	Technological development	-0.17913	1.39422	0.993
+Mali	Malnutrition	0.32959	1.47576	0.914
+Mali	small and medium enterprise	0.31591	3.19374	0.979
+Mali	school completion	0.29078	3.60657	0.991
+Mali	Human rights	-0.00662	0.70348	1.000
+Mali	Homicides	0.05251	0.99559	1.000
+Mali	Microenterprise	-0.73316	2.16786	0.688
+Mali	Poverty reduction	0.17837	1.53236	0.986
+Mali	civil war	0.09071	0.54609	0.992
+Mali	economic growth	0.07510	0.71119	0.991
+Mali	Agriculture	0.26796	1.23550	0.926
+Russia	rural development	-0.10902	1.63001	0.978
+Russia	Electricity	0.01176	0.88172	0.999
+Russia	climate change	0.01314	1.12655	0.999
+Russia	Hospital	0.00193	0.90122	1.000
+Russia	Banking system	-0.25772	0.86062	0.977
+Russia	HIV/AIDS	-0.04542	1.18646	0.994
+Russia	Reconstruction	-0.11092	1.30320	0.989
+Russia	primary school	0.32455	2.19620	0.984
+Russia	Corruption	0.21311	0.76526	0.902
+Russia	Transportation	-0.13256	0.87230	0.975
+Russia	democracy	0.43144	0.97926	0.775
+Russia	environmental sustainability	0.27247	3.11157	0.989
+Russia	humanitarian assistance	-0.18072	2.12646	0.972
+Russia	criminal justice	0.31147	1.31293	0.972
+Russia	Manufacturing	0.03082	0.73310	0.999
+Russia	Tourism	0.01037	1.20940	1.000
+Russia	Housing	0.02662	1.04059	0.999
+Russia	natural disaster	-0.08168	1.14553	0.992
+Russia	infant mortality	-0.10694	1.15242	0.981
+Russia	job creation	-0.21303	1.51590	0.993
+Russia	Sanitation	-0.24732	1.42333	0.824
+Russia	Gender	-0.01593	1.16056	0.999
+Russia	Refugee	0.02840	1.52970	1.000
+Russia	Technological development	-0.36547	0.97434	0.960
+Russia	Malnutrition	-0.05280	1.37343	0.995
+Russia	small and medium enterprise	-0.16192	2.88233	0.987
+Russia	school completion	-0.24409	2.98660	0.994
+Russia	Human rights	0.31483	0.87920	0.890
+Russia	Homicides	-0.24234	0.84132	0.997
+Russia	Microenterprise	-0.78947	1.88119	0.581
+Russia	Poverty reduction	-0.30047	1.09477	0.843
+Russia	civil war	0.32997	0.73534	0.930
+Russia	economic growth	0.13736	0.88737	0.988
+Russia	Agriculture	-0.14286	1.08412	0.927
+Bulgaria	rural development	0.09854	1.86149	0.986
+Bulgaria	Electricity	0.16238	0.97334	0.960
+Bulgaria	climate change	0.09805	1.16934	0.979
+Bulgaria	Hospital	-0.27820	0.71400	0.880
+Bulgaria	Banking system	0.52891	1.02669	0.923
+Bulgaria	HIV/AIDS	-0.00874	1.20530	1.000
+Bulgaria	Reconstruction	0.64335	1.59758	0.853
+Bulgaria	primary school	-0.30215	1.36582	0.958
+Bulgaria	Corruption	0.22557	0.72496	0.896
+Bulgaria	Transportation	-0.03108	0.92941	0.998
+Bulgaria	democracy	0.13504	0.79362	0.975
+Bulgaria	environmental sustainability	-0.25646	1.73226	0.974
+Bulgaria	humanitarian assistance	0.13445	2.57835	0.991
+Bulgaria	criminal justice	0.50873	1.17661	0.951
+Bulgaria	Manufacturing	-0.02554	0.67667	0.999
+Bulgaria	Tourism	0.02903	1.18061	0.999
+Bulgaria	Housing	-0.10686	0.92713	0.975
+Bulgaria	natural disaster	0.17561	1.26878	0.966
+Bulgaria	infant mortality	0.20143	1.37828	0.957
+Bulgaria	job creation	0.17084	1.78456	0.994
+Bulgaria	Sanitation	-0.10744	1.68344	0.971
+Bulgaria	Gender	0.00390	1.16675	1.000
+Bulgaria	Refugee	-0.09902	1.35863	0.992
+Bulgaria	Technological development	0.47648	1.55303	0.942
+Bulgaria	Malnutrition	0.05109	1.38046	0.994
+Bulgaria	small and medium enterprise	0.21175	3.63770	0.990
+Bulgaria	school completion	0.17215	3.97504	0.997
+Bulgaria	Human rights	0.09657	0.76048	0.987
+Bulgaria	Homicides	0.58281	1.15557	0.983
+Bulgaria	Microenterprise	-0.33956	5.23005	0.953
+Bulgaria	Poverty reduction	0.11168	1.61823	0.986
+Bulgaria	civil war	0.22017	0.60112	0.945
+Bulgaria	economic growth	0.16254	0.76704	0.963
+Bulgaria	Agriculture	-0.02464	1.21664	1.001
+Romania	rural development	0.18065	1.90837	0.965
+Romania	Electricity	0.09475	0.93358	0.989
+Romania	climate change	0.01524	1.12182	0.999
+Romania	Hospital	-0.25865	0.72834	0.927
+Romania	Banking system	0.44300	1.01567	0.952
+Romania	HIV/AIDS	-0.08288	1.14348	0.988
+Romania	Reconstruction	0.66898	1.62875	0.853
+Romania	primary school	-0.12195	1.63029	0.994
+Romania	Corruption	0.18622	0.71696	0.944
+Romania	Transportation	-0.05140	0.89571	0.997
+Romania	democracy	0.15526	0.80992	0.981
+Romania	environmental sustainability	-0.28187	1.76110	0.968
+Romania	humanitarian assistance	0.17015	2.57764	0.986
+Romania	criminal justice	0.69976	1.17497	0.935
+Romania	Manufacturing	-0.04078	0.66344	0.998
+Romania	Tourism	0.04010	1.21116	0.996
+Romania	Housing	-0.01796	0.98658	0.999
+Romania	natural disaster	0.14986	1.23962	0.978
+Romania	infant mortality	0.24105	1.38553	0.951
+Romania	job creation	0.12013	1.71059	0.997
+Romania	Sanitation	-0.10366	1.70518	0.974
+Romania	Gender	0.01629	1.17612	0.999
+Romania	Refugee	-0.05930	1.41545	0.997
+Romania	Technological development	0.46781	1.60002	0.949
+Romania	Malnutrition	0.07014	1.39283	0.993
+Romania	small and medium enterprise	0.20906	3.45371	0.987
+Romania	school completion	0.13602	3.91953	0.998
+Romania	Human rights	0.10172	0.76864	0.986
+Romania	Homicides	0.44201	1.12850	0.991
+Romania	Microenterprise	-0.37127	4.90467	0.950
+Romania	Poverty reduction	0.09938	1.61009	0.992
+Romania	civil war	0.25737	0.60089	0.950
+Romania	economic growth	0.11068	0.73243	0.982
+Romania	Agriculture	-0.00988	1.23140	0.999
+Angola	rural development	0.03470	1.79607	0.998
+Angola	Electricity	0.00202	0.87677	1.000
+Angola	climate change	0.04602	1.11195	0.997
+Angola	Hospital	0.39831	0.84543	0.959
+Angola	Banking system	0.11625	0.86616	0.996
+Angola	HIV/AIDS	0.06670	1.27252	0.992
+Angola	Reconstruction	-0.07731	1.41861	0.996
+Angola	primary school	0.14283	1.81532	0.995
+Angola	Corruption	0.11732	0.65736	0.964
+Angola	Transportation	-0.09113	0.90945	0.973
+Angola	democracy	-0.08178	0.72241	0.984
+Angola	environmental sustainability	-0.14433	2.13740	0.990
+Angola	humanitarian assistance	0.15774	2.61081	0.981
+Angola	criminal justice	0.07640	1.06848	0.998
+Angola	Manufacturing	-0.04524	0.67271	0.997
+Angola	Tourism	0.01213	1.18254	0.999
+Angola	Housing	-0.04070	0.99000	0.998
+Angola	natural disaster	0.09813	1.19280	0.993
+Angola	infant mortality	0.26354	1.30563	0.955
+Angola	job creation	-0.03744	1.62284	1.000
+Angola	Sanitation	-0.09320	1.77776	0.993
+Angola	Gender	0.02256	1.16446	0.997
+Angola	Refugee	0.20674	1.56331	0.980
+Angola	Technological development	0.01402	1.31518	1.000
+Angola	Malnutrition	0.21608	1.48347	0.926
+Angola	small and medium enterprise	0.06199	3.31911	0.999
+Angola	school completion	0.24453	3.76031	0.997
+Angola	Human rights	-0.00203	0.71470	1.000
+Angola	Homicides	0.70112	1.00119	0.962
+Angola	Microenterprise	-0.54229	4.01399	0.626
+Angola	Poverty reduction	0.11661	1.55251	0.996
+Angola	civil war	0.12106	0.54230	0.978
+Angola	economic growth	0.04874	0.70183	0.994
+Angola	Agriculture	-0.03219	1.23350	0.997
+Chad	rural development	-0.03701	1.67024	0.995
+Chad	Electricity	0.07300	0.90281	0.991
+Chad	climate change	0.06026	1.11658	0.991
+Chad	Hospital	-0.19209	0.81396	0.951
+Chad	Banking system	0.20215	0.88235	0.986
+Chad	HIV/AIDS	0.12226	1.26971	0.974
+Chad	Reconstruction	-0.06547	1.37221	0.997
+Chad	primary school	0.22420	1.81155	0.990
+Chad	Corruption	0.08008	0.67057	0.982
+Chad	Transportation	-0.07728	0.91538	0.985
+Chad	democracy	-0.03561	0.71915	0.997
+Chad	environmental sustainability	-0.10209	2.09096	0.996
+Chad	humanitarian assistance	0.05996	2.46986	0.998
+Chad	criminal justice	-0.00906	1.00370	1.000
+Chad	Manufacturing	-0.03873	0.67524	0.997
+Chad	Tourism	-0.04557	1.16645	0.997
+Chad	Housing	-0.01752	0.99425	0.999
+Chad	natural disaster	0.15976	1.20233	0.980
+Chad	infant mortality	0.22472	1.34492	0.966
+Chad	job creation	-0.00732	1.63320	1.000
+Chad	Sanitation	-0.06779	1.78902	0.994
+Chad	Gender	0.03641	1.15929	0.997
+Chad	Refugee	0.88851	1.33193	0.827
+Chad	Technological development	-0.04978	1.40481	0.999
+Chad	Malnutrition	0.35341	1.46240	0.871
+Chad	small and medium enterprise	0.03685	3.29535	1.000
+Chad	school completion	0.16352	3.50822	0.998
+Chad	Human rights	0.07896	0.72782	0.995
+Chad	Homicides	0.82621	0.85353	0.973
+Chad	Microenterprise	-0.65034	2.15488	0.675
+Chad	Poverty reduction	-0.09407	1.39793	0.992
+Chad	civil war	0.35220	0.57926	0.906
+Chad	economic growth	0.07438	0.71463	0.991
+Chad	Agriculture	-0.05489	1.22245	0.991
+South Africa	rural development	-0.20669	1.72615	0.959
+South Africa	Electricity	0.02141	0.88243	1.000
+South Africa	climate change	0.21759	1.13935	0.952
+South Africa	Hospital	-0.11954	0.87693	0.998
+South Africa	Banking system	-1.11596	0.32038	0.636
+South Africa	HIV/AIDS	0.35071	1.22841	0.892
+South Africa	Reconstruction	-0.23996	1.39765	0.955
+South Africa	primary school	-0.02162	1.77531	1.000
+South Africa	Corruption	0.00999	0.64363	1.000
+South Africa	Transportation	-0.40408	0.87836	0.883
+South Africa	democracy	0.13687	0.76273	0.988
+South Africa	environmental sustainability	0.49129	2.19470	0.981
+South Africa	humanitarian assistance	1.07099	1.44652	0.864
+South Africa	criminal justice	1.32295	0.41010	0.925
+South Africa	Manufacturing	-0.11651	0.68284	0.993
+South Africa	Tourism	-0.23860	1.13314	0.952
+South Africa	Housing	0.17504	1.00069	0.978
+South Africa	natural disaster	-0.22968	1.12936	0.956
+South Africa	infant mortality	-0.16959	1.26871	0.987
+South Africa	job creation	-0.24536	1.56534	0.988
+South Africa	Sanitation	0.07097	1.85470	0.997
+South Africa	Gender	0.16221	1.18767	0.952
+South Africa	Refugee	0.10859	1.46521	0.996
+South Africa	Technological development	-0.23227	1.37376	0.988
+South Africa	Malnutrition	-0.00269	1.35721	1.000
+South Africa	small and medium enterprise	-0.15465	3.24435	0.997
+South Africa	school completion	-0.49850	3.62540	0.982
+South Africa	Human rights	0.01208	0.70542	1.000
+South Africa	Homicides	-0.92714	0.96980	0.954
+South Africa	Microenterprise	-1.65624	2.41293	0.699
+South Africa	Poverty reduction	-0.24056	1.48990	0.959
+South Africa	civil war	-0.05287	0.52550	0.998
+South Africa	economic growth	0.02113	0.74412	1.000
+South Africa	Agriculture	-0.03621	1.23706	0.999
+Nicaragua	rural development	0.34816	1.73041	0.867
+Nicaragua	Electricity	0.09147	0.88114	0.988
+Nicaragua	climate change	0.00010	1.11102	1.000
+Nicaragua	Hospital	-0.34219	0.81035	0.918
+Nicaragua	Banking system	0.11229	0.91991	0.996
+Nicaragua	HIV/AIDS	0.07049	1.28816	0.994
+Nicaragua	Reconstruction	0.34230	1.41339	0.912
+Nicaragua	primary school	-0.26383	1.65792	0.984
+Nicaragua	Corruption	-0.02377	0.64292	0.998
+Nicaragua	Transportation	-0.05163	0.93352	0.998
+Nicaragua	democracy	-0.04906	0.74492	0.996
+Nicaragua	environmental sustainability	-0.34361	2.08150	0.967
+Nicaragua	humanitarian assistance	0.09808	2.53504	0.994
+Nicaragua	criminal justice	0.15947	1.03998	0.991
+Nicaragua	Manufacturing	-0.03942	0.69420	0.998
+Nicaragua	Tourism	-0.05997	1.19418	0.996
+Nicaragua	Housing	-0.01928	0.98847	1.000
+Nicaragua	natural disaster	0.36301	1.17301	0.894
+Nicaragua	infant mortality	0.27477	1.27812	0.938
+Nicaragua	job creation	-0.29179	1.58252	0.973
+Nicaragua	Sanitation	0.08374	1.83814	0.990
+Nicaragua	Gender	-0.01748	1.17034	0.999
+Nicaragua	Refugee	0.04827	1.50848	0.999
+Nicaragua	Technological development	0.08823	1.40596	0.996
+Nicaragua	Malnutrition	0.23251	1.43933	0.943
+Nicaragua	small and medium enterprise	0.18434	3.19296	0.992
+Nicaragua	school completion	0.23898	3.55846	0.992
+Nicaragua	Human rights	-0.02146	0.70588	1.000
+Nicaragua	Homicides	0.72207	0.80957	0.937
+Nicaragua	Microenterprise	1.20790	3.38048	0.637
+Nicaragua	Poverty reduction	0.22690	1.50123	0.942
+Nicaragua	civil war	0.03427	0.53460	0.999
+Nicaragua	economic growth	0.21742	0.73191	0.981
+Nicaragua	Agriculture	0.09396	1.21976	0.976
+Malaysia	rural development	0.09241	1.81836	0.988
+Malaysia	Electricity	0.26880	1.00115	0.902
+Malaysia	climate change	0.19491	1.20915	0.925
+Malaysia	Hospital	-0.24155	0.72133	0.911
+Malaysia	Banking system	-0.02378	1.02863	1.000
+Malaysia	HIV/AIDS	0.00867	1.24085	1.000
+Malaysia	Reconstruction	0.03662	1.45280	1.000
+Malaysia	primary school	-0.27799	1.40501	0.952
+Malaysia	Corruption	0.15663	0.70099	0.940
+Malaysia	Transportation	-0.07185	0.93809	0.993
+Malaysia	democracy	-0.04112	0.71368	0.995
+Malaysia	environmental sustainability	0.29648	2.40010	0.993
+Malaysia	humanitarian assistance	0.04481	2.56098	0.998
+Malaysia	criminal justice	0.04803	1.01765	0.999
+Malaysia	Manufacturing	0.07938	0.73344	0.994
+Malaysia	Tourism	0.15645	1.29604	0.966
+Malaysia	Housing	-0.00416	0.99931	1.000
+Malaysia	natural disaster	0.07224	1.20334	0.993
+Malaysia	infant mortality	0.04820	1.22984	0.996
+Malaysia	job creation	0.19356	1.75607	0.990
+Malaysia	Sanitation	-0.10622	1.69666	0.968
+Malaysia	Gender	-0.01934	1.13707	0.998
+Malaysia	Refugee	-0.04159	1.45132	0.998
+Malaysia	Technological development	0.14357	1.43142	0.997
+Malaysia	Malnutrition	0.10485	1.42982	0.981
+Malaysia	small and medium enterprise	0.07701	3.37011	0.999
+Malaysia	school completion	-0.26121	3.34030	0.986
+Malaysia	Human rights	-0.02090	0.70758	0.999
+Malaysia	Homicides	-0.38753	0.38002	0.963
+Malaysia	Microenterprise	-0.52403	3.18388	0.844
+Malaysia	Poverty reduction	-0.02067	1.48666	1.000
+Malaysia	civil war	0.16098	0.58259	0.969
+Malaysia	economic growth	0.14813	0.80061	0.968
+Malaysia	Agriculture	-0.02359	1.25011	1.000
+Senegal	rural development	0.36193	1.82288	0.912
+Senegal	Electricity	0.13563	0.89611	0.976
+Senegal	climate change	0.12407	1.11867	0.974
+Senegal	Hospital	-0.24662	0.82840	0.938
+Senegal	Banking system	0.08670	0.95772	0.998
+Senegal	HIV/AIDS	0.16473	1.30458	0.977
+Senegal	Reconstruction	0.20492	1.52390	0.986
+Senegal	primary school	-0.13551	1.70702	0.996
+Senegal	Corruption	0.17748	0.64901	0.948
+Senegal	Transportation	-0.14001	0.89811	0.964
+Senegal	democracy	-0.09280	0.72575	0.985
+Senegal	environmental sustainability	-0.06969	2.24093	0.998
+Senegal	humanitarian assistance	0.15888	2.55769	0.984
+Senegal	criminal justice	-0.14208	1.03014	0.990
+Senegal	Manufacturing	-0.08815	0.67997	0.988
+Senegal	Tourism	0.06356	1.18501	0.995
+Senegal	Housing	-0.12205	0.97322	0.977
+Senegal	natural disaster	0.08096	1.26313	0.994
+Senegal	infant mortality	0.33805	1.32587	0.938
+Senegal	job creation	-0.11308	1.66452	0.996
+Senegal	Sanitation	0.02031	1.83865	1.000
+Senegal	Gender	0.04232	1.17668	0.994
+Senegal	Refugee	-0.01285	1.50638	1.000
+Senegal	Technological development	-0.01312	1.42877	1.000
+Senegal	Malnutrition	0.37040	1.47657	0.917
+Senegal	small and medium enterprise	1.19440	1.98399	0.892
+Senegal	school completion	0.85080	3.14651	0.966
+Senegal	Human rights	-0.01289	0.70880	0.999
+Senegal	Homicides	0.10414	0.97964	1.000
+Senegal	Microenterprise	-0.91516	1.39183	0.758
+Senegal	Poverty reduction	0.39834	1.50660	0.925
+Senegal	civil war	0.08360	0.54573	0.996
+Senegal	economic growth	0.10769	0.71536	0.986
+Senegal	Agriculture	0.27260	1.23201	0.920
+Mozambique	rural development	0.26796	1.81181	0.936
+Mozambique	Electricity	0.09385	0.89133	0.984
+Mozambique	climate change	0.15484	1.10765	0.952
+Mozambique	Hospital	-0.21991	0.84914	0.955
+Mozambique	Banking system	0.06148	0.95227	0.998
+Mozambique	HIV/AIDS	0.34835	1.24981	0.906
+Mozambique	Reconstruction	0.10533	1.52014	0.994
+Mozambique	primary school	-0.11460	1.70876	0.998
+Mozambique	Corruption	0.13413	0.65000	0.966
+Mozambique	Transportation	-0.14487	0.91142	0.949
+Mozambique	democracy	-0.11522	0.72252	0.970
+Mozambique	environmental sustainability	-0.07336	2.26988	0.998
+Mozambique	humanitarian assistance	0.22813	2.52539	0.979
+Mozambique	criminal justice	-0.18105	0.98778	0.980
+Mozambique	Manufacturing	-0.05622	0.67826	0.995
+Mozambique	Tourism	0.08151	1.19349	0.992
+Mozambique	Housing	-0.01071	1.00740	1.000
+Mozambique	natural disaster	0.10239	1.23906	0.992
+Mozambique	infant mortality	0.35603	1.29650	0.929
+Mozambique	job creation	-0.26912	1.55616	0.969
+Mozambique	Sanitation	0.10203	1.85429	0.989
+Mozambique	Gender	0.08359	1.17680	0.982
+Mozambique	Refugee	0.04981	1.49279	0.999
+Mozambique	Technological development	-0.05095	1.43049	0.999
+Mozambique	Malnutrition	0.40058	1.39196	0.880
+Mozambique	small and medium enterprise	0.23956	3.21196	0.988
+Mozambique	school completion	1.51610	1.62199	0.886
+Mozambique	Human rights	-0.07279	0.69875	0.992
+Mozambique	Homicides	-0.06156	0.97401	1.000
+Mozambique	Microenterprise	-1.36840	0.21405	0.678
+Mozambique	Poverty reduction	0.43856	1.48157	0.894
+Mozambique	civil war	0.02756	0.53629	0.999
+Mozambique	economic growth	0.07159	0.70504	0.993
+Mozambique	Agriculture	0.03836	1.24390	0.995
+Uganda	rural development	0.00061	1.81514	1.000
+Uganda	Electricity	0.02711	0.87900	1.000
+Uganda	climate change	0.19026	1.07517	0.953
+Uganda	Hospital	-0.16077	0.91181	0.977
+Uganda	Banking system	-0.11252	0.87095	0.993
+Uganda	HIV/AIDS	0.23460	1.16979	0.929
+Uganda	Reconstruction	-0.23105	1.45605	0.945
+Uganda	primary school	-0.05916	1.78527	0.999
+Uganda	Corruption	0.00511	0.63781	1.000
+Uganda	Transportation	-0.09266	0.94221	0.986
+Uganda	democracy	-0.03747	0.75138	0.996
+Uganda	environmental sustainability	0.00385	2.55373	1.000
+Uganda	humanitarian assistance	0.17671	2.42295	0.983
+Uganda	criminal justice	-0.13233	1.08459	0.990
+Uganda	Manufacturing	0.09933	0.68010	0.993
+Uganda	Tourism	-0.03343	1.20492	1.000
+Uganda	Housing	0.10973	0.98032	0.989
+Uganda	natural disaster	-0.00414	1.15877	1.000
+Uganda	infant mortality	0.11548	1.24526	0.991
+Uganda	job creation	-0.04009	1.90573	1.000
+Uganda	Sanitation	0.36067	1.64466	0.900
+Uganda	Gender	0.08277	1.16379	0.984
+Uganda	Refugee	0.49775	1.22241	0.942
+Uganda	Technological development	-0.26285	1.48011	0.976
+Uganda	Malnutrition	0.27748	1.30757	0.942
+Uganda	small and medium enterprise	0.03428	3.24501	1.000
+Uganda	school completion	0.03920	3.63720	1.000
+Uganda	Human rights	-0.01436	0.71738	1.000
+Uganda	Homicides	0.10902	0.95173	1.000
+Uganda	Microenterprise	-0.78044	2.61748	0.615
+Uganda	Poverty reduction	-0.17174	1.56145	0.984
+Uganda	civil war	0.08379	0.57162	0.996
+Uganda	economic growth	-0.02356	0.70122	0.999
+Uganda	Agriculture	-0.02219	1.25775	0.999
+Niger	rural development	0.38290	1.85260	0.897
+Niger	Electricity	0.09904	0.91120	0.982
+Niger	climate change	0.05799	1.12527	0.991
+Niger	Hospital	-0.22377	0.81449	0.934
+Niger	Banking system	0.21408	0.97000	0.986
+Niger	HIV/AIDS	0.19483	1.32561	0.962
+Niger	Reconstruction	0.38996	1.48035	0.963
+Niger	primary school	0.12496	1.82760	0.997
+Niger	Corruption	0.08144	0.65181	0.983
+Niger	Transportation	-0.10583	0.86263	0.969
+Niger	democracy	-0.10192	0.71769	0.973
+Niger	environmental sustainability	-0.30118	1.97798	0.958
+Niger	humanitarian assistance	0.27854	2.64345	0.956
+Niger	criminal justice	-0.15357	0.98856	0.987
+Niger	Manufacturing	-0.00917	0.68257	1.000
+Niger	Tourism	0.04535	1.17296	0.996
+Niger	Housing	-0.09319	0.96485	0.982
+Niger	natural disaster	0.21803	1.29984	0.968
+Niger	infant mortality	0.56211	1.30764	0.844
+Niger	job creation	0.00457	1.69034	1.000
+Niger	Sanitation	0.07642	1.90872	0.995
+Niger	Gender	0.02538	1.17227	0.997
+Niger	Refugee	0.13747	1.53241	0.989
+Niger	Technological development	-0.04192	1.41174	0.999
+Niger	Malnutrition	0.52862	1.50665	0.799
+Niger	small and medium enterprise	0.46106	3.16433	0.974
+Niger	school completion	1.23180	2.58015	0.939
+Niger	Human rights	0.00067	0.71158	1.000
+Niger	Homicides	3.97083	0.13804	0.150
+Niger	Microenterprise	-0.95736	0.79551	0.689
+Niger	Poverty reduction	0.25369	1.57930	0.966
+Niger	civil war	0.15838	0.55647	0.974
+Niger	economic growth	0.07916	0.70672	0.993
+Niger	Agriculture	0.14359	1.27925	0.966
+Brazil	rural development	0.05071	1.82457	0.998
+Brazil	Electricity	0.17735	0.93652	0.958
+Brazil	climate change	0.22453	1.20785	0.948
+Brazil	Hospital	1.09734	0.71618	0.878
+Brazil	Banking system	0.44799	1.02168	0.977
+Brazil	HIV/AIDS	-0.02356	1.24548	0.999
+Brazil	Reconstruction	0.02712	1.47060	0.999
+Brazil	primary school	-0.24998	1.58828	0.978
+Brazil	Corruption	0.00353	0.64070	1.000
+Brazil	Transportation	0.12960	0.97813	0.988
+Brazil	democracy	0.01278	0.75705	1.000
+Brazil	environmental sustainability	0.62890	2.57732	0.956
+Brazil	humanitarian assistance	-0.20186	2.34851	0.960
+Brazil	criminal justice	0.05795	1.07260	0.999
+Brazil	Manufacturing	0.23356	0.74347	0.962
+Brazil	Tourism	-0.01241	1.19481	1.000
+Brazil	Housing	0.18759	1.05875	0.980
+Brazil	natural disaster	0.00489	1.25837	1.000
+Brazil	infant mortality	-0.03256	1.30364	0.999
+Brazil	job creation	-0.05037	1.64810	1.000
+Brazil	Sanitation	0.01798	1.86643	1.000
+Brazil	Gender	-0.05404	1.13868	0.994
+Brazil	Refugee	-0.20589	1.38239	0.965
+Brazil	Technological development	0.40840	1.48548	0.986
+Brazil	Malnutrition	0.00166	1.45747	1.000
+Brazil	small and medium enterprise	-0.17633	3.09164	0.990
+Brazil	school completion	0.02493	3.69941	1.000
+Brazil	Human rights	-0.10331	0.69154	0.984
+Brazil	Homicides	0.16545	1.01902	1.000
+Brazil	Microenterprise	0.74180	7.64523	0.978
+Brazil	Poverty reduction	0.07524	1.60558	0.996
+Brazil	civil war	-0.06922	0.52028	0.995
+Brazil	economic growth	0.58620	0.83609	0.846
+Brazil	Agriculture	0.05809	1.25613	0.995
+Guinea	rural development	0.23653	1.78275	0.955
+Guinea	Electricity	0.14520	0.90583	0.973
+Guinea	climate change	0.07725	1.11736	0.989
+Guinea	Hospital	-0.25237	0.81532	0.943
+Guinea	Banking system	0.12630	0.86492	0.995
+Guinea	HIV/AIDS	0.14033	1.25871	0.974
+Guinea	Reconstruction	0.03012	1.43787	1.000
+Guinea	primary school	-0.15331	1.63264	0.994
+Guinea	Corruption	0.14491	0.66501	0.961
+Guinea	Transportation	-0.13974	0.90824	0.952
+Guinea	democracy	0.00122	0.73754	1.000
+Guinea	environmental sustainability	-0.37359	1.82894	0.940
+Guinea	humanitarian assistance	0.12759	2.44091	0.991
+Guinea	criminal justice	-0.00728	0.99280	1.000
+Guinea	Manufacturing	-0.04890	0.66982	0.997
+Guinea	Tourism	-0.01224	1.17659	1.000
+Guinea	Housing	-0.06752	0.98041	0.993
+Guinea	natural disaster	0.23278	1.18041	0.967
+Guinea	infant mortality	0.63918	1.18720	0.797
+Guinea	job creation	0.08209	1.63430	0.998
+Guinea	Sanitation	-0.01205	1.81361	1.000
+Guinea	Gender	0.00312	1.16921	1.000
+Guinea	Refugee	0.01584	1.45362	1.000
+Guinea	Technological development	0.09675	1.45384	0.999
+Guinea	Malnutrition	0.35170	1.39291	0.900
+Guinea	small and medium enterprise	0.73003	2.99584	0.956
+Guinea	school completion	1.01888	3.00727	0.945
+Guinea	Human rights	0.03812	0.71912	0.998
+Guinea	Homicides	-0.62302	0.45616	0.956
+Guinea	Microenterprise	-0.73704	3.09537	0.725
+Guinea	Poverty reduction	0.33280	1.54646	0.961
+Guinea	civil war	0.18865	0.55383	0.972
+Guinea	economic growth	0.14439	0.71125	0.984
+Guinea	Agriculture	0.02611	1.27431	0.999
+Panama	rural development	0.24079	1.89263	0.930
+Panama	Electricity	0.24634	0.91174	0.921
+Panama	climate change	0.11294	1.14280	0.971
+Panama	Hospital	-0.37303	0.68239	0.846
+Panama	Banking system	1.01198	0.78068	0.881
+Panama	HIV/AIDS	-0.03842	1.21126	0.998
+Panama	Reconstruction	0.32313	1.54486	0.921
+Panama	primary school	-0.13036	1.68448	0.995
+Panama	Corruption	0.04006	0.64948	0.996
+Panama	Transportation	0.08478	0.95721	0.993
+Panama	democracy	-0.04793	0.73789	0.997
+Panama	environmental sustainability	-0.37465	1.82203	0.945
+Panama	humanitarian assistance	0.01868	2.54937	0.999
+Panama	criminal justice	0.04502	1.01286	1.000
+Panama	Manufacturing	0.18531	0.69790	0.965
+Panama	Tourism	0.06891	1.22261	0.996
+Panama	Housing	-0.01685	0.99977	1.000
+Panama	natural disaster	0.69931	1.19097	0.824
+Panama	infant mortality	0.30045	1.34758	0.936
+Panama	job creation	0.07082	1.72115	0.999
+Panama	Sanitation	-0.05992	1.77456	0.994
+Panama	Gender	-0.05631	1.14867	0.987
+Panama	Refugee	-0.11027	1.39670	0.990
+Panama	Technological development	0.52062	1.40042	0.955
+Panama	Malnutrition	0.22721	1.46984	0.958
+Panama	small and medium enterprise	0.11594	3.34239	0.996
+Panama	school completion	0.06653	3.72865	1.000
+Panama	Human rights	-0.08190	0.68781	0.991
+Panama	Homicides	0.56201	1.01491	0.986
+Panama	Microenterprise	0.82181	6.98895	0.943
+Panama	Poverty reduction	0.24382	1.63125	0.942
+Panama	civil war	0.12298	0.55287	0.984
+Panama	economic growth	1.00000	0.49169	0.821
+Panama	Agriculture	0.07036	1.27122	0.984
+Lao People Democratic Republic	rural development	0.21499	1.75759	0.870
+Lao People Democratic Republic	Electricity	0.19238	0.86445	0.910
+Lao People Democratic Republic	climate change	-0.02063	1.16106	0.998
+Lao People Democratic Republic	Hospital	-0.20495	0.82143	0.935
+Lao People Democratic Republic	Banking system	0.04942	0.80960	0.999
+Lao People Democratic Republic	HIV/AIDS	0.04445	1.26306	0.993
+Lao People Democratic Republic	Reconstruction	0.16818	1.40191	0.945
+Lao People Democratic Republic	primary school	0.59928	1.00305	0.937
+Lao People Democratic Republic	Corruption	0.01540	0.66016	1.000
+Lao People Democratic Republic	Transportation	-0.06027	0.90993	0.989
+Lao People Democratic Republic	democracy	-0.09855	0.71815	0.972
+Lao People Democratic Republic	environmental sustainability	-0.05615	2.13118	0.999
+Lao People Democratic Republic	humanitarian assistance	0.18523	2.24749	0.933
+Lao People Democratic Republic	criminal justice	-0.13481	0.91267	0.989
+Lao People Democratic Republic	Manufacturing	-0.05950	0.65780	0.991
+Lao People Democratic Republic	Tourism	0.06980	1.20587	0.983
+Lao People Democratic Republic	Housing	-0.09812	0.94517	0.976
+Lao People Democratic Republic	natural disaster	0.21355	1.13731	0.889
+Lao People Democratic Republic	infant mortality	0.28257	1.10778	0.792
+Lao People Democratic Republic	job creation	-0.03200	1.30152	1.000
+Lao People Democratic Republic	Sanitation	0.04992	1.77034	0.994
+Lao People Democratic Republic	Gender	-0.03118	1.16395	0.995
+Lao People Democratic Republic	Refugee	0.00452	1.48578	1.000
+Lao People Democratic Republic	Technological development	0.15992	1.20722	0.977
+Lao People Democratic Republic	Malnutrition	0.18180	1.38603	0.928
+Lao People Democratic Republic	small and medium enterprise	0.46495	2.69603	0.914
+Lao People Democratic Republic	school completion	2.11399	0.10361	0.649
+Lao People Democratic Republic	Human rights	-0.04142	0.70992	0.995
+Lao People Democratic Republic	Homicides	-1.10014	0.05096	0.763
+Lao People Democratic Republic	Microenterprise	0.93084	1.82784	0.681
+Lao People Democratic Republic	Poverty reduction	0.22119	1.44883	0.887
+Lao People Democratic Republic	civil war	0.02807	0.53665	1.000
+Lao People Democratic Republic	economic growth	0.04805	0.70643	0.994
+Lao People Democratic Republic	Agriculture	0.08144	1.27320	0.957
+Costa Rica	rural development	0.39750	1.89904	0.868
+Costa Rica	Electricity	0.14259	0.92701	0.964
+Costa Rica	climate change	0.10273	1.14732	0.971
+Costa Rica	Hospital	-0.36917	0.67873	0.863
+Costa Rica	Banking system	0.22823	0.99310	0.984
+Costa Rica	HIV/AIDS	-0.03135	1.25595	0.999
+Costa Rica	Reconstruction	0.57151	1.43054	0.856
+Costa Rica	primary school	-0.33530	1.45231	0.944
+Costa Rica	Corruption	0.01390	0.62879	1.001
+Costa Rica	Transportation	0.10197	0.95367	0.989
+Costa Rica	democracy	-0.02673	0.72230	0.999
+Costa Rica	environmental sustainability	1.58280	0.84002	0.843
+Costa Rica	humanitarian assistance	0.00732	2.54583	1.000
+Costa Rica	criminal justice	-0.15843	0.93789	0.991
+Costa Rica	Manufacturing	0.07505	0.70934	0.992
+Costa Rica	Tourism	0.05703	1.21711	0.996
+Costa Rica	Housing	-0.00585	1.01189	1.000
+Costa Rica	natural disaster	0.27974	1.31190	0.946
+Costa Rica	infant mortality	0.12705	1.29270	0.984
+Costa Rica	job creation	1.60805	0.62405	0.790
+Costa Rica	Sanitation	-0.06460	1.79305	0.990
+Costa Rica	Gender	-0.05078	1.15090	0.992
+Costa Rica	Refugee	-0.14158	1.42092	0.982
+Costa Rica	Technological development	0.61471	1.41965	0.920
+Costa Rica	Malnutrition	0.08255	1.43109	0.990
+Costa Rica	small and medium enterprise	0.20984	3.39912	0.993
+Costa Rica	school completion	-0.07722	3.65163	0.998
+Costa Rica	Human rights	-0.04220	0.70194	0.995
+Costa Rica	Homicides	0.58514	0.47702	0.941
+Costa Rica	Microenterprise	1.02300	6.32001	0.888
+Costa Rica	Poverty reduction	0.29460	1.58914	0.916
+Costa Rica	civil war	0.41565	0.58981	0.948
+Costa Rica	economic growth	0.15325	0.74045	0.962
+Costa Rica	Agriculture	0.08646	1.28172	0.976
+Ivory Coast	rural development	0.15111	1.95790	0.951
+Ivory Coast	Electricity	0.01441	0.92737	1.000
+Ivory Coast	climate change	-0.08608	1.03801	0.961
+Ivory Coast	Hospital	-0.05410	0.83358	0.997
+Ivory Coast	Banking system	0.01013	0.78233	1.000
+Ivory Coast	HIV/AIDS	0.06638	1.26982	0.988
+Ivory Coast	Reconstruction	0.01616	1.36726	0.999
+Ivory Coast	primary school	0.60354	1.75907	0.572
+Ivory Coast	Corruption	0.02491	0.67920	0.997
+Ivory Coast	Transportation	-0.09634	0.89162	0.962
+Ivory Coast	democracy	-0.06673	0.65770	0.982
+Ivory Coast	environmental sustainability	-0.06918	1.98165	0.997
+Ivory Coast	humanitarian assistance	0.37357	3.20496	0.875
+Ivory Coast	criminal justice	-0.03173	0.93109	0.999
+Ivory Coast	Manufacturing	-0.18528	0.52627	0.942
+Ivory Coast	Tourism	0.02371	1.20177	0.998
+Ivory Coast	Housing	-0.01298	0.95345	0.998
+Ivory Coast	natural disaster	0.23033	1.40693	0.877
+Ivory Coast	infant mortality	0.18574	1.30137	0.896
+Ivory Coast	job creation	-0.43851	0.62700	0.948
+Ivory Coast	Sanitation	-0.00090	1.69523	1.000
+Ivory Coast	Gender	0.00956	1.16362	1.000
+Ivory Coast	Refugee	0.24949	1.90156	0.946
+Ivory Coast	Technological development	0.05688	1.23651	0.997
+Ivory Coast	Malnutrition	0.23991	1.73096	0.873
+Ivory Coast	small and medium enterprise	0.03731	2.70136	0.997
+Ivory Coast	school completion	0.14807	3.72811	0.994
+Ivory Coast	Human rights	0.04437	0.77646	0.996
+Ivory Coast	Homicides	0.07283	0.50554	0.997
+Ivory Coast	Microenterprise	1.12721	2.14140	0.699
+Ivory Coast	Poverty reduction	0.04105	1.46913	0.993
+Ivory Coast	civil war	0.30865	0.72535	0.858
+Ivory Coast	economic growth	-0.02813	0.68931	0.998
+Ivory Coast	Agriculture	0.00662	1.29894	0.999
+Nigeria	rural development	-0.00970	1.79367	1.000
+Nigeria	Electricity	0.24572	0.88219	0.952
+Nigeria	climate change	0.15369	1.09986	0.973
+Nigeria	Hospital	-0.11934	0.88690	0.986
+Nigeria	Banking system	0.16694	0.94314	0.996
+Nigeria	HIV/AIDS	0.25081	1.24322	0.947
+Nigeria	Reconstruction	-0.23566	1.39315	0.945
+Nigeria	primary school	-0.15052	1.76501	0.993
+Nigeria	Corruption	0.12058	0.64866	0.981
+Nigeria	Transportation	0.00330	0.92338	1.000
+Nigeria	democracy	0.00511	0.74535	1.000
+Nigeria	environmental sustainability	-0.09201	2.27532	0.998
+Nigeria	humanitarian assistance	0.01910	2.53742	1.000
+Nigeria	criminal justice	-0.01483	1.04695	1.000
+Nigeria	Manufacturing	0.18170	0.69172	0.984
+Nigeria	Tourism	-0.04241	1.18972	0.999
+Nigeria	Housing	0.17576	1.00958	0.979
+Nigeria	natural disaster	-0.00434	1.24040	1.000
+Nigeria	infant mortality	0.30301	1.29075	0.966
+Nigeria	job creation	0.00349	1.68754	1.000
+Nigeria	Sanitation	-0.08366	1.83384	0.996
+Nigeria	Gender	-0.03146	1.16537	0.997
+Nigeria	Refugee	-0.00956	1.48826	1.000
+Nigeria	Technological development	-0.13450	1.43245	0.997
+Nigeria	Malnutrition	0.36354	1.43608	0.943
+Nigeria	small and medium enterprise	0.51990	3.03052	0.973
+Nigeria	school completion	0.45502	3.49752	0.991
+Nigeria	Human rights	-0.00842	0.70783	1.000
+Nigeria	Homicides	0.96198	0.91863	0.985
+Nigeria	Microenterprise	-0.56084	5.16320	0.589
+Nigeria	Poverty reduction	-0.24499	1.44863	0.935
+Nigeria	civil war	0.15176	0.55249	0.986
+Nigeria	economic growth	0.34838	0.74820	0.959
+Nigeria	Agriculture	-0.02638	1.23944	0.999
+Ecuador	rural development	0.46734	1.86689	0.820
+Ecuador	Electricity	0.18981	0.91976	0.960
+Ecuador	climate change	0.05966	1.11827	0.994
+Ecuador	Hospital	-0.43077	0.72377	0.851
+Ecuador	Banking system	0.26525	0.96617	0.985
+Ecuador	HIV/AIDS	0.03519	1.29727	0.999
+Ecuador	Reconstruction	0.25614	1.56185	0.960
+Ecuador	primary school	-0.27447	1.71433	0.984
+Ecuador	Corruption	-0.00661	0.65072	1.000
+Ecuador	Transportation	0.04529	0.94532	0.998
+Ecuador	democracy	0.05446	0.74380	0.997
+Ecuador	environmental sustainability	0.02554	2.26398	1.000
+Ecuador	humanitarian assistance	0.04544	2.56329	0.999
+Ecuador	criminal justice	0.29258	1.08508	0.985
+Ecuador	Manufacturing	-0.00853	0.70009	1.000
+Ecuador	Tourism	-0.10068	1.16435	0.992
+Ecuador	Housing	0.01868	1.01109	1.000
+Ecuador	natural disaster	0.36153	1.31299	0.921
+Ecuador	infant mortality	0.24204	1.27289	0.960
+Ecuador	job creation	0.06286	1.67160	0.999
+Ecuador	Sanitation	0.05924	1.85483	0.995
+Ecuador	Gender	-0.00083	1.16410	1.000
+Ecuador	Refugee	-0.13554	1.44492	0.986
+Ecuador	Technological development	0.77199	1.27523	0.878
+Ecuador	Malnutrition	0.18956	1.50667	0.973
+Ecuador	small and medium enterprise	0.26881	3.36487	0.990
+Ecuador	school completion	-0.01313	3.67348	1.000
+Ecuador	Human rights	0.01281	0.71142	1.000
+Ecuador	Homicides	0.41221	0.49388	0.968
+Ecuador	Microenterprise	1.14714	4.81688	0.746
+Ecuador	Poverty reduction	0.20086	1.57648	0.969
+Ecuador	civil war	0.11224	0.54703	0.991
+Ecuador	economic growth	0.82148	0.56642	0.736
+Ecuador	Agriculture	0.06661	1.25808	0.989
+Belarus	rural development	0.09838	1.85885	0.979
+Belarus	Electricity	0.08294	0.91432	0.982
+Belarus	climate change	-0.02541	1.09775	0.998
+Belarus	Hospital	-0.22099	0.75434	0.927
+Belarus	Banking system	0.23715	0.93549	0.969
+Belarus	HIV/AIDS	-0.04889	1.18467	0.992
+Belarus	Reconstruction	0.35615	1.61108	0.896
+Belarus	primary school	-0.22287	1.48926	0.973
+Belarus	Corruption	0.18958	0.70235	0.891
+Belarus	Transportation	-0.04279	0.87256	0.995
+Belarus	democracy	0.14774	0.80114	0.975
+Belarus	environmental sustainability	-0.26287	1.72745	0.974
+Belarus	humanitarian assistance	0.17446	2.75230	0.967
+Belarus	criminal justice	0.28952	1.12615	0.972
+Belarus	Manufacturing	-0.00040	0.65368	1.000
+Belarus	Tourism	0.02593	1.17561	0.997
+Belarus	Housing	-0.07085	0.95323	0.988
+Belarus	natural disaster	0.16315	1.24321	0.953
+Belarus	infant mortality	0.16185	1.22645	0.947
+Belarus	job creation	0.19570	1.73805	0.989
+Belarus	Sanitation	-0.11690	1.64463	0.959
+Belarus	Gender	-0.00009	1.17735	1.000
+Belarus	Refugee	-0.05054	1.42957	0.998
+Belarus	Technological development	0.21534	1.38531	0.971
+Belarus	Malnutrition	0.04453	1.36876	0.995
+Belarus	small and medium enterprise	0.18447	3.33315	0.986
+Belarus	school completion	0.19652	3.72455	0.993
+Belarus	Human rights	0.16995	0.78481	0.967
+Belarus	Homicides	0.33389	0.54044	0.973
+Belarus	Microenterprise	-0.30531	5.23264	0.962
+Belarus	Poverty reduction	0.13037	1.65185	0.974
+Belarus	civil war	0.18108	0.57287	0.956
+Belarus	economic growth	0.11806	0.73397	0.974
+Belarus	Agriculture	-0.00717	1.25122	1.000
+Iran	rural development	-0.04945	1.68959	0.990
+Iran	Electricity	0.04529	0.93039	0.992
+Iran	climate change	0.02389	1.12792	1.000
+Iran	Hospital	-0.12395	0.76480	0.973
+Iran	Banking system	0.13160	0.97554	0.993
+Iran	HIV/AIDS	0.01235	1.25974	1.000
+Iran	Reconstruction	-0.01042	1.43004	1.000
+Iran	primary school	-0.22747	1.31075	0.956
+Iran	Corruption	0.23242	0.81434	0.877
+Iran	Transportation	-0.03091	0.89808	0.997
+Iran	democracy	0.33638	1.00554	0.893
+Iran	environmental sustainability	-0.17914	2.05838	0.982
+Iran	humanitarian assistance	0.11583	2.72967	0.987
+Iran	criminal justice	0.74158	1.66483	0.932
+Iran	Manufacturing	-0.01220	0.68588	1.000
+Iran	Tourism	0.09378	1.30463	0.990
+Iran	Housing	-0.03079	0.96027	0.996
+Iran	natural disaster	0.02634	1.19913	0.999
+Iran	infant mortality	-0.00733	1.28417	1.000
+Iran	job creation	1.26994	3.03128	0.894
+Iran	Sanitation	-0.10107	1.62808	0.953
+Iran	Gender	-0.05794	1.08034	0.966
+Iran	Refugee	0.31571	1.98330	0.965
+Iran	Technological development	-0.06556	1.34247	0.996
+Iran	Malnutrition	0.08683	1.56995	0.989
+Iran	small and medium enterprise	-0.04908	3.10376	0.998
+Iran	school completion	-0.32563	2.75965	0.966
+Iran	Human rights	0.60246	1.09762	0.749
+Iran	Homicides	-0.25604	0.80504	0.997
+Iran	Microenterprise	-0.44826	3.57557	0.730
+Iran	Poverty reduction	-0.15875	1.21981	0.935
+Iran	civil war	0.73982	0.98867	0.751
+Iran	economic growth	-0.01140	0.67010	1.001
+Iran	Agriculture	-0.06574	1.16201	0.970
+Algeria	rural development	0.04760	1.84233	0.996
+Algeria	Electricity	0.20067	0.97265	0.937
+Algeria	climate change	0.03359	1.13082	0.999
+Algeria	Hospital	-0.27330	0.72060	0.858
+Algeria	Banking system	0.22340	0.95062	0.976
+Algeria	HIV/AIDS	-0.08766	1.15527	0.983
+Algeria	Reconstruction	0.21119	1.56727	0.951
+Algeria	primary school	0.02971	1.81742	1.000
+Algeria	Corruption	0.19776	0.73441	0.884
+Algeria	Transportation	-0.09179	0.86295	0.971
+Algeria	democracy	-0.04321	0.73605	0.995
+Algeria	environmental sustainability	-0.36869	1.54205	0.917
+Algeria	humanitarian assistance	0.12853	2.72384	0.989
+Algeria	criminal justice	0.15330	1.12597	0.991
+Algeria	Manufacturing	-0.01054	0.65780	1.000
+Algeria	Tourism	0.66094	1.19981	0.904
+Algeria	Housing	-0.06691	0.95355	0.987
+Algeria	natural disaster	0.15445	1.23660	0.966
+Algeria	infant mortality	0.22426	1.32172	0.939
+Algeria	job creation	0.57958	1.99999	0.923
+Algeria	Sanitation	-0.04673	1.72011	0.992
+Algeria	Gender	-0.02881	1.15080	0.996
+Algeria	Refugee	0.05256	1.51730	0.999
+Algeria	Technological development	0.19462	1.52315	0.982
+Algeria	Malnutrition	0.09966	1.44335	0.980
+Algeria	small and medium enterprise	0.06449	3.40107	0.998
+Algeria	school completion	0.21867	3.74609	0.993
+Algeria	Human rights	0.06321	0.74993	0.992
+Algeria	Homicides	0.25196	0.54500	0.990
+Algeria	Microenterprise	-0.11778	5.10548	0.994
+Algeria	Poverty reduction	0.25888	1.69869	0.918
+Algeria	civil war	0.17957	0.59135	0.960
+Algeria	economic growth	0.12141	0.75162	0.981
+Algeria	Agriculture	0.04513	1.27766	0.992
+El Salvador	rural development	0.21831	1.73018	0.946
+El Salvador	Electricity	0.03051	0.86335	0.998
+El Salvador	climate change	-0.01716	1.11393	0.999
+El Salvador	Hospital	-0.31471	0.83431	0.931
+El Salvador	Banking system	0.17177	0.92728	0.992
+El Salvador	HIV/AIDS	0.59063	0.96348	0.957
+El Salvador	Reconstruction	0.41477	1.29946	0.900
+El Salvador	primary school	-0.33959	1.59245	0.964
+El Salvador	Corruption	-0.01332	0.63835	1.000
+El Salvador	Transportation	-0.05406	0.93062	0.998
+El Salvador	democracy	-0.07066	0.73926	0.994
+El Salvador	environmental sustainability	1.21657	0.74652	0.942
+El Salvador	humanitarian assistance	0.13788	2.41690	0.988
+El Salvador	criminal justice	0.23310	0.99369	0.985
+El Salvador	Manufacturing	-0.10083	0.66718	0.985
+El Salvador	Tourism	0.07317	1.18732	0.995
+El Salvador	Housing	-0.02749	1.00440	0.999
+El Salvador	natural disaster	0.36257	1.20321	0.900
+El Salvador	infant mortality	0.23073	1.29950	0.957
+El Salvador	job creation	1.37674	0.42695	0.893
+El Salvador	Sanitation	0.02382	1.84333	0.999
+El Salvador	Gender	-0.01951	1.15645	0.999
+El Salvador	Refugee	-0.03205	1.49350	1.000
+El Salvador	Technological development	0.27579	1.37994	0.978
+El Salvador	Malnutrition	1.99803	0.12261	0.213
+El Salvador	small and medium enterprise	0.22204	3.15936	0.986
+El Salvador	school completion	0.09636	3.67376	0.999
+El Salvador	Human rights	-0.00635	0.71712	1.000
+El Salvador	Homicides	1.24650	0.50011	0.925
+El Salvador	Microenterprise	1.90928	1.04116	0.556
+El Salvador	Poverty reduction	0.35559	1.44262	0.899
+El Salvador	civil war	0.44520	0.51736	0.927
+El Salvador	economic growth	0.06888	0.69559	0.995
+El Salvador	Agriculture	0.10135	1.23485	0.980
+Chile	rural development	0.22214	1.80458	0.967
+Chile	Electricity	0.06144	0.90613	0.996
+Chile	climate change	0.01342	1.11590	1.000
+Chile	Hospital	0.62544	0.83964	0.970
+Chile	Banking system	0.32239	0.99149	0.983
+Chile	HIV/AIDS	-0.14745	1.18902	0.979
+Chile	Reconstruction	0.20143	1.46753	0.978
+Chile	primary school	-0.30501	1.60567	0.986
+Chile	Corruption	-0.08237	0.62642	0.990
+Chile	Transportation	0.21316	0.94785	0.965
+Chile	democracy	-0.01831	0.73628	0.999
+Chile	environmental sustainability	0.27703	2.36698	0.991
+Chile	humanitarian assistance	-0.24744	2.32321	0.983
+Chile	criminal justice	0.08036	1.01610	0.999
+Chile	Manufacturing	0.14997	0.70698	0.988
+Chile	Tourism	-0.00568	1.18065	1.000
+Chile	Housing	0.19763	1.03172	0.977
+Chile	natural disaster	0.20073	1.28795	0.985
+Chile	infant mortality	0.04742	1.30552	0.999
+Chile	job creation	0.12862	1.69149	0.998
+Chile	Sanitation	-0.22074	1.74644	0.942
+Chile	Gender	-0.08994	1.15890	0.983
+Chile	Refugee	-0.31415	1.34449	0.957
+Chile	Technological development	0.74757	1.34432	0.907
+Chile	Malnutrition	-0.02205	1.40740	1.000
+Chile	small and medium enterprise	0.23179	3.13617	0.994
+Chile	school completion	-0.18326	3.50649	0.996
+Chile	Human rights	-0.11752	0.69233	0.987
+Chile	Homicides	0.61204	0.95255	0.985
+Chile	Microenterprise	0.99412	7.33055	0.915
+Chile	Poverty reduction	0.21061	1.55530	0.976
+Chile	civil war	0.02845	0.54661	1.000
+Chile	economic growth	0.83138	0.64637	0.646
+Chile	Agriculture	0.05891	1.25823	0.995
+Thailand	rural development	0.06810	1.87148	0.997
+Thailand	Electricity	0.21415	0.93498	0.954
+Thailand	climate change	0.11192	1.13224	0.982
+Thailand	Hospital	-0.48141	0.64158	0.836
+Thailand	Banking system	-0.12483	0.98135	0.998
+Thailand	HIV/AIDS	0.10771	1.30892	0.992
+Thailand	Reconstruction	0.07114	1.51854	0.997
+Thailand	primary school	-0.10754	1.71320	0.998
+Thailand	Corruption	0.08488	0.65407	0.988
+Thailand	Transportation	-0.16813	0.91212	0.978
+Thailand	democracy	0.01187	0.74197	1.000
+Thailand	environmental sustainability	0.23579	2.31836	0.994
+Thailand	humanitarian assistance	-0.00729	2.52105	1.000
+Thailand	criminal justice	-0.04411	0.99979	0.999
+Thailand	Manufacturing	-0.03968	0.68734	0.999
+Thailand	Tourism	0.05275	1.20019	0.998
+Thailand	Housing	-0.05447	0.99335	0.996
+Thailand	natural disaster	0.20249	1.20136	0.982
+Thailand	infant mortality	0.34465	1.35379	0.967
+Thailand	job creation	-0.08506	1.59248	0.999
+Thailand	Sanitation	-0.00999	1.83155	1.000
+Thailand	Gender	-0.04010	1.16250	1.000
+Thailand	Refugee	0.15244	1.55329	0.990
+Thailand	Technological development	-0.15383	1.37156	0.997
+Thailand	Malnutrition	0.19268	1.43052	0.974
+Thailand	small and medium enterprise	-0.20211	3.11975	0.992
+Thailand	school completion	-0.30985	3.49355	0.993
+Thailand	Human rights	0.06246	0.72472	0.997
+Thailand	Homicides	-0.07657	0.96416	1.000
+Thailand	Microenterprise	-0.27939	6.32352	0.983
+Thailand	Poverty reduction	-0.04122	1.47653	0.998
+Thailand	civil war	0.27387	0.56093	0.958
+Thailand	economic growth	0.08343	0.75501	0.995
+Thailand	Agriculture	-0.04134	1.24711	0.998
+Haiti	rural development	-0.18703	1.88460	0.959
+Haiti	Electricity	-0.18337	0.89355	0.956
+Haiti	climate change	-0.07092	1.12527	0.990
+Haiti	Hospital	0.58049	0.63685	0.822
+Haiti	Banking system	-0.45820	0.88863	0.962
+Haiti	HIV/AIDS	0.38753	1.13374	0.897
+Haiti	Reconstruction	-0.02961	1.51296	0.999
+Haiti	primary school	-0.41964	1.72905	0.980
+Haiti	Corruption	-0.23095	0.65323	0.875
+Haiti	Transportation	0.03378	0.91640	0.999
+Haiti	democracy	-0.02305	0.74357	0.999
+Haiti	environmental sustainability	0.06579	2.18816	0.999
+Haiti	humanitarian assistance	0.07757	2.37616	0.997
+Haiti	criminal justice	0.09844	1.04034	0.997
+Haiti	Manufacturing	-0.19705	0.69528	0.969
+Haiti	Tourism	-0.22780	1.21357	0.945
+Haiti	Housing	0.24533	0.91065	0.931
+Haiti	natural disaster	0.29988	1.11453	0.934
+Haiti	infant mortality	-0.10316	1.33697	0.992
+Haiti	job creation	-0.35279	1.69105	0.969
+Haiti	Sanitation	0.10302	1.80774	0.985
+Haiti	Gender	-0.07519	1.17357	0.981
+Haiti	Refugee	0.35220	1.30946	0.943
+Haiti	Technological development	-0.36872	1.45693	0.938
+Haiti	Malnutrition	1.62937	0.24619	0.696
+Haiti	small and medium enterprise	-0.42880	2.87890	0.927
+Haiti	school completion	0.19079	3.45836	0.997
+Haiti	Human rights	0.04190	0.70416	0.998
+Haiti	Homicides	0.15108	0.93128	0.999
+Haiti	Microenterprise	0.89801	4.04020	0.857
+Haiti	Poverty reduction	-0.14543	1.54133	0.983
+Haiti	civil war	-0.04684	0.53892	0.998
+Haiti	economic growth	-0.21711	0.71805	0.939
+Haiti	Agriculture	-0.14184	1.27505	0.952
+Iraq	rural development	-0.12400	1.54205	0.954
+Iraq	Electricity	0.02237	0.90350	0.999
+Iraq	climate change	0.00538	1.12842	1.000
+Iraq	Hospital	-0.11979	0.79768	0.995
+Iraq	Banking system	0.10899	0.92566	0.995
+Iraq	HIV/AIDS	-0.00955	1.22960	1.000
+Iraq	Reconstruction	-0.13801	1.27768	0.978
+Iraq	primary school	0.65714	2.17628	0.944
+Iraq	Corruption	0.05934	0.66374	0.988
+Iraq	Transportation	-0.04429	0.90105	0.996
+Iraq	democracy	0.21342	0.86865	0.938
+Iraq	environmental sustainability	-0.27089	1.76037	0.942
+Iraq	humanitarian assistance	0.52827	2.94205	0.889
+Iraq	criminal justice	0.54295	1.33089	0.922
+Iraq	Manufacturing	-0.04786	0.65826	0.998
+Iraq	Tourism	-0.09584	1.08495	0.983
+Iraq	Housing	0.13189	1.09226	0.982
+Iraq	natural disaster	0.07407	1.22201	0.994
+Iraq	infant mortality	0.02386	1.29173	0.999
+Iraq	job creation	0.36023	2.00173	0.975
+Iraq	Sanitation	-0.13371	1.63824	0.954
+Iraq	Gender	-0.04388	1.13447	0.991
+Iraq	Refugee	0.62182	1.95720	0.790
+Iraq	Technological development	-0.09826	1.27944	0.997
+Iraq	Malnutrition	0.05332	1.41936	0.993
+Iraq	small and medium enterprise	-0.08774	3.05396	0.997
+Iraq	school completion	-0.42671	2.70668	0.978
+Iraq	Human rights	0.44388	0.89844	0.776
+Iraq	Homicides	0.20103	1.06482	0.999
+Iraq	Microenterprise	-0.57762	3.69086	0.542
+Iraq	Poverty reduction	-0.25345	1.20539	0.843
+Iraq	civil war	0.40480	0.68566	0.841
+Iraq	economic growth	-0.05633	0.66364	0.991
+Iraq	Agriculture	-0.14019	1.09863	0.894
+Sierra Leone	rural development	0.05214	1.80192	0.997
+Sierra Leone	Electricity	0.02953	0.89166	0.998
+Sierra Leone	climate change	0.03409	1.11442	0.998
+Sierra Leone	Hospital	-0.47425	0.62126	0.762
+Sierra Leone	Banking system	0.15647	0.98596	0.992
+Sierra Leone	HIV/AIDS	0.05542	1.28227	0.996
+Sierra Leone	Reconstruction	0.15101	1.47314	0.978
+Sierra Leone	primary school	-0.07548	1.73305	0.999
+Sierra Leone	Corruption	0.19450	0.68170	0.931
+Sierra Leone	Transportation	-0.16478	0.89305	0.929
+Sierra Leone	democracy	-0.06465	0.73041	0.994
+Sierra Leone	environmental sustainability	-0.19276	2.09105	0.988
+Sierra Leone	humanitarian assistance	0.71471	2.51145	0.884
+Sierra Leone	criminal justice	-0.07722	0.98010	0.998
+Sierra Leone	Manufacturing	-0.16521	0.63956	0.963
+Sierra Leone	Tourism	-0.00595	1.19121	1.000
+Sierra Leone	Housing	-0.09182	0.96324	0.988
+Sierra Leone	natural disaster	0.23177	1.30319	0.965
+Sierra Leone	infant mortality	0.32193	1.34089	0.926
+Sierra Leone	job creation	-0.25259	1.45768	0.980
+Sierra Leone	Sanitation	0.08746	1.83631	0.990
+Sierra Leone	Gender	0.04045	1.18303	0.996
+Sierra Leone	Refugee	0.33107	1.55023	0.971
+Sierra Leone	Technological development	-0.00408	1.43594	1.000
+Sierra Leone	Malnutrition	0.48633	1.51782	0.845
+Sierra Leone	small and medium enterprise	0.19546	3.39945	0.991
+Sierra Leone	school completion	0.21765	3.80740	0.995
+Sierra Leone	Human rights	0.13550	0.73334	0.981
+Sierra Leone	Homicides	-0.22572	0.49074	0.989
+Sierra Leone	Microenterprise	-0.17557	5.26822	0.991
+Sierra Leone	Poverty reduction	0.28865	1.58170	0.932
+Sierra Leone	civil war	0.27555	0.57572	0.944
+Sierra Leone	economic growth	0.01066	0.71188	1.000
+Sierra Leone	Agriculture	0.06729	1.25817	0.992
+Georgia	rural development	-0.00592	1.81062	1.000
+Georgia	Electricity	0.06392	0.91172	0.992
+Georgia	climate change	0.01007	1.10537	1.000
+Georgia	Hospital	-0.59032	0.43383	0.763
+Georgia	Banking system	0.04871	0.86245	0.999
+Georgia	HIV/AIDS	0.01015	1.25355	1.000
+Georgia	Reconstruction	0.00953	1.44888	1.000
+Georgia	primary school	-0.12505	1.82227	0.995
+Georgia	Corruption	0.04501	0.65151	0.995
+Georgia	Transportation	0.08609	0.95075	0.993
+Georgia	democracy	0.33817	0.75864	0.858
+Georgia	environmental sustainability	-0.42761	1.67966	0.924
+Georgia	humanitarian assistance	0.01971	2.54121	1.000
+Georgia	criminal justice	0.53458	1.04027	0.894
+Georgia	Manufacturing	0.01664	0.68743	1.000
+Georgia	Tourism	-0.05313	1.15725	0.993
+Georgia	Housing	0.14542	1.01805	0.969
+Georgia	natural disaster	0.08309	1.18011	0.991
+Georgia	infant mortality	-0.07282	1.18041	0.992
+Georgia	job creation	0.06548	1.63719	0.999
+Georgia	Sanitation	-0.07056	1.78143	0.987
+Georgia	Gender	-0.06307	1.14476	0.983
+Georgia	Refugee	0.10195	1.51639	0.992
+Georgia	Technological development	-0.10910	1.39844	0.993
+Georgia	Malnutrition	0.01547	1.41500	1.000
+Georgia	small and medium enterprise	-0.11320	3.15177	0.995
+Georgia	school completion	-0.31793	3.38052	0.993
+Georgia	Human rights	0.21364	0.75383	0.942
+Georgia	Homicides	-0.35181	0.44338	0.978
+Georgia	Microenterprise	-0.25698	7.16722	0.991
+Georgia	Poverty reduction	-0.12264	1.47408	0.967
+Georgia	civil war	0.12385	0.54970	0.979
+Georgia	economic growth	-0.09698	0.67201	0.980
+Georgia	Agriculture	-0.06052	1.21822	0.984
+Gambia	rural development	0.21092	1.80055	0.948
+Gambia	Electricity	0.15737	0.91355	0.959
+Gambia	climate change	0.11406	1.12165	0.970
+Gambia	Hospital	-0.27949	0.81758	0.897
+Gambia	Banking system	0.26024	0.79920	0.980
+Gambia	HIV/AIDS	0.06601	1.25794	0.994
+Gambia	Reconstruction	0.12046	1.42438	0.990
+Gambia	primary school	-0.21925	1.58429	0.990
+Gambia	Corruption	0.14948	0.64009	0.949
+Gambia	Transportation	-0.08903	0.87259	0.984
+Gambia	democracy	-0.07685	0.72155	0.986
+Gambia	environmental sustainability	-0.11678	2.05151	0.996
+Gambia	humanitarian assistance	0.23647	2.59861	0.966
+Gambia	criminal justice	-0.21570	0.92319	0.980
+Gambia	Manufacturing	-0.04754	0.67770	0.996
+Gambia	Tourism	0.07125	1.18130	0.992
+Gambia	Housing	-0.08777	0.97731	0.985
+Gambia	natural disaster	0.22278	1.17868	0.943
+Gambia	infant mortality	0.49382	1.18438	0.811
+Gambia	job creation	0.20971	1.59530	0.992
+Gambia	Sanitation	-0.01940	1.83659	0.999
+Gambia	Gender	0.01008	1.17149	0.999
+Gambia	Refugee	-0.09186	1.43665	0.994
+Gambia	Technological development	0.21214	1.44404	0.986
+Gambia	Malnutrition	0.38625	1.38769	0.862
+Gambia	small and medium enterprise	0.42819	2.68118	0.924
+Gambia	school completion	1.05597	2.40538	0.922
+Gambia	Human rights	-0.03323	0.70018	0.999
+Gambia	Homicides	0.32183	0.48161	0.986
+Gambia	Microenterprise	-1.02282	1.15439	0.715
+Gambia	Poverty reduction	0.57815	1.35144	0.846
+Gambia	civil war	0.22252	0.55199	0.955
+Gambia	economic growth	0.22552	0.70786	0.932
+Gambia	Agriculture	0.07259	1.28353	0.985
+Philippines	rural development	0.09377	1.81194	0.994
+Philippines	Electricity	0.14836	0.89816	0.980
+Philippines	climate change	0.07816	1.10548	0.993
+Philippines	Hospital	-0.45300	0.78145	0.991
+Philippines	Banking system	-0.75307	0.95270	0.898
+Philippines	HIV/AIDS	0.45470	1.21476	0.957
+Philippines	Reconstruction	-0.18206	1.43174	0.977
+Philippines	primary school	0.12595	1.86656	0.999
+Philippines	Corruption	-0.15720	0.64485	0.964
+Philippines	Transportation	0.07531	0.98917	0.998
+Philippines	democracy	-0.12902	0.73395	0.986
+Philippines	environmental sustainability	0.40994	2.14259	0.988
+Philippines	humanitarian assistance	0.10802	2.51615	0.996
+Philippines	criminal justice	0.01163	1.00542	1.000
+Philippines	Manufacturing	0.07333	0.68940	0.996
+Philippines	Tourism	0.14613	1.18176	0.988
+Philippines	Housing	0.24730	0.98603	0.954
+Philippines	natural disaster	-0.13578	1.24309	0.994
+Philippines	infant mortality	0.08539	1.23894	0.998
+Philippines	job creation	-0.17701	1.63388	0.995
+Philippines	Sanitation	0.03885	1.80658	0.999
+Philippines	Gender	0.03258	1.16315	0.997
+Philippines	Refugee	-0.04318	1.46111	0.999
+Philippines	Technological development	-0.11325	1.43944	0.998
+Philippines	Malnutrition	1.77993	0.66124	0.812
+Philippines	small and medium enterprise	-0.09214	3.27536	0.999
+Philippines	school completion	-0.29797	3.63286	0.995
+Philippines	Human rights	-0.10322	0.71292	0.990
+Philippines	Homicides	-0.47958	0.48132	0.935
+Philippines	Microenterprise	-0.39808	7.52894	0.997
+Philippines	Poverty reduction	-0.23968	1.50470	0.961
+Philippines	civil war	-0.04321	0.53544	0.999
+Philippines	economic growth	-0.00697	0.73900	1.000
+Philippines	Agriculture	-0.04349	1.24240	0.999
+Moldova	rural development	0.25449	1.80559	0.930
+Moldova	Electricity	0.08300	0.88515	0.982
+Moldova	climate change	0.01104	1.09843	1.000
+Moldova	Hospital	-0.24672	0.80958	0.914
+Moldova	Banking system	0.19838	0.86246	0.982
+Moldova	HIV/AIDS	0.08263	1.28884	0.986
+Moldova	Reconstruction	0.54569	1.27381	0.803
+Moldova	primary school	-0.06358	1.73250	0.998
+Moldova	Corruption	0.17699	0.66414	0.916
+Moldova	Transportation	-0.07028	0.90452	0.987
+Moldova	democracy	0.11889	0.76767	0.982
+Moldova	environmental sustainability	-0.41738	1.56691	0.955
+Moldova	humanitarian assistance	0.17525	2.60002	0.973
+Moldova	criminal justice	0.36805	0.97321	0.967
+Moldova	Manufacturing	-0.04493	0.63835	0.997
+Moldova	Tourism	0.01101	1.19080	1.000
+Moldova	Housing	-0.07637	0.96991	0.986
+Moldova	natural disaster	0.14820	1.18888	0.958
+Moldova	infant mortality	0.19239	1.24200	0.942
+Moldova	job creation	0.18227	1.62408	0.991
+Moldova	Sanitation	-0.10554	1.75134	0.970
+Moldova	Gender	0.05622	1.19894	0.984
+Moldova	Refugee	-0.06991	1.45832	0.996
+Moldova	Technological development	0.24127	1.45071	0.969
+Moldova	Malnutrition	0.08420	1.38321	0.986
+Moldova	small and medium enterprise	0.33999	3.11438	0.955
+Moldova	school completion	0.36701	3.60364	0.979
+Moldova	Human rights	0.12459	0.73665	0.980
+Moldova	Homicides	0.24339	0.49439	0.987
+Moldova	Microenterprise	-0.41725	5.17263	0.944
+Moldova	Poverty reduction	0.17327	1.59190	0.956
+Moldova	civil war	0.12413	0.54365	0.980
+Moldova	economic growth	0.09572	0.70202	0.982
+Moldova	Agriculture	-0.00461	1.24562	1.000
+Morocco	rural development	0.23147	1.95468	0.945
+Morocco	Electricity	0.36419	0.98253	0.876
+Morocco	climate change	0.07339	1.14190	0.987
+Morocco	Hospital	-0.20282	0.79807	0.922
+Morocco	Banking system	0.57468	1.01157	0.942
+Morocco	HIV/AIDS	-0.06958	1.21666	0.984
+Morocco	Reconstruction	0.32857	1.57809	0.952
+Morocco	primary school	0.12152	1.85681	0.996
+Morocco	Corruption	0.21283	0.69973	0.891
+Morocco	Transportation	-0.04871	0.90181	0.996
+Morocco	democracy	-0.01996	0.73029	1.000
+Morocco	environmental sustainability	-0.16829	2.06340	0.988
+Morocco	humanitarian assistance	0.23313	2.81747	0.971
+Morocco	criminal justice	0.02537	1.07177	1.000
+Morocco	Manufacturing	0.01591	0.68829	1.000
+Morocco	Tourism	0.14167	1.25403	0.975
+Morocco	Housing	-0.06761	0.97178	0.990
+Morocco	natural disaster	0.13344	1.32383	0.986
+Morocco	infant mortality	0.37898	1.40653	0.906
+Morocco	job creation	2.30453	0.72493	0.336
+Morocco	Sanitation	-0.18082	1.61938	0.927
+Morocco	Gender	-0.02362	1.13108	0.998
+Morocco	Refugee	-0.00264	1.45244	1.000
+Morocco	Technological development	0.85272	1.48070	0.903
+Morocco	Malnutrition	0.21294	1.58082	0.964
+Morocco	small and medium enterprise	0.39143	3.69840	0.977
+Morocco	school completion	0.26624	3.96115	0.995
+Morocco	Human rights	0.07705	0.72401	0.992
+Morocco	Homicides	0.17630	0.53559	0.996
+Morocco	Microenterprise	-0.74588	1.15700	0.622
+Morocco	Poverty reduction	0.31817	1.67263	0.949
+Morocco	civil war	0.21471	0.58366	0.958
+Morocco	economic growth	0.21423	0.75883	0.945
+Morocco	Agriculture	0.00816	1.25999	1.001
+Croatia	rural development	0.12269	1.82168	0.979
+Croatia	Electricity	0.14107	0.94333	0.966
+Croatia	climate change	0.02506	1.12327	0.999
+Croatia	Hospital	-0.28177	0.69152	0.902
+Croatia	Banking system	0.55280	0.90889	0.918
+Croatia	HIV/AIDS	-0.06990	1.17282	0.987
+Croatia	Reconstruction	0.64281	1.39105	0.875
+Croatia	primary school	-0.16107	1.57536	0.988
+Croatia	Corruption	0.16778	0.69726	0.920
+Croatia	Transportation	-0.03640	0.90861	0.997
+Croatia	democracy	0.08728	0.78470	0.990
+Croatia	environmental sustainability	-0.14568	2.05736	0.993
+Croatia	humanitarian assistance	0.18318	2.59485	0.970
+Croatia	criminal justice	0.55067	1.10298	0.935
+Croatia	Manufacturing	-0.02666	0.66552	1.000
+Croatia	Tourism	-0.00895	1.17653	1.000
+Croatia	Housing	-0.06051	0.96312	0.991
+Croatia	natural disaster	0.18529	1.25514	0.946
+Croatia	infant mortality	0.18617	1.32353	0.947
+Croatia	job creation	0.28727	1.75636	0.983
+Croatia	Sanitation	-0.12099	1.67829	0.956
+Croatia	Gender	-0.00784	1.15251	1.000
+Croatia	Refugee	-0.02712	1.42248	0.999
+Croatia	Technological development	0.44334	1.54620	0.939
+Croatia	Malnutrition	0.06841	1.40811	0.991
+Croatia	small and medium enterprise	0.21522	3.34905	0.981
+Croatia	school completion	0.16503	3.90627	0.995
+Croatia	Human rights	0.11113	0.75811	0.983
+Croatia	Homicides	0.29901	0.53029	0.980
+Croatia	Microenterprise	-0.36664	5.05103	0.953
+Croatia	Poverty reduction	0.09052	1.57641	0.989
+Croatia	civil war	0.33089	0.59797	0.891
+Croatia	economic growth	0.18729	0.74669	0.947
+Croatia	Agriculture	-0.01535	1.24153	0.999
+Guinea-Bissau	rural development	0.11600	1.80724	0.971
+Guinea-Bissau	Electricity	0.10644	0.92720	0.972
+Guinea-Bissau	climate change	0.04553	1.13977	0.994
+Guinea-Bissau	Hospital	-0.17722	0.80526	0.940
+Guinea-Bissau	Banking system	0.08222	0.86859	0.995
+Guinea-Bissau	HIV/AIDS	0.06356	1.27097	0.991
+Guinea-Bissau	Reconstruction	0.15231	1.49994	0.974
+Guinea-Bissau	primary school	-0.08074	1.64213	0.998
+Guinea-Bissau	Corruption	0.12031	0.67370	0.949
+Guinea-Bissau	Transportation	-0.10820	0.84747	0.951
+Guinea-Bissau	democracy	-0.05637	0.71465	0.990
+Guinea-Bissau	environmental sustainability	-0.14014	1.98952	0.991
+Guinea-Bissau	humanitarian assistance	0.19479	2.59228	0.956
+Guinea-Bissau	criminal justice	-0.16461	0.88138	0.985
+Guinea-Bissau	Manufacturing	-0.09933	0.65748	0.972
+Guinea-Bissau	Tourism	0.05998	1.18809	0.992
+Guinea-Bissau	Housing	-0.09493	0.93680	0.969
+Guinea-Bissau	natural disaster	0.23862	1.25025	0.909
+Guinea-Bissau	infant mortality	0.34553	1.31592	0.834
+Guinea-Bissau	job creation	-0.04416	1.55952	0.999
+Guinea-Bissau	Sanitation	-0.00190	1.83144	1.000
+Guinea-Bissau	Gender	0.01987	1.17142	0.998
+Guinea-Bissau	Refugee	0.01392	1.48514	1.000
+Guinea-Bissau	Technological development	0.13726	1.38036	0.987
+Guinea-Bissau	Malnutrition	0.26126	1.47270	0.896
+Guinea-Bissau	small and medium enterprise	0.31436	3.49171	0.967
+Guinea-Bissau	school completion	0.55575	3.51459	0.957
+Guinea-Bissau	Human rights	0.03300	0.73341	0.997
+Guinea-Bissau	Homicides	0.38200	0.51061	0.966
+Guinea-Bissau	Microenterprise	-0.80450	1.06172	0.819
+Guinea-Bissau	Poverty reduction	0.40719	1.55198	0.870
+Guinea-Bissau	civil war	0.18242	0.56713	0.960
+Guinea-Bissau	economic growth	0.04791	0.69815	0.996
+Guinea-Bissau	Agriculture	0.03869	1.28538	0.992
+Estonia	rural development	0.10304	1.84710	0.986
+Estonia	Electricity	0.14943	0.95039	0.958
+Estonia	climate change	0.02044	1.11512	0.999
+Estonia	Hospital	-0.17425	0.80201	0.963
+Estonia	Banking system	0.58143	0.89578	0.891
+Estonia	HIV/AIDS	-0.03223	1.20857	0.999
+Estonia	Reconstruction	0.54316	1.48664	0.866
+Estonia	primary school	-0.37174	1.24381	0.939
+Estonia	Corruption	0.14448	0.67669	0.952
+Estonia	Transportation	-0.03657	0.90546	0.995
+Estonia	democracy	0.16311	0.80446	0.964
+Estonia	environmental sustainability	-0.37839	1.50206	0.945
+Estonia	humanitarian assistance	0.15520	2.69770	0.986
+Estonia	criminal justice	0.49812	1.11625	0.945
+Estonia	Manufacturing	-0.01330	0.65946	1.000
+Estonia	Tourism	-0.01104	1.17932	1.000
+Estonia	Housing	-0.05538	0.97707	0.996
+Estonia	natural disaster	0.16735	1.26520	0.954
+Estonia	infant mortality	0.19245	1.31915	0.952
+Estonia	job creation	0.20907	1.69462	0.993
+Estonia	Sanitation	-0.13375	1.66481	0.950
+Estonia	Gender	-0.02835	1.15696	0.998
+Estonia	Refugee	-0.12873	1.33206	0.986
+Estonia	Technological development	0.50015	1.61778	0.895
+Estonia	Malnutrition	0.00642	1.35664	1.000
+Estonia	small and medium enterprise	0.11526	2.69741	0.983
+Estonia	school completion	0.00691	3.70715	1.000
+Estonia	Human rights	0.10779	0.75921	0.983
+Estonia	Homicides	0.35004	0.55185	0.964
+Estonia	Microenterprise	-0.28874	5.43048	0.973
+Estonia	Poverty reduction	0.12026	1.61766	0.981
+Estonia	civil war	0.25319	0.59322	0.933
+Estonia	economic growth	0.18164	0.75274	0.956
+Estonia	Agriculture	-0.00731	1.26063	1.000
+Uruguay	rural development	0.27093	1.92712	0.915
+Uruguay	Electricity	0.15819	0.96479	0.963
+Uruguay	climate change	0.04540	1.13969	0.995
+Uruguay	Hospital	-0.36039	0.59626	0.856
+Uruguay	Banking system	0.27845	1.05276	0.973
+Uruguay	HIV/AIDS	-0.08143	1.17020	0.983
+Uruguay	Reconstruction	0.31263	1.61319	0.911
+Uruguay	primary school	-0.12144	1.60284	0.994
+Uruguay	Corruption	0.05189	0.66048	0.992
+Uruguay	Transportation	0.02532	0.93900	0.999
+Uruguay	democracy	-0.07685	0.70786	0.992
+Uruguay	environmental sustainability	0.08603	2.35255	0.998
+Uruguay	humanitarian assistance	0.00792	2.40339	1.000
+Uruguay	criminal justice	0.23150	1.11092	0.984
+Uruguay	Manufacturing	-0.01747	0.66424	1.000
+Uruguay	Tourism	0.06564	1.22271	0.995
+Uruguay	Housing	-0.04024	0.97549	0.999
+Uruguay	natural disaster	0.29172	1.41136	0.933
+Uruguay	infant mortality	0.18209	1.34603	0.962
+Uruguay	job creation	0.17476	1.75975	0.992
+Uruguay	Sanitation	-0.08557	1.72727	0.979
+Uruguay	Gender	-0.00063	1.16494	1.000
+Uruguay	Refugee	-0.13523	1.32571	0.978
+Uruguay	Technological development	0.59765	1.59336	0.877
+Uruguay	Malnutrition	0.04725	1.45716	0.998
+Uruguay	small and medium enterprise	0.34284	3.43443	0.966
+Uruguay	school completion	0.08602	3.81475	0.999
+Uruguay	Human rights	-0.04754	0.68890	0.996
+Uruguay	Homicides	0.49101	0.53148	0.931
+Uruguay	Microenterprise	1.10094	5.76537	0.910
+Uruguay	Poverty reduction	0.28598	1.73716	0.899
+Uruguay	civil war	0.09529	0.56187	0.989
+Uruguay	economic growth	0.25768	0.76772	0.893
+Uruguay	Agriculture	0.04909	1.26691	0.992
+Lebanon	rural development	-0.04142	1.69888	0.997
+Lebanon	Electricity	0.10535	0.92563	0.979
+Lebanon	climate change	0.00456	1.13339	1.000
+Lebanon	Hospital	-0.31422	0.72901	0.900
+Lebanon	Banking system	0.19940	1.00813	0.989
+Lebanon	HIV/AIDS	-0.03472	1.21125	0.998
+Lebanon	Reconstruction	0.05038	1.44102	0.998
+Lebanon	primary school	0.56843	1.87311	0.948
+Lebanon	Corruption	0.05832	0.66358	0.992
+Lebanon	Transportation	-0.09764	0.88634	0.978
+Lebanon	democracy	0.06566	0.75393	0.995
+Lebanon	environmental sustainability	1.35597	0.78935	0.875
+Lebanon	humanitarian assistance	0.66765	2.41526	0.783
+Lebanon	criminal justice	0.35934	1.09848	0.968
+Lebanon	Manufacturing	0.00225	0.69524	1.000
+Lebanon	Tourism	-0.00643	1.19045	1.000
+Lebanon	Housing	0.09330	1.01776	0.992
+Lebanon	natural disaster	0.27130	1.31975	0.954
+Lebanon	infant mortality	0.18289	1.37984	0.975
+Lebanon	job creation	1.19893	1.29541	0.476
+Lebanon	Sanitation	-0.08774	1.78072	0.987
+Lebanon	Gender	0.02212	1.15749	0.999
+Lebanon	Refugee	0.46539	1.58083	0.897
+Lebanon	Technological development	0.27735	1.49334	0.985
+Lebanon	Malnutrition	0.19207	1.49083	0.959
+Lebanon	small and medium enterprise	0.06541	3.11848	0.999
+Lebanon	school completion	-0.26731	3.39109	0.994
+Lebanon	Human rights	0.32040	0.76569	0.896
+Lebanon	Homicides	0.67558	1.00864	0.978
+Lebanon	Microenterprise	-0.74207	2.89028	0.638
+Lebanon	Poverty reduction	-0.15445	1.35070	0.972
+Lebanon	civil war	0.69016	0.57153	0.722
+Lebanon	economic growth	-0.01555	0.69203	1.000
+Lebanon	Agriculture	-0.13138	1.15345	0.936
+Uzbekistan	rural development	0.17431	1.77573	0.942
+Uzbekistan	Electricity	0.06769	0.87170	0.988
+Uzbekistan	climate change	-0.02176	1.09893	0.997
+Uzbekistan	Hospital	-0.28075	0.80744	0.873
+Uzbekistan	Banking system	0.02441	1.04098	1.000
+Uzbekistan	HIV/AIDS	-0.04392	1.22534	0.996
+Uzbekistan	Reconstruction	0.25030	1.45273	0.930
+Uzbekistan	primary school	1.12423	0.59516	0.751
+Uzbekistan	Corruption	0.11165	0.65394	0.959
+Uzbekistan	Transportation	-0.11625	0.95446	0.972
+Uzbekistan	democracy	0.00961	0.74541	1.000
+Uzbekistan	environmental sustainability	-0.25675	2.07392	0.974
+Uzbekistan	humanitarian assistance	0.17543	2.55790	0.964
+Uzbekistan	criminal justice	0.10627	1.01300	0.996
+Uzbekistan	Manufacturing	-0.04647	0.65637	0.995
+Uzbekistan	Tourism	0.09686	1.19603	0.983
+Uzbekistan	Housing	-0.09609	0.96079	0.976
+Uzbekistan	natural disaster	0.18222	1.15244	0.945
+Uzbekistan	infant mortality	0.22916	1.30446	0.935
+Uzbekistan	job creation	0.12055	1.63540	0.995
+Uzbekistan	Sanitation	-0.06556	1.80224	0.994
+Uzbekistan	Gender	0.14133	1.18139	0.940
+Uzbekistan	Refugee	0.01707	1.47877	1.000
+Uzbekistan	Technological development	0.17288	1.40533	0.985
+Uzbekistan	Malnutrition	0.08277	1.37699	0.986
+Uzbekistan	small and medium enterprise	0.27312	3.11089	0.972
+Uzbekistan	school completion	0.15063	3.60410	0.996
+Uzbekistan	Human rights	0.06598	0.72709	0.994
+Uzbekistan	Homicides	0.80289	0.80558	0.975
+Uzbekistan	Microenterprise	-0.32345	6.10664	0.960
+Uzbekistan	Poverty reduction	0.16802	1.55208	0.964
+Uzbekistan	civil war	0.14073	0.53862	0.972
+Uzbekistan	economic growth	0.05231	0.73242	0.996
+Uzbekistan	Agriculture	-0.01863	1.24586	0.997
+Egypt	rural development	-0.04418	1.75306	0.998
+Egypt	Electricity	0.08160	0.92717	0.992
+Egypt	climate change	0.03880	1.12656	0.997
+Egypt	Hospital	-0.07763	0.86255	0.996
+Egypt	Banking system	0.34284	0.95742	0.981
+Egypt	HIV/AIDS	-0.05291	1.19469	0.995
+Egypt	Reconstruction	-0.20206	1.25335	0.975
+Egypt	primary school	0.45883	2.00305	0.957
+Egypt	Corruption	0.14416	0.67117	0.955
+Egypt	Transportation	-0.09813	0.88424	0.983
+Egypt	democracy	0.14316	0.78631	0.978
+Egypt	environmental sustainability	0.13945	2.35536	0.997
+Egypt	humanitarian assistance	0.21345	2.72280	0.982
+Egypt	criminal justice	0.07553	1.04512	0.999
+Egypt	Manufacturing	-0.03431	0.68065	0.998
+Egypt	Tourism	-0.06785	1.15220	0.994
+Egypt	Housing	0.00083	1.00420	1.000
+Egypt	natural disaster	-0.05661	1.14773	0.997
+Egypt	infant mortality	0.01140	1.29405	1.000
+Egypt	job creation	0.61564	1.87396	0.902
+Egypt	Sanitation	-0.20442	1.65387	0.921
+Egypt	Gender	0.04205	1.19028	0.997
+Egypt	Refugee	0.14072	1.56372	0.992
+Egypt	Technological development	0.49140	1.51734	0.969
+Egypt	Malnutrition	0.01624	1.35693	1.000
+Egypt	small and medium enterprise	-0.09178	3.13497	0.998
+Egypt	school completion	-0.26790	3.30661	0.996
+Egypt	Human rights	0.22246	0.78437	0.947
+Egypt	Homicides	-0.51649	0.80280	0.987
+Egypt	Microenterprise	-0.60752	4.59242	0.550
+Egypt	Poverty reduction	-0.28486	1.25171	0.890
+Egypt	civil war	0.31621	0.60784	0.937
+Egypt	economic growth	0.08296	0.72828	0.991
+Egypt	Agriculture	-0.13696	1.17162	0.949
+Timor-Leste	rural development	0.13284	1.75083	0.953
+Timor-Leste	Electricity	0.06982	0.87565	0.984
+Timor-Leste	climate change	0.05711	1.11316	0.991
+Timor-Leste	Hospital	-0.12034	0.87525	0.992
+Timor-Leste	Banking system	0.06501	0.75153	0.998
+Timor-Leste	HIV/AIDS	0.10471	1.22739	0.967
+Timor-Leste	Reconstruction	0.04651	1.40016	0.995
+Timor-Leste	primary school	0.17510	1.81171	0.994
+Timor-Leste	Corruption	0.04063	0.65215	0.988
+Timor-Leste	Transportation	-0.11080	0.90308	0.960
+Timor-Leste	democracy	-0.06070	0.72924	0.991
+Timor-Leste	environmental sustainability	-0.09231	2.11692	0.997
+Timor-Leste	humanitarian assistance	0.18302	2.49348	0.950
+Timor-Leste	criminal justice	-0.04284	0.98867	0.998
+Timor-Leste	Manufacturing	-0.07715	0.66379	0.984
+Timor-Leste	Tourism	0.00530	1.18189	1.000
+Timor-Leste	Housing	-0.12765	0.89803	0.906
+Timor-Leste	natural disaster	0.21236	1.16429	0.921
+Timor-Leste	infant mortality	0.23446	1.12596	0.902
+Timor-Leste	job creation	-0.09187	1.50234	0.996
+Timor-Leste	Sanitation	0.03007	1.82505	0.996
+Timor-Leste	Gender	0.04341	1.18200	0.989
+Timor-Leste	Refugee	0.00241	1.47380	1.000
+Timor-Leste	Technological development	0.01132	1.31684	1.000
+Timor-Leste	Malnutrition	0.18697	1.33419	0.899
+Timor-Leste	small and medium enterprise	0.22172	2.50317	0.953
+Timor-Leste	school completion	0.34915	3.37981	0.979
+Timor-Leste	Human rights	-0.02454	0.72052	0.999
+Timor-Leste	Homicides	-0.01916	0.51551	1.000
+Timor-Leste	Microenterprise	1.22732	1.55933	0.841
+Timor-Leste	Poverty reduction	0.20946	1.47819	0.902
+Timor-Leste	civil war	0.02108	0.52120	0.999
+Timor-Leste	economic growth	0.03995	0.68882	0.998
+Timor-Leste	Agriculture	0.00469	1.25664	1.000
+Colombia	rural development	0.30305	1.84845	0.902
+Colombia	Electricity	0.09869	0.91712	0.987
+Colombia	climate change	0.04351	1.11546	0.996
+Colombia	Hospital	-0.29952	0.83499	0.954
+Colombia	Banking system	0.11454	0.94771	0.997
+Colombia	HIV/AIDS	-0.13800	1.22667	0.972
+Colombia	Reconstruction	0.25831	1.46712	0.962
+Colombia	primary school	-0.11038	1.85102	0.998
+Colombia	Corruption	-0.07115	0.63269	0.986
+Colombia	Transportation	0.19028	0.94021	0.953
+Colombia	democracy	-0.05066	0.73149	0.998
+Colombia	environmental sustainability	0.06781	2.29808	0.999
+Colombia	humanitarian assistance	-0.02550	2.49702	1.000
+Colombia	criminal justice	0.11159	1.07980	0.997
+Colombia	Manufacturing	0.09744	0.68799	0.990
+Colombia	Tourism	-0.11945	1.16877	0.993
+Colombia	Housing	0.03556	1.01348	0.998
+Colombia	natural disaster	0.23113	1.26429	0.964
+Colombia	infant mortality	-0.03182	1.29272	1.000
+Colombia	job creation	-0.11333	1.62386	0.998
+Colombia	Sanitation	-0.07807	1.81513	0.996
+Colombia	Gender	-0.05090	1.16221	0.992
+Colombia	Refugee	-0.09270	1.46886	0.996
+Colombia	Technological development	0.37301	1.38400	0.974
+Colombia	Malnutrition	0.05153	1.47737	0.998
+Colombia	small and medium enterprise	0.07934	3.06547	0.998
+Colombia	school completion	-0.19652	3.59404	0.995
+Colombia	Human rights	-0.04808	0.70908	0.997
+Colombia	Homicides	-0.06561	0.99073	1.000
+Colombia	Microenterprise	1.35386	3.18331	0.538
+Colombia	Poverty reduction	0.35123	1.50273	0.950
+Colombia	civil war	0.03613	0.52984	0.999
+Colombia	economic growth	0.27689	0.74974	0.949
+Colombia	Agriculture	0.10305	1.24729	0.979
+Burundi	rural development	0.03927	1.78604	0.998
+Burundi	Electricity	0.03160	0.86572	0.998
+Burundi	climate change	0.06266	1.10121	0.993
+Burundi	Hospital	-0.31081	0.81499	0.924
+Burundi	Banking system	-0.06864	0.85543	0.997
+Burundi	HIV/AIDS	0.14504	1.24318	0.972
+Burundi	Reconstruction	0.04305	1.40855	0.998
+Burundi	primary school	-0.15619	1.74303	0.997
+Burundi	Corruption	0.03393	0.66019	0.998
+Burundi	Transportation	-0.17668	0.90000	0.943
+Burundi	democracy	-0.12486	0.74191	0.971
+Burundi	environmental sustainability	-0.47699	1.88375	0.904
+Burundi	humanitarian assistance	0.21755	2.52594	0.968
+Burundi	criminal justice	-0.12728	0.99660	0.993
+Burundi	Manufacturing	0.03990	0.65989	0.998
+Burundi	Tourism	0.00856	1.18851	1.000
+Burundi	Housing	-0.03475	0.98856	0.999
+Burundi	natural disaster	0.10790	1.15664	0.986
+Burundi	infant mortality	0.16521	1.28660	0.977
+Burundi	job creation	-0.08975	1.64182	0.997
+Burundi	Sanitation	0.15375	1.77961	0.972
+Burundi	Gender	0.00841	1.17317	1.000
+Burundi	Refugee	0.39833	1.40008	0.935
+Burundi	Technological development	-0.13432	1.39389	0.990
+Burundi	Malnutrition	0.30959	1.33218	0.892
+Burundi	small and medium enterprise	0.10798	3.26372	0.997
+Burundi	school completion	0.17949	3.58781	0.996
+Burundi	Human rights	0.01087	0.72382	1.000
+Burundi	Homicides	1.12194	0.56302	0.973
+Burundi	Microenterprise	-0.23689	5.36126	0.983
+Burundi	Poverty reduction	0.12761	1.49074	0.976
+Burundi	civil war	0.11772	0.54110	0.986
+Burundi	economic growth	-0.05320	0.69238	0.996
+Burundi	Agriculture	0.04492	1.22793	0.995
+Democratic Republic of Congo	rural development	0.05710	1.78389	0.989
+Democratic Republic of Congo	Electricity	0.04631	0.87868	0.992
+Democratic Republic of Congo	climate change	0.04144	1.13147	0.993
+Democratic Republic of Congo	Hospital	-0.13610	0.86297	0.960
+Democratic Republic of Congo	Banking system	0.10300	0.80062	0.991
+Democratic Republic of Congo	HIV/AIDS	0.13226	1.26972	0.951
+Democratic Republic of Congo	Reconstruction	0.01956	1.38566	0.999
+Democratic Republic of Congo	primary school	0.01564	1.80058	1.000
+Democratic Republic of Congo	Corruption	0.05080	0.64861	0.990
+Democratic Republic of Congo	Transportation	-0.17534	0.84555	0.850
+Democratic Republic of Congo	democracy	-0.07878	0.73571	0.988
+Democratic Republic of Congo	environmental sustainability	-0.12367	2.06882	0.992
+Democratic Republic of Congo	humanitarian assistance	0.18781	2.44033	0.951
+Democratic Republic of Congo	criminal justice	-0.07146	0.99640	0.996
+Democratic Republic of Congo	Manufacturing	-0.17615	0.61076	0.906
+Democratic Republic of Congo	Tourism	-0.03820	1.14417	0.994
+Democratic Republic of Congo	Housing	-0.09039	0.96899	0.975
+Democratic Republic of Congo	natural disaster	0.15159	1.17941	0.949
+Democratic Republic of Congo	infant mortality	0.28692	1.25165	0.885
+Democratic Republic of Congo	job creation	-0.49890	0.52636	0.946
+Democratic Republic of Congo	Sanitation	0.07721	1.82501	0.982
+Democratic Republic of Congo	Gender	0.02180	1.15969	0.998
+Democratic Republic of Congo	Refugee	0.27738	1.45221	0.961
+Democratic Republic of Congo	Technological development	-0.00621	1.25392	1.000
+Democratic Republic of Congo	Malnutrition	0.28523	1.40159	0.832
+Democratic Republic of Congo	small and medium enterprise	0.20748	2.81296	0.960
+Democratic Republic of Congo	school completion	0.34824	3.26687	0.974
+Democratic Republic of Congo	Human rights	0.03552	0.72299	0.994
+Democratic Republic of Congo	Homicides	0.54848	0.80091	0.981
+Democratic Republic of Congo	Microenterprise	-0.08966	5.25488	0.997
+Democratic Republic of Congo	Poverty reduction	0.24351	1.45068	0.899
+Democratic Republic of Congo	civil war	0.17686	0.54807	0.953
+Democratic Republic of Congo	economic growth	0.01881	0.70633	1.000
+Democratic Republic of Congo	Agriculture	0.03851	1.28459	0.992
+Madagascar	rural development	0.15432	1.82804	0.974
+Madagascar	Electricity	0.12059	0.90737	0.979
+Madagascar	climate change	0.10530	1.12334	0.981
+Madagascar	Hospital	-0.15126	0.85681	0.969
+Madagascar	Banking system	0.02335	0.85652	1.000
+Madagascar	HIV/AIDS	0.10218	1.25672	0.982
+Madagascar	Reconstruction	0.03723	1.44926	1.000
+Madagascar	primary school	-0.00769	1.76066	1.000
+Madagascar	Corruption	0.16306	0.67682	0.947
+Madagascar	Transportation	-0.08866	0.91087	0.978
+Madagascar	democracy	-0.09431	0.72868	0.980
+Madagascar	environmental sustainability	-0.09612	2.15037	0.996
+Madagascar	humanitarian assistance	0.33067	2.64682	0.952
+Madagascar	criminal justice	-0.14630	0.94693	0.986
+Madagascar	Manufacturing	-0.01322	0.68536	1.000
+Madagascar	Tourism	0.08497	1.21138	0.991
+Madagascar	Housing	-0.06943	0.96549	0.989
+Madagascar	natural disaster	0.18384	1.19457	0.968
+Madagascar	infant mortality	0.35881	1.27146	0.906
+Madagascar	job creation	0.00215	1.61516	1.000
+Madagascar	Sanitation	0.04893	1.82502	0.999
+Madagascar	Gender	0.06079	1.18919	0.990
+Madagascar	Refugee	-0.01710	1.44561	1.000
+Madagascar	Technological development	0.11796	1.45538	0.996
+Madagascar	Malnutrition	0.44591	1.38803	0.844
+Madagascar	small and medium enterprise	0.13410	3.35161	0.995
+Madagascar	school completion	1.05874	2.78986	0.948
+Madagascar	Human rights	-0.04481	0.70220	0.996
+Madagascar	Homicides	0.04817	0.50556	1.000
+Madagascar	Microenterprise	-0.77004	1.40356	0.638
+Madagascar	Poverty reduction	0.36641	1.56769	0.949
+Madagascar	civil war	0.09311	0.54880	0.992
+Madagascar	economic growth	0.14139	0.72846	0.976
+Madagascar	Agriculture	0.04252	1.26827	0.995
+Sudan	rural development	-0.08931	1.75288	0.983
+Sudan	Electricity	-0.00979	0.88033	1.000
+Sudan	climate change	0.03708	1.11827	0.996
+Sudan	Hospital	-0.16019	0.84990	0.968
+Sudan	Banking system	-0.28073	0.95934	0.957
+Sudan	HIV/AIDS	0.13885	1.26007	0.974
+Sudan	Reconstruction	-0.14949	1.37149	0.979
+Sudan	primary school	0.67044	1.59848	0.913
+Sudan	Corruption	0.05957	0.64623	0.990
+Sudan	Transportation	-0.18645	0.93605	0.909
+Sudan	democracy	0.01635	0.74088	0.999
+Sudan	environmental sustainability	-0.02027	2.53121	1.000
+Sudan	humanitarian assistance	0.22678	2.43875	0.970
+Sudan	criminal justice	-0.05050	1.03680	0.999
+Sudan	Manufacturing	-0.03333	0.69720	0.998
+Sudan	Tourism	-0.06445	1.17039	0.992
+Sudan	Housing	-0.00154	1.01237	1.000
+Sudan	natural disaster	0.02791	1.16189	0.999
+Sudan	infant mortality	0.06417	1.31253	0.996
+Sudan	job creation	0.19986	1.90816	0.992
+Sudan	Sanitation	0.08961	1.87714	0.993
+Sudan	Gender	0.05227	1.16890	0.994
+Sudan	Refugee	0.53743	1.50449	0.817
+Sudan	Technological development	-0.28564	1.32267	0.957
+Sudan	Malnutrition	0.26863	1.44231	0.919
+Sudan	small and medium enterprise	-0.17001	3.19846	0.984
+Sudan	school completion	-0.26136	3.63931	0.994
+Sudan	Human rights	0.19825	0.73407	0.953
+Sudan	Homicides	0.71955	0.89637	0.988
+Sudan	Microenterprise	-0.92790	0.86084	0.596
+Sudan	Poverty reduction	-0.20332	1.37909	0.951
+Sudan	civil war	0.22815	0.58905	0.969
+Sudan	economic growth	-0.12014	0.70095	0.965
+Sudan	Agriculture	-0.08524	1.22700	0.973
+Nepal	rural development	0.14706	1.85726	0.984
+Nepal	Electricity	0.08022	0.89823	0.989
+Nepal	climate change	0.05517	1.11611	0.994
+Nepal	Hospital	-0.26384	0.84430	0.928
+Nepal	Banking system	-0.05964	0.93482	0.999
+Nepal	HIV/AIDS	0.27135	1.29929	0.938
+Nepal	Reconstruction	-0.05498	1.47478	0.998
+Nepal	primary school	0.09265	1.78407	0.998
+Nepal	Corruption	0.02463	0.63816	0.999
+Nepal	Transportation	-0.08978	0.90815	0.988
+Nepal	democracy	-0.02034	0.73662	1.000
+Nepal	environmental sustainability	0.09742	2.29931	0.998
+Nepal	humanitarian assistance	0.14574	2.58353	0.990
+Nepal	criminal justice	-0.08027	0.98222	0.997
+Nepal	Manufacturing	0.03364	0.68268	0.999
+Nepal	Tourism	0.00300	1.19142	1.000
+Nepal	Housing	-0.01405	1.00172	1.000
+Nepal	natural disaster	0.36253	1.27262	0.938
+Nepal	infant mortality	0.30007	1.27066	0.939
+Nepal	job creation	-0.05529	1.62113	0.999
+Nepal	Sanitation	0.55543	1.71001	0.795
+Nepal	Gender	0.15327	1.19279	0.953
+Nepal	Refugee	0.08533	1.49172	0.996
+Nepal	Technological development	-0.13272	1.40411	0.997
+Nepal	Malnutrition	0.24016	1.46295	0.938
+Nepal	small and medium enterprise	-0.08051	3.20914	0.998
+Nepal	school completion	0.09633	3.70245	0.999
+Nepal	Human rights	-0.00729	0.70630	1.000
+Nepal	Homicides	-0.37945	0.49119	0.980
+Nepal	Microenterprise	-0.78010	2.39988	0.687
+Nepal	Poverty reduction	-0.14207	1.46066	0.987
+Nepal	civil war	0.19095	0.55075	0.973
+Nepal	economic growth	0.05662	0.71570	0.996
+Nepal	Agriculture	-0.05121	1.22555	0.996
+Venezuela	rural development	0.25036	1.95959	0.926
+Venezuela	Electricity	0.07880	0.94538	0.987
+Venezuela	climate change	0.00738	1.13195	1.000
+Venezuela	Hospital	-0.20412	0.77708	0.979
+Venezuela	Banking system	0.10056	0.98621	0.996
+Venezuela	HIV/AIDS	-0.07198	1.18346	0.982
+Venezuela	Reconstruction	0.26146	1.58802	0.935
+Venezuela	primary school	-0.31659	1.46583	0.940
+Venezuela	Corruption	0.02128	0.65214	0.999
+Venezuela	Transportation	0.05155	0.96088	0.994
+Venezuela	democracy	-0.00702	0.73573	1.000
+Venezuela	environmental sustainability	0.29203	2.73925	0.986
+Venezuela	humanitarian assistance	-0.05673	2.27118	0.997
+Venezuela	criminal justice	0.24956	1.18941	0.976
+Venezuela	Manufacturing	-0.01899	0.70477	1.000
+Venezuela	Tourism	0.07041	1.25352	0.993
+Venezuela	Housing	-0.02517	0.99580	0.999
+Venezuela	natural disaster	0.13539	1.32054	0.982
+Venezuela	infant mortality	0.05305	1.21253	0.996
+Venezuela	job creation	0.37708	2.01176	0.984
+Venezuela	Sanitation	-0.11349	1.70533	0.965
+Venezuela	Gender	-0.05061	1.12133	0.986
+Venezuela	Refugee	-0.12692	1.38449	0.983
+Venezuela	Technological development	0.43790	1.53730	0.935
+Venezuela	Malnutrition	-0.00615	1.43296	1.000
+Venezuela	small and medium enterprise	0.16205	3.29333	0.991
+Venezuela	school completion	-0.10465	3.49116	0.997
+Venezuela	Human rights	-0.00430	0.71504	1.000
+Venezuela	Homicides	0.46408	0.53167	0.933
+Venezuela	Microenterprise	1.58571	3.25338	0.551
+Venezuela	Poverty reduction	0.30086	1.65694	0.912
+Venezuela	civil war	0.21764	0.63650	0.959
+Venezuela	economic growth	0.30937	0.84227	0.914
+Venezuela	Agriculture	0.07394	1.28238	0.985
+Zambia	rural development	0.26451	1.87170	0.946
+Zambia	Electricity	0.12595	0.90457	0.980
+Zambia	climate change	0.33899	1.13321	0.907
+Zambia	Hospital	-0.26195	0.83097	0.896
+Zambia	Banking system	0.11336	0.95678	0.996
+Zambia	HIV/AIDS	0.26904	1.29535	0.936
+Zambia	Reconstruction	-0.03750	1.49679	0.999
+Zambia	primary school	-0.00228	1.75833	1.000
+Zambia	Corruption	0.17104	0.65137	0.958
+Zambia	Transportation	-0.06956	0.92747	0.990
+Zambia	democracy	-0.08483	0.73861	0.990
+Zambia	environmental sustainability	-0.08942	2.25351	0.997
+Zambia	humanitarian assistance	0.07421	2.57244	0.997
+Zambia	criminal justice	-0.19056	0.95997	0.975
+Zambia	Manufacturing	0.04429	0.68025	0.998
+Zambia	Tourism	0.06716	1.19307	0.995
+Zambia	Housing	0.00594	1.00028	1.000
+Zambia	natural disaster	0.04077	1.25762	0.999
+Zambia	infant mortality	0.30037	1.33692	0.957
+Zambia	job creation	0.07882	1.68191	0.999
+Zambia	Sanitation	0.11444	1.86256	0.991
+Zambia	Gender	0.06852	1.18919	0.993
+Zambia	Refugee	0.07044	1.49763	0.998
+Zambia	Technological development	-0.09230	1.41446	0.998
+Zambia	Malnutrition	0.39025	1.43882	0.901
+Zambia	small and medium enterprise	1.16799	2.17613	0.918
+Zambia	school completion	0.84575	3.12210	0.977
+Zambia	Human rights	-0.08147	0.69583	0.993
+Zambia	Homicides	-0.12001	0.97913	0.999
+Zambia	Microenterprise	-0.79178	1.84523	0.639
+Zambia	Poverty reduction	0.32226	1.54052	0.964
+Zambia	civil war	0.04642	0.54106	0.999
+Zambia	economic growth	0.17395	0.72003	0.967
+Zambia	Agriculture	0.10527	1.26095	0.983
+Papua New Guinea	rural development	0.17503	1.75898	0.946
+Papua New Guinea	Electricity	0.14641	0.89480	0.945
+Papua New Guinea	climate change	0.07828	1.13140	0.984
+Papua New Guinea	Hospital	-0.27484	0.77733	0.907
+Papua New Guinea	Banking system	0.13128	0.88208	0.990
+Papua New Guinea	HIV/AIDS	0.12806	1.26233	0.969
+Papua New Guinea	Reconstruction	0.13138	1.48522	0.977
+Papua New Guinea	primary school	-0.22207	1.54538	0.982
+Papua New Guinea	Corruption	0.08776	0.67143	0.974
+Papua New Guinea	Transportation	-0.08106	0.90746	0.983
+Papua New Guinea	democracy	-0.08668	0.72578	0.985
+Papua New Guinea	environmental sustainability	2.12794	0.05669	0.863
+Papua New Guinea	humanitarian assistance	0.16485	2.45719	0.973
+Papua New Guinea	criminal justice	-0.10292	0.97632	0.995
+Papua New Guinea	Manufacturing	0.02295	0.65904	0.998
+Papua New Guinea	Tourism	0.08179	1.21548	0.988
+Papua New Guinea	Housing	-0.04094	0.99007	0.997
+Papua New Guinea	natural disaster	0.26338	1.21005	0.910
+Papua New Guinea	infant mortality	0.48509	1.16570	0.758
+Papua New Guinea	job creation	1.72131	0.16119	0.849
+Papua New Guinea	Sanitation	-0.05162	1.77613	0.994
+Papua New Guinea	Gender	-0.01196	1.15514	0.999
+Papua New Guinea	Refugee	-0.04030	1.47106	0.999
+Papua New Guinea	Technological development	0.17050	1.39580	0.986
+Papua New Guinea	Malnutrition	0.26047	1.41151	0.908
+Papua New Guinea	small and medium enterprise	0.22423	3.14632	0.982
+Papua New Guinea	school completion	0.31632	3.69133	0.986
+Papua New Guinea	Human rights	0.01550	0.72124	0.999
+Papua New Guinea	Homicides	0.08030	0.50608	0.998
+Papua New Guinea	Microenterprise	-0.56844	2.95845	0.941
+Papua New Guinea	Poverty reduction	0.20420	1.57137	0.951
+Papua New Guinea	civil war	0.57458	0.46383	0.870
+Papua New Guinea	economic growth	0.12090	0.70378	0.968
+Papua New Guinea	Agriculture	0.02431	1.24764	0.998
+Zimbabwe	rural development	0.19327	1.88429	0.980
+Zimbabwe	Electricity	0.04130	0.89100	0.999
+Zimbabwe	climate change	0.31084	1.15718	0.915
+Zimbabwe	Hospital	-0.19725	0.84271	0.966
+Zimbabwe	Banking system	0.04061	0.96708	1.000
+Zimbabwe	HIV/AIDS	0.41377	1.28797	0.856
+Zimbabwe	Reconstruction	-0.18031	1.46803	0.984
+Zimbabwe	primary school	-0.24772	1.72467	0.978
+Zimbabwe	Corruption	0.17358	0.65169	0.965
+Zimbabwe	Transportation	-0.09848	0.90812	0.980
+Zimbabwe	democracy	0.03476	0.74601	0.999
+Zimbabwe	environmental sustainability	0.99616	1.91586	0.978
+Zimbabwe	humanitarian assistance	0.06529	2.57092	0.998
+Zimbabwe	criminal justice	0.15558	1.07931	0.995
+Zimbabwe	Manufacturing	0.08821	0.70707	0.995
+Zimbabwe	Tourism	-0.04839	1.17269	0.998
+Zimbabwe	Housing	0.22188	1.01685	0.967
+Zimbabwe	natural disaster	0.11825	1.26613	0.993
+Zimbabwe	infant mortality	0.32156	1.34961	0.958
+Zimbabwe	job creation	1.30798	1.08153	0.944
+Zimbabwe	Sanitation	-0.01853	1.85898	1.000
+Zimbabwe	Gender	0.02267	1.16047	1.000
+Zimbabwe	Refugee	0.31168	1.55432	0.971
+Zimbabwe	Technological development	-0.07088	1.42376	0.999
+Zimbabwe	Malnutrition	0.43566	1.53439	0.894
+Zimbabwe	small and medium enterprise	0.18886	3.31179	0.996
+Zimbabwe	school completion	-0.12762	3.65524	0.999
+Zimbabwe	Human rights	0.06791	0.71441	0.995
+Zimbabwe	Homicides	1.35938	0.78891	0.954
+Zimbabwe	Microenterprise	-0.70848	3.35322	0.601
+Zimbabwe	Poverty reduction	-0.16862	1.46029	0.990
+Zimbabwe	civil war	0.54625	0.57287	0.922
+Zimbabwe	economic growth	0.12358	0.71764	0.985
+Zimbabwe	Agriculture	-0.03388	1.23300	0.998
+Jordan	rural development	-0.09130	1.71544	0.979
+Jordan	Electricity	0.04786	0.89523	0.997
+Jordan	climate change	0.00054	1.11482	1.000
+Jordan	Hospital	0.51282	0.83258	0.960
+Jordan	Banking system	-0.04169	0.92996	1.000
+Jordan	HIV/AIDS	0.00833	1.25390	1.000
+Jordan	Reconstruction	-0.17605	1.30712	0.973
+Jordan	primary school	0.21857	1.83360	0.991
+Jordan	Corruption	-0.00562	0.64170	1.000
+Jordan	Transportation	-0.02926	0.91366	0.999
+Jordan	democracy	0.12717	0.75592	0.983
+Jordan	environmental sustainability	0.43325	2.35891	0.960
+Jordan	humanitarian assistance	0.14932	2.57753	0.988
+Jordan	criminal justice	0.12066	1.02355	0.995
+Jordan	Manufacturing	-0.00172	0.69118	1.000
+Jordan	Tourism	-0.12966	1.13649	0.976
+Jordan	Housing	0.00417	1.00247	1.000
+Jordan	natural disaster	-0.11142	1.20964	0.987
+Jordan	infant mortality	-0.02855	1.28591	0.999
+Jordan	job creation	0.61733	1.60011	0.903
+Jordan	Sanitation	-0.12479	1.79026	0.976
+Jordan	Gender	0.03354	1.18953	0.997
+Jordan	Refugee	0.27091	1.56271	0.960
+Jordan	Technological development	-0.13735	1.36926	0.995
+Jordan	Malnutrition	-0.01817	1.41060	1.000
+Jordan	small and medium enterprise	-0.05326	2.99754	0.999
+Jordan	school completion	-0.50742	3.01295	0.982
+Jordan	Human rights	0.21785	0.74016	0.940
+Jordan	Homicides	0.47237	1.03063	0.995
+Jordan	Microenterprise	-0.68039	4.51780	0.540
+Jordan	Poverty reduction	-0.27002	1.34766	0.858
+Jordan	civil war	0.16581	0.55502	0.969
+Jordan	economic growth	0.01181	0.68920	1.000
+Jordan	Agriculture	-0.12947	1.18394	0.943
+Kazakhstan	rural development	0.20581	1.93524	0.932
+Kazakhstan	Electricity	0.13497	0.92236	0.963
+Kazakhstan	climate change	-0.00506	1.09243	1.000
+Kazakhstan	Hospital	-0.29371	0.72738	0.845
+Kazakhstan	Banking system	0.41101	0.96818	0.919
+Kazakhstan	HIV/AIDS	-0.12120	1.13928	0.960
+Kazakhstan	Reconstruction	0.33953	1.60872	0.897
+Kazakhstan	primary school	-0.19159	1.56078	0.985
+Kazakhstan	Corruption	0.21928	0.71112	0.877
+Kazakhstan	Transportation	-0.06052	0.90978	0.990
+Kazakhstan	democracy	0.05724	0.77339	0.997
+Kazakhstan	environmental sustainability	-0.24833	1.86247	0.973
+Kazakhstan	humanitarian assistance	0.21118	2.76656	0.960
+Kazakhstan	criminal justice	0.27005	1.09366	0.985
+Kazakhstan	Manufacturing	0.02188	0.66846	0.999
+Kazakhstan	Tourism	0.19152	1.29072	0.950
+Kazakhstan	Housing	-0.08978	0.93535	0.982
+Kazakhstan	natural disaster	0.19832	1.23291	0.945
+Kazakhstan	infant mortality	0.23790	1.29659	0.905
+Kazakhstan	job creation	0.14605	1.68509	0.994
+Kazakhstan	Sanitation	-0.06612	1.72904	0.988
+Kazakhstan	Gender	0.00400	1.18273	1.000
+Kazakhstan	Refugee	-0.09068	1.37456	0.991
+Kazakhstan	Technological development	0.22568	1.48001	0.979
+Kazakhstan	Malnutrition	0.04882	1.36789	0.994
+Kazakhstan	small and medium enterprise	0.18912	3.52915	0.988
+Kazakhstan	school completion	0.20323	3.93984	0.994
+Kazakhstan	Human rights	0.05006	0.74004	0.999
+Kazakhstan	Homicides	0.12901	0.51673	0.998
+Kazakhstan	Microenterprise	-0.13886	6.33349	0.993
+Kazakhstan	Poverty reduction	0.16936	1.65930	0.959
+Kazakhstan	civil war	0.17157	0.57238	0.965
+Kazakhstan	economic growth	0.15694	0.75131	0.959
+Kazakhstan	Agriculture	0.02938	1.27194	0.997
+Eritrea	rural development	0.06425	1.78702	0.995
+Eritrea	Electricity	0.02621	0.89748	0.998
+Eritrea	climate change	0.02852	1.11929	0.997
+Eritrea	Hospital	-0.17548	0.76973	0.954
+Eritrea	Banking system	0.03724	0.79142	0.999
+Eritrea	HIV/AIDS	0.09882	1.24969	0.979
+Eritrea	Reconstruction	0.06086	1.43306	0.995
+Eritrea	primary school	-0.11954	1.66108	0.995
+Eritrea	Corruption	0.08107	0.63927	0.980
+Eritrea	Transportation	-0.08479	0.90446	0.976
+Eritrea	democracy	-0.09954	0.71515	0.971
+Eritrea	environmental sustainability	-0.18138	1.93082	0.985
+Eritrea	humanitarian assistance	0.61769	2.41170	0.851
+Eritrea	criminal justice	0.01988	0.99984	1.000
+Eritrea	Manufacturing	-0.06399	0.66285	0.992
+Eritrea	Tourism	0.01995	1.20482	0.999
+Eritrea	Housing	-0.06020	0.99344	0.990
+Eritrea	natural disaster	0.28300	1.20997	0.911
+Eritrea	infant mortality	0.28778	1.24752	0.908
+Eritrea	job creation	0.08386	1.59993	0.997
+Eritrea	Sanitation	-0.03160	1.80527	0.998
+Eritrea	Gender	0.00592	1.16945	0.999
+Eritrea	Refugee	0.28412	1.50000	0.974
+Eritrea	Technological development	0.10682	1.32750	0.993
+Eritrea	Malnutrition	0.36625	1.42398	0.855
+Eritrea	small and medium enterprise	0.21440	2.84863	0.972
+Eritrea	school completion	0.13658	3.71164	0.997
+Eritrea	Human rights	0.08254	0.72878	0.993
+Eritrea	Homicides	0.39392	0.44855	0.978
+Eritrea	Microenterprise	-0.57526	3.33257	0.823
+Eritrea	Poverty reduction	0.19077	1.51934	0.972
+Eritrea	civil war	0.37322	0.55365	0.897
+Eritrea	economic growth	0.08163	0.70942	0.986
+Eritrea	Agriculture	0.00033	1.26578	1.000
+Kyrgyzstan	rural development	0.21740	1.80362	0.928
+Kyrgyzstan	Electricity	0.03317	0.89029	0.996
+Kyrgyzstan	climate change	0.00656	1.09872	1.000
+Kyrgyzstan	Hospital	-0.31885	0.78410	0.859
+Kyrgyzstan	Banking system	0.08055	0.80662	0.995
+Kyrgyzstan	HIV/AIDS	0.09655	1.27452	0.983
+Kyrgyzstan	Reconstruction	0.27809	1.43786	0.937
+Kyrgyzstan	primary school	0.12845	1.72655	0.996
+Kyrgyzstan	Corruption	0.10137	0.64216	0.969
+Kyrgyzstan	Transportation	-0.11046	0.91003	0.964
+Kyrgyzstan	democracy	0.13112	0.74194	0.983
+Kyrgyzstan	environmental sustainability	-0.39169	1.80980	0.935
+Kyrgyzstan	humanitarian assistance	0.23462	2.42809	0.939
+Kyrgyzstan	criminal justice	0.31033	0.99769	0.973
+Kyrgyzstan	Manufacturing	-0.04627	0.67674	0.995
+Kyrgyzstan	Tourism	0.01482	1.18018	1.000
+Kyrgyzstan	Housing	-0.06366	0.99904	0.991
+Kyrgyzstan	natural disaster	0.18165	1.15856	0.958
+Kyrgyzstan	infant mortality	0.22167	1.26555	0.949
+Kyrgyzstan	job creation	0.04932	1.60397	0.999
+Kyrgyzstan	Sanitation	-0.00953	1.84337	1.000
+Kyrgyzstan	Gender	0.09157	1.15866	0.965
+Kyrgyzstan	Refugee	0.09681	1.51697	0.992
+Kyrgyzstan	Technological development	0.04345	1.44854	0.999
+Kyrgyzstan	Malnutrition	0.17403	1.41572	0.952
+Kyrgyzstan	small and medium enterprise	0.11579	2.78438	0.990
+Kyrgyzstan	school completion	0.04264	3.64683	1.000
+Kyrgyzstan	Human rights	0.13991	0.70868	0.973
+Kyrgyzstan	Homicides	1.76043	0.23536	0.841
+Kyrgyzstan	Microenterprise	-0.46139	5.42289	0.914
+Kyrgyzstan	Poverty reduction	0.13348	1.51133	0.985
+Kyrgyzstan	civil war	0.14332	0.54218	0.971
+Kyrgyzstan	economic growth	0.01666	0.69761	0.999
+Kyrgyzstan	Agriculture	-0.04195	1.25391	0.991
+Macedonia	rural development	0.10070	1.79280	0.982
+Macedonia	Electricity	0.06261	0.89022	0.991
+Macedonia	climate change	-0.03222	1.07926	0.996
+Macedonia	Hospital	-0.25492	0.75631	0.882
+Macedonia	Banking system	0.23401	0.83486	0.984
+Macedonia	HIV/AIDS	-0.03390	1.19630	0.997
+Macedonia	Reconstruction	0.45956	1.38430	0.845
+Macedonia	primary school	-0.06691	1.69076	0.998
+Macedonia	Corruption	0.16421	0.67316	0.912
+Macedonia	Transportation	-0.06043	0.91724	0.990
+Macedonia	democracy	0.08725	0.77558	0.991
+Macedonia	environmental sustainability	-0.28387	1.73805	0.968
+Macedonia	humanitarian assistance	0.27323	2.62945	0.943
+Macedonia	criminal justice	0.29583	1.03854	0.975
+Macedonia	Manufacturing	-0.06947	0.65308	0.991
+Macedonia	Tourism	-0.01990	1.17358	0.999
+Macedonia	Housing	-0.05124	0.98329	0.992
+Macedonia	natural disaster	0.21508	1.21274	0.922
+Macedonia	infant mortality	0.24201	1.21130	0.906
+Macedonia	job creation	0.19558	1.70239	0.989
+Macedonia	Sanitation	-0.06832	1.74434	0.985
+Macedonia	Gender	0.04677	1.18882	0.989
+Macedonia	Refugee	0.01367	1.44555	1.000
+Macedonia	Technological development	0.44659	1.37568	0.934
+Macedonia	Malnutrition	0.07083	1.37382	0.989
+Macedonia	small and medium enterprise	0.34731	3.43513	0.969
+Macedonia	school completion	0.18796	3.81083	0.994
+Macedonia	Human rights	0.09285	0.73459	0.985
+Macedonia	Homicides	0.41185	0.49017	0.971
+Macedonia	Microenterprise	-0.22731	5.98762	0.976
+Macedonia	Poverty reduction	0.22595	1.58435	0.942
+Macedonia	civil war	0.20292	0.55975	0.946
+Macedonia	economic growth	0.09240	0.72170	0.982
+Macedonia	Agriculture	-0.00535	1.26162	1.000
+Sri Lanka	rural development	0.17093	1.89788	0.979
+Sri Lanka	Electricity	0.12496	0.91591	0.978
+Sri Lanka	climate change	0.22058	1.21592	0.956
+Sri Lanka	Hospital	-0.30918	0.75223	0.913
+Sri Lanka	Banking system	-0.20534	0.93032	0.986
+Sri Lanka	HIV/AIDS	0.69144	1.30484	0.815
+Sri Lanka	Reconstruction	0.15739	1.57601	0.993
+Sri Lanka	primary school	0.07749	1.78667	0.999
+Sri Lanka	Corruption	0.10800	0.66829	0.985
+Sri Lanka	Transportation	-0.22317	0.87574	0.912
+Sri Lanka	democracy	-0.01789	0.73808	0.999
+Sri Lanka	environmental sustainability	2.63579	0.30872	0.883
+Sri Lanka	humanitarian assistance	0.30288	2.61859	0.967
+Sri Lanka	criminal justice	-0.02611	0.99822	1.000
+Sri Lanka	Manufacturing	0.03039	0.71543	0.999
+Sri Lanka	Tourism	0.00218	1.18929	1.000
+Sri Lanka	Housing	0.12489	1.03291	0.988
+Sri Lanka	natural disaster	0.57224	1.28706	0.847
+Sri Lanka	infant mortality	0.75900	1.35651	0.856
+Sri Lanka	job creation	2.11595	0.62856	0.813
+Sri Lanka	Sanitation	0.05674	1.87630	0.997
+Sri Lanka	Gender	0.06532	1.19550	0.986
+Sri Lanka	Refugee	0.24629	1.60704	0.979
+Sri Lanka	Technological development	0.03938	1.43749	1.000
+Sri Lanka	Malnutrition	2.42535	0.35661	0.120
+Sri Lanka	small and medium enterprise	0.10068	3.38008	0.998
+Sri Lanka	school completion	-0.34472	3.25887	0.993
+Sri Lanka	Human rights	0.13086	0.74571	0.983
+Sri Lanka	Homicides	2.27255	0.57903	0.793
+Sri Lanka	Microenterprise	-0.63556	3.44409	0.840
+Sri Lanka	Poverty reduction	0.02346	1.54843	1.000
+Sri Lanka	civil war	1.45431	0.38804	0.655
+Sri Lanka	economic growth	-0.01225	0.71873	0.999
+Sri Lanka	Agriculture	-0.09170	1.20246	0.974
+Latvia	rural development	0.18549	1.93507	0.947
+Latvia	Electricity	0.13894	0.95652	0.957
+Latvia	climate change	0.03970	1.14011	0.997
+Latvia	Hospital	-0.24845	0.73449	0.915
+Latvia	Banking system	0.36413	0.97240	0.939
+Latvia	HIV/AIDS	-0.02903	1.18750	0.998
+Latvia	Reconstruction	0.47073	1.56709	0.855
+Latvia	primary school	-0.46849	1.00079	0.940
+Latvia	Corruption	0.15254	0.70416	0.927
+Latvia	Transportation	-0.03572	0.90673	0.996
+Latvia	democracy	0.07669	0.78338	0.989
+Latvia	environmental sustainability	-0.55216	0.99265	0.927
+Latvia	humanitarian assistance	0.14365	2.71539	0.977
+Latvia	criminal justice	0.43666	1.14844	0.954
+Latvia	Manufacturing	-0.02380	0.66970	1.000
+Latvia	Tourism	0.06457	1.23320	0.992
+Latvia	Housing	-0.04243	0.98347	0.998
+Latvia	natural disaster	0.13834	1.26206	0.968
+Latvia	infant mortality	0.16232	1.25923	0.956
+Latvia	job creation	0.30422	1.82268	0.976
+Latvia	Sanitation	-0.14191	1.62574	0.955
+Latvia	Gender	-0.02095	1.15541	0.998
+Latvia	Refugee	-0.09767	1.35401	0.991
+Latvia	Technological development	0.40149	1.58699	0.926
+Latvia	Malnutrition	0.00714	1.33639	1.000
+Latvia	small and medium enterprise	0.17741	3.37068	0.988
+Latvia	school completion	0.24274	4.04223	0.992
+Latvia	Human rights	0.06869	0.73864	0.994
+Latvia	Homicides	0.25451	0.54528	0.987
+Latvia	Microenterprise	-0.37321	4.52069	0.970
+Latvia	Poverty reduction	0.16403	1.68618	0.961
+Latvia	civil war	0.20688	0.58492	0.944
+Latvia	economic growth	0.16115	0.75383	0.955
+Latvia	Agriculture	-0.02194	1.23430	0.999
+Syria	rural development	-0.02925	1.65130	0.995
+Syria	Electricity	0.04419	0.93574	0.989
+Syria	climate change	-0.00086	1.12442	1.000
+Syria	Hospital	-0.08224	0.77237	0.991
+Syria	Banking system	-0.17641	0.59054	0.989
+Syria	HIV/AIDS	0.00032	1.19851	1.000
+Syria	Reconstruction	0.00118	1.42227	1.000
+Syria	primary school	2.22827	0.52359	0.635
+Syria	Corruption	0.09910	0.71468	0.960
+Syria	Transportation	-0.12543	0.77251	0.943
+Syria	democracy	0.07481	0.82208	0.990
+Syria	environmental sustainability	-0.12314	2.00453	0.996
+Syria	humanitarian assistance	0.27922	3.16621	0.931
+Syria	criminal justice	0.36432	1.47033	0.945
+Syria	Manufacturing	-0.05323	0.64538	0.989
+Syria	Tourism	-0.00640	1.19167	1.000
+Syria	Housing	0.02826	0.98483	0.997
+Syria	natural disaster	0.09324	1.28450	0.981
+Syria	infant mortality	0.06979	1.33620	0.995
+Syria	job creation	1.13174	2.07732	0.819
+Syria	Sanitation	-0.03514	1.78345	0.995
+Syria	Gender	0.00426	1.16959	1.000
+Syria	Refugee	0.36068	2.08556	0.927
+Syria	Technological development	0.04086	1.35656	0.999
+Syria	Malnutrition	0.06902	1.48520	0.989
+Syria	small and medium enterprise	-0.12160	2.14775	0.974
+Syria	school completion	-0.14511	3.14225	0.989
+Syria	Human rights	0.31385	0.99370	0.835
+Syria	Homicides	0.60780	1.44766	0.981
+Syria	Microenterprise	-0.36159	3.67179	0.914
+Syria	Poverty reduction	-0.07259	1.31608	0.986
+Syria	civil war	0.47130	0.88676	0.786
+Syria	economic growth	-0.14964	0.53321	0.963
+Syria	Agriculture	-0.09622	1.09790	0.926
+Honduras	rural development	0.51304	1.68441	0.874
+Honduras	Electricity	0.24829	0.90008	0.951
+Honduras	climate change	0.00601	1.10427	1.000
+Honduras	Hospital	-0.12211	0.88462	0.993
+Honduras	Banking system	0.22552	0.94054	0.991
+Honduras	HIV/AIDS	0.22633	1.27548	0.962
+Honduras	Reconstruction	0.45266	1.42114	0.910
+Honduras	primary school	-0.40102	1.60607	0.980
+Honduras	Corruption	-0.04391	0.64056	0.997
+Honduras	Transportation	0.05653	0.93866	0.998
+Honduras	democracy	-0.02882	0.74875	1.000
+Honduras	environmental sustainability	-0.12201	2.23634	0.997
+Honduras	humanitarian assistance	0.25351	2.53285	0.986
+Honduras	criminal justice	0.23446	0.98267	0.991
+Honduras	Manufacturing	0.03126	0.68319	0.999
+Honduras	Tourism	-0.06048	1.17802	0.997
+Honduras	Housing	-0.07468	0.99316	0.995
+Honduras	natural disaster	0.49077	1.21208	0.882
+Honduras	infant mortality	0.18285	1.33707	0.979
+Honduras	job creation	-0.20749	1.59507	0.992
+Honduras	Sanitation	-0.05233	1.82899	0.996
+Honduras	Gender	-0.07396	1.15953	0.989
+Honduras	Refugee	0.00047	1.49512	1.000
+Honduras	Technological development	0.00700	1.42240	1.000
+Honduras	Malnutrition	0.31214	1.43436	0.935
+Honduras	small and medium enterprise	0.16009	3.27391	0.997
+Honduras	school completion	0.09442	3.69562	0.999
+Honduras	Human rights	-0.02407	0.70779	0.999
+Honduras	Homicides	0.52475	0.90159	0.992
+Honduras	Microenterprise	1.42433	3.84414	0.814
+Honduras	Poverty reduction	0.19168	1.49541	0.972
+Honduras	civil war	0.06497	0.54069	0.997
+Honduras	economic growth	0.06283	0.71305	0.996
+Honduras	Agriculture	0.04630	1.24315	0.996
+Myanmar	rural development	0.19958	1.98161	0.969
+Myanmar	Electricity	0.11429	0.94428	0.981
+Myanmar	climate change	0.01005	1.09710	1.000
+Myanmar	Hospital	-0.29089	0.76037	0.932
+Myanmar	Banking system	0.19414	0.85965	0.989
+Myanmar	HIV/AIDS	0.73452	1.23548	0.772
+Myanmar	Reconstruction	0.02387	1.48272	1.000
+Myanmar	primary school	0.34981	1.96501	0.995
+Myanmar	Corruption	0.07697	0.65818	0.987
+Myanmar	Transportation	-0.14368	0.86430	0.957
+Myanmar	democracy	-0.02021	0.73401	0.999
+Myanmar	environmental sustainability	0.02733	2.19209	1.000
+Myanmar	humanitarian assistance	0.25794	2.74301	0.966
+Myanmar	criminal justice	0.07492	1.04256	0.999
+Myanmar	Manufacturing	-0.03739	0.66086	0.998
+Myanmar	Tourism	0.01270	1.19506	1.000
+Myanmar	Housing	-0.01285	0.99569	1.000
+Myanmar	natural disaster	0.35405	1.29868	0.903
+Myanmar	infant mortality	0.41166	1.41908	0.895
+Myanmar	job creation	0.13241	1.64246	0.996
+Myanmar	Sanitation	-0.00649	1.84749	1.000
+Myanmar	Gender	0.03092	1.18394	0.997
+Myanmar	Refugee	0.36795	1.66599	0.954
+Myanmar	Technological development	0.09275	1.45605	0.997
+Myanmar	Malnutrition	1.51286	1.24715	0.267
+Myanmar	small and medium enterprise	0.05930	2.61537	0.997
+Myanmar	school completion	0.01506	3.73763	1.000
+Myanmar	Human rights	0.15413	0.76014	0.978
+Myanmar	Homicides	3.28418	0.24057	0.618
+Myanmar	Microenterprise	-0.53823	4.77948	0.885
+Myanmar	Poverty reduction	-0.05740	1.45538	0.997
+Myanmar	civil war	0.49888	0.61515	0.844
+Myanmar	economic growth	0.09748	0.72771	0.986
+Myanmar	Agriculture	-0.04789	1.22469	0.993
+Mexico	rural development	-0.02218	1.78715	1.000
+Mexico	Electricity	0.04857	0.88440	0.997
+Mexico	climate change	0.02116	1.11153	0.999
+Mexico	Hospital	-0.42670	0.66810	0.949
+Mexico	Banking system	0.55171	0.79524	0.946
+Mexico	HIV/AIDS	-0.10435	1.25402	0.983
+Mexico	Reconstruction	-0.02958	1.48909	0.999
+Mexico	primary school	-0.17939	1.70756	0.988
+Mexico	Corruption	-0.08633	0.63084	0.976
+Mexico	Transportation	0.39965	0.89427	0.780
+Mexico	democracy	0.02712	0.75280	0.999
+Mexico	environmental sustainability	0.31084	2.24496	0.982
+Mexico	humanitarian assistance	0.41001	2.67766	0.960
+Mexico	criminal justice	0.40978	1.04812	0.947
+Mexico	Manufacturing	0.36709	0.66428	0.914
+Mexico	Tourism	-0.01102	1.17428	1.000
+Mexico	Housing	0.26795	1.00335	0.894
+Mexico	natural disaster	0.42675	1.14831	0.901
+Mexico	infant mortality	0.02212	1.32043	1.000
+Mexico	job creation	-0.02579	1.71242	1.000
+Mexico	Sanitation	-0.10905	1.82965	0.974
+Mexico	Gender	-0.07958	1.14660	0.975
+Mexico	Refugee	-0.00439	1.49465	1.000
+Mexico	Technological development	0.09456	1.41623	0.997
+Mexico	Malnutrition	0.13952	1.47840	0.991
+Mexico	small and medium enterprise	-0.22546	3.15258	0.977
+Mexico	school completion	0.18006	3.74078	0.999
+Mexico	Human rights	-0.00649	0.69990	1.000
+Mexico	Homicides	0.19083	0.98715	0.999
+Mexico	Microenterprise	0.36203	6.83130	0.990
+Mexico	Poverty reduction	-0.11251	1.50603	0.980
+Mexico	civil war	0.01256	0.53433	1.000
+Mexico	economic growth	0.27757	0.75840	0.942
+Mexico	Agriculture	-0.01301	1.24160	1.000
+Tunisia	rural development	0.11211	1.85726	0.990
+Tunisia	Electricity	0.34224	1.02541	0.883
+Tunisia	climate change	0.08653	1.14927	0.985
+Tunisia	Hospital	-0.32648	0.69210	0.886
+Tunisia	Banking system	0.81759	0.92882	0.858
+Tunisia	HIV/AIDS	-0.10757	1.16866	0.978
+Tunisia	Reconstruction	0.24258	1.57179	0.975
+Tunisia	primary school	0.36943	2.03174	0.978
+Tunisia	Corruption	0.26989	0.71859	0.859
+Tunisia	Transportation	-0.16009	0.84361	0.945
+Tunisia	democracy	-0.01826	0.73748	1.000
+Tunisia	environmental sustainability	0.13272	2.37865	0.997
+Tunisia	humanitarian assistance	0.20580	2.81607	0.981
+Tunisia	criminal justice	0.05985	1.03447	0.999
+Tunisia	Manufacturing	-0.02505	0.67569	1.000
+Tunisia	Tourism	0.05968	1.21017	0.996
+Tunisia	Housing	-0.11056	0.92730	0.981
+Tunisia	natural disaster	0.10050	1.22350	0.989
+Tunisia	infant mortality	0.38451	1.46418	0.928
+Tunisia	job creation	3.22346	0.64469	0.618
+Tunisia	Sanitation	-0.11139	1.71001	0.977
+Tunisia	Gender	0.04895	1.19028	0.993
+Tunisia	Refugee	0.03447	1.49650	1.000
+Tunisia	Technological development	0.27924	1.57741	0.985
+Tunisia	Malnutrition	0.16819	1.47182	0.977
+Tunisia	small and medium enterprise	0.72457	3.67655	0.973
+Tunisia	school completion	0.08286	3.81193	1.000
+Tunisia	Human rights	0.08732	0.73531	0.990
+Tunisia	Homicides	0.47208	1.10113	0.994
+Tunisia	Microenterprise	-0.95155	1.10587	0.765
+Tunisia	Poverty reduction	0.25447	1.68086	0.968
+Tunisia	civil war	0.23441	0.60007	0.959
+Tunisia	economic growth	0.21780	0.76616	0.939
+Tunisia	Agriculture	-0.03920	1.21702	1.000
+Serbia	rural development	0.07142	1.80491	0.989
+Serbia	Electricity	0.07845	0.92107	0.990
+Serbia	climate change	0.04251	1.11388	0.996
+Serbia	Hospital	-0.44582	0.57626	0.780
+Serbia	Banking system	0.26538	0.91359	0.971
+Serbia	HIV/AIDS	-0.03912	1.18433	0.996
+Serbia	Reconstruction	0.41855	1.53400	0.866
+Serbia	primary school	-0.08534	1.65997	0.997
+Serbia	Corruption	0.19101	0.69569	0.886
+Serbia	Transportation	-0.04905	0.90862	0.994
+Serbia	democracy	0.13322	0.79114	0.978
+Serbia	environmental sustainability	-0.42236	1.42253	0.965
+Serbia	humanitarian assistance	0.21224	2.59750	0.967
+Serbia	criminal justice	0.30568	1.09406	0.971
+Serbia	Manufacturing	-0.07770	0.65012	0.992
+Serbia	Tourism	0.00632	1.19109	1.000
+Serbia	Housing	-0.10612	0.93700	0.974
+Serbia	natural disaster	0.17996	1.24624	0.958
+Serbia	infant mortality	0.20947	1.26920	0.941
+Serbia	job creation	0.15438	1.70197	0.994
+Serbia	Sanitation	-0.10766	1.69145	0.971
+Serbia	Gender	0.06536	1.19417	0.984
+Serbia	Refugee	-0.04107	1.40625	0.998
+Serbia	Technological development	0.26269	1.48073	0.978
+Serbia	Malnutrition	0.09637	1.40131	0.984
+Serbia	small and medium enterprise	0.43929	3.56385	0.966
+Serbia	school completion	0.16070	3.83060	0.998
+Serbia	Human rights	0.15226	0.75766	0.968
+Serbia	Homicides	0.35660	0.52529	0.987
+Serbia	Microenterprise	-0.53411	4.06276	0.913
+Serbia	Poverty reduction	0.21501	1.63018	0.954
+Serbia	civil war	0.19348	0.58376	0.954
+Serbia	economic growth	0.08892	0.71040	0.984
+Serbia	Agriculture	-0.01953	1.23545	0.999
+Paraguay	rural development	0.33805	1.72919	0.869
+Paraguay	Electricity	0.12244	0.88737	0.964
+Paraguay	climate change	0.03318	1.11423	0.996
+Paraguay	Hospital	-0.24328	0.83042	0.943
+Paraguay	Banking system	0.15104	0.94758	0.992
+Paraguay	HIV/AIDS	0.00117	1.28297	1.000
+Paraguay	Reconstruction	0.40237	1.37980	0.859
+Paraguay	primary school	-0.35201	1.53180	0.948
+Paraguay	Corruption	0.01508	0.64286	0.999
+Paraguay	Transportation	-0.03527	0.92911	0.998
+Paraguay	democracy	-0.05791	0.74080	0.992
+Paraguay	environmental sustainability	-0.10716	2.22180	0.996
+Paraguay	humanitarian assistance	0.22007	2.51416	0.974
+Paraguay	criminal justice	0.10547	1.00934	0.996
+Paraguay	Manufacturing	-0.05815	0.68764	0.994
+Paraguay	Tourism	0.08844	1.18622	0.992
+Paraguay	Housing	-0.05892	0.99668	0.995
+Paraguay	natural disaster	0.29921	1.24345	0.911
+Paraguay	infant mortality	0.16586	1.25995	0.964
+Paraguay	job creation	-0.09124	1.61709	0.997
+Paraguay	Sanitation	-0.03056	1.81277	0.998
+Paraguay	Gender	-0.02619	1.16758	0.998
+Paraguay	Refugee	-0.15841	1.41561	0.983
+Paraguay	Technological development	0.39779	1.32275	0.951
+Paraguay	Malnutrition	0.10596	1.41797	0.982
+Paraguay	small and medium enterprise	0.33904	3.09312	0.965
+Paraguay	school completion	-0.01364	3.67072	1.000
+Paraguay	Human rights	-0.03623	0.71553	0.999
+Paraguay	Homicides	0.57453	0.41666	0.916
+Paraguay	Microenterprise	1.50451	2.11834	0.455
+Paraguay	Poverty reduction	0.45348	1.38616	0.779
+Paraguay	civil war	0.03258	0.53846	0.996
+Paraguay	economic growth	0.41134	0.67623	0.904
+Paraguay	Agriculture	0.07721	1.23382	0.983
+Namibia	rural development	0.18042	1.89024	0.959
+Namibia	Electricity	0.05102	0.90869	0.995
+Namibia	climate change	0.25026	1.19807	0.930
+Namibia	Hospital	-0.30450	0.75175	0.869
+Namibia	Banking system	0.16796	0.88631	0.990
+Namibia	HIV/AIDS	0.07032	1.24267	0.992
+Namibia	Reconstruction	0.13600	1.44267	0.979
+Namibia	primary school	-0.27629	1.51552	0.974
+Namibia	Corruption	0.19314	0.68077	0.919
+Namibia	Transportation	-0.09288	0.90743	0.983
+Namibia	democracy	-0.09144	0.71739	0.987
+Namibia	environmental sustainability	-0.49540	1.44050	0.853
+Namibia	humanitarian assistance	0.19555	2.68076	0.973
+Namibia	criminal justice	-0.06868	0.95902	0.998
+Namibia	Manufacturing	-0.01442	0.69332	0.999
+Namibia	Tourism	0.04469	1.20522	0.997
+Namibia	Housing	-0.11252	0.96343	0.981
+Namibia	natural disaster	0.13893	1.19329	0.977
+Namibia	infant mortality	0.33600	1.25094	0.887
+Namibia	job creation	0.04726	1.62650	1.000
+Namibia	Sanitation	-0.02474	1.75526	1.000
+Namibia	Gender	0.03767	1.17535	0.998
+Namibia	Refugee	-0.01306	1.45552	1.000
+Namibia	Technological development	0.07742	1.40816	0.998
+Namibia	Malnutrition	0.27834	1.46154	0.898
+Namibia	small and medium enterprise	0.65737	3.24616	0.917
+Namibia	school completion	0.21487	3.80460	0.995
+Namibia	Human rights	-0.01242	0.71069	1.000
+Namibia	Homicides	-0.00813	0.51271	1.000
+Namibia	Microenterprise	-0.08039	5.30445	0.998
+Namibia	Poverty reduction	0.31567	1.54600	0.877
+Namibia	civil war	0.18236	0.57042	0.968
+Namibia	economic growth	0.11542	0.73693	0.984
+Namibia	Agriculture	0.12869	1.28916	0.954
+Botswana	rural development	0.11050	1.79628	0.980
+Botswana	Electricity	0.05487	0.88186	0.992
+Botswana	climate change	0.06396	1.13102	0.993
+Botswana	Hospital	-0.29882	0.77227	0.898
+Botswana	Banking system	0.20830	0.90000	0.986
+Botswana	HIV/AIDS	0.24092	1.29345	0.948
+Botswana	Reconstruction	0.05388	1.41045	0.996
+Botswana	primary school	-0.58996	0.98976	0.920
+Botswana	Corruption	0.21852	0.67158	0.915
+Botswana	Transportation	-0.09184	0.92771	0.983
+Botswana	democracy	-0.11785	0.70020	0.982
+Botswana	environmental sustainability	-0.52570	1.50741	0.889
+Botswana	humanitarian assistance	0.09567	2.63967	0.992
+Botswana	criminal justice	-0.15984	0.95454	0.989
+Botswana	Manufacturing	0.03141	0.70051	0.999
+Botswana	Tourism	0.02753	1.20457	1.000
+Botswana	Housing	-0.00875	0.99027	1.000
+Botswana	natural disaster	0.12966	1.20732	0.982
+Botswana	infant mortality	0.29991	1.38418	0.929
+Botswana	job creation	0.15464	1.72248	0.994
+Botswana	Sanitation	0.34115	1.86477	0.913
+Botswana	Gender	0.00824	1.17132	0.999
+Botswana	Refugee	-0.13555	1.39003	0.989
+Botswana	Technological development	0.25368	1.50815	0.986
+Botswana	Malnutrition	0.25946	1.46356	0.917
+Botswana	small and medium enterprise	0.90161	3.05826	0.865
+Botswana	school completion	0.66880	3.61226	0.972
+Botswana	Human rights	-0.11783	0.68296	0.975
+Botswana	Homicides	0.37591	0.99178	0.995
+Botswana	Microenterprise	0.02412	5.53769	1.000
+Botswana	Poverty reduction	0.26821	1.59925	0.910
+Botswana	civil war	0.08806	0.55707	0.991
+Botswana	economic growth	0.17196	0.74330	0.965
+Botswana	Agriculture	0.09932	1.26950	0.972
