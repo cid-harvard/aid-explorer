@@ -1,0 +1,207 @@
+* {
+   margin: 0;
+}
+
+html {
+   height: 100%;
+}
+
+.wrapper {
+   min-height: 100%;
+   height: auto !important;
+   height: 100%;
+   margin: 0 auto -40px;
+   background-image: url('layout/logo_cid_lateral.png');
+   background-repeat: no-repeat;
+   background-position: 1% 90%;
+}
+
+.footer, .push {
+   border-top: solid 1px #BCBDC0;
+   padding: 10px 0;
+   height: 18px;
+}
+
+body {
+   font-family: 'PT Sans Narrow', sans-serif, 'Arial';
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   color: #333;
+}
+
+div#header {
+   margin: 0;
+   padding: 10px;
+   border-bottom: solid 1px #BCBDC0;
+   background-image: url('layout/logo_cid.png');
+   background-repeat: no-repeat;
+   background-position: 99% 33%;
+}
+
+div#mainmenu {
+   width: 100%;
+   margin: 0;
+   border-bottom: solid 1px #BCBDC0;
+}
+
+div#menu-left {
+   width: 250px;
+   float: left;
+}
+
+div#content-right {
+   margin-left: 275px;
+}
+
+div[id*='plot'] {
+   width: 460px;
+   padding: 15px 0;
+}
+
+div#plot-issue, div#plot-country, div#plot-institution {
+   width: 100%;
+}
+
+div.content {
+   width: 100%;
+   margin: 0;
+}
+
+div.home {
+   padding: 50px 50px 0 -50px;
+}
+
+div.footer {
+   text-align: center;
+}
+
+.top-select {
+   margin: 0;
+   width: 100%;
+   text-align: center;
+   font-size: 110%;
+   color: white;
+   background-color: #BA093E;
+}
+
+select {
+   width: 100%;
+   background-color: white;
+   margin: 0;
+   padding: 10px;
+   border: solid 1px #BCBDC0;
+   border-top: none;
+   font-size: 110%;
+}
+
+h1 {
+   display: inline;
+   font-weight: 100;
+}
+
+a, a:visited {
+  color: #BA093E;
+  text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+  text-decoration: underline;
+}
+
+#mainmenu a, #mainmenu a:visited, div.here {
+   text-decoration: none;
+   text-align: center;
+   display: inline-block;
+   padding: 10px 0;
+   width: 33.2%;
+   margin: 0;
+   border-right: solid 1px #BCBDC0;
+   font-size: 133%;
+   color: #333;
+}
+
+#menu-left a, #menu-left a:visited, div.here-left {
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   width: 100%;
+   margin: 0;
+   color: #333;
+   border-right: solid 1px #BCBDC0;
+   border-bottom: solid 1px #BCBDC0;
+}
+
+#mainmenu a:hover, #mainmenu a:visited:hover, #menu-left a:hover, #menu-left a:visited:hover,div.here, div.here-left {
+   background-color: #BA093E;
+   color: white;
+}
+
+a#last {
+   border-right: none;
+}
+
+a#top-left {
+   border-top: solid 1px #BCBDC0;
+}
+
+table {
+   width: 100%;
+   margin-top: 10px;
+   padding: 0 10px;
+   border-spacing: 5px 15px;
+}
+
+table#rank {
+   width: 680px;
+   border-spacing: 0;
+   table-layout: fixed;
+   margin-left: 15px;
+   margin-bottom: 55px;
+}
+
+td {
+   width: 50%;
+   margin: 0;
+}
+
+table#rank td {
+   border: solid 1px #BCBDC0;
+   border-top: none;
+   border-right: none;
+}
+
+td.tre {
+   border: solid 1px #BCBDC0; 
+   height: 355px;
+   vertical-align: top;
+   text-align: center;
+   padding: 0;
+   width: 33.3%;
+}
+
+table#rank .rankcolumn {
+   width: 20px;
+}
+
+table#rank .countrycolumn {
+   width: 500px;
+}
+
+table#rank td.rcolumn {
+   width: 100px;
+   border-right: solid 1px #BCBDC0;
+   text-align: right;
+}
+
+td#plot_container {
+   border: solid 1px #BCBDC0; 
+   height: 505px;
+   vertical-align: top;
+   text-align: center;
+   padding: 0;
+}
+
+th {
+   text-align: center;
+}
