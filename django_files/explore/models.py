@@ -17,8 +17,8 @@ class Bipartite_manager(models.Manager):
    pass
 
 class Bipartite(models.Model):
-   entity_src = models.ForeignKey(Entity)
-   entity_trg = models.ForeignKey(Entity)
+   entity_src = models.ForeignKey(Entity, related_name = "entity_src")
+   entity_trg = models.ForeignKey(Entity, related_name = "entity_trg")
    hits = models.IntegerField()
    rca = models.FloatField()
    alpha = models.FloatField()
