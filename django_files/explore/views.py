@@ -11,4 +11,4 @@ def home(request):
    return render_to_response("home.html")
 
 def explore(request, entity_id):
-   return render_to_response("organizarion.html", {'id': entity_id})
+   return render_to_response("organization.html", {'id': entity_id})
