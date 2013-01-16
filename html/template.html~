@@ -6,13 +6,17 @@
     <script type="text/javascript" src="/media/js/d3.v3.min.js"></script>
   </head>
   <body>
-   <div class="wrapper">
-    <div id="header">
-       <h1>Aid Coordination Explorer</h1>
-    </div>
+   <div id="top-header">
+    <a href="/aidxp/explore/profile/1/">Profiles</a>
+    <a href="/aidxp/explore/network/1/">Networks</a>
+    <a href="/aidxp/explore/ranking/1/">Rankings</a>
+    <a href="/aidxp/about/">About</a>
    </div>
+   {% block second-header %}{% endblock %}
+   {% block content %}{% endblock %}
    <div class="footer">
-     <a href=''>About</a> - <a href='http://www.michelecoscia.com/'>Michele Coscia</a> - <a href='http://www.hks.harvard.edu/centers/cid/'>Center for International Development</a> - <a href='http://www.harvard.edu/'>Harvard University</a>
+     <a href="http://www.hks.harvard.edu/centers/cid/"><img src="/media/img/logo_cid.png" /></a>
+     The Aid Explorer by <a href="http://www.michelecoscia.com/">Michele Coscia</a>
    </div>
   </body>
 </html>
