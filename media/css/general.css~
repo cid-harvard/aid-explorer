@@ -32,6 +32,7 @@ div[id*='plot'] {
 div.footer {
    text-align: center;
    color: #DDDDDD;
+   font-size: 66%;
 }
 
 a, a:visited {

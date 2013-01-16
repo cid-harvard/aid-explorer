@@ -32,7 +32,7 @@ div[id*='plot'] {
 div.footer {
    text-align: center;
    color: #DDDDDD;
-   font-size: 66%;
+   font-size: 75%;
 }
 
 a, a:visited {
@@ -44,7 +44,7 @@ a, a:visited {
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  font-size: 133%;
+  font-size: 125%;
 }
 
 #top-header a:hover, #top-header a:visited:hover {
