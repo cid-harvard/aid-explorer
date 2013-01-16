@@ -89,7 +89,13 @@ h1 {
 #top-header a, #top-header a:visited {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+#top-header a:hover, #top-header a:visited:hover {
+  color: #BA093E;
+  background-color: #EEEEEE;
 }
 
 #mainmenu a, #mainmenu a:visited, div.here {
