@@ -6,7 +6,7 @@ html {
    height: 100%;
 }
 
-.footer, .push {
+.footer {
    text-align: center;
 }
 
@@ -18,13 +18,10 @@ body {
    color: #333;
 }
 
-div#header {
-   margin: 0;
-   padding: 10px;
-   border-bottom: solid 1px #BCBDC0;
-   background-image: url('layout/logo_cid.png');
-   background-repeat: no-repeat;
-   background-position: 99% 33%;
+div#top-header {
+   text-align: center;
+   background-color: #BA093E;
+   color: white;
 }
 
 div#mainmenu {

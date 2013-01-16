@@ -86,12 +86,8 @@ h1 {
 }
 
 a, a:visited {
-  color: #BA093E;
+  color: white;
   text-decoration: none;
-}
-
-a:hover, a:visited:hover {
-  text-decoration: underline;
 }
 
 #mainmenu a, #mainmenu a:visited, div.here {
