@@ -22,7 +22,6 @@ div#top-header {
    text-align: center;
    background-color: #BA093E;
    color: white;
-   padding: 10px 0;
 }
 
 div#mainmenu {
@@ -89,7 +88,7 @@ h1 {
 #top-header a, #top-header a:visited {
   color: white;
   text-decoration: none;
-  margin: 0 20px;
+  padding: 10px 20px;
   display: inline-block;
 }
 
