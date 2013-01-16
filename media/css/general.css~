@@ -34,6 +34,10 @@ div.footer {
    color: #DDDDDD;
 }
 
+a, a:visited {
+   text-decoration: none;
+}
+
 #top-header a, #top-header a:visited {
   color: white;
   text-decoration: none;
