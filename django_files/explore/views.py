@@ -10,5 +10,13 @@ from explore.models import *
 def home(request):
    return render_to_response("home.html")
 
-def explore(request, entity_id):
-   return render_to_response("organization.html", {'id': entity_id})
+def explore(request, app_type, entity_id):
+   if app_type == "profile":
+      entity = Entity.objects.get(id = entity_id)
+      return render_to_response("profile.html", {
+         'id': entity.id,
+         'name': entity.name,
+         'type': entity.type_of_entity,
+         'rank': 1,
+         'synergy': 200,
+      })

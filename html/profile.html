@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="profile-head">
+<div id="profile-rank">{{ rank }}</div>
+<div id="profile-syn">{{ synergy }}%</div>
+<div id="profile-logo"><img src="/media/img/logos/{{ type }}-{{ id }}.png" /></div>
+<h1>{{ name }}</h1>
+</div>
+{% endblock %}
