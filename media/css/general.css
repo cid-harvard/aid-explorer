@@ -33,6 +33,7 @@ div.footer {
    text-align: center;
    color: #DDDDDD;
    font-size: 75%;
+   clear: both;
 }
 
 a, a:visited {

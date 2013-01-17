@@ -1,14 +1,36 @@
 {% extends "template.html" %}
 
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/css/profile.css"/>
+{% endblock%}
+
 {% block second-header %}
 <h2>Aid Explorer</h2>
 {% endblock %}
 
 {% block content %}
+<div id="profile-wrap">
 <div id="profile-head">
-<div id="profile-rank">{{ rank }}</div>
-<div id="profile-syn">{{ synergy }}%</div>
-<div id="profile-logo"><img src="/media/img/logos/{{ type }}-{{ id }}.png" /></div>
-<h1>{{ name }}</h1>
+<div class="float-left">
+<div id="profile-rank">#{{ rank }}</div>
+<div id="profile-cons">IC: {{ consistency }}%</div>
+</div>
+<div id="profile-logo"><img src="/media/img/logos/{{ type }}-{{ id }}.png" id="logo"/> <h1>{{ name }}</h1></div>
+</div>
+<div id="profile-main">
+<div id="profile-ques" class="float-left">
+<h3>Questions</h3>
+<ul>
+<li><a href="">How do {{ other_type1 }} coordinate over {{ other_type2 }} and {{ name }}?</a></li>
+<li><a href="">How do {{ other_type2 }} coordinate over {{ other_type1 }} and {{ name }}?</a></li>
+</ul>
+</div>
+<div id="profile-plot">
+<h4>Question text</h4>
+</div>
+
+</div>
+
+
 </div>
 {% endblock %}

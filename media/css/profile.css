@@ -1,0 +1,85 @@
+h1 {
+   font-size: 300%;
+   display: inline;
+}
+
+h2 {
+   margin: 10px;
+}
+
+h3 {
+   margin: 5px;
+}
+
+div#profile-wrap {
+   margin: 5px 10px;
+}
+
+div#profile-head {
+   margin-bottom: 10px;
+}
+
+div#profile-rank {
+   font-weight: bold;
+   font-size: 300%;
+   text-align: center;
+   border: solid 2px #DDDDDD;
+   padding: 5px;
+   margin-bottom: 5px;
+   width: 110px;
+}
+
+div#profile-cons {
+   text-align: center;
+   border: solid 2px #DDDDDD;
+   padding: 5px;
+   width: 110px;
+}
+
+div#profile-logo {
+   margin-left: 150px;
+}
+
+div#profile-main {
+   clear: both;
+}
+
+div#profile-ques {
+   width: 33%;
+   border: solid 2px #DDDDDD;
+}
+
+div#profile-plot {
+   border: solid 2px #DDDDDD;
+   width: 66%;
+   margin-left: 34%;
+}
+
+div.float-left {
+   float: left;
+}
+
+img#logo {
+   padding: 2px;
+   border: solid 2px #DDDDDD;
+   margin-right: 15px;
+}
+
+#profile-ques ul {
+   margin: 10px 0;
+   padding: 0;
+   list-style: none;
+}
+
+#profile-ques a, #profile-ques a:visited {
+   display: block;
+   margin: 0;
+   padding: 5px;
+   color: #BA093E;
+}
+
+#profile-ques a:hover, #profile-ques a:visited:hover {
+   background-color: #BA093E;
+   color: #EEEEEE;
+}
+

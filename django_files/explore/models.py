@@ -23,3 +23,8 @@ class Bipartite(models.Model):
    rca = models.FloatField()
    alpha = models.FloatField()
    beta = models.FloatField()
+
+class Ranking(models.Model):
+   entity = models.ForeignKey(Entity)
+   consistency_value = models.FloatField()
+   rank = models.IntegerField()
