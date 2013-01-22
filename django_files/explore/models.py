@@ -13,9 +13,6 @@ class Entity(models.Model):
    type_of_entity = models.CharField(max_length = 2, choices = TYPE_OF_ENTITY_CHOICES)
    relations = models.ManyToManyField('self', through = 'Bipartite', symmetrical = False)
 
-class Bipartite_manager(models.Manager):
-   pass
-
 class Bipartite(models.Model):
    entity_src = models.ForeignKey(Entity, related_name = "entity_src")
    entity_trg = models.ForeignKey(Entity, related_name = "entity_trg")

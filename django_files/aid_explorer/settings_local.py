@@ -10,7 +10,7 @@ DATABASES = {
 }
 
 STATICFILES_DIRS = (
-    '/srv/www/aid_explorer/media',
+    '/srv/www/media/aid_explorer',
 )
 
 SECRET_KEY = '-%vx@ocghp%7a3+@6evdzn#=v071$t-cl6m&4h5^iv#65mt13y'
