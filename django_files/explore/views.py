@@ -12,28 +12,52 @@ def home(request):
 
 def explore(request, app_type, entity_id):
    if app_type == "profile":
-      entity = Entity.objects.get(id = entity_id)
-      ranking = Ranking.objects.get(entity = entity_id)
-      if entity.type_of_entity == "IS":
-         other_type1 = "Organizations"
-         other_type2 = "Countries"
-      elif entity.type_of_entity == "CO":
-         other_type1 = "Organizations"
-         other_type2 = "Issues"
-      elif entity.type_of_entity == "OR":
-         other_type1 = "Issues"
-         other_type2 = "Countries"
-      return render_to_response("profile.html", {
-         'id': entity.id,
-         'name': entity.name,
-         'type': entity.type_of_entity,
-         'rank': ranking.rank,
-         'consistency': ranking.consistency_value,
-         'other_type1': other_type1,
-         'other_type2': other_type2,
-      })
+      return explore_profile(entity_id)
+   elif app_type == "network":
+      return explore_network(entity_id)
+
+def explore_profile(entity_id):
+   entity = Entity.objects.get(id = entity_id)
+   ranking = Ranking.objects.get(entity = entity_id)
+   if entity.type_of_entity == "IS":
+      other_type1 = "Organizations"
+      other_type2 = "Countries"
+   elif entity.type_of_entity == "CO":
+      other_type1 = "Organizations"
+      other_type2 = "Issues"
+   elif entity.type_of_entity == "OR":
+      other_type1 = "Issues"
+      other_type2 = "Countries"
+   return render_to_response("profile.html", {
+      'id': entity.id,
+      'name': entity.name,
+      'type': entity.type_of_entity,
+      'rank': ranking.rank,
+      'consistency': ranking.consistency_value,
+      'other_type1': other_type1,
+      'other_type2': other_type2,
+   })
+
+def explore_network(network_id):
+   if network_id == "1":
+      type = "OR"
+   elif network_id == "2":
+      type = "CO"
+   else:
+      type = "IS"
+   return render_to_response("network.html", {
+      'type': type,
+   })
 
 def get_data(request, app_type, entity_id, data_type, target_id):
+   if data_type == "bipartite":
+      return get_data_bipartite(entity_id, target_id)
+   elif data_type == "list":
+      return get_data_list(target_id)
+   elif data_type == "network":
+      return get_data_network(entity_id, target_id)
+
+def get_data_bipartite(entity_id, target_id):
    entity = Entity.objects.get(id = entity_id)
    target = Entity.objects.get(id = target_id)
    response_data = {}
@@ -55,7 +79,7 @@ def get_data(request, app_type, entity_id, data_type, target_id):
          response_data["points"].append(record)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
-def get_list(request, app_type, entity_id, data_type, list_type):
+def get_data_list(list_type):
    if list_type == "Organizations":
       list_type = "OR"
    elif list_type == "Countries":
@@ -69,4 +93,34 @@ def get_list(request, app_type, entity_id, data_type, list_type):
       record["id"] = entity.id
       record["name"] = entity.name.capitalize()
       response_data.append(record)
+   return HttpResponse(json.dumps(response_data), mimetype="application/json")
+
+def get_data_network(network_id, entity_type):
+   response_data = {}
+   response_data["nodes"] = []
+   nodes = Entity.objects.filter(type_of_entity = entity_type)
+   nodemap = {}
+   i = 0
+   for node in nodes:
+      if node.id == 250 or node.id == 254:
+         continue
+      nodemap[node.id] = i
+      i += 1
+      record = {}
+      record["name"] = node.name
+      if node.type_of_entity == "OR":
+         record["type"] = node.entropy
+      else:
+         record["type"] = node.subtype
+      record["size"] = node.size
+      record["system_id"] = node.id
+      response_data["nodes"].append(record)
+   response_data["links"] = []
+   edges = Edge.objects.filter(type = network_id)
+   for edge in edges:
+      record = {}
+      record["source"] = nodemap[edge.entity_src.id]
+      record["target"] = nodemap[edge.entity_trg.id]
+      record["weight"] = edge.weight
+      response_data["links"].append(record)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
