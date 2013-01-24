@@ -1,0 +1,38 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/network.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/tipsy.css"/>
+{% endblock %}
+
+{% block secondary-script %}
+<script type="text/javascript" src="/media/aidxp/js/jquery.tipsy.js"></script>
+<script type="text/javascript">
+pagetype = "{{ type }}";
+svg = null;
+</script>
+{% endblock %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="ques" class="float-left">
+<h3>Questions</h3>
+<ul>
+<li><a href="/aidxp/explore/network/3">What Issue is related to what other Issue in the Aid Community?</a>
+<li><a href="/aidxp/explore/network/2">What Country is related to what other Country in the Aid Community?</a>
+<li><a href="/aidxp/explore/network/1">Who talks to whom in the Aid Community?</a>
+</ul>
+</div>
+<div id="plot-wrap">
+<div id="question-text"></div>
+<div id="plot">
+<script src="/media/aidxp/js/network.js"></script>
+</div>
+</div>
+</div>
+{% endblock %}
+

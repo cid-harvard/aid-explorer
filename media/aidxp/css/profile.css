@@ -1,0 +1,46 @@
+h1 {
+   font-size: 300%;
+   display: inline;
+}
+
+div#profile-head {
+   margin-bottom: 10px;
+}
+
+div#profile-rank {
+   font-weight: bold;
+   font-size: 300%;
+   text-align: center;
+   border: solid 2px #DDDDDD;
+   padding: 5px;
+   margin-bottom: 5px;
+   width: 110px;
+}
+
+div#profile-cons {
+   text-align: center;
+   border: solid 2px #DDDDDD;
+   padding: 5px;
+   width: 110px;
+}
+
+div#profile-logo {
+   margin-left: 150px;
+}
+
+div#profile-main {
+   clear: both;
+}
+
+img#logo {
+   padding: 2px;
+   border: solid 2px #DDDDDD;
+   margin-right: 15px;
+   vertical-align: middle;
+}
+
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
