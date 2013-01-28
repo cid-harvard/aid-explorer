@@ -15,6 +15,8 @@ def explore(request, app_type, entity_id):
       return explore_profile(entity_id)
    elif app_type == "network":
       return explore_network(entity_id)
+   elif app_type == "ranking":
+      return explore_ranking(entity_id)
 
 def explore_profile(entity_id):
    entity = Entity.objects.get(id = entity_id)
@@ -47,6 +49,20 @@ def explore_network(network_id):
       type = "IS"
    return render_to_response("network.html", {
       'type': type,
+   })
+
+def explore_ranking(ranking_id):
+   if ranking_id == "1":
+      type = "OR"
+   elif ranking_id == "2":
+      type = "CO"
+   else:
+      type = "IS"
+   ranks = Ranking.objects.filter(entity__type_of_entity = type).order_by('rank')
+   rankings = []
+   return render_to_response("ranking.html", {
+      'type': type,
+      'rankings': ranks,
    })
 
 def get_data(request, app_type, entity_id, data_type, target_id):
@@ -124,3 +140,11 @@ def get_data_network(network_id, entity_type):
       record["weight"] = edge.weight
       response_data["links"].append(record)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
+
+def about(request, about_type):
+   if about_type == "self":
+      return render_to_response("about.html")
+   elif about_type == "data":
+      return render_to_response("about_data_org.html")
+   elif about_type == "team":
+      return render_to_response("about_team.html")

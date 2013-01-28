@@ -1,0 +1,60 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/ranking.css"/>
+{% endblock %}
+
+{% block secondary-script %}
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#rank-{{ type }}").css("background-color", "#BA093E");
+  $("#rank-{{ type }}").css("color", "white");
+});
+</script>
+{% endblock %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="buttons">
+<a href="/aidxp/explore/ranking/1/" class="rankbutton" id="rank-OR">Organizations</a>
+<a href="/aidxp/explore/ranking/2/" class="rankbutton" id="rank-CO">Countries</a>
+<a href="/aidxp/explore/ranking/3/" class="rankbutton" id="rank-IS">Issues</a>
+</div>
+<div id="question-text">{{ question }}</div>
+<div id="plot">
+<table id="ranking" class="sortable">
+<thead><tr>
+{% if type == "OR" %}
+   <th class="sorttable_sorted"><a class="sort">Rank</a><div id="sorttable_sortfwdind" class="sort_arrow_down"></div></th>
+   <th><a class="sort">Organization</a></th>
+   <th><a class="sort">Country Consistency</a></th>
+{% elif type == "CO" %}
+   <th class="sorttable_sorted"><a class="sort">Rank</a><div id="sorttable_sortfwdind" class="sort_arrow_down"></div></th>
+   <th><a class="sort">Country</a></th>
+   <th><a class="sort">Issue Consistency</a></th>
+{% else %}
+   <th class="sorttable_sorted"><a class="sort">Rank</a><div id="sorttable_sortfwdind" class="sort_arrow_down"></div></th>
+   <th><a class="sort">Issue</a></th>
+   <th><a class="sort">Organization Consistency</a></th>
+{% endif %}
+</thead></tr>
+<tbody>
+{% for r in rankings %}
+   <tr>
+   <td><span>{{ r.rank }}</span></td>
+   <td><a href="/aidxp/explore/profile/{{ r.entity.id }}">{{ r.entity.name }}</a></td>
+   <td>{{ r.consistency_value }}</td>
+   </tr>
+{% endfor %}
+</tbody>
+</table>
+</table>
+</div>
+</div>
+<script src="/media/aidxp/js/sorttable.js"></script>
+<script src="/media/aidxp/js/ranking.js"></script>
+{% endblock %}
