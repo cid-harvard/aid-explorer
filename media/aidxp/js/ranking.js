@@ -4,5 +4,5 @@ var color = d3.scale.linear()
   .range(["#7cbde2", "#fb9496"])
 d3.selectAll("tbody tr").select("td span").style("background", function(d, i){
   return color(i);
-})
+});
 

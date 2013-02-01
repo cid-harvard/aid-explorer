@@ -1,0 +1,29 @@
+div#legend {
+   height: 200px;
+}
+
+div#legend-entropy-gradient {
+   width: 20px;
+   height: 150px;
+   margin-left: 25px;
+   margin-right: 10px; 
+   border: solid 2px #DDDDDD;
+   background-image: linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
+   background-image: -o-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
+   background-image: -moz-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
+   background-image: -webkit-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
+   background-image: -ms-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
+   background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(102,204,255)),
+	color-stop(1, rgb(255,0,0))
+   );
+}
+
+div#legend-entropy-label {
+   position: relative;
+   top: -58px;
+   line-height: 135px;
+}

@@ -46,8 +46,8 @@ $(document).ready(function(){
 {% for r in rankings %}
    <tr>
    <td><span>{{ r.rank }}</span></td>
-   <td><a href="/aidxp/explore/profile/{{ r.entity.id }}">{{ r.entity.name }}</a></td>
-   <td>{{ r.consistency_value }}</td>
+   <td><a href="/aidxp/explore/profile/{{ r.id }}">{{ r.name }}</a></td>
+   <td>{{ r.value }}</td>
    </tr>
 {% endfor %}
 </tbody>

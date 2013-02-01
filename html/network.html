@@ -19,16 +19,27 @@ svg = null;
 
 {% block content %}
 <div id="wrap">
-<div id="ques" class="float-left">
+<div id="left-column" class="float-left">
+<div id="ques">
 <h3>Questions</h3>
 <ul>
-<li><a href="/aidxp/explore/network/3">What Issue is related to what other Issue in the Aid Community?</a>
+<li><a href="/aidxp/explore/network/1">What Organization is related to what other Organization in the Aid Community?</a>
 <li><a href="/aidxp/explore/network/2">What Country is related to what other Country in the Aid Community?</a>
-<li><a href="/aidxp/explore/network/1">Who talks to whom in the Aid Community?</a>
+<li><a href="/aidxp/explore/network/3">What Issue is related to what other Issue in the Aid Community?</a>
 </ul>
 </div>
+<div id="legend">
+<h3>Legend</h3>
+{% if type == "OR" %}
+<div id="legend-entropy-gradient" class="float-left"></div>
+<div id="legend-entropy-label">
+High Issue Entropy -&gt; Generic Organization<br />
+Low Issue Entropy -&gt; Specialized Organization
+</div> 
+{% endif %}
+</div>
+</div>
 <div id="plot-wrap">
-<div id="question-text"></div>
 <div id="plot">
 <script src="/media/aidxp/js/network.js"></script>
 </div>
