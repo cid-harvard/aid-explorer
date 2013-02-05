@@ -1,0 +1,112 @@
+Microenterprise	small and medium enterprise	1330	17.82797
+infant mortality	school completion	4020	7.90119
+humanitarian assistance	natural disaster	25800	6.94830
+Poverty reduction	small and medium enterprise	9440	6.37080
+primary school	school completion	14400	6.03946
+Microenterprise	Poverty reduction	14300	6.01559
+Microenterprise	rural development	29500	5.96091
+Banking system	economic growth	792000	5.12980
+Malnutrition	infant mortality	112000	5.07552
+Homicides	criminal justice	118000	5.04731
+economic growth	job creation	2380000	4.70952
+Banking system	small and medium enterprise	3520	4.41907
+Poverty reduction	economic growth	1240000	4.31748
+Malnutrition	humanitarian assistance	39400	4.19968
+Homicides	infant mortality	12500	3.91910
+Refugee	humanitarian assistance	99500	3.72169
+Poverty reduction	school completion	4120	3.54870
+HIV/AIDS	Malnutrition	626000	3.40460
+Microenterprise	humanitarian assistance	1470	3.31903
+climate change	environmental sustainability	1300000	3.30043
+Technological development	small and medium enterprise	655	3.12497
+job creation	small and medium enterprise	7790	2.98779
+rural development	small and medium enterprise	8990	2.91427
+Poverty reduction	environmental sustainability	92200	2.78807
+Poverty reduction	humanitarian assistance	23700	2.69410
+Reconstruction	civil war	2520000	2.65360
+Reconstruction	humanitarian assistance	96800	2.57719
+Refugee	civil war	1700000	2.51495
+economic growth	small and medium enterprise	22100	2.45194
+Banking system	Microenterprise	3060	2.39458
+HIV/AIDS	infant mortality	178000	2.35588
+Poverty reduction	infant mortality	48200	2.32946
+HIV/AIDS	Sanitation	1470000	2.32634
+Technological development	economic growth	91800	2.25961
+criminal justice	school completion	8090	2.16928
+Human rights	democracy	52100000	2.14489
+Sanitation	humanitarian assistance	68900	2.13699
+Malnutrition	school completion	2630	2.12413
+humanitarian assistance	infant mortality	8180	2.12185
+Corruption	democracy	34700000	1.99720
+Microenterprise	job creation	8300	1.98432
+Poverty reduction	rural development	195000	1.98379
+Technological development	environmental sustainability	9070	1.93893
+infant mortality	natural disaster	15800	1.80908
+HIV/AIDS	humanitarian assistance	56100	1.74644
+Technological development	infant mortality	5110	1.74587
+Microenterprise	Sanitation	15000	1.72168
+Agriculture	climate change	37500000	1.71335
+Gender	Poverty reduction	1830000	1.68881
+Microenterprise	Reconstruction	17000	1.67493
+Sanitation	infant mortality	127000	1.67467
+Malnutrition	Microenterprise	4220	1.66459
+Banking system	Technological development	5910	1.64608
+infant mortality	primary school	66200	1.55787
+Malnutrition	small and medium enterprise	2450	1.55039
+Homicides	natural disaster	4750	1.54621
+Corruption	Human rights	28400000	1.52480
+HIV/AIDS	Microenterprise	13100	1.50917
+Malnutrition	Poverty reduction	74800	1.48549
+civil war	humanitarian assistance	60100	1.45029
+school completion	small and medium enterprise	52	1.42719
+Malnutrition	natural disaster	30300	1.42562
+Malnutrition	Sanitation	261000	1.41425
+Hospital	infant mortality	1020000	1.37891
+Reconstruction	natural disaster	117000	1.37499
+HIV/AIDS	school completion	5820	1.37284
+Technological development	natural disaster	3840	1.36214
+Gender	Human rights	34400000	1.35181
+Hospital	Malnutrition	2410000	1.33879
+Poverty reduction	Technological development	8820	1.32058
+climate change	rural development	1530000	1.30680
+Gender	school completion	34500	1.29481
+Technological development	rural development	18000	1.29454
+economic growth	rural development	764000	1.27776
+Microenterprise	economic growth	18400	1.27249
+HIV/AIDS	Poverty reduction	215000	1.24703
+economic growth	school completion	8740	1.23759
+Refugee	natural disaster	73700	1.21682
+environmental sustainability	small and medium enterprise	1260	1.21409
+Sanitation	small and medium enterprise	6590	1.21346
+Sanitation	school completion	5150	1.21031
+Banking system	natural disaster	12900	1.20410
+economic growth	infant mortality	150000	1.19178
+Reconstruction	Technological development	33600	1.17826
+Agriculture	Poverty reduction	2160000	1.17547
+climate change	economic growth	3990000	1.16637
+Reconstruction	economic growth	1410000	1.14983
+HIV/AIDS	climate change	2360000	1.14922
+Banking system	Housing	1300000	1.14562
+economic growth	humanitarian assistance	61200	1.14370
+Banking system	infant mortality	12700	1.14177
+Sanitation	climate change	2350000	1.14013
+humanitarian assistance	rural development	20500	1.11936
+Poverty reduction	Sanitation	193000	1.11529
+primary school	small and medium enterprise	3320	1.09100
+Homicides	civil war	37200	1.08502
+Human rights	Refugee	3640000	1.08018
+Gender	Malnutrition	1230000	1.06436
+Microenterprise	Refugee	7640	1.05752
+Reconstruction	small and medium enterprise	6630	1.04795
+Gender	primary school	2330000	1.04700
+Homicides	Hospital	271000	1.04155
+Technological development	job creation	12200	1.03812
+HIV/AIDS	Refugee	543000	1.03631
+HIV/AIDS	small and medium enterprise	5600	1.03498
+Poverty reduction	natural disaster	20600	1.03365
+Sanitation	natural disaster	75300	1.03091
+Manufacturing	Transportation	66300000	1.01943
+civil war	natural disaster	94900	1.01085
+Microenterprise	natural disaster	1010	1.00660
+Electricity	Electricity	0	0
+Tourism	Tourism	0	0
