@@ -1,5 +1,6 @@
 div#legend {
    height: 200px;
+   width: 100%;
 }
 
 div#legend-entropy-gradient {
@@ -26,4 +27,8 @@ div#legend-entropy-label {
    position: relative;
    top: -58px;
    line-height: 135px;
+}
+
+div#ques {
+   width: 100%;
 }
