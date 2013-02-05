@@ -177,7 +177,7 @@ def get_data_bipartite(entity_id, target_id):
    response_data["trendline"]["y1"] = y1  
    response_data["trendline"]["x2"] = x2
    response_data["trendline"]["y2"] = y2
-   response_data["trendlabel"] = u"%s<br />%s<hr />\u03B1 = %1.4f" % (entity.name.title(), target.name.title(), beta)
+   response_data["trendlabel"] = u"%s<br />%s<hr />\u03B1 = %1.4f" % (entity.name.title(), target.name.title(), alpha)
    response_data["plot_title"] = "R = %1.4f" % (rca)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
@@ -285,7 +285,7 @@ def get_data_consistency(entity_id, type_filter):
       record["id"] = point.entity_trg_id
       record["label"] = point.entity_trg.name.title()
       record["x"] = point.rca
-      record["y"] = point.beta
+      record["y"] = point.alpha
       record["size"] = point.hits
       response_data["points"].append(record)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")

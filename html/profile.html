@@ -17,25 +17,38 @@ othertype = "";
 
 {% block second-header %}
 <h2>Aid Explorer</h2>
-Profiles:
-<select class="profile-switcher">
-<option value="">Issues</option>
+<div id="selectors">
+<dl id="select-issue" class="dropdown">
+<dt><a href="#"><span>Issues</span></a></dt>
+<dd>
+<ul>
 {% for issue in issues %}
-<option value="{{ issue.id }}">{{ issue.name }}</option>
+<li><a alt="{{ issue.id }}" href="#">{{ issue.name }}</a></li>
 {% endfor %}
-</select>
-<select class="profile-switcher">
-<option value="">Countries</option>
+</ul>
+</dd>
+</dl>
+<dl id="select-country" class="dropdown">
+<dt><a href="#"><span>Countries</span></a></dt>
+<dd>
+<ul>
 {% for country in countries %}
-<option value="{{ country.id }}">{{ country.name }}</option>
+<li><a alt="{{ country.id }}" href="#">{{ country.name }}</a></li>
 {% endfor %}
-</select>
-<select class="profile-switcher">
-<option value="">Organizations</option>
+</ul>
+</dd>
+</dl>
+<dl id="select-org" class="dropdown">
+<dt><a href="#"><span>Organizations</span></a></dt>
+<dd>
+<ul>
 {% for org in orgs %}
-<option value="{{ org.id }}">{{ org.name }}</option>
+<li><a alt="{{ org.id }}" href="#">{{ org.name }}</a></li>
 {% endfor %}
-</select>
+</ul>
+</dd>
+</dl>
+</div>
 {% endblock %}
 
 {% block content %}

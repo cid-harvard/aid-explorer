@@ -7,8 +7,14 @@ function draw(plotclass, plotid) {
  var x = d3.scale.log()
     .range([0, width]);
 
- var y = d3.scale.log()
+
+ if(plotclass == "bipartite") {
+  var y = d3.scale.log()
     .range([height, 10]);
+ } else {
+  var y = d3.scale.linear()
+    .range([height, 10]);
+ }
 
  var s = d3.scale.log()
     .range([1, 2]);
@@ -47,14 +53,20 @@ function draw(plotclass, plotid) {
   x.domain(d3.extent(data.points, function(d) { return d.x; })).nice();
   y.domain(d3.extent(data.points, function(d) { return d.y; })).nice();
 
+  if(plotclass == "bipartite") {
+    axisOrigin = 1;
+  } else {
+    axisOrigin = 0;
+  }
+
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(0," + y(1) + ")")
-      .call(xAxis.tickPadding(height - y(1)))
+      .attr("transform", "translate(0," + y(axisOrigin) + ")")
+      .call(xAxis.tickPadding(height - y(axisOrigin)))
     .append("text")
       .attr("class", "label")
       .attr("x", width)
-      .attr("y", (height - y(1)) + 40)
+      .attr("y", (height - y(axisOrigin)) + 40)
       .style("text-anchor", "end")
       .text(data.x_axis);
 
@@ -85,8 +97,8 @@ function draw(plotclass, plotid) {
       .on("mouseout", function() { d3.select(this).style("fill", "#000000"); });
 
   svg.selectAll("g.x line")
-      .attr("y1", -y(1) + 10)
-      .attr("y2", height - y(1)) 
+      .attr("y1", -y(axisOrigin) + 10)
+      .attr("y2", height - y(axisOrigin)) 
       .style("stroke", "#000000")
       .style("stroke-opacity", ".2");
 
@@ -129,7 +141,7 @@ function draw(plotclass, plotid) {
      gravity: 'w', 
      html: true, 
      title: function() {
-       var d = this.__data__, l = d.label + "<br />" + data.x_axis + ": " + d.x + "<br />" + data.y_axis + ": " + d.y;
+       var d = this.__data__, l = d.label + "<hr />" + data.x_axis + ": " + d.x + "<br />" + data.y_axis + ": " + d.y;
        return l; 
      }
   });
@@ -235,3 +247,29 @@ function giveMeARandomId(type) {
    });
    return v;
 }
+
+$(".dropdown dt a").click(function() {
+    if($(this).parent().next().children().is(":visible")) {
+       $(".dropdown dd ul").hide();
+    } else {
+       $(".dropdown dd ul").hide();
+       $(this).parent().next().children().show();
+    }
+    return false;
+});
+
+$(".dropdown dd ul li a").click(function(e) {
+    var text = $(this).html();
+    $(".dropdown dt a span", this).html(text);
+    $(".dropdown dd ul", this).hide();
+    var new_url = "/aidxp/explore/profile/" + e.target.getAttribute("alt").toLowerCase() + "/";
+    window.location = new_url;
+    return false;
+});
+
+$(document).bind('click', function(e) {
+    var $clicked = $(e.target);
+    if (! $clicked.parents().hasClass("dropdown"))
+        $(".dropdown dd ul").hide();
+});
+
