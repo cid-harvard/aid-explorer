@@ -3,16 +3,20 @@ h1 {
    display: inline;
 }
 
+h2 {
+   display: inline-block;
+}
+
 div#profile-head {
    margin-bottom: 10px;
 }
 
 div#profile-rank {
    font-weight: bold;
-   font-size: 300%;
+   font-size: 150%;
    text-align: center;
    border: solid 2px #DDDDDD;
-   padding: 5px;
+   padding: 16px 5px;
    margin-bottom: 5px;
    width: 110px;
 }

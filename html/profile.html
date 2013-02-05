@@ -8,6 +8,7 @@
 {% block secondary-script %}
 <script type="text/javascript" src="/media/aidxp/js/jquery.tipsy.js"></script>
 <script type="text/javascript">
+pageid = {{ id }};
 pagename = "{{ name }}";
 pagetype = "{{ type }}";
 othertype = "";
@@ -16,13 +17,40 @@ othertype = "";
 
 {% block second-header %}
 <h2>Aid Explorer</h2>
+Profiles:
+<select class="profile-switcher">
+<option value="">Issues</option>
+{% for issue in issues %}
+<option value="{{ issue.id }}">{{ issue.name }}</option>
+{% endfor %}
+</select>
+<select class="profile-switcher">
+<option value="">Countries</option>
+{% for country in countries %}
+<option value="{{ country.id }}">{{ country.name }}</option>
+{% endfor %}
+</select>
+<select class="profile-switcher">
+<option value="">Organizations</option>
+{% for org in orgs %}
+<option value="{{ org.id }}">{{ org.name }}</option>
+{% endfor %}
+</select>
 {% endblock %}
 
 {% block content %}
 <div id="wrap">
 <div id="profile-head">
 <div class="float-left">
-<div id="profile-rank">#{{ rank }}</div>
+<div id="profile-rank">#{{ rank }} / 
+{% if type == "IS" %}
+{{ issue_n }}
+{% elif type == "CO" %}
+{{ country_n }}
+{% else %}
+{{ org_n }}
+{% endif %}
+</div>
 <div id="profile-cons">IC: {{ consistency }}%</div>
 </div>
 <div id="profile-logo"><img onerror="imgError(this);" src="/media/aidxp/img/logos/{{ type }}-{{ id }}.png" id="logo"/> <h1>{{ name }}</h1></div>
@@ -31,16 +59,20 @@ othertype = "";
 <div id="ques" class="float-left">
 <h3>Questions</h3>
 <ul>
-<li><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type1 }}');">How do {{ other_type1 }} and {{ name }} coordinate over {{ other_type2 }}?</a></li>
-<li><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type2 }}');">How do {{ other_type2 }} and {{ name }} coordinate over {{ other_type1 }}?</a></li>
+<li><a href="javascript:void(0)" onclick="toggleRankType('{{ other_type1 }}');">What are the {{ other_type1 }} most related to {{ name }}?</a></li>
+<li><a href="javascript:void(0)" onclick="toggleRankType('{{ other_type2 }}');">What are the {{ other_type2 }} most related to {{ name }}?</a></li>
+<li><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type1 }}', 'bipartite');">How does {{ name }} relate to {{ other_type1 }} over {{ other_type2 }}?</a></li>
+<li><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type2 }}', 'bipartite');">How does {{ name }} relate to {{ other_type2 }} over {{ other_type1 }}?</a></li>
+<li><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type1 }}', 'consistency');">How does {{ name }} relate to all {{ other_type1 }}?</a></li>
+<li><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type2 }}', 'consistency');">How does {{ name }} relate to all {{ other_type2 }}?</a></li>
 </ul>
 </div>
 <div id="plot-wrap">
 <div id="question-text"></div>
 <div id="plot">
+</div>
+</div>
+</div>
+</div>
 <script src="/media/aidxp/js/profile.js"></script>
-</div>
-</div>
-</div>
-</div>
 {% endblock %}

@@ -44,11 +44,8 @@ function draw(uri) {
       .attr("class", "node")
       .attr("r", function(d){return nodeSize(d.size);})
       .call(force.drag)
-      .style("fill", function(d) { return color(d.type); });
-      //.on("click", function(d) { window.location.href = "." });
-
-   //node.append("title")
-   //   .text(function(d) { return d.name; });
+      .style("fill", function(d) { return color(d.type); })
+      .on("click", function(d) { window.location.href = "/aidxp/explore/profile/" + d.system_id });
 
    force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
