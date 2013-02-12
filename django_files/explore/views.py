@@ -216,6 +216,9 @@ def get_data_network(network_id, entity_type):
          record["type"] = node.subtype
       record["size"] = node.size
       record["system_id"] = node.id
+      record["fixed"] = True
+      record["x"] = node.x
+      record["y"] = node.y
       response_data["nodes"].append(record)
    response_data["links"] = []
    edges = Edge.objects.filter(type = network_id)

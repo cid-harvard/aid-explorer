@@ -28,16 +28,93 @@ svg = null;
 <li><a href="/aidxp/explore/network/3">What Issue is related to what other Issue in the Aid Community?</a>
 </ul>
 </div>
-<div id="legend">
-<h3>Legend</h3>
+
 {% if type == "OR" %}
+<div id="legend-org" class="legend">
+<h3>Legend</h3>
+&nbsp;&nbsp;Node Color:<br />
 <div id="legend-entropy-gradient" class="float-left"></div>
-<div id="legend-entropy-label">
-High Issue Entropy -&gt; Generic Organization<br />
-Low Issue Entropy -&gt; Specialized Organization
-</div> 
-{% endif %}
+<div id="legend-size">
+<br />&nbsp;&nbsp;Node Size:
+<svg id="org">
+<circle r="3" style="fill: #ccc;" cx="37" cy="15"></circle>
+<circle r="9" style="fill: #ccc;" cx="37" cy="56"></circle>
+<circle r="27" style="fill: #ccc;" cx="37" cy="100"></circle>
+</svg>
 </div>
+<div id="legend-label-org">
+High Issue Entropy -&gt; Generic Organization<br /><br /><br /><br /><br /><br />
+Low Issue Entropy -&gt; Specialized Organization<br /><br /><br />
+Low Betweenness -&gt; Peripheral Node<br /><br />
+Medium Betweenness -&gt; Semi-Core Node<br /><br />
+High Betweenness -&gt; Central Node
+</div>
+</div>
+{% elif type == "CO" %}
+<div id="legend-cou" class="legend">
+<h3>Legend</h3>
+&nbsp;&nbsp;Node Color:<br />
+<svg id="cou">
+<rect x="22" y="11" width="30" height="11" style="fill:rgb(255,0,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="32" width="30" height="11" style="fill:rgb(255,0,32);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="53" width="30" height="11" style="fill:rgb(255,0,64);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="74" width="30" height="11" style="fill:rgb(255,0,96);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="95" width="30" height="11" style="fill:rgb(255,0,128);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="116" width="30" height="11" style="fill:rgb(255,96,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="137" width="30" height="11" style="fill:rgb(255,128,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="158" width="30" height="11" style="fill:rgb(255,196,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="179" width="30" height="11" style="fill:rgb(32,255,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="200" width="30" height="11" style="fill:rgb(0,159,255);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="221" width="30" height="11" style="fill:rgb(0,128,255);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="242" width="30" height="11" style="fill:rgb(0,96,255);stroke-width:1;stroke:#ccc"></rect>
+</svg>
+&nbsp;&nbsp;Node Size:
+<svg>
+<circle r="4" style="fill: #ccc;" cx="37" cy="25"></circle>
+<circle r="9.5" style="fill: #ccc;" cx="37" cy="67"></circle>
+<circle r="15" style="fill: #ccc;" cx="37" cy="108"></circle>
+</svg>
+<div id="legend-label-cou">
+Southern Africa<br />
+Middle Africa<br />
+Eastern Africa<br />
+Northern Africa<br />
+Western Africa<br />
+Central America<br />
+South America<br />
+Caribbean<br />
+Europe<br />
+Western Asia<br />
+Sourth-Central Asia<br />
+Eastern Asia<br /><br /><br />
+Low Number of Hits<br /><br />
+Medium Number of Hits<br /><br />
+High Number of Hits
+</div>
+</div>
+{% else %}
+<div id="legend-iss" class="legend">
+<h3>Legend</h3>
+&nbsp;&nbsp;Node Color:<br />
+<svg id="iss">
+<rect x="22" y="11" width="30" height="11" style="fill:rgb(255,51,255);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="32" width="30" height="11" style="fill:rgb(102,102,255);stroke-width:1;stroke:#ccc"></rect>
+</svg>
+&nbsp;&nbsp;Node Size:
+<svg>
+<circle r="6" style="fill: #ccc;" cx="37" cy="25"></circle>
+<circle r="9" style="fill: #ccc;" cx="37" cy="66"></circle>
+<circle r="12" style="fill: #ccc;" cx="37" cy="108"></circle>
+</svg>
+<div id="legend-label-iss">
+Activity<br />
+Concern<br /><br /><br />
+Low Number of Hits<br /><br />
+Medium Number of Hits<br /><br />
+High Number of Hits
+</div>
+</div>
+{% endif %}
 </div>
 <div id="plot-wrap">
 <div id="plot">
