@@ -3,6 +3,7 @@
 {% block secondary-style %}
 <link type="text/css" rel="stylesheet" href="/media/aidxp/css/profile.css"/>
 <link type="text/css" rel="stylesheet" href="/media/aidxp/css/tipsy.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/chosen.css" />
 {% endblock %}
 
 {% block secondary-script %}
@@ -18,36 +19,40 @@ othertype = "";
 {% block second-header %}
 <h2>Aid Explorer</h2>
 <div id="selectors">
-<dl id="select-issue" class="dropdown">
-<dt><a href="#"><span>Issues</span></a></dt>
-<dd>
-<ul>
+<select class="chzn-select" data-placeholder="Issues">
+<option value=""></option>
 {% for issue in issues %}
-<li><a alt="{{ issue.id }}" href="#">{{ issue.name }}</a></li>
+{% if issue.id == id %}
+<option value="{{ issue.id }}" selected="selected">{{ issue.name }}</option>
+{% else %}
+<option value="{{ issue.id }}">{{ issue.name }}</option>
+{% endif %}
 {% endfor %}
-</ul>
-</dd>
-</dl>
-<dl id="select-country" class="dropdown">
-<dt><a href="#"><span>Countries</span></a></dt>
-<dd>
-<ul>
+</select>
+<select class="chzn-select" data-placeholder="Countries">
+<option value=""></option>
 {% for country in countries %}
-<li><a alt="{{ country.id }}" href="#">{{ country.name }}</a></li>
+{% if country.id == id %}
+<option value="{{ country.id }}" selected="selected">{{ country.name }}</option>
+{% else %}
+<option value="{{ country.id }}">{{ country.name }}</option>
+{% endif %}
 {% endfor %}
-</ul>
-</dd>
-</dl>
-<dl id="select-org" class="dropdown">
-<dt><a href="#"><span>Organizations</span></a></dt>
-<dd>
-<ul>
+</select>
+<select class="chzn-select" data-placeholder="Organizations">
+<option value=""></option>
 {% for org in orgs %}
-<li><a alt="{{ org.id }}" href="#">{{ org.name }}</a></li>
+{% if org.id == id %}
+<option value="{{ org.id }}" selected="selected">{{ org.name }}</option>
+{% else %}
+<option value="{{ org.id }}">{{ org.name }}</option>
+{% endif %}
 {% endfor %}
-</ul>
-</dd>
-</dl>
+</select>
+<script src="/media/aidxp/js/chosen.jquery.min.js" ></script>
+<script>
+$(".chzn-select").chosen();
+</script>
 </div>
 {% endblock %}
 

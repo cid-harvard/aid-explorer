@@ -14,6 +14,8 @@ class Entity(models.Model):
    subtype = models.CharField(max_length = 256)
    entropy = models.FloatField()
    size = models.FloatField()
+   x = models.FloatField()
+   y = models.FloatField()
    bipartite_relations = models.ManyToManyField('self', through = 'Bipartite', symmetrical = False, related_name = "bipartite")
    edge_relations = models.ManyToManyField('self', through = 'Edge', symmetrical = False, related_name = "edge")
 

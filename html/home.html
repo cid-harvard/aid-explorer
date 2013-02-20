@@ -1,5 +1,17 @@
 {% extends "template.html" %}
 
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/home.css"/>
+{% endblock %}
+
 {% block content %}
-Home - <a href="/aidxp/explore/1/">Link</a>
+<div id="wrap">
+<div id="title">
+<h1>The Aid Explorer</h1>
+<hr />
+<h2>Mapping the Hyperspace of International Aid</h2>
+</div>
+<div id="left-content"></div>
+<div id="right-content"></div>
+</div>
 {% endblock %}

@@ -1,0 +1,29 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/profile.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/tipsy.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/chosen.css" />
+{% endblock %}
+
+{% block secondary-script %}
+{% endblock %}
+
+{% block second-header %}
+<div class="dropdown_container" id="select-issue">
+<select data-placeholder="Issues">
+{% for issue in issues %}
+{% if issue.id == id %}
+<option value="{{ issue.id }}" selected="selected">{{ issue.name }}</option>
+{% else %}
+<option value="{{ issue.id }}">{{ issue.name }}</option>
+{% endif %}
+{% endfor %}
+</select>
+<script src="/media/aidxp/js/chosen.jquery.min.js" ></script>
+<script>
+$("#select-issue select").chosen();
+</script>
+</div>
+{% endblock %}
+

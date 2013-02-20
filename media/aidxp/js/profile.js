@@ -222,7 +222,8 @@ function getList(type) {
         }
     }
     $("select#target-entity").html(html);
-    $("select#target-entity").change(function(){
+    $("select#target-entity").chosen();
+    $("select#target-entity").chosen().change(function(){
       $("div#plot").html("");
       plotid = $(this).val();
       draw("bipartite", plotid);
@@ -248,28 +249,9 @@ function giveMeARandomId(type) {
    return v;
 }
 
-$(".dropdown dt a").click(function() {
-    if($(this).parent().next().children().is(":visible")) {
-       $(".dropdown dd ul").hide();
-    } else {
-       $(".dropdown dd ul").hide();
-       $(this).parent().next().children().show();
-    }
-    return false;
-});
 
-$(".dropdown dd ul li a").click(function(e) {
-    var text = $(this).html();
-    $(".dropdown dt a span", this).html(text);
-    $(".dropdown dd ul", this).hide();
-    var new_url = "/aidxp/explore/profile/" + e.target.getAttribute("alt").toLowerCase() + "/";
+$(".chzn-select").chosen().change(function(e){
+    var new_url = "/aidxp/explore/profile/" + this.value + "/";
     window.location = new_url;
     return false;
 });
-
-$(document).bind('click', function(e) {
-    var $clicked = $(e.target);
-    if (! $clicked.parents().hasClass("dropdown"))
-        $(".dropdown dd ul").hide();
-});
-

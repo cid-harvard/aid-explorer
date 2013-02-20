@@ -10,6 +10,10 @@ from explore.models import *
 def home(request):
    return render_to_response("home.html")
 
+def temp(request):
+   issues = Entity.objects.filter(type_of_entity = "IS").order_by("name")
+   return render_to_response("temp.html", {'issues': issues})
+
 def explore(request, app_type, entity_id):
    if app_type == "profile":
       return explore_profile(entity_id)
@@ -216,6 +220,9 @@ def get_data_network(network_id, entity_type):
          record["type"] = node.subtype
       record["size"] = node.size
       record["system_id"] = node.id
+      record["fixed"] = True
+      record["x"] = node.x
+      record["y"] = node.y
       response_data["nodes"].append(record)
    response_data["links"] = []
    edges = Edge.objects.filter(type = network_id)
