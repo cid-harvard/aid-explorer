@@ -57,6 +57,15 @@ for line in f:
    org_attrs[fields[0].capitalize()]["entropy"] = float(fields[2])
 f.close()
 
+x = defaultdict(float)
+y = defaultdict(float)
+f = open("networks_xy", 'r')
+for line in f:
+   fields = line.strip().split('\t')
+   x[int(fields[0])] = float(fields[1])
+   y[int(fields[0])] = float(fields[2])
+f.close()
+
 json_list = []
 n = 1
 for i in range(len(issues)):
@@ -64,7 +73,7 @@ for i in range(len(issues)):
    record = {}
    record["model"] = "explore.entity"
    record["pk"] = n
-   record["fields"] = {"name": issues[i], "type_of_entity": "IS", "entropy": 0.0, "size": float(issue_attrs[issues[i]]["size"]), "subtype": issue_attrs[issues[i]]["subtype"]}
+   record["fields"] = {"name": issues[i], "type_of_entity": "IS", "x": x[n], "y": y[n], "entropy": 0.0, "size": float(issue_attrs[issues[i]]["size"]), "subtype": issue_attrs[issues[i]]["subtype"]}
    json_list.append(record)
    n += 1
 
@@ -73,7 +82,7 @@ for i in range(len(countries)):
    record = {}
    record["model"] = "explore.entity"
    record["pk"] = n
-   record["fields"] = {"name": countries[i], "type_of_entity": "CO", "entropy": 0.0, "size": float(country_attrs[countries[i]]["size"]), "subtype": country_attrs[countries[i]]["subtype"]}
+   record["fields"] = {"name": countries[i], "type_of_entity": "CO", "x": x[n], "y": y[n], "entropy": 0.0, "size": float(country_attrs[countries[i]]["size"]), "subtype": country_attrs[countries[i]]["subtype"]}
    json_list.append(record)
    n += 1
 
@@ -82,7 +91,7 @@ for i in range(len(orgs)):
    record = {}
    record["model"] = "explore.entity"
    record["pk"] = n
-   record["fields"] = {"name": orgs[i], "type_of_entity": "OR", "entropy": org_attrs[orgs[i]]["entropy"], "size": org_attrs[orgs[i]]["size"], "subtype": "N/A"}
+   record["fields"] = {"name": orgs[i], "type_of_entity": "OR", "x": x[n], "y": y[n], "entropy": org_attrs[orgs[i]]["entropy"], "size": org_attrs[orgs[i]]["size"], "subtype": "N/A"}
    json_list.append(record)
    n += 1
 
