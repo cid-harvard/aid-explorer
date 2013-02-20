@@ -48,3 +48,8 @@ img#logo {
   stroke: #000;
   shape-rendering: crispEdges;
 }
+
+.chzn-select {
+  width: 200px;
+  margin-top: 15px;
+}

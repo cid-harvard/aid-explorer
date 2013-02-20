@@ -10,6 +10,10 @@ from explore.models import *
 def home(request):
    return render_to_response("home.html")
 
+def temp(request):
+   issues = Entity.objects.filter(type_of_entity = "IS").order_by("name")
+   return render_to_response("temp.html", {'issues': issues})
+
 def explore(request, app_type, entity_id):
    if app_type == "profile":
       return explore_profile(entity_id)

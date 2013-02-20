@@ -1,3 +1,8 @@
+div#plot-wrap {
+   height: 600px;
+   text-align: center;
+}
+
 div#legend-org {
    height: 400px;
    width: 100%;
@@ -72,4 +77,8 @@ svg#cou {
 
 svg#iss {
    height: 55px;
+}
+
+div#plot-wrap img {
+   margin-top: 275px;
 }

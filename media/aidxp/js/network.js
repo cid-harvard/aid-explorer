@@ -9,7 +9,11 @@ function draw(uri) {
     .size([width, height])
     .gravity(1);
 
- svg = d3.select("div#plot")
+ d3.json("network/" + uri, function(error, graph) {
+
+   svg = d3.select("div#plot").html("");
+
+   svg = d3.select("div#plot")
     .append("svg:svg")
     .attr("width", width)
     .attr("height", height)
@@ -18,12 +22,12 @@ function draw(uri) {
     .call(d3.behavior.zoom().on("zoom", redraw))
     .append('svg:g');
 
- svg.append('svg:rect')
+   svg.append('svg:rect')
     .attr('width', width)
     .attr('height', height)
     .attr('fill', 'white');
 
- d3.json("network/" + uri, function(error, graph) {
+
    force
       .nodes(graph.nodes)
       .links(graph.links)
@@ -61,7 +65,13 @@ function draw(uri) {
      gravity: 'w',
      html: true,
      title: function() {
-       var d = this.__data__, l = d.name;
+       if(uri == "OR") {
+          var d = this.__data__, l = d.name + "<hr />Entropy: " + d.type + "<br />Centrality: " + d.size;
+       } else if(uri == "CO") {
+          var d = this.__data__, l = d.name + "<hr />World Region: " + d.type + "<br /># Hits: " + Math.round(d.size);
+       } else {
+          var d = this.__data__, l = d.name + "<hr />Issue Type: " + d.type + "<br /># Hits: " + Math.round(d.size);
+       }
        return l;
      }
   });
@@ -115,18 +125,18 @@ function nodeColor(uri) {
     .range(["rgb(102,204,255)", "rgb(102,204,255)", "red"]);
    } else if(uri == "CO") {
       return d3.scale.ordinal()
-    .domain(["02_Central_America",
-             "03_South_America",
-             "04_Caribbean",
-             "05_Europe",
-             "09_Western_Asia",
-             "10_South-central_Asia",
-             "11_Eastern_Asia",
-             "17_Southern_Africa",
-             "18_Middle_Africa",
-             "19_Eastern_Africa",
-             "20_Northern_Africa",
-             "21_Western_Africa"])
+    .domain(["Central America",
+             "South America",
+             "Caribbean",
+             "Europe",
+             "Western Asia",
+             "South-central Asia",
+             "Eastern Asia",
+             "Southern Africa",
+             "Middle Africa",
+             "Eastern Africa",
+             "Northern Africa",
+             "Western Africa"])
     .range(["rgb(255, 96, 0)",
             "rgb(255, 128, 0)",
             "rgb(255, 196, 0)",
