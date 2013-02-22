@@ -43,7 +43,7 @@ function draw(plotclass, plotid) {
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
- d3.json(plotclass + "/" + plotid + "/", function(error, data) {
+ d3.json("/aidxp/explore/profile/" + pageid + "/" + plotclass + "/" + plotid + "/", function(error, data) {
 
   data.points.forEach(function(d) {
     d.y = +d.y;
@@ -156,19 +156,26 @@ function draw(plotclass, plotid) {
 }
 
 $(document).ready(function(){
-  if(pagetype == "IS") {
-    othertype = "Countries";
-    thirdtype = "Organizations";
-  } else {
-    othertype = "Issues";
-    if(pagetype == "OR") {
-       thirdtype = "Countries";
+  if(plotid == -1) {
+    if(pagetype == "IS") {
+      othertype = "Countries";
+      thirdtype = "Organizations";
     } else {
-       thirdtype = "Organizations";
+      othertype = "Issues";
+      if(pagetype == "OR") {
+        thirdtype = "Countries";
+      } else {
+        thirdtype = "Organizations";
+      }
     }
+    plotid = giveMeARandomId(othertype);
+    plottype = "bipartite";
   }
-  plotid = giveMeARandomId(othertype);
-  draw("bipartite", plotid);
+  if(plottype == "bipartite_rank") {
+     toggleRankType(plotid);
+  } else {
+     draw(plottype, plotid);
+  }
 });
 
 $('.profile-switcher').change(function() {
@@ -189,10 +196,8 @@ function togglePlotType(newtype, plotclass) {
   draw(plotclass, plotid);
 }
 
-
-
 function toggleRankType(type) {
-  $.getJSON("bipartite_rank/" + type + "/", function(data) {
+  $.getJSON("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(data) {
      var tbl_body = "<table><thead><tr><th>Rank</th><th>" + type + "</th><th>R</th></tr></thead>";
      $.each(data, function(key, obj) {
         tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/aidxp/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
@@ -211,7 +216,7 @@ function toggleRankType(type) {
 }
 
 function getList(type) {
- $.getJSON('list/' + type, function(data){
+ $.getJSON("/aidxp/explore/profile/" + pageid + "/list/" + type, function(data){
     var html = '';
     var len = data.length;
     for (var i = 0; i< len; i++) {
@@ -239,7 +244,7 @@ function imgError(image){
 
 function giveMeARandomId(type) {
    $.ajax({
-     url: 'relations/' + type,
+     url: "/aidxp/explore/profile/" + pageid + "/relations/" + type,
      dataType: 'json',
      async: false,
      success: function(data) {

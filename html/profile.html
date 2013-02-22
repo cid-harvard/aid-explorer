@@ -12,7 +12,14 @@
 pageid = {{ id }};
 pagename = "{{ name }}";
 pagetype = "{{ type }}";
-othertype = "";
+othertype = "{{ othertype }}";
+thirdtype = "{{ thirdtype }}"
+{% if plot_id == "Organizations" or plot_id == "Countries" or plot_id == "Issues" %}
+plotid = "{{ plot_id }}";
+{% else %}
+plotid = {{ plot_id }};
+{% endif %}
+plottype = "{{ plot_type }}";
 </script>
 {% endblock %}
 

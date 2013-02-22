@@ -1,8 +1,27 @@
-div#title {
-   text-align: center;
+div#wrap {
+   margin: 10px 30px 30px 30px;
 }
 
-div#wrap {
-   margin: 10px auto;
+div#title {
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 30px;
    width: 750px;
+}
+
+div#left-content {
+   float: left;
+}
+
+div#right-content {
+   margin-left: 510px;     
+}
+
+div#ques {
+   width: 100%;
+   height: 375px;
+}
+
+div.clear {
+   clear: both;
 }

@@ -116,7 +116,7 @@ h3 {
    color: #BA093E;
 }
 
-#ques a:hover, #profile-ques a:visited:hover {
+#ques a:hover, #ques a:visited:hover {
    background-color: #BA093E;
    color: #EEEEEE;
 }

@@ -4,36 +4,86 @@ from django.views.decorators.csrf import csrf_exempt
 from django.template import RequestContext
 from django.core.urlresolvers import resolve
 from django.conf import settings
-import json, math
+import json, math, random
 from explore.models import *
 
 def home(request):
    return render_to_response("home.html")
 
-def temp(request):
-   issues = Entity.objects.filter(type_of_entity = "IS").order_by("name")
-   return render_to_response("temp.html", {'issues': issues})
-
 def explore(request, app_type, entity_id):
    if app_type == "profile":
-      return explore_profile(entity_id)
+      return explore_profile(entity_id, "bipartite", -1)
    elif app_type == "network":
       return explore_network(entity_id)
    elif app_type == "ranking":
       return explore_ranking(entity_id)
 
-def explore_profile(entity_id):
+def static(request, app_type, entity_id, plot_type, target_id):
+   return explore_profile(entity_id, plot_type, target_id)
+
+def explore_profile(entity_id, plot_type, target_id):
    entity = Entity.objects.get(id = entity_id)
    ranking = Ranking.objects.get(entity = entity_id)
-   if entity.type_of_entity == "IS":
-      other_type1 = "Organizations"
-      other_type2 = "Countries"
-   elif entity.type_of_entity == "CO":
-      other_type1 = "Organizations"
-      other_type2 = "Issues"
-   elif entity.type_of_entity == "OR":
-      other_type1 = "Issues"
-      other_type2 = "Countries"
+   other_type1 = ""
+   other_type2 = ""
+   othertype = ""
+   thirdtype = ""
+   if plot_type == "bipartite":
+      if target_id != -1:
+         target = Entity.objects.get(id = target_id)
+      if entity.type_of_entity == "IS":
+         other_type1 = "Organizations"
+         other_type2 = "Countries"
+         if target_id != -1:
+            if target.type_of_entity == "CO":
+               othertype = "Countries"
+               thirdtype = "Organizations"
+            else:
+               othertype = "Organizations"
+               thirdtype = "Countries"
+      elif entity.type_of_entity == "CO":
+         other_type1 = "Organizations"
+         other_type2 = "Issues"
+         if target_id != -1:
+            if target.type_of_entity == "IS":
+               othertype = "Issues"
+               thirdtype = "Organizations"
+            else:
+               othertype = "Organizations"
+               thirdtype = "Issues"
+      elif entity.type_of_entity == "OR":
+         other_type1 = "Issues"
+         other_type2 = "Countries"
+         if target_id != -1:
+            if target.type_of_entity == "CO":
+               othertype = "Countries"
+               thirdtype = "Issues"
+            else:
+               othertype = "Issues"
+               thirdtype = "Countries"
+   else:
+      othertype = target_id
+      if entity.type_of_entity == "IS":
+         other_type1 = "Organizations"
+         other_type2 = "Countries"
+         if target_id == "Organizations":
+            thirdtype = "Countries"
+         else:
+            thirdtype = "Organizations"
+      elif entity.type_of_entity == "CO":
+         other_type1 = "Organizations"
+         other_type2 = "Issues"
+         if target_id == "Organizations":
+            thirdtype = "Issues"
+         else:
+            thirdtype = "Organizations"
+      elif entity.type_of_entity == "OR":
+         other_type1 = "Issues"
+         other_type2 = "Countries"
+         if target_id == "Issues":
+            thirdtype = "Countries"
+         else:
+            thirdtype = "Issues"
    issues = Entity.objects.filter(type_of_entity = "IS").order_by("name")
    for issue in issues:
       issue.name = issue.name.title()
@@ -57,6 +107,10 @@ def explore_profile(entity_id):
       'issue_n': len(issues),
       'country_n': len(countries),
       'org_n': len(orgs),
+      'plot_id': target_id,
+      'plot_type': plot_type,
+      'othertype': othertype,
+      'thirdtype': thirdtype,
    })
 
 def explore_network(network_id):
@@ -305,3 +359,61 @@ def about(request, about_type):
       return render_to_response("about_data_org.html")
    elif about_type == "team":
       return render_to_response("about_team.html")
+
+def question(request):
+   response_data = {}
+   question_id = random.randint(1, 303)
+   if question_id < 298:
+      entity = Entity.objects.get(id = question_id)
+      possible_ids = Bipartite.objects.filter(entity_src = question_id).order_by('?')
+      question_id_2 = random.randint(1, len(possible_ids) + 4)
+      if question_id_2 <= len(possible_ids):
+         response_data["aText"] = "How does %s relate to %s?" % (entity.name.title(), possible_ids[0].entity_trg.name.title())
+         response_data["hrefText"] = "profile/%d/bipartite/%d" % (entity.id, possible_ids[0].entity_trg.id)
+      elif question_id_2 == (len(possible_ids) + 1):
+         if entity.type_of_entity != "OR":
+            response_data["aText"] = "How does %s relate to all Organizations?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/consistency/Organizations/" % entity.id
+         else:
+            response_data["aText"] = "How does %s relate to all Countries?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/consistency/Countries/" % entity.id
+      elif question_id_2 == (len(possible_ids) + 2):
+         if entity.type_of_entity != "IS":
+            response_data["aText"] = "How does %s relate to all Issues?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/consistency/Issues/" % entity.id
+         else:
+            response_data["aText"] = "How does %s relate to all Countries?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/consistency/Countries/" % entity.id
+      elif question_id_2 == (len(possible_ids) + 3):
+         if entity.type_of_entity != "OR":
+            response_data["aText"] = "What are the Organizations more related to %s?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/bipartite_rank/Organizations/" % entity.id
+         else:
+            response_data["aText"] = "What are the Countries more related to %s?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/bipartite_rank/Countries/" % entity.id
+      elif question_id_2 == (len(possible_ids) + 4):
+         if entity.type_of_entity != "IS":
+            response_data["aText"] = "What are the Issues more related to %s?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/bipartite_rank/Issues/" % entity.id
+         else:
+            response_data["aText"] = "What are the Countries more related to %s?" % entity.name.title()
+            response_data["hrefText"] = "profile/%d/bipartite_rank/Countries/" % entity.id
+   elif question_id == 298:
+      response_data["aText"] = "What Aid Organization is related to each other Aid Organization?"
+      response_data["hrefText"] = "network/1/"
+   elif question_id == 299:
+      response_data["aText"] = "What Country is related to each other Country for the Aid Organizations?"     
+      response_data["hrefText"] = "network/2/" 
+   elif question_id == 300:
+      response_data["aText"] = "What Issue is related to each other Issue according to the Aid Organization?"
+      response_data["hrefText"] = "network/3/" 
+   elif question_id == 301:
+      response_data["aText"] = "What Aid Organization is more consistent in the Countries it is serving?"
+      response_data["hrefText"] = "ranking/1/" 
+   elif question_id == 302:
+      response_data["aText"] = "What Country is more consistent in the Issues it is served on?"     
+      response_data["hrefText"] = "ranking/2/" 
+   elif question_id == 303:
+      response_data["aText"] = "What Issue is served more consistently by the Aid Organizations?"     
+      response_data["hrefText"] = "ranking/3/" 
+   return HttpResponse(json.dumps(response_data), mimetype="application/json")
