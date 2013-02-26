@@ -36,11 +36,13 @@ div#legend-entropy-gradient {
 	color-stop(0, rgb(102,204,255)),
 	color-stop(1, rgb(255,0,0))
    );
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#66ccff',GradientType=0 );
 }
 
 div#legend-label-org {
    position: relative;
    top: -335px;
+   top: -340px \0/IE9;
    left: 70px;
    width: 80%;
 }

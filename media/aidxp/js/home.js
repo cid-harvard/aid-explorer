@@ -1,3 +1,5 @@
+$.ajaxSetup({cache:false});
+
 curSpan = 1;
 
 window.setInterval(function(){

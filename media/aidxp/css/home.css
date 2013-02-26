@@ -1,5 +1,6 @@
 div#wrap {
    margin: 10px 30px 30px 30px;
+   text-align: center;
 }
 
 div#title {
@@ -15,11 +16,12 @@ div#left-content {
 
 div#right-content {
    margin-left: 510px;     
+   text-align: left;
 }
 
 div#ques {
    width: 100%;
-   height: 375px;
+   min-height: 375px;
 }
 
 div.clear {

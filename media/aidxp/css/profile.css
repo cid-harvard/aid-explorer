@@ -53,3 +53,13 @@ img#logo {
   width: 200px;
   margin-top: 15px;
 }
+
+@-moz-document url-prefix() {
+   div#target-entity_chzn {
+      top: 8px;
+   }
+}
+
+:root div#target-entity_chzn {
+   top: 8px \0/IE9;
+}

@@ -121,6 +121,10 @@ h3 {
    color: #EEEEEE;
 }
 
+img {
+   border-style: none;
+}
+
 table {
   margin: 0 auto;
   width: 900px;

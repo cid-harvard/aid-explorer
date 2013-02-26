@@ -356,7 +356,30 @@ def about(request, about_type):
    if about_type == "self":
       return render_to_response("about.html")
    elif about_type == "data":
-      return render_to_response("about_data_org.html")
+      orgs = Entity.objects.filter(type_of_entity = "OR")
+      return render_to_response("about_data.html", {
+         "entities": orgs,
+         "head": "Organization",
+         "type": "data",
+      })
+   elif about_type == "data_cou":
+      countries = Entity.objects.filter(type_of_entity = "CO")
+      return render_to_response("about_data.html", {
+         "entities": countries,
+         "head": "Country",
+         "type": "data",
+      })
+   elif about_type == "data_iss":
+      issues = Entity.objects.filter(type_of_entity = "IS")
+      return render_to_response("about_data.html", {
+         "entities": issues,
+         "head": "Issue",
+         "type": "data",
+      })
+   elif about_type == "data_api":
+      return render_to_response("about_data.html", {
+         "type": "api",
+      })
    elif about_type == "team":
       return render_to_response("about_team.html")
 
