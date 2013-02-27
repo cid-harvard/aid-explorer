@@ -36,6 +36,21 @@ div#profile-main {
    clear: both;
 }
 
+div#question-text {
+   position: relative;
+}
+
+span#sharelink {
+   display: none;
+   border: solid 1px #BBBBBB;
+   border-radius: 5px;
+   padding: 5px;
+   position: absolute;
+   background-color: #F4F4F4;
+   top: 30px;
+   right: 0;
+}
+
 img#logo {
    padding: 2px;
    border: solid 2px #DDDDDD;
@@ -52,6 +67,10 @@ img#logo {
 .chzn-select {
   width: 200px;
   margin-top: 15px;
+}
+
+.alignright {
+   float: right;
 }
 
 @-moz-document url-prefix() {

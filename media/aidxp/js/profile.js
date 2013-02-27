@@ -65,10 +65,14 @@ function draw(plotclass, plotid) {
       .call(xAxis.tickPadding(height - y(axisOrigin)))
     .append("text")
       .attr("class", "label")
-      .attr("x", width)
+      .attr("x", width / 2)
       .attr("y", (height - y(axisOrigin)) + 40)
-      .style("text-anchor", "end")
-      .text(data.x_axis);
+      .style("text-anchor", "middle")
+      .style("font-size", "24")
+      .style("cursor", "default")
+      .text(data.x_axis)
+    .append("title")
+      .text(data.x_tooltip);
 
   svg.append("g")
       .attr("class", "y axis")
@@ -77,10 +81,16 @@ function draw(plotclass, plotid) {
     .append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
+      .attr("x", -height / 2)
       .attr("y", -x(1) - 50)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text(data.y_axis);
+      .attr("dy", ".74em")
+      .style("text-anchor", "middle")
+      .style("font-size", "24")
+      .style("cursor", "default")
+      .text(data.y_axis)
+    .append("title") 
+      .text(data.y_tooltip);
+
 
   svg.selectAll(".dot")
       .data(data.points)
@@ -96,17 +106,17 @@ function draw(plotclass, plotid) {
       .on("mouseover", function() { d3.select(this).style("fill", "#BA093E"); })
       .on("mouseout", function() { d3.select(this).style("fill", "#000000"); });
 
-  svg.selectAll("g.x line")
-      .attr("y1", -y(axisOrigin) + 10)
-      .attr("y2", height - y(axisOrigin)) 
-      .style("stroke", "#000000")
-      .style("stroke-opacity", ".2");
+  //svg.selectAll("g.x line")
+  //    .attr("y1", -y(axisOrigin) + 10)
+  //    .attr("y2", height - y(axisOrigin)) 
+  //    .style("stroke", "#000000")
+  //    .style("stroke-opacity", ".2");
 
-  svg.selectAll("g.y line")
-      .attr("x1", -x(1))
-      .attr("x2", width - x(1))
-      .style("stroke", "#000000")
-      .style("stroke-opacity", ".2");
+  //svg.selectAll("g.y line")
+  //    .attr("x1", -x(1))
+  //    .attr("x2", width - x(1))
+  //    .style("stroke", "#000000")
+  //    .style("stroke-opacity", ".2");
 
   svg.selectAll("path");
 
@@ -148,10 +158,10 @@ function draw(plotclass, plotid) {
  });
 
  if(plotclass == "bipartite") {
-  $("div#question-text").html("How does " + pagename + " relate to <select id='target-entity'></select> over " + thirdtype + "?");
+  $("div#question-text").html("How does " + pagename + " relate to <select id='target-entity'></select> over " + thirdtype + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite/" + plotid + "/</span>");
   getList(othertype);
  } else {
-  $("div#question-text").html("How does " + pagename + " relate to all " + plotid + "?");
+  $("div#question-text").html("How does " + pagename + " relate to all " + plotid + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/consistency/" + plotid + "/</span>");
  }
 }
 
@@ -203,7 +213,7 @@ function toggleRankType(type) {
         tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/aidxp/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
      })
      tbl_body += "</table>";
-     $("div#question-text").html("What are the " + type + " most related to " + pagename + "?");
+     $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + plotid + "/</span>");
      $("div#plot").html("<br />" + tbl_body);
      var color = d3.scale.linear()
         .domain([0, d3.selectAll("tbody tr")[0].length-1])
@@ -260,3 +270,23 @@ $(".chzn-select").chosen().change(function(e){
     window.location = new_url;
     return false;
 });
+
+function toggleShareDiv() {
+   $("span#sharelink").toggle();
+   selectText("sharelink");
+}
+
+function selectText(element) {
+    var doc = document, text = doc.getElementById(element), range, selection;    
+    if (doc.body.createTextRange) { //ms
+        range = doc.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+    } else if (window.getSelection) { //all others
+        selection = window.getSelection();        
+        range = doc.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+}

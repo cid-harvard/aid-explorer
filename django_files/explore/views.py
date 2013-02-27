@@ -164,21 +164,29 @@ def get_data_bipartite(entity_id, target_id):
    response_data = {}
    entity = Entity.objects.get(id = entity_id)
    target = Entity.objects.get(id = target_id)
-   if (entity.type_of_entity == "IS" and target.type_of_entity == "OR") or (entity.type_of_entity == "IS" and target.type_of_entity == "CO") or (entity.type_of_entity == "OR" and target.type_of_entity == "CO"):
+   if (entity.type_of_entity == "IS") or (entity.type_of_entity == "OR" and target.type_of_entity == "CO"):
       target = Entity.objects.get(id = entity_id)
       entity = Entity.objects.get(id = target_id)
-   if entity.type_of_entity == "IS":
-      response_data["x_axis"] = "Issue R"
-   elif entity.type_of_entity == "CO":
+   if entity.type_of_entity == "CO":
       response_data["x_axis"] = "Country R"
+      if target.type_of_entity == "IS":
+         response_data["x_tooltip"] = "How much the Organizations are related to %s" % entity.name
+      elif target.type_of_entity == "OR":
+         response_data["x_tooltip"] = "How much the Issues are related to %s" % entity.name
    elif entity.type_of_entity == "OR":
       response_data["x_axis"] = "Organization R"
+      if target.type_of_entity == "IS":
+         response_data["x_tooltip"] = "How much the Countries are related to %s" % entity.name
    if target.type_of_entity == "IS":
       response_data["y_axis"] = "Issue R"
-   elif target.type_of_entity == "CO":
-      response_data["y_axis"] = "Country R"
+      if entity.type_of_entity == "CO":
+         response_data["y_tooltip"] = "How much the Organizations are related to %s" % target.name
+      elif entity.type_of_entity == "OR":
+         response_data["y_tooltip"] = "How much the Countries are related to %s" % target.name
    elif target.type_of_entity == "OR":
       response_data["y_axis"] = "Organization R"
+      if entity.type_of_entity == "CO":
+         response_data["y_tooltip"] = "How much the Issues are related to %s" % target.name
    response_data["points"] = []
    points_x = Bipartite.objects.filter(entity_src = entity.id)
    temp_records = {}
@@ -340,6 +348,8 @@ def get_data_consistency(entity_id, type_filter):
       response_data["x_axis"] = "Issue R"
       response_data["y_axis"] = u"Issue \u03B1"
    points = Bipartite.objects.filter(entity_src = entity_id).filter(entity_trg__type_of_entity = type_code)
+   response_data["x_tooltip"] = "How related are the %s to %s" % (type_filter, points[0].entity_src.name)
+   response_data["y_tooltip"] = "How aligned are the %s to %s" % (type_filter, points[0].entity_src.name)
    response_data["points"] = []
    for point in points:
       record = {}

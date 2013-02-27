@@ -62,7 +62,7 @@ div.float-left {
 
 div.footer {
    text-align: center;
-   color: #DDDDDD;
+   color: #AAAAAA;
    font-size: 75%;
    clear: both;
 }
@@ -85,12 +85,12 @@ a, a:visited {
 }
 
 .footer a, .footer a:visited {
-  color: #CCCCCC;
+  color: #888888;
   font-weight: bold;
 }
 
 .footer a:hover, .footer a:visited:hover {
-  color: #BBBBBB;
+  color: #777777;
   text-decoration: underline;
 }
 
