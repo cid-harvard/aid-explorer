@@ -9,7 +9,7 @@ window.setInterval(function(){
         dataType: 'json',
         async: false,
         success: function(data) {
-           $("#q" + curSpan).html("<a href='/aidxp/explore/static/" + data.hrefText + "'>" + data.aText + "</a>");
+           $("#q" + curSpan).html("<a href='/aidxp/explore/" + data.hrefText + "'>" + data.aText + "</a>");
            $("#q" + curSpan).fadeIn();
            curSpan++;
            if(curSpan == 12) {

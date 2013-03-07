@@ -1,3 +1,7 @@
+div#wrap {
+   margin-top: 55px;
+}
+
 div#plot-wrap {
    height: 600px;
    text-align: center;
@@ -9,56 +13,13 @@ div#legend-org {
 }
 
 div#legend-cou {
-   height: 475px;
+   height: 440px;
    width: 100%;
 }
 
 div#legend-iss {
-   height: 275px;
+   height: 245px;
    width: 100%;
-}
-
-div#legend-entropy-gradient {
-   width: 20px;
-   height: 140px;
-   margin-left: 25px;
-   margin-right: 10px; 
-   border: solid 2px #DDDDDD;
-   background-image: linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
-   background-image: -o-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
-   background-image: -moz-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
-   background-image: -webkit-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
-   background-image: -ms-linear-gradient(bottom, rgb(102,204,255) 0%, rgb(255,0,0) 100%);
-   background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0, rgb(102,204,255)),
-	color-stop(1, rgb(255,0,0))
-   );
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#66ccff',GradientType=0 );
-}
-
-div#legend-label-org {
-   position: relative;
-   top: -335px;
-   top: -340px \0/IE9;
-   left: 70px;
-   width: 80%;
-}
-
-div#legend-label-cou {
-   position: relative;
-   top: -755px;
-   left: 70px;
-   width: 80%;
-}
-
-div#legend-label-iss {
-   position: relative;
-   top: -345px;
-   left: 70px;
-   width: 80%;
 }
 
 div#legend-size {
@@ -70,15 +31,15 @@ div#ques {
 }
 
 svg#org {
-   height: 150px;
+   height: 375px;
 }
 
 svg#cou {
-   height: 265px;
+   height: 390px;
 }
 
 svg#iss {
-   height: 55px;
+   height: 255px;
 }
 
 div#plot-wrap img {

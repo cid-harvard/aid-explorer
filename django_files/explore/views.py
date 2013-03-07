@@ -162,31 +162,32 @@ def get_data(request, app_type, entity_id, data_type, target_id):
 
 def get_data_bipartite(entity_id, target_id):
    response_data = {}
+   response_data["interpretation"] = "This plot shows how "
    entity = Entity.objects.get(id = entity_id)
    target = Entity.objects.get(id = target_id)
    if (entity.type_of_entity == "IS") or (entity.type_of_entity == "OR" and target.type_of_entity == "CO"):
       target = Entity.objects.get(id = entity_id)
       entity = Entity.objects.get(id = target_id)
    if entity.type_of_entity == "CO":
-      response_data["x_axis"] = "Country R"
       if target.type_of_entity == "IS":
-         response_data["x_tooltip"] = "How much the Organizations are related to %s" % entity.name
+         point_label = "organizations"
+         response_data["x_axis"] = "How much the Organizations are related to %s" % entity.name.title()
       elif target.type_of_entity == "OR":
-         response_data["x_tooltip"] = "How much the Issues are related to %s" % entity.name
+         point_label = "issues"
+         response_data["x_axis"] = "How much the Issues are related to %s" % entity.name.title()
    elif entity.type_of_entity == "OR":
-      response_data["x_axis"] = "Organization R"
       if target.type_of_entity == "IS":
-         response_data["x_tooltip"] = "How much the Countries are related to %s" % entity.name
+         point_label = "countries"
+         response_data["x_axis"] = "How much the Countries are related to %s" % entity.name.title()
    if target.type_of_entity == "IS":
-      response_data["y_axis"] = "Issue R"
       if entity.type_of_entity == "CO":
-         response_data["y_tooltip"] = "How much the Organizations are related to %s" % target.name
+         response_data["y_axis"] = "How much the Organizations are related to %s" % target.name.title()
       elif entity.type_of_entity == "OR":
-         response_data["y_tooltip"] = "How much the Countries are related to %s" % target.name
+         response_data["y_axis"] = "How much the Countries are related to %s" % target.name.title()
    elif target.type_of_entity == "OR":
-      response_data["y_axis"] = "Organization R"
       if entity.type_of_entity == "CO":
-         response_data["y_tooltip"] = "How much the Issues are related to %s" % target.name
+         response_data["y_axis"] = "How much the Issues are related to %s" % target.name.title()
+   response_data["interpretation"] += "%s relate to %s and %s.<br />" % (point_label, entity.name.title(), target.name.title())
    response_data["points"] = []
    points_x = Bipartite.objects.filter(entity_src = entity.id)
    temp_records = {}
@@ -197,10 +198,6 @@ def get_data_bipartite(entity_id, target_id):
    for point in points_x:
       if point.entity_trg.type_of_entity != target.type_of_entity:
          record = {}
-         if point.rca > max_x:
-            max_x = point.rca
-         elif point.rca < min_x:
-            min_x = point.rca
          record["x"] = point.rca
          record["size"] = point.hits
          temp_records[point.entity_trg.name] = record
@@ -214,6 +211,10 @@ def get_data_bipartite(entity_id, target_id):
          record = {}
          record["id"] = point.entity_trg_id
          record["x"] = temp_records[point.entity_trg.name]["x"]
+         if record["x"] > max_x:
+            max_x = record["x"]
+         elif record["x"] < min_x:
+            min_x = record["x"]
          record["y"] = point.rca
          if point.rca > max_y:
             max_y = point.rca
@@ -245,6 +246,18 @@ def get_data_bipartite(entity_id, target_id):
    response_data["trendline"]["y2"] = y2
    response_data["trendlabel"] = u"%s<br />%s<hr />\u03B1 = %1.4f" % (entity.name.title(), target.name.title(), alpha)
    response_data["plot_title"] = "R = %1.4f" % (rca)
+   if rca > 1:
+      response_data["interpretation"] += "We found that %s and %s are relevant for each other in the aid community, as their R is greater than 1.<br />Therefore, %s relevant for %s should also be relevant for %s (upper-right quadrant) and %s not relevant for %s should also not be relevant for %s (lower-left quadrant).<br />" % (entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title())
+      if alpha > 0:
+         response_data["interpretation"] += u"And the aid community is coordinating accordingly, as the \u03B1 is greater than 0. This is what we call a \"Positive Match\": most poinst lie in the correct quadrants.<br />"
+      else:
+         response_data["interpretation"] += u"However, the aid community is not coordinating accordingly, as the \u03B1 is lower than 0. This is what we call a \"Mismatch\": most points lie in the upper-left or lower-right quadrant."
+   else:
+      response_data["interpretation"] += "We found that %s and %s are not relevant for each other in the aid community, as their R is lower than 1.<br />Therefore, %s relevant for %s should not be relevant for %s (lower-right quadrant) and %s not relevant for %s should be relevant for %s (upper-left quadrant).<br />" % (entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title())
+      if alpha > 0:
+         response_data["interpretation"] += u"However, the aid community is not coordinating accordingly, as the \u03B1 is greater than 0. This is what we call a \"Mismatch\": most points lie in the upper-right or lower-left quadrant.<br />"
+      else:
+         response_data["interpretation"] += u"And the aid community is coordinating accordingly, as the \u03B1 is lower than 0. This is what we call a \"Negative Match\": most poinst lie in the correct quadrants."      
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
 def get_data_list(entity_id, list_type):
@@ -324,13 +337,19 @@ def get_data_bipartite_rank(entity_id, type_filter):
    if type_filter == "Issues":
       type_code = "IS"
    ranks = Bipartite.objects.filter(entity_src = entity_id).filter(entity_trg__type_of_entity = type_code).order_by('-rca')
-   response_data = []
+   response_data = {}
+   response_data["points"] = []
+   first = ""
    for rank in ranks:
+      entity_name = rank.entity_src.name.title()
       record = {}
       record["id"] = rank.entity_trg_id
       record["name"] = rank.entity_trg.name.title()
       record["rca"] = rank.rca
-      response_data.append(record)
+      response_data["points"].append(record)
+      if first == "":
+         first = record["name"]
+   response_data["interpretation"] = "This page shows the %s more related to %s.<br />The R value measures the relevance of the %s.<br />%s with R greater than 1, such as %s, are said to be relevant for %s.<br />%s with R lower than 1, such as %s, are said to be not related to %s." % (type_filter, entity_name, type_filter, type_filter, first, entity_name, type_filter, record["name"], entity_name)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
 def get_data_consistency(entity_id, type_filter):
@@ -402,35 +421,35 @@ def question(request):
       question_id_2 = random.randint(1, len(possible_ids) + 4)
       if question_id_2 <= len(possible_ids):
          response_data["aText"] = "How does %s relate to %s?" % (entity.name.title(), possible_ids[0].entity_trg.name.title())
-         response_data["hrefText"] = "profile/%d/bipartite/%d" % (entity.id, possible_ids[0].entity_trg.id)
+         response_data["hrefText"] = "static/profile/%d/bipartite/%d" % (entity.id, possible_ids[0].entity_trg.id)
       elif question_id_2 == (len(possible_ids) + 1):
          if entity.type_of_entity != "OR":
             response_data["aText"] = "How does %s relate to all Organizations?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/consistency/Organizations/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/consistency/Organizations/" % entity.id
          else:
             response_data["aText"] = "How does %s relate to all Countries?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/consistency/Countries/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/consistency/Countries/" % entity.id
       elif question_id_2 == (len(possible_ids) + 2):
          if entity.type_of_entity != "IS":
             response_data["aText"] = "How does %s relate to all Issues?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/consistency/Issues/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/consistency/Issues/" % entity.id
          else:
             response_data["aText"] = "How does %s relate to all Countries?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/consistency/Countries/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/consistency/Countries/" % entity.id
       elif question_id_2 == (len(possible_ids) + 3):
          if entity.type_of_entity != "OR":
             response_data["aText"] = "What are the Organizations more related to %s?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/bipartite_rank/Organizations/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/bipartite_rank/Organizations/" % entity.id
          else:
             response_data["aText"] = "What are the Countries more related to %s?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/bipartite_rank/Countries/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/bipartite_rank/Countries/" % entity.id
       elif question_id_2 == (len(possible_ids) + 4):
          if entity.type_of_entity != "IS":
             response_data["aText"] = "What are the Issues more related to %s?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/bipartite_rank/Issues/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/bipartite_rank/Issues/" % entity.id
          else:
             response_data["aText"] = "What are the Countries more related to %s?" % entity.name.title()
-            response_data["hrefText"] = "profile/%d/bipartite_rank/Countries/" % entity.id
+            response_data["hrefText"] = "static/profile/%d/bipartite_rank/Countries/" % entity.id
    elif question_id == 298:
       response_data["aText"] = "What Aid Organization is related to each other Aid Organization?"
       response_data["hrefText"] = "network/1/"

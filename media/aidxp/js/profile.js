@@ -2,7 +2,7 @@ function draw(plotclass, plotid) {
 
  var margin = {top: 20, right: 20, bottom: 50, left: 60},
     width = 750 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 550 - margin.top - margin.bottom;
 
  var x = d3.scale.log()
     .range([0, width]);
@@ -50,8 +50,8 @@ function draw(plotclass, plotid) {
     d.x = +d.x;
   });
 
-  x.domain(d3.extent(data.points, function(d) { return d.x; })).nice();
-  y.domain(d3.extent(data.points, function(d) { return d.y; })).nice();
+  x.domain(d3.extent(data.points, function(d) { return d.x; }));
+  y.domain(d3.extent(data.points, function(d) { return d.y; }));
 
   if(plotclass == "bipartite") {
     axisOrigin = 1;
@@ -68,11 +68,11 @@ function draw(plotclass, plotid) {
       .attr("x", width / 2)
       .attr("y", (height - y(axisOrigin)) + 40)
       .style("text-anchor", "middle")
-      .style("font-size", "24")
+      .style("font-size", "16")
       .style("cursor", "default")
-      .text(data.x_axis)
-    .append("title")
-      .text(data.x_tooltip);
+      .text(data.x_axis);
+    //.append("title")
+    //  .text(data.x_tooltip);
 
   svg.append("g")
       .attr("class", "y axis")
@@ -85,11 +85,11 @@ function draw(plotclass, plotid) {
       .attr("y", -x(1) - 50)
       .attr("dy", ".74em")
       .style("text-anchor", "middle")
-      .style("font-size", "24")
+      .style("font-size", "16")
       .style("cursor", "default")
-      .text(data.y_axis)
-    .append("title") 
-      .text(data.y_tooltip);
+      .text(data.y_axis);
+    //.append("title") 
+    //  .text(data.y_tooltip);
 
 
   svg.selectAll(".dot")
@@ -155,6 +155,8 @@ function draw(plotclass, plotid) {
        return l; 
      }
   });
+  
+  $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "</div>");
  });
 
  if(plotclass == "bipartite") {
@@ -209,16 +211,17 @@ function togglePlotType(newtype, plotclass) {
 function toggleRankType(type) {
   $.getJSON("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(data) {
      var tbl_body = "<table><thead><tr><th>Rank</th><th>" + type + "</th><th>R</th></tr></thead>";
-     $.each(data, function(key, obj) {
+     $.each(data.points, function(key, obj) {
         tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/aidxp/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
      })
      tbl_body += "</table>";
      $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + plotid + "/</span>");
      $("div#plot").html("<br />" + tbl_body);
+     $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "</div>");
      var color = d3.scale.linear()
         .domain([0, d3.selectAll("tbody tr")[0].length-1])
         .interpolate(d3.interpolateRgb)
-        .range(["#7cbde2", "#fb9496"])
+        .range(["#dddddd", "#cc3355"])
      d3.selectAll("tbody tr").select("td span").style("background", function(d, i){
         return color(i);
      });

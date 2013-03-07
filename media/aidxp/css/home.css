@@ -1,5 +1,5 @@
 div#wrap {
-   margin: 10px 30px 30px 30px;
+   margin: 60px 30px 30px 30px;
    text-align: center;
 }
 
@@ -11,6 +11,7 @@ div#title {
 }
 
 div#left-content {
+   padding-top: 21px;
    float: left;
 }
 
@@ -21,7 +22,7 @@ div#right-content {
 
 div#ques {
    width: 100%;
-   min-height: 375px;
+   height: 357px;
 }
 
 div.clear {

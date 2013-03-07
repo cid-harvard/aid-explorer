@@ -3,6 +3,10 @@ div#wrap, div#plot {
    margin: 0;
 }
 
+div#wrap {
+   margin-top: 55px;
+}
+
 div#buttons {
    text-align: center;
 }
@@ -14,18 +18,18 @@ table thead th{
 
 a.rankbutton, a.rankbutton:visited {
   display: inline-block;
-  background-color: #EEEEEE;
+  background-color: #FAFAFA;
   border: solid 2px #BA093E;
   font-weight: bold;
   font-size: 130%;
   padding: 7px;
   margin: 5px;
-  color: black;
+  color: #662222;
   border-radius: 15px;
 }
 
 a.rankbutton:hover,
 a.rankbutton:visited:hover {
   background-color: #BA093E;
-  color: #EEEEEE;
+  color: #FFFFFF;
 }

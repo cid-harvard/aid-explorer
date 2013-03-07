@@ -1,10 +1,8 @@
 h1 {
    font-size: 300%;
    display: inline;
-}
-
-h2 {
-   display: inline-block;
+   position: absolute;
+   top: 25px;
 }
 
 div#profile-head {
@@ -30,6 +28,7 @@ div#profile-cons {
 
 div#profile-logo {
    margin-left: 150px;
+   position: relative;
 }
 
 div#profile-main {
@@ -38,6 +37,19 @@ div#profile-main {
 
 div#question-text {
    position: relative;
+}
+
+div#left-column {
+   width: 32%;
+   float: left;
+}
+
+div#ques, div#profile-legend {
+   width: 100%;
+}
+
+div#profile-legend div {
+   margin: 10px;
 }
 
 span#sharelink {
@@ -51,11 +63,14 @@ span#sharelink {
    right: 0;
 }
 
-img#logo {
-   padding: 2px;
+span#logo {
    border: solid 2px #DDDDDD;
    margin-right: 15px;
-   vertical-align: middle;
+   width: 104px;
+   height: 103px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .axis path {
