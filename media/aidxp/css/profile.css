@@ -29,6 +29,8 @@ div#profile-cons {
 div#profile-logo {
    margin-left: 150px;
    position: relative;
+   overflow: hidden;
+   line-height: 250%;
 }
 
 div#profile-main {

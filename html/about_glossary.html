@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/about.css" />
+{% endblock %}
+
+{% block secondary-script %}{% endblock %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="profile-main">
+<div id="ques" class="float-left">
+<h3>About</h3>
+<ul>
+<li><a href="/aidxp/about/self/">Aid Explorer</a></li>
+<li><a class="here" href="/aidxp/about/glossary/">Glossary</a></li>
+<li><a href="/aidxp/about/data/">Data</a></li>
+<li><a href="/aidxp/about/team/">Team</a></li>
+</ul>
+</div>
+<div id="plot-wrap">
+<h3>Glossary</h3>
+<br />
+<ul>
+<li><strong>Alignment (&alpha;)</strong>:<br />Two Entities are said to be Positively Aligned if their Relevance correlates.<br />For example, Amnesty International is aligned with Human Rights if all organizations that are Relevant to Amnesty International are also Relevant to Human Rights.<br />If the opposite holds, then the two Entities are said to be Negatively Aligned.<br />Formally, the Alignment &alpha; is the exponent of the regression of a Alignment Plot.<br /><br /></li>
+<li><strong>Alignment Plot</strong>:<br />Given two Entities, an Alignment Plot is a scatter gram of their Relevances.<br />For example, in the Alignment Plot of Uganda and Agriculture, each data point is an organization and its coordinates in the scatter gram are obtained by checking its Relevance with Uganda and with Agriculture.<br />The exponent of the slope of an Alignment Plot is called Alignment and we refer to it with the symbol &alpha;.<br /><br /></li>
+<li><strong>Consistency</strong>:<br />The degree with which the Relevances and the Alignments of an Entity correlates.<br /><br /></li>
+<li><strong>Consistency Plot</strong>:<br />Given an Entity, a Consistency Plot is a scatter gram of the Relevance against the Alignment.<br />Each Entity has two Consistency Plots. For example, Doctors Without Borders has an Issue Consistency Plot and a Country Consistency Plot. In the Issue Consistency Plot, each data point is an issue and its coordinates in the scatter gram are obtained by checking its Relevance and its Alignment to Doctor Without Borders.<br /><br /></li>
+<li><strong>Entity</strong>:<br />An Entity is either an organization, a country or an issue.<br /><br /></li>
+<li><strong>Relevance (R)</strong>:<br />How strong is the association between two Entities. Relevance is calculated by normalizing the number of documents that contain both Entities over the total number of documents retrieved.<br />When the Relevance is higher than 1 we say that the two entities are Relevant for each other, otherwise they are not Relevant.<br />For example, suppose we want to know the Relevance of World Bank for Lesotho. We know that World Bank and Lesotho appears in 1,000 documents, that World Bank alone appears in 1,000,000 documents, that Lesotho appears in 4,000 documents and that we retrieved a total of 3,000,000 documents. The "World Bank - Lesotho" Relevance is then equal to (1,000 / 1,000,000) / (4,000 / 3,000,000) = .75.<br /><br /></li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+{% endblock %}

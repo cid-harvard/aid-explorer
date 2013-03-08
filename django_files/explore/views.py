@@ -111,6 +111,7 @@ def explore_profile(entity_id, plot_type, target_id):
       'plot_type': plot_type,
       'othertype': othertype,
       'thirdtype': thirdtype,
+      'section': "profile",
    })
 
 def explore_network(network_id):
@@ -122,6 +123,7 @@ def explore_network(network_id):
       type = "IS"
    return render_to_response("network.html", {
       'type': type,
+      'section': "network",
    })
 
 def explore_ranking(ranking_id):
@@ -143,6 +145,7 @@ def explore_ranking(ranking_id):
    return render_to_response("ranking.html", {
       'type': type,
       'rankings': rankings,
+      'section': "ranking",
    })
 
 def get_data(request, app_type, entity_id, data_type, target_id):
@@ -171,22 +174,22 @@ def get_data_bipartite(entity_id, target_id):
    if entity.type_of_entity == "CO":
       if target.type_of_entity == "IS":
          point_label = "organizations"
-         response_data["x_axis"] = "How much the Organizations are related to %s" % entity.name.title()
+         response_data["x_axis"] = "How relevant to %s are the Organizations" % entity.name.title()
       elif target.type_of_entity == "OR":
          point_label = "issues"
-         response_data["x_axis"] = "How much the Issues are related to %s" % entity.name.title()
+         response_data["x_axis"] = "How relevant to %s are the Issues" % entity.name.title()
    elif entity.type_of_entity == "OR":
       if target.type_of_entity == "IS":
          point_label = "countries"
-         response_data["x_axis"] = "How much the Countries are related to %s" % entity.name.title()
+         response_data["x_axis"] = "How relevant to %s are the Countries" % entity.name.title()
    if target.type_of_entity == "IS":
       if entity.type_of_entity == "CO":
-         response_data["y_axis"] = "How much the Organizations are related to %s" % target.name.title()
+         response_data["y_axis"] = "How relevant to %s are the Organizations" % target.name.title()
       elif entity.type_of_entity == "OR":
-         response_data["y_axis"] = "How much the Countries are related to %s" % target.name.title()
+         response_data["y_axis"] = "How relevant to %s are the Countries" % target.name.title()
    elif target.type_of_entity == "OR":
       if entity.type_of_entity == "CO":
-         response_data["y_axis"] = "How much the Issues are related to %s" % target.name.title()
+         response_data["y_axis"] = "How relevant to %s are the Issues" % target.name.title()
    response_data["interpretation"] += "%s relate to %s and %s.<br />" % (point_label, entity.name.title(), target.name.title())
    response_data["points"] = []
    points_x = Bipartite.objects.filter(entity_src = entity.id)
@@ -249,15 +252,15 @@ def get_data_bipartite(entity_id, target_id):
    if rca > 1:
       response_data["interpretation"] += "We found that %s and %s are relevant for each other in the aid community, as their R is greater than 1.<br />Therefore, %s relevant for %s should also be relevant for %s (upper-right quadrant) and %s not relevant for %s should also not be relevant for %s (lower-left quadrant).<br />" % (entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title())
       if alpha > 0:
-         response_data["interpretation"] += u"And the aid community is coordinating accordingly, as the \u03B1 is greater than 0. This is what we call a \"Positive Match\": most poinst lie in the correct quadrants.<br />"
+         response_data["interpretation"] += u"And the aid community is aligning accordingly, as the \u03B1 is greater than 0. This is what we call a \"Positive Match\": most poinst lie in the correct quadrants.<br />"
       else:
-         response_data["interpretation"] += u"However, the aid community is not coordinating accordingly, as the \u03B1 is lower than 0. This is what we call a \"Mismatch\": most points lie in the upper-left or lower-right quadrant."
+         response_data["interpretation"] += u"However, the aid community is not aligning accordingly, as the \u03B1 is lower than 0. This is what we call a \"Mismatch\": most points lie in the upper-left or lower-right quadrant."
    else:
       response_data["interpretation"] += "We found that %s and %s are not relevant for each other in the aid community, as their R is lower than 1.<br />Therefore, %s relevant for %s should not be relevant for %s (lower-right quadrant) and %s not relevant for %s should be relevant for %s (upper-left quadrant).<br />" % (entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title(), point_label, entity.name.title(), target.name.title())
       if alpha > 0:
-         response_data["interpretation"] += u"However, the aid community is not coordinating accordingly, as the \u03B1 is greater than 0. This is what we call a \"Mismatch\": most points lie in the upper-right or lower-left quadrant.<br />"
+         response_data["interpretation"] += u"However, the aid community is not aligning accordingly, as the \u03B1 is greater than 0. This is what we call a \"Mismatch\": most points lie in the upper-right or lower-left quadrant.<br />"
       else:
-         response_data["interpretation"] += u"And the aid community is coordinating accordingly, as the \u03B1 is lower than 0. This is what we call a \"Negative Match\": most poinst lie in the correct quadrants."      
+         response_data["interpretation"] += u"And the aid community is aligning accordingly, as the \u03B1 is lower than 0. This is what we call a \"Negative Match\": most poinst lie in the correct quadrants."      
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
 def get_data_list(entity_id, list_type):
@@ -349,26 +352,20 @@ def get_data_bipartite_rank(entity_id, type_filter):
       response_data["points"].append(record)
       if first == "":
          first = record["name"]
-   response_data["interpretation"] = "This page shows the %s more related to %s.<br />The R value measures the relevance of the %s.<br />%s with R greater than 1, such as %s, are said to be relevant for %s.<br />%s with R lower than 1, such as %s, are said to be not related to %s." % (type_filter, entity_name, type_filter, type_filter, first, entity_name, type_filter, record["name"], entity_name)
+   response_data["interpretation"] = "This page shows the %s more related to %s.<br />The R value measures the relevance of the %s.<br />%s with R greater than 1, such as %s, are said to be relevant for %s.<br />%s with R lower than 1, such as %s, are said to be not relevant to %s." % (type_filter, entity_name, type_filter, type_filter, first, entity_name, type_filter, record["name"], entity_name)
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
 def get_data_consistency(entity_id, type_filter):
    response_data = {}
    if type_filter == "Organizations":
       type_code = "OR"
-      response_data["x_axis"] = "Organization R"
-      response_data["y_axis"] = u"Organization \u03B1"
    if type_filter == "Countries":
       type_code = "CO"
-      response_data["x_axis"] = "Country R"
-      response_data["y_axis"] = u"Country \u03B1"
    if type_filter == "Issues":
       type_code = "IS"
-      response_data["x_axis"] = "Issue R"
-      response_data["y_axis"] = u"Issue \u03B1"
    points = Bipartite.objects.filter(entity_src = entity_id).filter(entity_trg__type_of_entity = type_code)
-   response_data["x_tooltip"] = "How related are the %s to %s" % (type_filter, points[0].entity_src.name)
-   response_data["y_tooltip"] = "How aligned are the %s to %s" % (type_filter, points[0].entity_src.name)
+   response_data["x_axis"] = "How related are the %s to %s" % (type_filter, points[0].entity_src.name)
+   response_data["y_axis"] = "How aligned are the %s to %s" % (type_filter, points[0].entity_src.name)
    response_data["points"] = []
    for point in points:
       record = {}
@@ -378,18 +375,22 @@ def get_data_consistency(entity_id, type_filter):
       record["y"] = point.alpha
       record["size"] = point.hits
       response_data["points"].append(record)
+   response_data["interpretation"] = "This page shows the consistency plot of %s.<br />In the upper-left and lower-right quadrant we have the %s well aligned to %s.<br />In the lower-left and top-right quadrant we have the %s that are not aligned for %s." % (point.entity_src.name.title(), type_filter, point.entity_src.name.title(), type_filter, point.entity_src.name.title())
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
 
 def about(request, about_type):
    if about_type == "self":
-      return render_to_response("about.html")
+      return render_to_response("about.html", {
+         "section": "about",
+      })
    elif about_type == "data":
       orgs = Entity.objects.filter(type_of_entity = "OR")
       return render_to_response("about_data.html", {
          "entities": orgs,
          "head": "Organization",
          "type": "data",
+         "section": "about",
       })
    elif about_type == "data_cou":
       countries = Entity.objects.filter(type_of_entity = "CO")
@@ -397,6 +398,7 @@ def about(request, about_type):
          "entities": countries,
          "head": "Country",
          "type": "data",
+         "section": "about",
       })
    elif about_type == "data_iss":
       issues = Entity.objects.filter(type_of_entity = "IS")
@@ -404,13 +406,23 @@ def about(request, about_type):
          "entities": issues,
          "head": "Issue",
          "type": "data",
+         "section": "about",
       })
    elif about_type == "data_api":
       return render_to_response("about_data.html", {
          "type": "api",
+         "section": "about",
       })
    elif about_type == "team":
-      return render_to_response("about_team.html")
+      return render_to_response("about_team.html", {
+         "section": "about",
+      })
+   elif about_type == "glossary":
+      return render_to_response("about_glossary.html", {
+         "section": "about",
+      })
+
+
 
 def question(request):
    response_data = {}

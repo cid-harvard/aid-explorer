@@ -17,12 +17,13 @@
 <h3>About</h3>
 <ul>
 <li><a href="/aidxp/about/self/">Aid Explorer</a></li>
+<li><a href="/aidxp/about/glossary/">Glossary</a></li>
 <li><a href="/aidxp/about/data/">Data</a>
 <ul>
-<li><a href="/aidxp/about/data/">Organizations</a></li>
-<li><a href="/aidxp/about/data_cou/">Countries</a></li>
-<li><a href="/aidxp/about/data_iss/">Issues</a></li>
-<li><a href="/aidxp/about/data_api/">API</a></li>
+<li><a {% if head == "Organization" %} class="here" {% endif %} href="/aidxp/about/data/">Organizations</a></li>
+<li><a {% if head == "Country" %} class="here" {% endif %} href="/aidxp/about/data_cou/">Countries</a></li>
+<li><a {% if head == "Issue" %} class="here" {% endif %} href="/aidxp/about/data_iss/">Issues</a></li>
+<li><a {% if type == "api" %} class="here" {% endif %} href="/aidxp/about/data_api/">API</a></li>
 </ul>
 </li>
 <li><a href="/aidxp/about/team/">Team</a></li>

@@ -3,6 +3,7 @@
 }
 
 html {
+   min-width: 1143px;
    height: 100%;
 }
 
@@ -26,6 +27,7 @@ div#top-header {
    background-color: #BA093E;
    color: white;
    width: 100%;
+   min-width: 1143px;
 }
 
 div#wrap {
@@ -34,10 +36,14 @@ div#wrap {
 }
 
 div#plot-wrap {
-   padding: 15px;
+   padding: 10px;
    border: solid 2px #DDDDDD;
    width: 65%;
    margin-left: 33%;
+}
+
+div#plot {
+   text-align: center;
 }
 
 div.legend {
@@ -59,6 +65,7 @@ div#selectors {
    top: 55px;
    width: 100%;
    text-align: center;
+   min-width: 1143px;
 }
 
 div.float-left {
@@ -74,6 +81,11 @@ div.footer {
 
 a, a:visited {
    text-decoration: none;
+   color: #BA093E;
+}
+
+a:hover, a:visited:hover {
+   text-decoration: underline;
 }
 
 #top-header a, #top-header a:visited {
@@ -82,11 +94,19 @@ a, a:visited {
   padding: 10px 20px;
   display: inline-block;
   font-size: 125%;
+  margin: 0;
 }
 
 #top-header a:hover, #top-header a:visited:hover {
   color: #BA093E;
+  text-decoration: none;
   background-color: #EEEEEE;
+}
+
+#top-header a.heretop {
+  font-weight: bolder;
+  padding-bottom: 3px;
+  border-bottom: solid 7px #EEEEEE;
 }
 
 .footer a, .footer a:visited {
@@ -129,6 +149,7 @@ h3 {
 #ques a:hover, #ques a:visited:hover {
    background-color: #BA093E;
    color: #EEEEEE;
+   text-decoration: none;
 }
 
 img {
@@ -138,6 +159,7 @@ img {
 table {
   margin: 0 auto;
   width: 900px;
+  text-align: left;
 }
 
 table thead th{
@@ -220,3 +242,9 @@ table tbody tr td span {
   bottom: 12px;
   margin: 0 0 0 4px;
 }
+
+a.here {
+   text-decoration: underline;
+   font-weight: bold;
+}
+

@@ -75,7 +75,16 @@ $(".chzn-select").chosen();
 {{ org_n }}
 {% endif %}
 </div>
-<div id="profile-cons">IC: {{ consistency }}%</div>
+<div id="profile-cons">
+{% if type == "IS" %}
+OC
+{% elif type == "CO" %}
+IC
+{% else %}
+CC
+{% endif %}
+: {{ consistency }}%
+</div>
 </div>
 <div id="profile-logo"><span id="logo" style="background-image:url(/media/aidxp/img/logos/{{ type }}-{{ id }}.png);" /></span> <h1>{{ name }}</h1></div>
 </div>
@@ -84,12 +93,17 @@ $(".chzn-select").chosen();
 <div id="ques">
 <h3>Questions</h3>
 <ul>
-<li id="li-rank1"><a href="javascript:void(0)" onclick="toggleRankType('{{ other_type1 }}');">What are the {{ other_type1 }} most related to {{ name }}?</a></li>
-<li id="li-rank2"><a href="javascript:void(0)" onclick="toggleRankType('{{ other_type2 }}');">What are the {{ other_type2 }} most related to {{ name }}?</a></li>
-<li id="li-bipartite1"><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type1 }}', 'bipartite');">How does {{ name }} relate to {{ other_type1 }} over {{ other_type2 }}?</a></li>
-<li id="li-bipartite2"><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type2 }}', 'bipartite');">How does {{ name }} relate to {{ other_type2 }} over {{ other_type1 }}?</a></li>
-<li id="li-consistency1"><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type1 }}', 'consistency');">How does {{ name }} relate to all {{ other_type1 }}?</a></li>
-<li id="li-consistency2"><a href="javascript:void(0)" onclick="togglePlotType('{{ other_type2 }}', 'consistency');">How does {{ name }} relate to all {{ other_type2 }}?</a></li>
+<li id="li-rank1"><a href="javascript:void(0)" onclick="toggleRankType($(this), '{{ other_type1 }}');">What are the {{ other_type1 }} most related to {{ name }}?</a></li>
+<li id="li-rank2"><a href="javascript:void(0)" onclick="toggleRankType($(this), '{{ other_type2 }}');">What are the {{ other_type2 }} most related to {{ name }}?</a></li>
+{% if type == "OR" %}
+<li id="li-bipartite1"><a class="here" href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type1 }}', 'bipartite');">How does {{ name }} relate to {{ other_type1 }} over {{ other_type2 }}?</a></li>
+<li id="li-bipartite2"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type2 }}', 'bipartite');">How does {{ name }} relate to {{ other_type2 }} over {{ other_type1 }}?</a></li>
+{% else %}
+<li id="li-bipartite1"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type1 }}', 'bipartite');">How does {{ name }} relate to {{ other_type1 }} over {{ other_type2 }}?</a></li>
+<li id="li-bipartite2"><a class="here" href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type2 }}', 'bipartite');">How does {{ name }} relate to {{ other_type2 }} over {{ other_type1 }}?</a></li>
+{% endif %}
+<li id="li-consistency1"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type1 }}', 'consistency');">How does {{ name }} relate to all {{ other_type1 }}?</a></li>
+<li id="li-consistency2"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type2 }}', 'consistency');">How does {{ name }} relate to all {{ other_type2 }}?</a></li>
 </ul>
 </div>
 <div id="profile-legend">

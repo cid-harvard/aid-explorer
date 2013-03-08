@@ -18,10 +18,10 @@
   <body>
    <h2>Aid Explorer</h2>
    <div id="top-header">
-    <a href="/aidxp/explore/profile/1/">PROFILES</a>
-    <a href="/aidxp/explore/network/1/">NETWORKS</a>
-    <a href="/aidxp/explore/ranking/1/">RANKINGS</a>
-    <a href="/aidxp/about/">ABOUT</a>
+    <a {% if section == "profile" %} class="heretop" {% endif %} href="/aidxp/explore/profile/1/">PROFILES</a>
+    <a {% if section == "network" %} class="heretop" {% endif %} href="/aidxp/explore/network/1/">NETWORKS</a>
+    <a {% if section == "ranking" %} class="heretop" {% endif %} href="/aidxp/explore/ranking/1/">RANKINGS</a>
+    <a {% if section == "about" %} class="heretop" {% endif %} href="/aidxp/about/">ABOUT</a>
    </div>
    {% block second-header %}{% endblock %}
    {% block content %}{% endblock %}

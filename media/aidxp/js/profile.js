@@ -1,8 +1,8 @@
 function draw(plotclass, plotid) {
 
  var margin = {top: 20, right: 20, bottom: 50, left: 60},
-    width = 750 - margin.left - margin.right,
-    height = 550 - margin.top - margin.bottom;
+    width = 725 - margin.left - margin.right,
+    height = 710 - margin.top - margin.bottom;
 
  var x = d3.scale.log()
     .range([0, width]);
@@ -68,7 +68,7 @@ function draw(plotclass, plotid) {
       .attr("x", width / 2)
       .attr("y", (height - y(axisOrigin)) + 40)
       .style("text-anchor", "middle")
-      .style("font-size", "16")
+      .style("font-size", "18")
       .style("cursor", "default")
       .text(data.x_axis);
     //.append("title")
@@ -85,7 +85,7 @@ function draw(plotclass, plotid) {
       .attr("y", -x(1) - 50)
       .attr("dy", ".74em")
       .style("text-anchor", "middle")
-      .style("font-size", "16")
+      .style("font-size", "18")
       .style("cursor", "default")
       .text(data.y_axis);
     //.append("title") 
@@ -138,7 +138,7 @@ function draw(plotclass, plotid) {
     .on("mouseout", function() { d3.select(this).style("stroke-width", 2); });
 
    $(".trend").tipsy({
-     gravity: 'w',
+     gravity: 's',
      html: true,
      title: function() {
        var d = this.__data__, l = data.trendlabel;
@@ -156,11 +156,11 @@ function draw(plotclass, plotid) {
      }
   });
   
-  $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "</div>");
+  $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary</a>!</div>");
  });
 
  if(plotclass == "bipartite") {
-  $("div#question-text").html("How does " + pagename + " relate to <select id='target-entity'></select> over " + thirdtype + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite/" + plotid + "/</span>");
+  $("div#question-text").html("How does " + pagename + " relate to <select id='target-entity'></select> ? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite/" + plotid + "/</span>");
   getList(othertype);
  } else {
   $("div#question-text").html("How does " + pagename + " relate to all " + plotid + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/consistency/" + plotid + "/</span>");
@@ -194,7 +194,7 @@ $('.profile-switcher').change(function() {
   window.location.replace("/aidxp/explore/profile/" + this.value  + "/");
 });
 
-function togglePlotType(newtype, plotclass) {
+function togglePlotType(caller, newtype, plotclass) {
   if(plotclass == "bipartite") {
     if(othertype != newtype) {
        thirdtype = othertype;
@@ -204,20 +204,24 @@ function togglePlotType(newtype, plotclass) {
   } else {
      plotid = newtype;
   }
+  $(".here").removeClass("here");
+  caller.addClass("here");
   $("div#plot").html("");
   draw(plotclass, plotid);
 }
 
-function toggleRankType(type) {
+function toggleRankType(caller, type) {
   $.getJSON("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(data) {
      var tbl_body = "<table><thead><tr><th>Rank</th><th>" + type + "</th><th>R</th></tr></thead>";
      $.each(data.points, function(key, obj) {
         tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/aidxp/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
      })
      tbl_body += "</table>";
+     $(".here").removeClass("here");
+     caller.addClass("here");
      $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + plotid + "/</span>");
      $("div#plot").html("<br />" + tbl_body);
-     $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "</div>");
+     $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br /><br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary!</a></div>");
      var color = d3.scale.linear()
         .domain([0, d3.selectAll("tbody tr")[0].length-1])
         .interpolate(d3.interpolateRgb)
