@@ -1,11 +1,11 @@
 function draw(uri) {
- var width = 900,
+ var width = 730,
      height = 600;
 
  var color = nodeColor(uri);
 
  var force = d3.layout.force()
-    .linkDistance(40)
+    .linkDistance(20)
     .size([width, height])
     .gravity(1);
 
@@ -107,14 +107,14 @@ function nodeSize(w) {
       }
    } else if(pagetype == "CO") {
       if(w < 73389) {
-         return 4;
+         return 6;
       } else if(w < 111453) {
-         return ((w - 73389) / 3806) + 4;
+         return ((w - 73389) / 3806) + 6;
       } else {
-         return 15;
+         return 17;
       }
    } else if(pagetype == "IS") {
-      return ((w - 219670) / 66530769) + 6;
+      return ((w - 219670) / 66530769) + 10;
    }
 }
 

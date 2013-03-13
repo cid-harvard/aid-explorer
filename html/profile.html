@@ -77,11 +77,11 @@ $(".chzn-select").chosen();
 </div>
 <div id="profile-cons">
 {% if type == "IS" %}
-OC
+<span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">OC</span>
 {% elif type == "CO" %}
-IC
+<span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">IC</span>
 {% else %}
-CC
+<span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">CC</span>
 {% endif %}
 : {{ consistency }}%
 </div>

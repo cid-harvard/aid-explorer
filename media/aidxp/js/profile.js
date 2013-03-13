@@ -211,17 +211,14 @@ function togglePlotType(caller, newtype, plotclass) {
 }
 
 function toggleRankType(caller, type) {
+  /*
   $.getJSON("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(data) {
      var tbl_body = "<table><thead><tr><th>Rank</th><th>" + type + "</th><th>R</th></tr></thead>";
      $.each(data.points, function(key, obj) {
         tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/aidxp/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
      })
      tbl_body += "</table>";
-     $(".here").removeClass("here");
-     caller.addClass("here");
-     $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + plotid + "/</span>");
      $("div#plot").html("<br />" + tbl_body);
-     $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br /><br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary!</a></div>");
      var color = d3.scale.linear()
         .domain([0, d3.selectAll("tbody tr")[0].length-1])
         .interpolate(d3.interpolateRgb)
@@ -230,6 +227,45 @@ function toggleRankType(caller, type) {
         return color(i);
      });
    });
+  */
+
+  d3.json("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(error, data) {
+
+    $(".here").removeClass("here");
+    caller.addClass("here");
+
+    $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + plotid + "/</span>");
+    $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br /><br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary!</a></div>");
+
+    $("div#plot").html("<br />");
+
+    var chart = d3.select("div#plot").append("svg")
+      .attr("class", "chart")
+      .attr("width", "99%")
+      .attr("height", 25 * data.points.length);
+
+    var x = d3.scale.linear()
+      .domain([0, d3.max(data.points, function(d){ return d.rca; })])
+      .range([0, d3.select("div#plot svg").style("width")]);
+
+    chart.selectAll("rect")
+      .data(data.points)
+    .enter().append("rect")
+      .attr("y", function(d, i) { return i * 25; })
+      .attr("width", function(d) { return x(d.rca);})
+      .attr("height", 24)
+      .on("click", function(d) { window.location.replace("/aidxp/explore/profile/" + d.id  + "/"); }) 
+      .style("cursor", "pointer");
+
+    chart.selectAll("text")
+      .data(data.points)
+    .enter().append("text")
+      .attr("x", 5)
+      .attr("y", function(d, i) { return (i * 25) + 17; })
+      .text(function(d) { return d.name;})
+      .on("click", function(d) { window.location.replace("/aidxp/explore/profile/" + d.id  + "/"); })
+      .style("cursor", "pointer");
+  });
 }
 
 function getList(type) {

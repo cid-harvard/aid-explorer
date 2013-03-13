@@ -166,6 +166,7 @@ table thead th{
   border-bottom: 1px solid #999;
   text-align: left;
 /*  padding: 0 12px 0 0;*/
+  padding-bottom: 5px;
 }
 
 table thead th a{
@@ -248,3 +249,7 @@ a.here {
    font-weight: bold;
 }
 
+.glossaryterm {
+   border-bottom: dashed 1px #999999;
+   cursor: help;
+}

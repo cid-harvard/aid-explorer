@@ -99,3 +99,8 @@ span#logo {
 :root div#target-entity_chzn {
    top: 8px \0/IE9;
 }
+
+.chart rect {
+  stroke: white;
+  fill: #ED3C6F;
+}

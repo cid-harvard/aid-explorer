@@ -26,8 +26,17 @@ div#legend-size {
    clear: left;
 }
 
-div#ques {
+div#ques, div#network-legend {
    width: 100%;
+}
+
+div#network-legend {
+   margin-top: 20px;
+   border: solid 2px #DDDDDD;
+}
+
+div#network-legend div {
+   margin: 10px;
 }
 
 svg#org {

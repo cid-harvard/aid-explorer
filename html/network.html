@@ -31,7 +31,6 @@ svg = null;
 <li><a {% if type == "IS" %} class="here" {% endif %} href="/aidxp/explore/network/3">Issue Space</a>
 </ul>
 </div>
-
 {% if type == "OR" %}
 <div id="legend-org" class="legend">
 <h3>Legend</h3>
@@ -55,6 +54,14 @@ svg = null;
 <circle r="9" style="fill: #ccc;" cx="37" cy="280"></circle>
 <circle r="27" style="fill: #ccc;" cx="37" cy="330"></circle>
 </svg>
+</div>
+<div id="network-legend">
+<h3>Interpretation</h3>
+<div>
+In this network, every node is an aid organization. Nodes are connected if the two aid organization are mentioned together often in the websites of the other aid organizations. The color of the node is how much an organization is focused on aid issues: a red node is a generic organization, while blue nodes are organizations very focused on few issues. The size of the node is how much central the organization is in the network.<br />
+From the network, we can see that there is a single core, meaning that there are no isolated groups of organizations.<br />
+Moreover, central (big) organizations tend to be red, meaning that organizations not focused on particular development issues are more central in the organization space.
+</div>
 </div>
 {% elif type == "CO" %}
 <div id="legend-cou" class="legend">
@@ -95,6 +102,13 @@ svg = null;
 <circle r="15" style="fill: #ccc;" cx="37" cy="375"></circle>
 </svg>
 </div>
+<div id="network-legend">
+<h3>Interpretation</h3>
+<div>
+In this network, every node is a country. Countries are connected if they co-appear significantly in the webpages of the aid organizations' websites. The nodes are colored accordingly to the region of the world where the country is.<br />
+From the network, we can observe that nodes tend to be tightly connected more with other nodes of the same color. This means that, for international organizations, countries are significantly related to each other mainly because they are in the same world region.<br />
+</div>
+</div>
 {% else %}
 <div id="legend-iss" class="legend">
 <h3>Legend</h3>
@@ -113,6 +127,14 @@ svg = null;
 <circle r="9" style="fill: #ccc;" cx="37" cy="140"></circle>
 <circle r="12" style="fill: #ccc;" cx="37" cy="175"></circle>
 </svg>
+</div>
+<div id="network-legend">
+<h3>Interpretation</h3>
+<div>
+In this network, every node is a issue. Issues are connected if they co-appear significantly in the webpages of the aid organizations' websites.<br />
+From the network, we can observe that there is a tightly connected core. This means that, for international organizations, many issues are significantly related to each other, so dealign with one issue implies dealing with a number of them at the same time.<br />
+On the other hand, there are issues outside of this core, such as the triangle of Democracy, Corruption and Human Rights. Moreover, four issues are considered completely isolated from the rest of the newtork, signaling that for the aid community these issues are not related to anything.
+</div>
 </div>
 {% endif %}
 </div>
