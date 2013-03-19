@@ -4,15 +4,19 @@ from django.views.decorators.csrf import csrf_exempt
 from django.template import RequestContext
 from django.core.urlresolvers import resolve
 from django.conf import settings
-import json, math, random
+import json, math, random, pickle
 from explore.models import *
+from django.core.cache import cache, get_cache
+import redis
+import redis_cache
+from redis_cache import get_redis_connection
 
 def home(request):
    return render_to_response("home.html")
 
 def explore(request, app_type, entity_id):
    if app_type == "profile":
-      return explore_profile(entity_id, "bipartite", -1)
+      return explore_profile(entity_id, "bipartite_rank", -1)
    elif app_type == "network":
       return explore_network(entity_id)
    elif app_type == "ranking":
@@ -84,6 +88,8 @@ def explore_profile(entity_id, plot_type, target_id):
             thirdtype = "Countries"
          else:
             thirdtype = "Issues"
+   if plot_type == "bipartite_rank" and target_id == -1:
+      target_id = other_type1
    issues = Entity.objects.filter(type_of_entity = "IS").order_by("name")
    for issue in issues:
       issue.name = issue.name.title()
@@ -174,22 +180,22 @@ def get_data_bipartite(entity_id, target_id):
    if entity.type_of_entity == "CO":
       if target.type_of_entity == "IS":
          point_label = "organizations"
-         response_data["x_axis"] = "How relevant to %s are the Organizations" % entity.name.title()
+         response_data["x_axis"] = "How relevant is %s to the Organizations" % entity.name.title()
       elif target.type_of_entity == "OR":
          point_label = "issues"
-         response_data["x_axis"] = "How relevant to %s are the Issues" % entity.name.title()
+         response_data["x_axis"] = "How relevant is %s to the Issues" % entity.name.title()
    elif entity.type_of_entity == "OR":
       if target.type_of_entity == "IS":
          point_label = "countries"
-         response_data["x_axis"] = "How relevant to %s are the Countries" % entity.name.title()
+         response_data["x_axis"] = "How relevant is %s to the Countries" % entity.name.title()
    if target.type_of_entity == "IS":
       if entity.type_of_entity == "CO":
-         response_data["y_axis"] = "How relevant to %s are the Organizations" % target.name.title()
+         response_data["y_axis"] = "How relevant is %s to the Organizations" % target.name.title()
       elif entity.type_of_entity == "OR":
-         response_data["y_axis"] = "How relevant to %s are the Countries" % target.name.title()
+         response_data["y_axis"] = "How relevant is %s to the Countries" % target.name.title()
    elif target.type_of_entity == "OR":
       if entity.type_of_entity == "CO":
-         response_data["y_axis"] = "How relevant to %s are the Issues" % target.name.title()
+         response_data["y_axis"] = "How relevant is %s to the Issues" % target.name.title()
    response_data["interpretation"] += "%s relate to %s and %s.<br />" % (point_label, entity.name.title(), target.name.title())
    response_data["points"] = []
    points_x = Bipartite.objects.filter(entity_src = entity.id)
@@ -282,7 +288,16 @@ def get_data_list(entity_id, list_type):
 def get_data_network(network_id, entity_type):
    response_data = {}
    response_data["nodes"] = []
-   nodes = Entity.objects.filter(type_of_entity = entity_type)
+   raw = get_redis_connection('default')
+   key = "network:%s:nodes" % (network_id)
+   cache_query = raw.hget(key, 'data')
+   if cache_query == None:
+      nodes = Entity.objects.filter(type_of_entity = entity_type)
+      raw.hset(key, 'data', pickle.dumps(nodes))
+   else:
+      encoded = cache_query
+      decoded = pickle.loads(encoded)
+      nodes = decoded
    nodemap = {}
    i = 0
    for node in nodes:
@@ -303,7 +318,15 @@ def get_data_network(network_id, entity_type):
       record["y"] = node.y
       response_data["nodes"].append(record)
    response_data["links"] = []
-   edges = Edge.objects.filter(type = network_id)
+   key = "network:%s:edges" % (network_id)
+   cache_query = raw.hget(key, 'data')
+   if cache_query == None:
+      edges = Edge.objects.filter(type = network_id)
+      raw.hset(key, 'data', pickle.dumps(edges))
+   else:
+      encoded = cache_query
+      decoded = pickle.loads(encoded)
+      edges = decoded
    for edge in edges:
       record = {}
       record["source"] = nodemap[edge.entity_src.id]
@@ -422,8 +445,7 @@ def about(request, about_type):
          "section": "about",
       })
 
-
-
+"""
 def question(request):
    response_data = {}
    question_id = random.randint(1, 303)
@@ -481,3 +503,4 @@ def question(request):
       response_data["aText"] = "What Issue is served more consistently by the Aid Organizations?"     
       response_data["hrefText"] = "ranking/3/" 
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
+"""

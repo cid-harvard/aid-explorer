@@ -1,0 +1,120 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/profile.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/tipsy.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/chosen.css" />
+{% endblock %}
+
+{% block secondary-script %}
+<script type="text/javascript" src="/media/aidxp/js_debug/jquery.tipsy.js"></script>
+<script type="text/javascript">
+pageid = {{ id }};
+pagename = "{{ name }}";
+pagetype = "{{ type }}";
+othertype = "{{ othertype }}";
+thirdtype = "{{ thirdtype }}"
+{% if plot_id == "Organizations" or plot_id == "Countries" or plot_id == "Issues" %}
+plotid = "{{ plot_id }}";
+{% else %}
+plotid = {{ plot_id }};
+{% endif %}
+plottype = "{{ plot_type }}";
+</script>
+{% endblock %}
+
+{% block second-header %}
+<div id="selectors">
+<select class="chzn-select" data-placeholder="Issues">
+<option value=""></option>
+{% for issue in issues %}
+{% if issue.id == id %}
+<option value="{{ issue.id }}" selected="selected">{{ issue.name }}</option>
+{% else %}
+<option value="{{ issue.id }}">{{ issue.name }}</option>
+{% endif %}
+{% endfor %}
+</select>
+<select class="chzn-select" data-placeholder="Countries">
+<option value=""></option>
+{% for country in countries %}
+{% if country.id == id %}
+<option value="{{ country.id }}" selected="selected">{{ country.name }}</option>
+{% else %}
+<option value="{{ country.id }}">{{ country.name }}</option>
+{% endif %}
+{% endfor %}
+</select>
+<select class="chzn-select" data-placeholder="Organizations">
+<option value=""></option>
+{% for org in orgs %}
+{% if org.id == id %}
+<option value="{{ org.id }}" selected="selected">{{ org.name }}</option>
+{% else %}
+<option value="{{ org.id }}">{{ org.name }}</option>
+{% endif %}
+{% endfor %}
+</select>
+<script src="/media/aidxp/js_debug/chosen.jquery.min.js" ></script>
+<script>
+$(".chzn-select").chosen();
+</script>
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="profile-head">
+<div class="float-left">
+<div id="profile-rank">#{{ rank }} / 
+{% if type == "IS" %}
+{{ issue_n }}
+{% elif type == "CO" %}
+{{ country_n }}
+{% else %}
+{{ org_n }}
+{% endif %}
+</div>
+<div id="profile-cons">
+{% if type == "IS" %}
+<span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">OC</span>
+{% elif type == "CO" %}
+<span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">IC</span>
+{% else %}
+<span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">CC</span>
+{% endif %}
+: {{ consistency }}%
+</div>
+</div>
+<div id="profile-logo"><span id="logo" style="background-image:url(/media/aidxp/img/logos/{{ type }}-{{ id }}.png);" /></span> <h1>{{ name }}</h1></div>
+</div>
+<div id="profile-main">
+<div id="left-column">
+<div id="ques">
+<h3>Questions</h3>
+<ul>
+<li id="li-rank1"><a href="javascript:void(0)" onclick="toggleRankType($(this), '{{ other_type1 }}');">What are the {{ other_type1 }} most related to {{ name }}?</a></li>
+<li id="li-rank2"><a href="javascript:void(0)" onclick="toggleRankType($(this), '{{ other_type2 }}');">What are the {{ other_type2 }} most related to {{ name }}?</a></li>
+{% if type == "OR" %}
+<li id="li-bipartite1"><a class="here" href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type1 }}', 'bipartite');">How does {{ name }} relate to {{ other_type1 }} over {{ other_type2 }}?</a></li>
+<li id="li-bipartite2"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type2 }}', 'bipartite');">How does {{ name }} relate to {{ other_type2 }} over {{ other_type1 }}?</a></li>
+{% else %}
+<li id="li-bipartite1"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type1 }}', 'bipartite');">How does {{ name }} relate to {{ other_type1 }} over {{ other_type2 }}?</a></li>
+<li id="li-bipartite2"><a class="here" href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type2 }}', 'bipartite');">How does {{ name }} relate to {{ other_type2 }} over {{ other_type1 }}?</a></li>
+{% endif %}
+<li id="li-consistency1"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type1 }}', 'consistency');">How does {{ name }} relate to all {{ other_type1 }}?</a></li>
+<li id="li-consistency2"><a href="javascript:void(0)" onclick="togglePlotType($(this), '{{ other_type2 }}', 'consistency');">How does {{ name }} relate to all {{ other_type2 }}?</a></li>
+</ul>
+</div>
+<div id="profile-legend">
+</div>
+</div>
+<div id="plot-wrap">
+<div id="question-text"></div>
+<div id="plot">
+</div>
+</div>
+</div>
+</div>
+<script src="/media/aidxp/js_debug/profile.js"></script>
+{% endblock %}

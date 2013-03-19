@@ -1,6 +1,9 @@
 import os, sys
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "aid_explorer.settings")
+import django.conf
+django.conf.ENVIRONMENT_VARIABLE = "AIDXP_DJANGO_SETTINGS_MODULE"
+
+os.environ.setdefault("AIDXP_DJANGO_SETTINGS_MODULE", "aid_explorer.settings")
 
 sys.path.append('/srv/www/aid_explorer/django_files')
 

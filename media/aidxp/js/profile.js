@@ -184,7 +184,7 @@ $(document).ready(function(){
     plottype = "bipartite";
   }
   if(plottype == "bipartite_rank") {
-     toggleRankType(plotid);
+     toggleRankType("default", plotid);
   } else {
      draw(plottype, plotid);
   }
@@ -231,10 +231,12 @@ function toggleRankType(caller, type) {
 
   d3.json("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(error, data) {
 
-    $(".here").removeClass("here");
-    caller.addClass("here");
+    if(caller != "default") {
+       $(".here").removeClass("here");
+       caller.addClass("here");
+    }
 
-    $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + plotid + "/</span>");
+    $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + type + "/</span>");
     $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br /><br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary!</a></div>");
 
     $("div#plot").html("<br />");

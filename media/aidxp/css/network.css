@@ -40,14 +40,17 @@ div#network-legend div {
 }
 
 svg#org {
+   width: 100%;
    height: 375px;
 }
 
 svg#cou {
+   width: 100%;
    height: 390px;
 }
 
 svg#iss {
+   width: 100%;
    height: 255px;
 }
 

@@ -1,0 +1,60 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/ranking.css"/>
+{% endblock %}
+
+{% block secondary-script %}
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#rank-{{ type }}").css("background-color", "#BA093E");
+  $("#rank-{{ type }}").css("color", "white");
+});
+</script>
+{% endblock %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="buttons">
+<a href="/aidxp/debug/explore/ranking/1/" class="rankbutton" id="rank-OR">Organizations</a>
+<a href="/aidxp/debug/explore/ranking/2/" class="rankbutton" id="rank-CO">Countries</a>
+<a href="/aidxp/debug/explore/ranking/3/" class="rankbutton" id="rank-IS">Issues</a>
+</div>
+<div id="question-text">{{ question }}</div>
+<div id="plot">
+<table id="ranking" class="sortable">
+<thead><tr>
+{% if type == "OR" %}
+   <th class="sorttable_sorted"><a class="sort">Rank</a><div id="sorttable_sortfwdind" class="sort_arrow_down"></div></th>
+   <th><a class="sort">Organization</a></th>
+   <th><a class="sort"><span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">Country Consistency</span></a></th>
+{% elif type == "CO" %}
+   <th class="sorttable_sorted"><a class="sort">Rank</a><div id="sorttable_sortfwdind" class="sort_arrow_down"></div></th>
+   <th><a class="sort">Country</a></th>
+   <th><a class="sort"><span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">Issue Consistency</a></th>
+{% else %}
+   <th class="sorttable_sorted"><a class="sort">Rank</a><div id="sorttable_sortfwdind" class="sort_arrow_down"></div></th>
+   <th><a class="sort">Issue</a></th>
+   <th><a class="sort"><span class="glossaryterm" title="Consistency: The degree with which the Relevances and the Alignments of an Entity correlates. The Consistency is calculated by looking at the ratio of correct Alignments (&alpha; &gt; 1 and R &gt; 1) over the total number of data points, normalize over the global average. For example, suppose that World Bank has 10 correct Alignments and that the average is to have 15 correct Alignments. The Issue Consistency of World Bank is then 10/15 = 66.66%. Consistency is the criterion with which we rank our Entities. For Organizations we use the Country Consistency, for Countries we use the Issue Consistency and for Issues we use the Organization Consistency.">Organization Consistency</span></a></th>
+{% endif %}
+</thead></tr>
+<tbody>
+{% for r in rankings %}
+   <tr>
+   <td><span>{{ r.rank }}</span></td>
+   <td><a href="/aidxp/explore/profile/{{ r.id }}">{{ r.name }}</a></td>
+   <td>{{ r.value }}%</td>
+   </tr>
+{% endfor %}
+</tbody>
+</table>
+</table>
+</div>
+</div>
+<script src="/media/aidxp/js/sorttable.js"></script>
+<script src="/media/aidxp/js/ranking.js"></script>
+{% endblock %}

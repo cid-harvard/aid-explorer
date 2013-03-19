@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Aid Coordination Explorer</title>
+    <meta name="description" content="Aid Coordination and Networks">
+    <meta name="author" content="Michele Coscia">
+    <link rel="shortcut icon" type="image/x-icon" href="/media/aidxp/img/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+    <link type="text/css" rel="stylesheet" href="/media/aidxp/css/general.css"/>
+    {% block secondary-style %}{% endblock %}
+    <script type="text/javascript" src="/media/aidxp/js_debug/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/media/aidxp/js_debug/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/media/aidxp/js_debug/general.js"></script>
+    {% block secondary-script %}{% endblock %}
+  </head>
+  <body>
+   <h2>Aid Explorer</h2>
+   <div id="top-header">
+    <a {% if section == "profile" %} class="heretop" {% endif %} href="/aidxp/explore/profile/1/">PROFILES</a>
+    <a {% if section == "network" %} class="heretop" {% endif %} href="/aidxp/explore/network/1/">NETWORKS</a>
+    <a {% if section == "ranking" %} class="heretop" {% endif %} href="/aidxp/explore/ranking/1/">RANKINGS</a>
+    <a {% if section == "about" %} class="heretop" {% endif %} href="/aidxp/about/">ABOUT</a>
+   </div>
+   {% block second-header %}{% endblock %}
+   {% block content %}{% endblock %}
+   <div class="footer">
+     <a href="http://www.hks.harvard.edu/centers/cid/"><img src="/media/aidxp/img/logo_cid.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="http://macroconnections.media.mit.edu/"><img src="/media/aidxp/img/logo_macro.png" /></a><br />
+     The Aid Explorer by <a href="http://www.michelecoscia.com/">Michele Coscia</a>
+   </div>
+  </body>
+</html>

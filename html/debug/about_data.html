@@ -1,0 +1,77 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/about.css"/>
+{% endblock %}
+
+{% block secondary-script %}{% endblock %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="profile-main">
+<div id="ques" class="float-left">
+<h3>About</h3>
+<ul>
+<li><a href="/aidxp/about/self/">Aid Explorer</a></li>
+<li><a href="/aidxp/about/glossary/">Glossary</a></li>
+<li><a href="/aidxp/about/data/">Data</a>
+<ul>
+<li><a {% if head == "Organization" %} class="here" {% endif %} href="/aidxp/about/data/">Organizations</a></li>
+<li><a {% if head == "Country" %} class="here" {% endif %} href="/aidxp/about/data_cou/">Countries</a></li>
+<li><a {% if head == "Issue" %} class="here" {% endif %} href="/aidxp/about/data_iss/">Issues</a></li>
+<li><a {% if type == "api" %} class="here" {% endif %} href="/aidxp/about/data_api/">API</a></li>
+</ul>
+</li>
+<li><a href="/aidxp/about/team/">Team</a></li>
+</ul>
+</div>
+<div id="plot-wrap">
+{% if type == "api" %}
+<h4>Using the Aid Explorer Data</h4>
+Currently, the Aid Explorer is not employing a proper API system. However, you can still build your visualizations on top of our data.<br /><br />
+
+You can use the<br /><br /> 
+<pre>explore/profile</pre><br />
+method to obtain information about each organization, country, issue. The method is call with the URI:<br /><br />
+
+<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/profile/SRC_ID/PLOT_TYPE/TARGET/</pre><br />
+
+where SRC_ID is the id of the issue/country/organization you are interested in, PLOT_TYPE can be bipartite, bipartite_rank or consistency. If PLOT_TYPE is bipartite, then TARGET has to be the numerical id of another issue/country/organization (not of the same type of SRC_ID); otherwise it can be Organizations, Issues or Countries.<br />
+The system will return a JSON object with the information required to render a plot or a table.<br /><br />
+
+For example:<br /><br />
+
+<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/profile/1/bipartite/201/</pre><br />
+
+will load the bipartite plot connecting Agriculture (ID=1) and Global fund to fight aids, tuberculosis and malaria (ID=201). Note that setting TARGET=2 won't work, as there is no bipartite plot connecting two issues.<br /><br />
+
+Another example:<br /><br />
+
+<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/profile/44/bipartite_rank/Issues/</pre><br />
+
+will load the list of Issues in order of relatedness with Benin (ID=44). Note that setting TARGET=Countries won't work, as there is no list of countries related to Benin.<br />
+To obtain the country-country network (or the issue-issue or the organization-organization networks), you need to use one of these URI:<br /><br />
+
+<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/network/1/network/OR/</pre>
+<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/network/2/network/CO/</pre>
+<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/network/3/network/IS/</pre><br />
+
+for the organization, country and issue networks respectively.
+{% else %}
+<h4>{{ head }} List</h4>
+See the <a href="/aidxp/about/data_api/">API page</a> to know how to use the {{ head }} IDs.<br /><br />
+<table>
+<tr><th>ID</th><th>{{ head }} Name</th></tr>
+{% for entity in entities %}
+<tr><td>{{ entity.id }}</td><td><a href="/aidxp/explore/profile/{{ entity.id }}/">{{ entity.name }}</a></td></tr>
+{% endfor %}
+</table>
+{% endif %}
+</div>
+</div>
+</div>
+{% endblock %}

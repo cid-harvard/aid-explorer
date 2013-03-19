@@ -1,0 +1,149 @@
+{% extends "template.html" %}
+
+{% block secondary-style %}
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/network.css"/>
+<link type="text/css" rel="stylesheet" href="/media/aidxp/css/tipsy.css"/>
+{% endblock %}
+
+{% block secondary-script %}
+<script type="text/javascript" src="/media/aidxp/js/jquery.tipsy.js"></script>
+<script type="text/javascript">
+pagetype = "{{ type }}";
+svg = null;
+</script>
+{% endblock %}
+
+{% block second-header %}
+<h2>Aid Explorer</h2>
+{% endblock %}
+
+{% block content %}
+<div id="wrap">
+<div id="left-column" class="float-left">
+<div id="ques">
+<h3>Questions</h3>
+<ul>
+<!--<li><a href="/aidxp/explore/network/1">What Organization is related to what other Organization in the Aid Community?</a>
+<li><a href="/aidxp/explore/network/2">What Country is related to what other Country in the Aid Community?</a>
+<li><a href="/aidxp/explore/network/3">What Issue is related to what other Issue in the Aid Community?</a>-->
+<li><a {% if type == "OR" %} class="here" {% endif %} href="/aidxp/explore/network/1">Organization Space</a>
+<li><a {% if type == "CO" %} class="here" {% endif %} href="/aidxp/explore/network/2">Country Space</a>
+<li><a {% if type == "IS" %} class="here" {% endif %} href="/aidxp/explore/network/3">Issue Space</a>
+</ul>
+</div>
+{% if type == "OR" %}
+<div id="legend-org" class="legend">
+<h3>Legend</h3>
+<svg id="org">
+<defs>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+<stop offset="100%" style="stop-color:rgb(102,204,255);stop-opacity:1" />
+</linearGradient>
+</defs>
+<text>
+<tspan x="5" y="15">Node Color:</tspan>
+<tspan x="70" y="40">High Issue Entropy -&gt; Generic Organization</tspan>
+<tspan x="70" y="195">Low Issue Entropy -&gt; Specialized Organization</tspan>
+<tspan x="5" y="230">Node Size:</tspan>
+<tspan x="70" y="255">Low Betweenness -&gt; Peripheral Node</tspan>
+<tspan x="70" y="335">High Betweenness -&gt; Central Node</tspan>
+</text>
+<rect x="24" y="25" width="25" height="175" fill="url(#grad1)" />
+<circle r="3" style="fill: #ccc;" cx="37" cy="250"></circle>
+<circle r="9" style="fill: #ccc;" cx="37" cy="280"></circle>
+<circle r="27" style="fill: #ccc;" cx="37" cy="330"></circle>
+</svg>
+</div>
+<div id="network-legend">
+<h3>Interpretation</h3>
+<div>
+In this network, every node is an aid organization. Nodes are connected if the two aid organization are mentioned together often in the websites of the other aid organizations. The color of the node is how much an organization is focused on aid issues: a red node is a generic organization, while blue nodes are organizations very focused on few issues. The size of the node is how much central the organization is in the network.<br />
+From the network, we can see that there is a single core, meaning that there are no isolated groups of organizations.<br />
+Moreover, central (big) organizations tend to be red, meaning that organizations not focused on particular development issues are more central in the organization space.
+</div>
+</div>
+{% elif type == "CO" %}
+<div id="legend-cou" class="legend">
+<h3>Legend</h3>
+<svg id="cou">
+<text>
+<tspan x="5" y="15">Node Color:</tspan>
+<tspan x="70" y="37">Southern Africa</tspan>
+<tspan x="70" y="58">Middle Africa</tspan>
+<tspan x="70" y="79">Eastern Africa</tspan>
+<tspan x="70" y="100">Northern Africa</tspan>
+<tspan x="70" y="121">Western Africa</tspan>
+<tspan x="70" y="142">Central America</tspan>
+<tspan x="70" y="163">South America</tspan>
+<tspan x="70" y="184">Caribbean</tspan>
+<tspan x="70" y="205">Europe</tspan>
+<tspan x="70" y="226">Western Asia</tspan>
+<tspan x="70" y="247">South-Central Asia</tspan>
+<tspan x="70" y="268">Eastern Asia</tspan>
+<tspan x="5" y="295">Node Size:</tspan>
+<tspan x="70" y="320">Low Number of Hits</tspan>
+<tspan x="70" y="380">High Number of Hits</tspan>
+</text>
+<rect x="22" y="26" width="30" height="11" style="fill:rgb(255,0,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="47" width="30" height="11" style="fill:rgb(255,0,32);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="68" width="30" height="11" style="fill:rgb(255,0,64);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="89" width="30" height="11" style="fill:rgb(255,0,96);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="110" width="30" height="11" style="fill:rgb(255,0,128);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="131" width="30" height="11" style="fill:rgb(255,96,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="152" width="30" height="11" style="fill:rgb(255,128,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="173" width="30" height="11" style="fill:rgb(255,196,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="194" width="30" height="11" style="fill:rgb(32,255,0);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="215" width="30" height="11" style="fill:rgb(0,159,255);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="236" width="30" height="11" style="fill:rgb(0,128,255);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="257" width="30" height="11" style="fill:rgb(0,96,255);stroke-width:1;stroke:#ccc"></rect>
+<circle r="4" style="fill: #ccc;" cx="37" cy="315"></circle>
+<circle r="9.5" style="fill: #ccc;" cx="37" cy="340"></circle>
+<circle r="15" style="fill: #ccc;" cx="37" cy="375"></circle>
+</svg>
+</div>
+<div id="network-legend">
+<h3>Interpretation</h3>
+<div>
+In this network, every node is a country. Countries are connected if they co-appear significantly in the webpages of the aid organizations' websites. The nodes are colored accordingly to the region of the world where the country is.<br />
+From the network, we can observe that nodes tend to be tightly connected more with other nodes of the same color. This means that, for international organizations, countries are significantly related to each other mainly because they are in the same world region.<br />
+</div>
+</div>
+{% else %}
+<div id="legend-iss" class="legend">
+<h3>Legend</h3>
+<svg id="iss">
+<text>
+<tspan x="5" y="15">Node Color:</tspan>
+<tspan x="70" y="42">Activity</tspan>
+<tspan x="70" y="63">Concern</tspan>
+<tspan x="5" y="90">Node Size:</tspan>
+<tspan x="70" y="115">Low Number of Hits</tspan>
+<tspan x="70" y="182">High Number of Hits</tspan>
+</text>
+<rect x="22" y="31" width="30" height="11" style="fill:rgb(255,51,255);stroke-width:1;stroke:#ccc"></rect>
+<rect x="22" y="52" width="30" height="11" style="fill:rgb(102,102,255);stroke-width:1;stroke:#ccc"></rect>
+<circle r="6" style="fill: #ccc;" cx="37" cy="110"></circle>
+<circle r="9" style="fill: #ccc;" cx="37" cy="140"></circle>
+<circle r="12" style="fill: #ccc;" cx="37" cy="175"></circle>
+</svg>
+</div>
+<div id="network-legend">
+<h3>Interpretation</h3>
+<div>
+In this network, every node is a issue. Issues are connected if they co-appear significantly in the webpages of the aid organizations' websites.<br />
+From the network, we can observe that there is a tightly connected core. This means that, for international organizations, many issues are significantly related to each other, so dealign with one issue implies dealing with a number of them at the same time.<br />
+On the other hand, there are issues outside of this core, such as the triangle of Democracy, Corruption and Human Rights. Moreover, four issues are considered completely isolated from the rest of the newtork, signaling that for the aid community these issues are not related to anything.
+</div>
+</div>
+{% endif %}
+</div>
+<div id="plot-wrap">
+<div id="plot">
+<img src="/media/aidxp/img/loader.gif" />
+</div>
+<script src="/media/aidxp/js/network.js"></script>
+</div>
+</div>
+{% endblock %}
+
