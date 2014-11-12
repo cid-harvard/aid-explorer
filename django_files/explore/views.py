@@ -249,8 +249,8 @@ def get_data_bipartite(entity_id, target_id):
       y2 = max_y
       x2 = math.pow(y2 / beta, 1 / alpha)
    response_data["trendline"] = {}
-   response_data["trendline"]["x1"] = x1 
-   response_data["trendline"]["y1"] = y1  
+   response_data["trendline"]["x1"] = x1
+   response_data["trendline"]["y1"] = y1
    response_data["trendline"]["x2"] = x2
    response_data["trendline"]["y2"] = y2
    response_data["trendlabel"] = u"%s<br />%s<hr />\u03B1 = %1.4f" % (entity.name.title(), target.name.title(), alpha)
@@ -266,7 +266,7 @@ def get_data_bipartite(entity_id, target_id):
       if alpha > 0:
          response_data["interpretation"] += u"However, the aid community is not <span class=\"glossaryterm\" title=\"Alignment (&alpha;): Two Entities are said to be Positively Aligned if their Relevance correlates. For example, Amnesty International is aligned with Human Rights if all organizations that are Relevant to Amnesty International are also Relevant to Human Rights. If the opposite holds, then the two Entities are said to be Negatively Aligned. Formally, the Alignment &alpha; is the exponent of the regression of a Alignment Plot.\">aligning</span> accordingly, as the \u03B1 is greater than 0. This is what we call a \"Mismatch\": most points lie in the upper-right or lower-left quadrant.<br />"
       else:
-         response_data["interpretation"] += u"And the aid community is <span class=\"glossaryterm\" title=\"Alignment (&alpha;): Two Entities are said to be Positively Aligned if their Relevance correlates. For example, Amnesty International is aligned with Human Rights if all organizations that are Relevant to Amnesty International are also Relevant to Human Rights. If the opposite holds, then the two Entities are said to be Negatively Aligned. Formally, the Alignment &alpha; is the exponent of the regression of a Alignment Plot.\">aligning</span> accordingly, as the \u03B1 is lower than 0. This is what we call a \"Negative Match\": most poinst lie in the correct quadrants.<br />"      
+         response_data["interpretation"] += u"And the aid community is <span class=\"glossaryterm\" title=\"Alignment (&alpha;): Two Entities are said to be Positively Aligned if their Relevance correlates. For example, Amnesty International is aligned with Human Rights if all organizations that are Relevant to Amnesty International are also Relevant to Human Rights. If the opposite holds, then the two Entities are said to be Negatively Aligned. Formally, the Alignment &alpha; is the exponent of the regression of a Alignment Plot.\">aligning</span> accordingly, as the \u03B1 is lower than 0. This is what we call a \"Negative Match\": most poinst lie in the correct quadrants.<br />"
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 
 def get_data_list(entity_id, list_type):
@@ -488,19 +488,19 @@ def question(request):
       response_data["aText"] = "What Aid Organization is related to each other Aid Organization?"
       response_data["hrefText"] = "network/1/"
    elif question_id == 299:
-      response_data["aText"] = "What Country is related to each other Country for the Aid Organizations?"     
-      response_data["hrefText"] = "network/2/" 
+      response_data["aText"] = "What Country is related to each other Country for the Aid Organizations?"
+      response_data["hrefText"] = "network/2/"
    elif question_id == 300:
       response_data["aText"] = "What Issue is related to each other Issue according to the Aid Organization?"
-      response_data["hrefText"] = "network/3/" 
+      response_data["hrefText"] = "network/3/"
    elif question_id == 301:
       response_data["aText"] = "What Aid Organization is more consistent in the Countries it is serving?"
-      response_data["hrefText"] = "ranking/1/" 
+      response_data["hrefText"] = "ranking/1/"
    elif question_id == 302:
-      response_data["aText"] = "What Country is more consistent in the Issues it is served on?"     
-      response_data["hrefText"] = "ranking/2/" 
+      response_data["aText"] = "What Country is more consistent in the Issues it is served on?"
+      response_data["hrefText"] = "ranking/2/"
    elif question_id == 303:
-      response_data["aText"] = "What Issue is served more consistently by the Aid Organizations?"     
-      response_data["hrefText"] = "ranking/3/" 
+      response_data["aText"] = "What Issue is served more consistently by the Aid Organizations?"
+      response_data["hrefText"] = "ranking/3/"
    return HttpResponse(json.dumps(response_data), mimetype="application/json")
 """
