@@ -7,8 +7,6 @@ from django.conf import settings
 import json, math, random, pickle
 from explore.models import *
 from django.core.cache import cache, get_cache
-import redis
-import redis_cache
 from redis_cache import get_redis_connection
 
 def home(request):
