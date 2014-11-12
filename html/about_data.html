@@ -38,27 +38,27 @@ You can use the<br /><br />
 <pre>explore/profile</pre><br />
 method to obtain information about each organization, country, issue. The method is call with the URI:<br /><br />
 
-<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/profile/SRC_ID/PLOT_TYPE/TARGET/</pre><br />
+<pre>http://aidxp.atlas.cid.harvard.edu/explore/profile/SRC_ID/PLOT_TYPE/TARGET/</pre><br />
 
 where SRC_ID is the id of the issue/country/organization you are interested in, PLOT_TYPE can be bipartite, bipartite_rank or consistency. If PLOT_TYPE is bipartite, then TARGET has to be the numerical id of another issue/country/organization (not of the same type of SRC_ID); otherwise it can be Organizations, Issues or Countries.<br />
 The system will return a JSON object with the information required to render a plot or a table.<br /><br />
 
 For example:<br /><br />
 
-<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/profile/1/bipartite/201/</pre><br />
+<pre>http://aidxp.atlas.cid.harvard.edu/explore/profile/1/bipartite/201/</pre><br />
 
 will load the bipartite plot connecting Agriculture (ID=1) and Global fund to fight aids, tuberculosis and malaria (ID=201). Note that setting TARGET=2 won't work, as there is no bipartite plot connecting two issues.<br /><br />
 
 Another example:<br /><br />
 
-<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/profile/44/bipartite_rank/Issues/</pre><br />
+<pre>http://aidxp.atlas.cid.harvard.edu/explore/profile/44/bipartite_rank/Issues/</pre><br />
 
 will load the list of Issues in order of relatedness with Benin (ID=44). Note that setting TARGET=Countries won't work, as there is no list of countries related to Benin.<br />
 To obtain the country-country network (or the issue-issue or the organization-organization networks), you need to use one of these URI:<br /><br />
 
-<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/network/1/network/OR/</pre>
-<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/network/2/network/CO/</pre>
-<pre>http://www.atlas.cid.harvard.edu/aidxp/explore/network/3/network/IS/</pre><br />
+<pre>http://aidxp.atlas.cid.harvard.edu/explore/network/1/network/OR/</pre>
+<pre>http://aidxp.atlas.cid.harvard.edu/explore/network/2/network/CO/</pre>
+<pre>http://aidxp.atlas.cid.harvard.edu/explore/network/3/network/IS/</pre><br />
 
 for the organization, country and issue networks respectively.
 {% else %}
