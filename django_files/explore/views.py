@@ -6,8 +6,7 @@ from django.core.urlresolvers import resolve
 from django.conf import settings
 import json, math, random, pickle
 from explore.models import *
-from django.core.cache import cache, get_cache
-from redis_cache import get_redis_connection
+from django.core.cache import cache
 
 def home(request):
    return render_to_response("home.html")
@@ -286,12 +285,11 @@ def get_data_list(entity_id, list_type):
 def get_data_network(network_id, entity_type):
    response_data = {}
    response_data["nodes"] = []
-   raw = get_redis_connection('default')
    key = "network:%s:nodes" % (network_id)
-   cache_query = raw.hget(key, 'data')
+   cache_query = cache.get(key)
    if cache_query == None:
       nodes = Entity.objects.filter(type_of_entity = entity_type)
-      raw.hset(key, 'data', pickle.dumps(nodes))
+      cache.set(key, pickle.dumps(nodes))
    else:
       encoded = cache_query
       decoded = pickle.loads(encoded)
@@ -317,10 +315,10 @@ def get_data_network(network_id, entity_type):
       response_data["nodes"].append(record)
    response_data["links"] = []
    key = "network:%s:edges" % (network_id)
-   cache_query = raw.hget(key, 'data')
+   cache_query = cache.get(key)
    if cache_query == None:
       edges = Edge.objects.filter(type = network_id)
-      raw.hset(key, 'data', pickle.dumps(edges))
+      cache.set(key, pickle.dumps(edges))
    else:
       encoded = cache_query
       decoded = pickle.loads(encoded)
