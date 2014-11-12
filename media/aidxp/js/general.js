@@ -1,6 +1,6 @@
 $(document).ready(function() {
    $("h2").click(function() {
-      window.location = "/aidxp";
+      window.location = "/";
       return false;
    });
 });

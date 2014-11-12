@@ -6,11 +6,11 @@ curSpan = 1;
 window.setInterval(function(){
   $("#q" + curSpan).fadeOut(400, function() {
      $.ajax({
-        url: "/aidxp/question/",
+        url: "/question/",
         dataType: 'json',
         async: false,
         success: function(data) {
-           $("#q" + curSpan).html("<a href='/aidxp/explore/" + data.hrefText + "'>" + data.aText + "</a>");
+           $("#q" + curSpan).html("<a href='/explore/" + data.hrefText + "'>" + data.aText + "</a>");
            $("#q" + curSpan).fadeIn();
            curSpan++;
            if(curSpan == 12) {
@@ -327,34 +327,34 @@ window.setInterval(function(){
   $("#q" + curSpan).fadeOut(400, function() {
      qid = Math.floor(Math.random() * 303) + 1;
      switch(qid) {
-        case 298: $("#q" + curSpan).html("<a href='/aidxp/explore/network/1/'>What Aid Organization is related to each other Aid Organization?</a>"); break;
-        case 299: $("#q" + curSpan).html("<a href='/aidxp/explore/network/2/'>What Country is related to each other Country for the Aid Organizations?</a>"); break;
-        case 300: $("#q" + curSpan).html("<a href='/aidxp/explore/network/3/'>What Issue is related to each other Issue according to the Aid Organization?</a>"); break;
-        case 301: $("#q" + curSpan).html("<a href='/aidxp/explore/ranking/1/'>What Aid Organization is more consistent in the Countries it is serving?</a>"); break;
-        case 302: $("#q" + curSpan).html("<a href='/aidxp/explore/ranking/2/'>What Country is more consistent in the Issues it is served on?</a>"); break;
-        case 303: $("#q" + curSpan).html("<a href='/aidxp/explore/ranking/3/'>What Issue is served more consistently by the Aid Organizations?</a>"); break;
+        case 298: $("#q" + curSpan).html("<a href='/explore/network/1/'>What Aid Organization is related to each other Aid Organization?</a>"); break;
+        case 299: $("#q" + curSpan).html("<a href='/explore/network/2/'>What Country is related to each other Country for the Aid Organizations?</a>"); break;
+        case 300: $("#q" + curSpan).html("<a href='/explore/network/3/'>What Issue is related to each other Issue according to the Aid Organization?</a>"); break;
+        case 301: $("#q" + curSpan).html("<a href='/explore/ranking/1/'>What Aid Organization is more consistent in the Countries it is serving?</a>"); break;
+        case 302: $("#q" + curSpan).html("<a href='/explore/ranking/2/'>What Country is more consistent in the Issues it is served on?</a>"); break;
+        case 303: $("#q" + curSpan).html("<a href='/explore/ranking/3/'>What Issue is served more consistently by the Aid Organizations?</a>"); break;
         default: {
            qid2 = Math.floor(Math.random() * 5);
            if(qid <= 34) {
               switch(qid2) {
-                 case 1: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/consistency/Organizations/'>How does " + entitymap[qid - 1] + " relate to all Organizations?</a>"); break;
-                 case 2: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/consistency/Countries/'>How does " + entitymap[qid - 1] + " relate to all Countries?</a>"); break;
-                 case 3: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/bipartite_rank/Organizations/'>What are the Organizations more related to " + entitymap[qid - 1] + "?</a>"); break;
-                 case 4: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/bipartite_rank/Countries/'>What are the Countries more related to " + entitymap[qid - 1] + "?</a>"); break;
+                 case 1: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/consistency/Organizations/'>How does " + entitymap[qid - 1] + " relate to all Organizations?</a>"); break;
+                 case 2: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/consistency/Countries/'>How does " + entitymap[qid - 1] + " relate to all Countries?</a>"); break;
+                 case 3: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/bipartite_rank/Organizations/'>What are the Organizations more related to " + entitymap[qid - 1] + "?</a>"); break;
+                 case 4: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/bipartite_rank/Countries/'>What are the Countries more related to " + entitymap[qid - 1] + "?</a>"); break;
               }
            } else if(qid <= 144) {
               switch(qid2) {
-                 case 1: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/consistency/Organizations/'>How does " + entitymap[qid - 1] + " relate to all Organizations?</a>"); break;
-                 case 2: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/consistency/Issues/'>How does " + entitymap[qid - 1] + " relate to all Issues?</a>"); break;
-                 case 3: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/bipartite_rank/Organizations/'>What are the Organizations more related to " + entitymap[qid - 1] + "?</a>"); break;
-                 case 4: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/bipartite_rank/Issues/'>What are the Issues more related to " + entitymap[qid - 1] + "?</a>"); break;
+                 case 1: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/consistency/Organizations/'>How does " + entitymap[qid - 1] + " relate to all Organizations?</a>"); break;
+                 case 2: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/consistency/Issues/'>How does " + entitymap[qid - 1] + " relate to all Issues?</a>"); break;
+                 case 3: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/bipartite_rank/Organizations/'>What are the Organizations more related to " + entitymap[qid - 1] + "?</a>"); break;
+                 case 4: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/bipartite_rank/Issues/'>What are the Issues more related to " + entitymap[qid - 1] + "?</a>"); break;
               }
            } else {
               switch(qid2) {
-                 case 1: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/consistency/Issues/'>How does " + entitymap[qid - 1] + " relate to all Issues?</a>"); break;
-                 case 2: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/consistency/Countries/'>How does " + entitymap[qid - 1] + " relate to all Countries?</a>"); break;
-                 case 3: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/bipartite_rank/Issues/'>What are the Issues more related to " + entitymap[qid - 1] + "?</a>"); break;
-                 case 4: $("#q" + curSpan).html("<a href='/aidxp/explore/static/profile/" + qid + "/bipartite_rank/Countries/'>What are the Countries more related to " + entitymap[qid - 1] + "?</a>"); break;
+                 case 1: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/consistency/Issues/'>How does " + entitymap[qid - 1] + " relate to all Issues?</a>"); break;
+                 case 2: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/consistency/Countries/'>How does " + entitymap[qid - 1] + " relate to all Countries?</a>"); break;
+                 case 3: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/bipartite_rank/Issues/'>What are the Issues more related to " + entitymap[qid - 1] + "?</a>"); break;
+                 case 4: $("#q" + curSpan).html("<a href='/explore/static/profile/" + qid + "/bipartite_rank/Countries/'>What are the Countries more related to " + entitymap[qid - 1] + "?</a>"); break;
               }
            }
         }

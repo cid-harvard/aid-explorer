@@ -49,7 +49,7 @@ function draw(uri) {
       .attr("r", function(d){return nodeSize(d.size);})
       .call(force.drag)
       .style("fill", function(d) { return color(d.type); })
-      .on("click", function(d) { window.location.href = "/aidxp/explore/profile/" + d.system_id });
+      .on("click", function(d) { window.location.href = "/explore/profile/" + d.system_id });
 
    force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })

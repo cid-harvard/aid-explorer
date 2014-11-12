@@ -43,7 +43,7 @@ function draw(plotclass, plotid) {
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
- d3.json("/aidxp/explore/profile/" + pageid + "/" + plotclass + "/" + plotid + "/", function(error, data) {
+ d3.json("/explore/profile/" + pageid + "/" + plotclass + "/" + plotid + "/", function(error, data) {
 
   data.points.forEach(function(d) {
     d.y = +d.y;
@@ -88,7 +88,7 @@ function draw(plotclass, plotid) {
       .style("font-size", "18")
       .style("cursor", "default")
       .text(data.y_axis);
-    //.append("title") 
+    //.append("title")
     //  .text(data.y_tooltip);
 
 
@@ -102,13 +102,13 @@ function draw(plotclass, plotid) {
       .style("fill", "#000000")
       .style("fill-opacity", ".25")
       .attr("r", function(d) { return s(d.size); } )
-      .on("click", function(d) { window.location.replace("/aidxp/explore/profile/" + d.id  + "/"); })
+      .on("click", function(d) { window.location.replace("/explore/profile/" + d.id  + "/"); })
       .on("mouseover", function() { d3.select(this).style("fill", "#BA093E"); })
       .on("mouseout", function() { d3.select(this).style("fill", "#000000"); });
 
   //svg.selectAll("g.x line")
   //    .attr("y1", -y(axisOrigin) + 10)
-  //    .attr("y2", height - y(axisOrigin)) 
+  //    .attr("y2", height - y(axisOrigin))
   //    .style("stroke", "#000000")
   //    .style("stroke-opacity", ".2");
 
@@ -147,23 +147,23 @@ function draw(plotclass, plotid) {
    });
   }
 
-  $(".dot").tipsy({ 
-     gravity: 'w', 
-     html: true, 
+  $(".dot").tipsy({
+     gravity: 'w',
+     html: true,
      title: function() {
        var d = this.__data__, l = d.label + "<hr />" + data.x_axis + ": " + d.x + "<br />" + data.y_axis + ": " + d.y;
-       return l; 
+       return l;
      }
   });
-  
-  $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary</a>!</div>");
+
+  $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br />Need help with the terminology? Check out the <a href='/about/glossary/'>Glossary</a>!</div>");
  });
 
  if(plotclass == "bipartite") {
-  $("div#question-text").html("How does " + pagename + " relate to <select id='target-entity'></select> ? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite/" + plotid + "/</span>");
+  $("div#question-text").html("How does " + pagename + " relate to <select id='target-entity'></select> ? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://aidxp.atlas.cid.harvard.edu/explore/static/profile/" + pageid + "/bipartite/" + plotid + "/</span>");
   getList(othertype);
  } else {
-  $("div#question-text").html("How does " + pagename + " relate to all " + plotid + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/consistency/" + plotid + "/</span>");
+  $("div#question-text").html("How does " + pagename + " relate to all " + plotid + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/explore/static/profile/" + pageid + "/consistency/" + plotid + "/</span>");
  }
 }
 
@@ -191,7 +191,7 @@ $(document).ready(function(){
 });
 
 $('.profile-switcher').change(function() {
-  window.location.replace("/aidxp/explore/profile/" + this.value  + "/");
+  window.location.replace("/explore/profile/" + this.value  + "/");
 });
 
 function togglePlotType(caller, newtype, plotclass) {
@@ -212,10 +212,10 @@ function togglePlotType(caller, newtype, plotclass) {
 
 function toggleRankType(caller, type) {
   /*
-  $.getJSON("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(data) {
+  $.getJSON("/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(data) {
      var tbl_body = "<table><thead><tr><th>Rank</th><th>" + type + "</th><th>R</th></tr></thead>";
      $.each(data.points, function(key, obj) {
-        tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/aidxp/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
+        tbl_body += "<tr><td><span>" + (key + 1) + "</span></td><td><a href='/explore/profile/" + obj.id + "'>" + obj.name + "</a></td><td>" + obj.rca + "</td></tr>";
      })
      tbl_body += "</table>";
      $("div#plot").html("<br />" + tbl_body);
@@ -229,15 +229,15 @@ function toggleRankType(caller, type) {
    });
   */
 
-  d3.json("/aidxp/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(error, data) {
+  d3.json("/explore/profile/" + pageid + "/bipartite_rank/" + type + "/", function(error, data) {
 
     if(caller != "default") {
        $(".here").removeClass("here");
        caller.addClass("here");
     }
 
-    $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/" + pageid + "/bipartite_rank/" + type + "/</span>");
-    $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br /><br />Need help with the terminology? Check out the <a href='/aidxp/about/glossary/'>Glossary!</a></div>");
+    $("div#question-text").html("What are the " + type + " most related to " + pagename + "? <button class='alignright' onclick='toggleShareDiv();'>Share</button><span id='sharelink' onclick='selectText(\"sharelink\")'>http://www.atlas.cid.harvard.edu/explore/static/profile/" + pageid + "/bipartite_rank/" + type + "/</span>");
+    $("div#profile-legend").html("<h3>Interpretation</h3><div>" + data.interpretation + "<br /><br />Need help with the terminology? Check out the <a href='/about/glossary/'>Glossary!</a></div>");
 
     $("div#plot").html("<br />");
 
@@ -256,7 +256,7 @@ function toggleRankType(caller, type) {
       .attr("y", function(d, i) { return i * 25; })
       .attr("width", function(d) { return x(d.rca);})
       .attr("height", 24)
-      .on("click", function(d) { window.location.replace("/aidxp/explore/profile/" + d.id  + "/"); }) 
+      .on("click", function(d) { window.location.replace("/explore/profile/" + d.id  + "/"); })
       .style("cursor", "pointer");
 
     chart.selectAll("text")
@@ -265,13 +265,13 @@ function toggleRankType(caller, type) {
       .attr("x", 5)
       .attr("y", function(d, i) { return (i * 25) + 17; })
       .text(function(d) { return d.name;})
-      .on("click", function(d) { window.location.replace("/aidxp/explore/profile/" + d.id  + "/"); })
+      .on("click", function(d) { window.location.replace("/explore/profile/" + d.id  + "/"); })
       .style("cursor", "pointer");
   });
 }
 
 function getList(type) {
- $.getJSON("/aidxp/explore/profile/" + pageid + "/list/" + type, function(data){
+ $.getJSON("/explore/profile/" + pageid + "/list/" + type, function(data){
     var html = '';
     var len = data.length;
     for (var i = 0; i< len; i++) {
@@ -299,7 +299,7 @@ function imgError(image){
 
 function giveMeARandomId(type) {
    $.ajax({
-     url: "/aidxp/explore/profile/" + pageid + "/relations/" + type,
+     url: "/explore/profile/" + pageid + "/relations/" + type,
      dataType: 'json',
      async: false,
      success: function(data) {
@@ -311,7 +311,7 @@ function giveMeARandomId(type) {
 
 
 $(".chzn-select").chosen().change(function(e){
-    var new_url = "/aidxp/explore/profile/" + this.value + "/";
+    var new_url = "/explore/profile/" + this.value + "/";
     window.location = new_url;
     return false;
 });
@@ -322,13 +322,13 @@ function toggleShareDiv() {
 }
 
 function selectText(element) {
-    var doc = document, text = doc.getElementById(element), range, selection;    
+    var doc = document, text = doc.getElementById(element), range, selection;
     if (doc.body.createTextRange) { //ms
         range = doc.body.createTextRange();
         range.moveToElementText(text);
         range.select();
     } else if (window.getSelection) { //all others
-        selection = window.getSelection();        
+        selection = window.getSelection();
         range = doc.createRange();
         range.selectNodeContents(text);
         selection.removeAllRanges();
