@@ -2,3 +2,6 @@
 bin/
 include/
 lib/
+env/
+.DS_Store
+*.pyc
