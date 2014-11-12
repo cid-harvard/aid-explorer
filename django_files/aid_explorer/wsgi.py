@@ -1,3 +1,7 @@
+activate_this = '/srv/www/aid_explorer/env/bin/activate_this.py'
+execfile(activate_this, dict(__file__=activate_this))
+
+
 import os, sys
 
 import django.conf

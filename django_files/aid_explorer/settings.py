@@ -28,7 +28,7 @@
 #    # Don't forget to use absolute paths, not relative paths.
 #)
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
