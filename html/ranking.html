@@ -20,9 +20,9 @@ $(document).ready(function(){
 {% block content %}
 <div id="wrap">
 <div id="buttons">
-<a href="/aidxp/explore/ranking/1/" class="rankbutton" id="rank-OR">Organizations</a>
-<a href="/aidxp/explore/ranking/2/" class="rankbutton" id="rank-CO">Countries</a>
-<a href="/aidxp/explore/ranking/3/" class="rankbutton" id="rank-IS">Issues</a>
+<a href="/explore/ranking/1/" class="rankbutton" id="rank-OR">Organizations</a>
+<a href="/explore/ranking/2/" class="rankbutton" id="rank-CO">Countries</a>
+<a href="/explore/ranking/3/" class="rankbutton" id="rank-IS">Issues</a>
 </div>
 <div id="question-text">{{ question }}</div>
 <div id="plot">
@@ -46,7 +46,7 @@ $(document).ready(function(){
 {% for r in rankings %}
    <tr>
    <td><span>{{ r.rank }}</span></td>
-   <td><a href="/aidxp/explore/profile/{{ r.id }}">{{ r.name }}</a></td>
+   <td><a href="/explore/profile/{{ r.id }}">{{ r.name }}</a></td>
    <td>{{ r.value }}%</td>
    </tr>
 {% endfor %}
