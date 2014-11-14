@@ -1,4 +1,4 @@
-PREFIX = '/Users/makmana/aidxp'
+PREFIX = '/srv/aidxp'
 
 DATABASES = {
     'default': {
